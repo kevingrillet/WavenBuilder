@@ -4,7 +4,7 @@ import { MatDialog } from '@angular/material/dialog';
 import { DialogEquipementComponent } from './dialog-equipement/dialog-equipement.component';
 
 import * as data from '../assets/json/data.json';
-import { Equipements } from './struct'; './struct';
+import { Equipements } from './struct';
 
 @Component({
   selector: 'app-root',

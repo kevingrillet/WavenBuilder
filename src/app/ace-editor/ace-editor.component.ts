@@ -1,4 +1,10 @@
-import { AfterViewInit, Component, ElementRef, Input, OnInit, ViewChild } from '@angular/core';
+import {
+  AfterViewInit,
+  Component,
+  ElementRef,
+  Input,
+  ViewChild,
+} from '@angular/core';
 
 import * as ace from 'ace-builds';
 import { Equipements } from '../struct';
@@ -21,7 +27,7 @@ export class AceEditorComponent implements AfterViewInit {
     const aceEditor = ace.edit(this.editor.nativeElement);
     aceEditor.session.setValue(JSON.stringify(this.text, null, 2));
     aceEditor.session.setMode('ace/mode/json');
-    aceEditor.setReadOnly(true)
+    aceEditor.setReadOnly(true);
     // aceEditor.setTheme('ace/theme/twilight');
     aceEditor.on('change', () => {
       console.log(aceEditor.getValue());

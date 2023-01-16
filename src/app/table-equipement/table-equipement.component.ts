@@ -78,7 +78,7 @@ export class TableEquipementComponent implements OnInit {
       width: '70%',
       data: {
         equipement: equipement,
-        mode: mode
+        mode: mode,
       },
     });
   }

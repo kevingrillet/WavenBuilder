@@ -11,9 +11,7 @@ export class DialogCardEquipementComponent {
   equipement: Equipement;
   mode: string;
 
-  constructor(
-    @Inject(MAT_DIALOG_DATA) public data: any
-  ) {
+  constructor(@Inject(MAT_DIALOG_DATA) public data: any) {
     this.equipement = this.data.equipement;
     this.mode = this.data.mode;
   }
