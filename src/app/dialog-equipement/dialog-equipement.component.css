@@ -1,7 +1,27 @@
-.full-width {
+.container {
+  display: grid;
+  gap: 5px;
+  grid-template-columns: 50% 25% 25%;
+  justify-content: space-around;
   width: 100%;
 }
 
-td {
-  padding-right: 8px;
+.container-base {
+  grid-template-columns: 50% 25% 25%;
+}
+
+.container-patch {
+  grid-template-columns: 10% 45% 45%;
+}
+
+.container-carac {
+  grid-template-columns: 10% 85% 5%;
+}
+
+.container-don {
+  grid-template-columns: 15% 10% 50% 20% 5%;
+}
+
+.full-width {
+  width: 100%;
 }
