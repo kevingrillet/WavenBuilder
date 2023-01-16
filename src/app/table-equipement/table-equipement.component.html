@@ -1,0 +1,90 @@
+<div class="container">
+  <mat-form-field>
+    <mat-label>Filtre</mat-label>
+    <input matInput (keyup)="applyFilter($event)" #input>
+  </mat-form-field>
+
+  <table mat-table [dataSource]="dataSource" matSort>
+    <ng-container matColumnDef="Nom">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Nom </th>
+      <td mat-cell *matCellDef="let equipement">
+        <img src="../../assets/img/{{mode}}/{{equipement.image}}.jpg" alt="Rune d'équipement" style="height: 5em;">
+        <br>{{equipement.nom}}
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="Rarete">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Rareté </th>
+      <td mat-cell *matCellDef="let equipement">
+        <button mat-button color="{{equipement.rarete}}">{{equipement.rarete}}</button>
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="Iles">
+      <th mat-header-cell *matHeaderCellDef> Iles </th>
+      <td mat-cell *matCellDef="let equipement">
+        <mat-list>
+          <mat-list-item *ngFor="let ile of equipement.iles">{{ile}}</mat-list-item>
+        </mat-list>
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="Patch">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Patch </th>
+      <td mat-cell *matCellDef="let equipement">
+        <span matTooltip="Ajout: {{equipement.patchs[equipement.patchs.length-1].version}}"
+          matTooltipDisabled="{{equipement.patchs.length}} > 0 ? disabled : null">
+          Patch: {{equipement.patchs[0].version}}
+        </span>
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="Pouvoir">
+      <th mat-header-cell *matHeaderCellDef> Pouvoir </th>
+      <td mat-cell *matCellDef="let equipement"> {{equipement.patchs[0].pouvoir}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="Caractéristiques">
+      <th mat-header-cell *matHeaderCellDef> Caractéristiques </th>
+      <td mat-cell *matCellDef="let equipement">
+        <mat-list>
+          <mat-list-item *ngFor="let carac of equipement.patchs[0].caracteristiques">+{{carac.taux}}
+            {{carac.effet}}
+          </mat-list-item>
+        </mat-list>
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="Dons">
+      <th mat-header-cell *matHeaderCellDef> Dons </th>
+      <td mat-cell *matCellDef="let equipement">
+        <mat-list>
+          <mat-list-item *ngFor="let don of equipement.patchs[0].dons">
+            <span matListItemTitle>{{don.nom}} [{{don.cout}} <img src="../../assets/img/monaies/rune_d_equipement.png"
+                alt="Rune d'équipement" style="height: .9em;">]</span>
+            <span matListItemLine>{{don.effet}}</span>
+          </mat-list-item>
+        </mat-list>
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="Action">
+      <th mat-header-cell *matHeaderCellDef> Action </th>
+      <td mat-cell *matCellDef="let equipement">
+        <button mat-icon-button color="primary" (click)="openCard(equipement, mode)">
+          <mat-icon>search</mat-icon>
+        </button>
+        <button mat-icon-button color="primary" (click)="openDialog(equipement)">
+          <mat-icon>edit</mat-icon>
+        </button>
+      </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    <tr class="mat-row" *matNoDataRow>
+      <td class="mat-cell" colspan="4">Aucune donnée ne correspond au filtre "{{input.value}}"</td>
+    </tr>
+  </table>
+  <mat-paginator [length]="dataLength" [pageSize]="100" [pageSizeOptions]="[25, 50, 100]" aria-label="Select page of users"></mat-paginator>
+</div>

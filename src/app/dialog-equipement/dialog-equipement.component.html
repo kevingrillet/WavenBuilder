@@ -1,0 +1,118 @@
+<h1 mat-dialog-title>Ajouter un anneau</h1>
+<div mat-dialog-content>
+  <form [formGroup]="equipementForm">
+    <h2>Informations de base:</h2>
+    <mat-form-field appearance="outline">
+      <mat-label>Nom</mat-label>
+      <input matInput required formControlName="nom">
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Image</mat-label>
+      <input matInput formControlName="image">
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Rareté</mat-label>
+      <mat-select required formControlName="rarete">
+        <mat-option *ngFor="let rarete of raretes" [value]="rarete">{{rarete}}</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <section>
+      <h2>Zone de farm:</h2>
+      <ng-container formArrayName="iles">
+        <mat-checkbox *ngFor="let ile of iles">{{ile}}</mat-checkbox>
+      </ng-container>
+    </section>
+
+    <h2>Patchs:</h2>
+    <button mat-flat-button color="warn" (click)="addPatch()">
+      <mat-icon>add</mat-icon>
+      Ajouter un patch
+    </button>
+    <br>
+
+    <ng-container formArrayName="patchs">
+      <ng-container *ngFor="let patchForm of patchs.controls; let i = index">
+        <div [formGroupName]="i">
+
+          <mat-form-field appearance="outline">
+            <mat-label>Version</mat-label>
+            <input matInput required formControlName="version">
+          </mat-form-field>
+          <mat-form-field appearance="outline">
+            <mat-label>Pouvoir</mat-label>
+            <input matInput required formControlName="pouvoir">
+          </mat-form-field>
+          <mat-form-field appearance="outline">
+            <mat-label>Sort</mat-label>
+            <input matInput formControlName="sort">
+          </mat-form-field>
+
+          <h3>Caractéristiques</h3>
+          <ng-container formArrayName="caracs">
+            <ng-container *ngFor="let caracForm of caracs.controls; let j = index">
+              <div [formGroupName]="j">
+
+                <mat-form-field appearance="outline">
+                  <mat-label>Taux</mat-label>
+                  <input matInput type="number" formControlName="taux">
+                </mat-form-field>
+                <mat-form-field appearance="outline">
+                  <mat-label>Effet</mat-label>
+                  <input matInput formControlName="effet">
+                </mat-form-field>
+                <mat-icon class="delete-btn" (click)="deleteCarac(i)">
+                  delete_forever
+                </mat-icon>
+
+              </div>
+            </ng-container>
+          </ng-container>
+
+          <button mat-mini-fab (click)="addCarac()">
+            <mat-icon>add</mat-icon>
+          </button>
+
+          <h3>Dons</h3>
+          <ng-container formArrayName="dons">
+            <ng-container *ngFor="let donForm of dons.controls; let j = index">
+              <div [formGroupName]="j">
+
+                <mat-form-field appearance="outline">
+                  <mat-label>Nom</mat-label>
+                  <input matInput formControlName="nom">
+                </mat-form-field>
+                <mat-form-field appearance="outline">
+                  <mat-label>Cout</mat-label>
+                  <input matInput type="number" formControlName="cout">
+                </mat-form-field>
+                <mat-form-field appearance="outline">
+                  <mat-label>Effet</mat-label>
+                  <input matInput formControlName="effet">
+                </mat-form-field>
+                <mat-form-field appearance="outline">
+                  <mat-label>Sort</mat-label>
+                  <input matInput formControlName="sort">
+                </mat-form-field>
+                <mat-icon class="delete-btn" (click)="deleteDon(i)">
+                  delete_forever
+                </mat-icon>
+
+              </div>
+            </ng-container>
+          </ng-container>
+
+          <button mat-mini-fab (click)="addDon()">
+            <mat-icon>add</mat-icon>
+          </button>
+        </div>
+      </ng-container>
+    </ng-container>
+  </form>
+</div>
+<div mat-dialog-actions [align]="'end'">
+  <button mat-raised-button color="warn" mat-dialog-close>Fermer</button>
+  <button mat-raised-button color="primary">Enregistrer</button>
+</div>
