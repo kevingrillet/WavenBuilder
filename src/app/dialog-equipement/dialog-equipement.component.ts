@@ -1,6 +1,6 @@
 import { Component, Inject, OnInit } from '@angular/core';
 import { MAT_DIALOG_DATA } from '@angular/material/dialog';
-import { FormArray, FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
+import { FormArray, FormBuilder, FormGroup, Validators } from '@angular/forms';
 
 import { Equipement, Iles, Raretes } from '../struct';
 
@@ -26,6 +26,7 @@ export class DialogEquipementComponent implements OnInit {
       nom: ['', Validators.required],
       image: [''],
       rarete: ['', Validators.required],
+      iles: [{ name: 'blabla', completed: false }],
       patchs: this.formBuilder.array([
         this.formBuilder.group({
           version: ['', Validators.required],
@@ -58,16 +59,16 @@ export class DialogEquipementComponent implements OnInit {
     }
   }
 
-  addCarac() {
+  addCarac(patchindex: number) {
     const caracForm = this.formBuilder.group({
       taux: ['', Validators.required],
       effet: ['', Validators.required],
     });
 
-    this.caracs.push(caracForm);
+    this.getCaracs(patchindex).push(caracForm);
   }
 
-  addDon() {
+  addDon(patchindex: number) {
     const donForm = this.formBuilder.group({
       nom: ['', Validators.required],
       cout: ['', Validators.required],
@@ -75,7 +76,7 @@ export class DialogEquipementComponent implements OnInit {
       sort: [''],
     });
 
-    this.dons.push(donForm);
+    this.getDons(patchindex).push(donForm);
   }
 
   addPatch() {
@@ -90,20 +91,28 @@ export class DialogEquipementComponent implements OnInit {
     this.patchs.push(patchForm);
   }
 
-  deleteCarac(index: number) {
-    this.caracs.removeAt(index);
+  deleteCarac(patchindex: number, index: number) {
+    this.getCaracs(patchindex).removeAt(index);
   }
 
-  deleteDon(index: number) {
-    this.dons.removeAt(index);
+  deleteDon(patchindex: number, index: number) {
+    this.getDons(patchindex).removeAt(index);
   }
 
-  get caracs() {
-    return this.equipementForm.controls['caracs'] as FormArray;
+  getCaracs(patchindex: number) {
+    return (
+      (this.equipementForm.controls['patchs'] as FormArray).at(
+        patchindex
+      ) as FormGroup
+    ).controls['caracs'] as FormArray;
   }
 
-  get dons() {
-    return this.equipementForm.controls['dons'] as FormArray;
+  getDons(patchindex: number) {
+    return (
+      (this.equipementForm.controls['patchs'] as FormArray).at(
+        patchindex
+      ) as FormGroup
+    ).controls['dons'] as FormArray;
   }
 
   get patchs() {
