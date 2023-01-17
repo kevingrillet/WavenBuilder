@@ -2,6 +2,38 @@
   "equipements": {
     "anneaux": [
       {
+        "nom": "Ann'eau",
+        "image": "eau",
+        "rarete": "Commun",
+        "iles": [
+          "Île des Cochons"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "Quand vous invoquez un compagnon: +1PA en réserve.",
+            "caracteristiques": [
+              {
+                "taux": 2,
+                "effet": "% de MAGIE EAU."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Sagesse",
+                "cout": 50,
+                "effet": "+5% d'XP à votre héros."
+              },
+              {
+                "nom": "Coup critique magique",
+                "cout": 50,
+                "effet": "+5% de CC MAGIQUES."
+              }
+            ]
+          }
+        ]
+      },
+      {
         "nom": "Anneau Bstiné",
         "image": "bstine",
         "rarete": "Commun",
@@ -174,38 +206,6 @@
                 "nom": "Gain de Kamas",
                 "cout": 50,
                 "effet": "+5% aux GAINS DE KAMAS."
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "nom": "Ann'eau",
-        "image": "eau",
-        "rarete": "Commun",
-        "iles": [
-          "Île des Cochons"
-        ],
-        "patchs": [
-          {
-            "version": "0.10",
-            "pouvoir": "Quand vous invoquez un compagnon: +1PA en réserve.",
-            "caracteristiques": [
-              {
-                "taux": 2,
-                "effet": "% de MAGIE EAU."
-              }
-            ],
-            "dons": [
-              {
-                "nom": "Sagesse",
-                "cout": 50,
-                "effet": "+5% d'XP à votre héros."
-              },
-              {
-                "nom": "Coup critique magique",
-                "cout": 50,
-                "effet": "+5% de CC MAGIQUES."
               }
             ]
           }
@@ -2348,6 +2348,262 @@
         ]
       },
       {
+        "nom": "Anneau Racle",
+        "image": "racle",
+        "rarete": "Infinite",
+        "iles": [
+          "Île des Taures"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "COUP DE GRÂCE avec un sort AIR: Un ECLAIR s'abat sur les adversaires. Elle inflige 20 dégâts magiques.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de PV à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à tous vos REBONDS."
+              },
+              {
+                "taux": 2,
+                "effet": "% de PV à vos compagnons."
+              },
+              {
+                "taux": 2,
+                "effet": "% d'AT à vos compagnons."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Effet amélioré",
+                "cout": 100,
+                "effet": "+5 dégâts magique à la FOUDRE."
+              },
+              {
+                "nom": "Sagesse",
+                "cout": 50,
+                "effet": "+5% d'XP à votre héros."
+              },
+              {
+                "nom": "Coup critique magique",
+                "cout": 80,
+                "effet": "+5% de CC MAGIQUES."
+              },
+              {
+                "nom": "CC Compagnons",
+                "cout": 80,
+                "effet": "+5% de CC à vos compagnons."
+              },
+              {
+                "nom": "Dégâts critiques compagnons",
+                "cout": 80,
+                "effet": "+40% de DÉGÂTS CC à vos compagnons."
+              },
+              {
+                "nom": "Gain de Kamas",
+                "cout": 50,
+                "effet": "+10% aux GAINS DE KAMAS."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nom": "Anneau Rore",
+        "image": "rore",
+        "rarete": "Infinite",
+        "iles": [
+          "Île des Chuchoteurs"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "COUP DE GRÂCE avec un sort FEU: Une BOULE DE FEU s'abat sur les adversaires. Elle inflige 20 dégâts magiques.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de PV à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos EXPLOSIONS."
+              },
+              {
+                "taux": 2,
+                "effet": "% de PV à vos compagnons."
+              },
+              {
+                "taux": 2,
+                "effet": "% d'AT à vos compagnons."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Effet amélioré",
+                "cout": 100,
+                "effet": "+5 dégâts magique à la BOULE DE FEU."
+              },
+              {
+                "nom": "Sagesse",
+                "cout": 50,
+                "effet": "+5% d'XP à votre héros."
+              },
+              {
+                "nom": "Coup critique magique",
+                "cout": 80,
+                "effet": "+5% de CC MAGIQUES."
+              },
+              {
+                "nom": "CC Compagnons",
+                "cout": 80,
+                "effet": "+5% de CC à vos compagnons."
+              },
+              {
+                "nom": "Dégâts critiques compagnons",
+                "cout": 80,
+                "effet": "+40% de DÉGÂTS CC à vos compagnons."
+              },
+              {
+                "nom": "Gain de Kamas",
+                "cout": 50,
+                "effet": "+10% aux GAINS DE KAMAS."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nom": "Anneau Rouboros",
+        "image": "rouboros",
+        "rarete": "Infinite",
+        "iles": [
+          "Île des Tofus"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "COUP DE GRÂCE avec un sort TERRE: Un ROCHER s'abat sur les adversaires. Elle inflige 20 dégâts magiques.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de PV à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos TOURBES."
+              },
+              {
+                "taux": 2,
+                "effet": "% de PV à vos compagnons."
+              },
+              {
+                "taux": 2,
+                "effet": "% d'AT à vos compagnons."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Effet amélioré",
+                "cout": 100,
+                "effet": "+5 dégâts magique au ROCHER."
+              },
+              {
+                "nom": "Sagesse",
+                "cout": 50,
+                "effet": "+5% d'XP à votre héros."
+              },
+              {
+                "nom": "Coup critique magique",
+                "cout": 80,
+                "effet": "+5% de CC MAGIQUES."
+              },
+              {
+                "nom": "CC Compagnons",
+                "cout": 80,
+                "effet": "+5% de CC à vos compagnons."
+              },
+              {
+                "nom": "Dégâts critiques compagnons",
+                "cout": 80,
+                "effet": "+40% de DÉGÂTS CC à vos compagnons."
+              },
+              {
+                "nom": "Gain de Kamas",
+                "cout": 50,
+                "effet": "+10% aux GAINS DE KAMAS."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nom": "Anneau Verbouké",
+        "image": "verbouke",
+        "rarete": "Infinite",
+        "iles": [
+          "Île des Chafers"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "COUP DE GRÂCE avec un sort EAU: Une VAGUE s'abat sur les adversaires. Elle inflige 20 dégâts magiques.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de PV à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos GRÊLES."
+              },
+              {
+                "taux": 2,
+                "effet": "% de PV à vos compagnons."
+              },
+              {
+                "taux": 2,
+                "effet": "% d'AT à vos compagnons."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Effet amélioré",
+                "cout": 100,
+                "effet": "+5 dégâts magique à la VAGUE."
+              },
+              {
+                "nom": "Sagesse",
+                "cout": 50,
+                "effet": "+5% d'XP à votre héros."
+              },
+              {
+                "nom": "Coup critique magique",
+                "cout": 80,
+                "effet": "+5% de CC MAGIQUES."
+              },
+              {
+                "nom": "CC Compagnons",
+                "cout": 80,
+                "effet": "+5% de CC à vos compagnons."
+              },
+              {
+                "nom": "Dégâts critiques compagnons",
+                "cout": 80,
+                "effet": "+40% de DÉGÂTS CC à vos compagnons."
+              },
+              {
+                "nom": "Gain de Kamas",
+                "cout": 50,
+                "effet": "+10% aux GAINS DE KAMAS."
+              }
+            ]
+          }
+        ]
+      },
+      {
         "nom": "Le Boom Boom",
         "image": "boom",
         "rarete": "Infinite",
@@ -2555,70 +2811,6 @@
         ]
       },
       {
-        "nom": "Anneau Racle",
-        "image": "racle",
-        "rarete": "Infinite",
-        "iles": [
-          "Île des Taures"
-        ],
-        "patchs": [
-          {
-            "version": "0.10",
-            "pouvoir": "COUP DE GRÂCE avec un sort AIR: Un ECLAIR s'abat sur les adversaires. Elle inflige 20 dégâts magiques.",
-            "caracteristiques": [
-              {
-                "taux": 1,
-                "effet": "% de PV à votre héros."
-              },
-              {
-                "taux": 1,
-                "effet": "% à tous vos REBONDS."
-              },
-              {
-                "taux": 2,
-                "effet": "% de PV à vos compagnons."
-              },
-              {
-                "taux": 2,
-                "effet": "% d'AT à vos compagnons."
-              }
-            ],
-            "dons": [
-              {
-                "nom": "Effet amélioré",
-                "cout": 100,
-                "effet": "+5 dégâts magique à la FOUDRE."
-              },
-              {
-                "nom": "Sagesse",
-                "cout": 50,
-                "effet": "+5% d'XP à votre héros."
-              },
-              {
-                "nom": "Coup critique magique",
-                "cout": 80,
-                "effet": "+5% de CC MAGIQUES."
-              },
-              {
-                "nom": "CC Compagnons",
-                "cout": 80,
-                "effet": "+5% de CC à vos compagnons."
-              },
-              {
-                "nom": "Dégâts critiques compagnons",
-                "cout": 80,
-                "effet": "+40% de DÉGÂTS CC à vos compagnons."
-              },
-              {
-                "nom": "Gain de Kamas",
-                "cout": 50,
-                "effet": "+10% aux GAINS DE KAMAS."
-              }
-            ]
-          }
-        ]
-      },
-      {
         "nom": "Le ratisseur",
         "image": "ratisseur",
         "rarete": "Infinite",
@@ -2677,198 +2869,6 @@
                 "nom": "CC Compagnons",
                 "cout": 50,
                 "effet": "+5% de CC à vos compagnons."
-              },
-              {
-                "nom": "Gain de Kamas",
-                "cout": 50,
-                "effet": "+10% aux GAINS DE KAMAS."
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "nom": "Anneau Rore",
-        "image": "rore",
-        "rarete": "Infinite",
-        "iles": [
-          "Île des Chuchoteurs"
-        ],
-        "patchs": [
-          {
-            "version": "0.10",
-            "pouvoir": "COUP DE GRÂCE avec un sort FEU: Une BOULE DE FEU s'abat sur les adversaires. Elle inflige 20 dégâts magiques.",
-            "caracteristiques": [
-              {
-                "taux": 1,
-                "effet": "% de PV à votre héros."
-              },
-              {
-                "taux": 1,
-                "effet": "% à toutes vos EXPLOSIONS."
-              },
-              {
-                "taux": 2,
-                "effet": "% de PV à vos compagnons."
-              },
-              {
-                "taux": 2,
-                "effet": "% d'AT à vos compagnons."
-              }
-            ],
-            "dons": [
-              {
-                "nom": "Effet amélioré",
-                "cout": 100,
-                "effet": "+5 dégâts magique à la BOULE DE FEU."
-              },
-              {
-                "nom": "Sagesse",
-                "cout": 50,
-                "effet": "+5% d'XP à votre héros."
-              },
-              {
-                "nom": "Coup critique magique",
-                "cout": 80,
-                "effet": "+5% de CC MAGIQUES."
-              },
-              {
-                "nom": "CC Compagnons",
-                "cout": 80,
-                "effet": "+5% de CC à vos compagnons."
-              },
-              {
-                "nom": "Dégâts critiques compagnons",
-                "cout": 80,
-                "effet": "+40% de DÉGÂTS CC à vos compagnons."
-              },
-              {
-                "nom": "Gain de Kamas",
-                "cout": 50,
-                "effet": "+10% aux GAINS DE KAMAS."
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "nom": "Anneau Rouboros",
-        "image": "rouboros",
-        "rarete": "Infinite",
-        "iles": [
-          "Île des Tofus"
-        ],
-        "patchs": [
-          {
-            "version": "0.10",
-            "pouvoir": "COUP DE GRÂCE avec un sort TERRE: Un ROCHER s'abat sur les adversaires. Elle inflige 20 dégâts magiques.",
-            "caracteristiques": [
-              {
-                "taux": 1,
-                "effet": "% de PV à votre héros."
-              },
-              {
-                "taux": 1,
-                "effet": "% à toutes vos TOURBES."
-              },
-              {
-                "taux": 2,
-                "effet": "% de PV à vos compagnons."
-              },
-              {
-                "taux": 2,
-                "effet": "% d'AT à vos compagnons."
-              }
-            ],
-            "dons": [
-              {
-                "nom": "Effet amélioré",
-                "cout": 100,
-                "effet": "+5 dégâts magique au ROCHER."
-              },
-              {
-                "nom": "Sagesse",
-                "cout": 50,
-                "effet": "+5% d'XP à votre héros."
-              },
-              {
-                "nom": "Coup critique magique",
-                "cout": 80,
-                "effet": "+5% de CC MAGIQUES."
-              },
-              {
-                "nom": "CC Compagnons",
-                "cout": 80,
-                "effet": "+5% de CC à vos compagnons."
-              },
-              {
-                "nom": "Dégâts critiques compagnons",
-                "cout": 80,
-                "effet": "+40% de DÉGÂTS CC à vos compagnons."
-              },
-              {
-                "nom": "Gain de Kamas",
-                "cout": 50,
-                "effet": "+10% aux GAINS DE KAMAS."
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "nom": "Anneau Verbouké",
-        "image": "verbouke",
-        "rarete": "Infinite",
-        "iles": [
-          "Île des Chafers"
-        ],
-        "patchs": [
-          {
-            "version": "0.10",
-            "pouvoir": "COUP DE GRÂCE avec un sort EAU: Une VAGUE s'abat sur les adversaires. Elle inflige 20 dégâts magiques.",
-            "caracteristiques": [
-              {
-                "taux": 1,
-                "effet": "% de PV à votre héros."
-              },
-              {
-                "taux": 1,
-                "effet": "% à toutes vos GRÊLES."
-              },
-              {
-                "taux": 2,
-                "effet": "% de PV à vos compagnons."
-              },
-              {
-                "taux": 2,
-                "effet": "% d'AT à vos compagnons."
-              }
-            ],
-            "dons": [
-              {
-                "nom": "Effet amélioré",
-                "cout": 100,
-                "effet": "+5 dégâts magique à la VAGUE."
-              },
-              {
-                "nom": "Sagesse",
-                "cout": 50,
-                "effet": "+5% d'XP à votre héros."
-              },
-              {
-                "nom": "Coup critique magique",
-                "cout": 80,
-                "effet": "+5% de CC MAGIQUES."
-              },
-              {
-                "nom": "CC Compagnons",
-                "cout": 80,
-                "effet": "+5% de CC à vos compagnons."
-              },
-              {
-                "nom": "Dégâts critiques compagnons",
-                "cout": 80,
-                "effet": "+40% de DÉGÂTS CC à vos compagnons."
               },
               {
                 "nom": "Gain de Kamas",
