@@ -1,0 +1,3789 @@
+{
+  "equipements": {
+    "anneaux": [
+      {
+        "nom": "Ann'eau",
+        "image": "eau",
+        "rarete": "Commun",
+        "iles": [
+          "Île des Cochons"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "Quand vous invoquez un compagnon: +1PA en réserve.",
+            "caracteristiques": [
+              {
+                "taux": 2,
+                "effet": "% de MAGIE EAU."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Sagesse",
+                "cout": 50,
+                "effet": "+5% d'XP à votre héros."
+              },
+              {
+                "nom": "Coup critique magique",
+                "cout": 50,
+                "effet": "+5% de CC MAGIQUES."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nom": "Anneau Bstiné",
+        "image": "bstine",
+        "rarete": "Commun",
+        "iles": [
+          "Île des Bouftous",
+          "Île des Craqueleurs"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "Tant que vous avez au moins un compagnon en jeu: +25% d'AT à votre héros",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de PV à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% d'AT à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos AURAS."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "CC Compagnons",
+                "cout": 50,
+                "effet": "+2% de CC à vos compagnons."
+              },
+              {
+                "nom": "Gain de Kamas",
+                "cout": 50,
+                "effet": "+5% aux GAINS DE KAMAS."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nom": "Anneau Carina",
+        "image": "carina",
+        "rarete": "Commun",
+        "iles": [
+          "Bonta"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "Quand vous invoquez un compagnon: Lui confère DÉPHASAGE pour le tour.",
+            "caracteristiques": [
+              {
+                "taux": 2,
+                "effet": "% de MAGIE AIR."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Sagesse",
+                "cout": 50,
+                "effet": "+5% d'XP à votre héros."
+              },
+              {
+                "nom": "Coup critique magique",
+                "cout": 50,
+                "effet": "+5% de CC MAGIQUES."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nom": "Anneau Culaire",
+        "image": "culaire",
+        "rarete": "Commun",
+        "iles": [
+          "Île des Bouftous",
+          "Île des Craqueleurs"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "PREMIER TOUR: Applique BOUEUX à 2 adversaires aléatoires.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de PV à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE TERRE."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Effet amélioré",
+                "cout": 80,
+                "effet": "Applique BOUEUR à un adversaire supplémentaire."
+              },
+              {
+                "nom": "Gain de Kamas",
+                "cout": 50,
+                "effet": "+5% aux GAINS DE KAMAS."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nom": "Anneau Deter",
+        "image": "deter",
+        "rarete": "Commun",
+        "iles": [
+          "Île des Chafers"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "Quand vous invoquez un compagnon: Lui confère l'AT de votre héros en AR.",
+            "caracteristiques": [
+              {
+                "taux": 2,
+                "effet": "% de MAGIE TERRE."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Sagesse",
+                "cout": 50,
+                "effet": "+5% d'XP à votre héros."
+              },
+              {
+                "nom": "Coup critique magique",
+                "cout": 50,
+                "effet": "+5% de CC MAGIQUES."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nom": "Anneau Devy",
+        "image": "devy",
+        "rarete": "Commun",
+        "iles": [
+          "Île des Taures"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "PREMIER TOUR: +1PA en réserve.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de PV à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% de PV à vos compagnons."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Effet amélioré",
+                "cout": 80,
+                "effet": "PREMIER TOUR: +1PA supplémentaire en réserve."
+              },
+              {
+                "nom": "Gain de Kamas",
+                "cout": 50,
+                "effet": "+5% aux GAINS DE KAMAS."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nom": "Anneau Fer",
+        "image": "fer",
+        "rarete": "Commun",
+        "iles": [
+          "Île des Chafers"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "Grimoire(15): +25% d'AT à votre héros.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de PV à vos compagnons."
+              },
+              {
+                "taux": 1,
+                "effet": "% d'AT à vos compagnons."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Effet amélioré",
+                "cout": 80,
+                "effet": "Grimoire(15): +10% d'AT supplémentaire à votre héros."
+              },
+              {
+                "nom": "Sagesse",
+                "cout": 50,
+                "effet": "+5% d'XP à votre héros."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nom": "Anneau Gnon",
+        "image": "gnon",
+        "rarete": "Commun",
+        "iles": [
+          "Bateau Vampyre",
+          "Île des Craqueleurs"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "Quand vous invoquez un compagnon: Confère BOUCLIER à votre héros.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de PV à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à tous vos SOINS."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Effet amélioré",
+                "cout": 80,
+                "effet": "Quand vous invoquez un compagnon: lui confère BOUCLIER"
+              },
+              {
+                "nom": "Sagesse",
+                "cout": 50,
+                "effet": "+5% d'XP à votre héros."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nom": "Anneau Greuh",
+        "image": "greuh",
+        "rarete": "Commun",
+        "iles": [
+          "Île des Bouftous",
+          "Île des Taures"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "GRIMOIRE(15): PREMIER TOUR: +1 Jauge ÉTHER.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de PV à vos compagnons."
+              },
+              {
+                "taux": 1,
+                "effet": "% d'AT à vos compagnons."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Effet amélioré",
+                "cout": 50,
+                "effet": "GRIMOIRE(15): PREMIER TOUR: +1 Jauge ÉTHER supplémentaire."
+              },
+              {
+                "nom": "Sagesse",
+                "cout": 50,
+                "effet": "+5% d'XP à votre héros."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nom": "Anneau Lympique",
+        "image": "lympique",
+        "rarete": "Commun",
+        "iles": [
+          "Île des Bworks",
+          "Île des Chuchoteurs"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "PREMIER TOUR: Applique ÉVENTÉ à 2 adversaires aléatoires.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de PV à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE AIR."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Effet amélioré",
+                "cout": 80,
+                "effet": "Applique ÉVENTÉ à un adversaire supplémentaire."
+              },
+              {
+                "nom": "Gain de Kamas",
+                "cout": 50,
+                "effet": "+5% aux GAINS DE KAMAS."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nom": "Anneau Mazo",
+        "image": "mazo",
+        "rarete": "Commun",
+        "iles": [
+          "Île des Bworks",
+          "Île des Chuchoteurs"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "Quand un de vos compagnons meurt: Piochez 1 sort.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de PV à vos compagnons."
+              },
+              {
+                "taux": 1,
+                "effet": "% d'AT à vos compagnons."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Effet amélioré",
+                "cout": 80,
+                "effet": "Quand un de vos compagnons meurt: -1PA au coût du sort pioché."
+              },
+              {
+                "nom": "CC Compagnons",
+                "cout": 50,
+                "effet": "+5% de CC à vos compagnons."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nom": "Anneau Nolimit",
+        "image": "nolimit",
+        "rarete": "Commun",
+        "iles": [
+          "Île des Cochons"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "+30% à toutes vos COLLISIONS.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% d'AT à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos AURAS."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos COLLISIONS."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "CC Compagnons",
+                "cout": 50,
+                "effet": "+3% de CC à vos compagnons."
+              },
+              {
+                "nom": "Collision",
+                "cout": 50,
+                "effet": "+20% à toutes vos COLLISIONS."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nom": "Anneau Papyon",
+        "image": "papyon",
+        "rarete": "Commun",
+        "iles": [
+          "Île des Cochons"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "COLLISION: +1 PA en réserve. (Limité à 1 fois par tour)",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de PV à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos COLLISIONS."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Effet amélioré",
+                "cout": 80,
+                "effet": "COLLISION: La limitation augmente à 2 fois par tour."
+              },
+              {
+                "nom": "Dégâts critiques compagnons",
+                "cout": 50,
+                "effet": "+10% de DÉGÂTS CC à vos compagnons."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nom": "Anneau Pignâtre",
+        "image": "pignatre",
+        "rarete": "Commun",
+        "iles": [
+          "Bonta"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "Votre premier compagnon invoqué est RÉINVOCABLE. (Limité à une fois par combat)",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de PV à vos compagnons."
+              },
+              {
+                "taux": 1,
+                "effet": "% d'AT à vos compagnons."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "CC Compagnons",
+                "cout": 50,
+                "effet": "+3% de CC à vos compagnons."
+              },
+              {
+                "nom": "Gain de Kamas",
+                "cout": 50,
+                "effet": "+5% aux GAINS DE KAMAS."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nom": "Anneau Pital",
+        "image": "pital",
+        "rarete": "Commun",
+        "iles": [
+          "Île des Chafers"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "GRIMOIRE(15): +20% de DRAIN à votre héros.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de PV à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% d'AT à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos AURAS."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Effet amélioré",
+                "cout": 80,
+                "effet": "GRIMOIRE(15): +20% de DRAIN supplémentaire à votre héros."
+              },
+              {
+                "nom": "Dégâts critiques compagnons",
+                "cout": 50,
+                "effet": "+10% de DÉGÂTS CC à vos compagnons."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nom": "Anneau Problemo",
+        "image": "problemo",
+        "rarete": "Commun",
+        "iles": [
+          "Île des Bworks",
+          "Île des Tofus"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "Quand un de vos compagnons meurt: Confère son AT en AR à votre héros.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de PV à vos compagnons."
+              },
+              {
+                "taux": 1,
+                "effet": "% d'AT à vos compagnons."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Effet amélioré",
+                "cout": 80,
+                "effet": "Quand un de vos compagnons meurt: Le gain d'AR de votre héros est doublé."
+              },
+              {
+                "nom": "Gain de Kamas",
+                "cout": 50,
+                "effet": "+5% aux GAINS DE KAMAS."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nom": "Anneau Ptimâle",
+        "image": "ptimale",
+        "rarete": "Commun",
+        "iles": [
+          "Île des Chafers"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "PREMIER TOUR: Piochez 2 sorts.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de PV à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% d'AT à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos AURAS."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Effet amélioré",
+                "cout": 80,
+                "effet": "PREMIER TOUR: Piochez 1 sort supplémentaire."
+              },
+              {
+                "nom": "Puissance compagnons",
+                "cout": 50,
+                "effet": "+10% d'AT à vos compagnons."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nom": "Anneau Rifice",
+        "image": "rifice",
+        "rarete": "Commun",
+        "iles": [
+          "Île des Bouftous",
+          "Île des Craqueleurs"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "GRIMOIRE(15): PREMIER TOUR: -1PA au coût des sorts de votre main.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de PV à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos MAGIES."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Sagesse",
+                "cout": 50,
+                "effet": "+5% d'XP à votre héros."
+              },
+              {
+                "nom": "Gain de Kamas",
+                "cout": 50,
+                "effet": "+5% aux GAINS DE KAMAS."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nom": "Anneau Rifique",
+        "image": "rifique",
+        "rarete": "Commun",
+        "iles": [
+          "Île des Bworks",
+          "Île des Tofus"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "PREMIER TOUR: +5% de PV MAX à votre héros en AR.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de PV à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos DEFENSES."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Coup critique magique",
+                "cout": 50,
+                "effet": "+5% de CC MAGIQUES."
+              },
+              {
+                "nom": "Gain de Kamas",
+                "cout": 50,
+                "effet": "+5% aux GAINS DE KAMAS."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nom": "Anneau Steké",
+        "image": "steke",
+        "rarete": "Commun",
+        "iles": [
+          "Bonta",
+          "Île des Chuchoteurs"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "PREMIER TOUR: Applique MOUILLÉ à 2 adversaires aléatoires.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de PV à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE EAU."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Effet amélioré",
+                "cout": 80,
+                "effet": "Applique MOUILLÉ à un adversaire supplémentaire."
+              },
+              {
+                "nom": "Gain de Kamas",
+                "cout": 50,
+                "effet": "+5% aux GAINS DE KAMAS."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nom": "Anneau Stradamus",
+        "image": "stradamus",
+        "rarete": "Commun",
+        "iles": [
+          "Bateau Vampyre",
+          "Île des Tofus"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "Quand vous invoquez un compagnon: +25% à son AT pour le combat.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% à toutes vos MAGIES."
+              },
+              {
+                "taux": 1,
+                "effet": "% de PV à vos compagnons."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Effet amélioré",
+                "cout": 80,
+                "effet": "+15% d'AT à vos compagnons."
+              },
+              {
+                "nom": "Magies",
+                "cout": 50,
+                "effet": "+10% à toutes vos MAGIES."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nom": "Anneau Telo",
+        "image": "telo",
+        "rarete": "Commun",
+        "iles": [
+          "Bateau Vampyre",
+          "Île des Craqueleurs"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "PREMIER TOUR: Applique HUILÉ à 2 adversaires aléatoires.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de PV à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE FEU."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Effet amélioré",
+                "cout": 80,
+                "effet": "Applique HUILÉ à un adversaire supplémentaire."
+              },
+              {
+                "nom": "Gain de Kamas",
+                "cout": 50,
+                "effet": "+5% aux GAINS DE KAMAS."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nom": "Anneau Tomatik",
+        "image": "tomatik",
+        "rarete": "Commun",
+        "iles": [
+          "Île des Taures"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "+5% de CC MAGIQUES.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% d'AT à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos AURAS."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos MAGIES."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Coup critique magique",
+                "cout": 50,
+                "effet": "+5% de CC MAGIQUES."
+              },
+              {
+                "nom": "Dégâts critique magique",
+                "cout": 50,
+                "effet": "+10% de DÉGÂTS MAGIQUES."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nom": "Anneau Vulant",
+        "image": "vulant",
+        "rarete": "Commun",
+        "iles": [
+          "Île des Chafers"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "GRIMOIRE(12): PREMIER TOUR: +2PA en réserve.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de PV à vos compagnons."
+              },
+              {
+                "taux": 1,
+                "effet": "% d'AT à vos compagnons."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Effet amélioré",
+                "cout": 80,
+                "effet": "GRIMOIRE(12): PREMIER TOUR: +2PA supplémentaires en réserve."
+              },
+              {
+                "nom": "Sagesse",
+                "cout": 50,
+                "effet": "+5% d'XP à votre héros."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nom": "Vulk'Anneau",
+        "image": "vulk",
+        "rarete": "Commun",
+        "iles": [
+          "Île des Cochons"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "Quand vous invoquez un compagnon: +50% à son AT pour le tour.",
+            "caracteristiques": [
+              {
+                "taux": 2,
+                "effet": "% de MAGIE FEU."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Sagesse",
+                "cout": 50,
+                "effet": "+5% d'XP à votre héros."
+              },
+              {
+                "nom": "Coup critique magique",
+                "cout": 50,
+                "effet": "+5% de CC MAGIQUES."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nom": "Anneau Bscur",
+        "image": "bscur",
+        "rarete": "Rare",
+        "iles": [
+          "Île des Bouftous",
+          "Île des Chuchoteurs"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "OURAGAN: Inflige XX dégâts magiques autour de votre héros. Si 3 adversaires touchés: +1 Jauge ÉTHER.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de PV à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE TERRE."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE AIR."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Défense",
+                "cout": 50,
+                "effet": "+20% à toutes vos DEFENSES."
+              },
+              {
+                "nom": "Esquive",
+                "cout": 50,
+                "effet": "+3% d'ESQUIVE à votre héros."
+              },
+              {
+                "nom": "Ouragan",
+                "cout": 80,
+                "effet": "+50% à tous vos OURAGANS."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nom": "Anneau Busier",
+        "image": "busier",
+        "rarete": "Rare",
+        "iles": [
+          "Île des Bworks"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "ÉBOULEMENT: Inflige XX dégâts magiques autour de votre héros. Si 3 adversaires touchés: +18 AR à votre héros.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de PV à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE EAU."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE TERRE."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Soin",
+                "cout": 50,
+                "effet": "+20% à tous vos SOINS."
+              },
+              {
+                "nom": "Défense",
+                "cout": 50,
+                "effet": "+20% à toutes vos DEFENSES."
+              },
+              {
+                "nom": "Eboulement",
+                "cout": 80,
+                "effet": "+50% à tous vos ÉBOULEMENT."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nom": "Anneau Cultant",
+        "image": "cultant",
+        "rarete": "Rare",
+        "iles": [
+          "Bateau Vampyre"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "Quand un de vos compagnons meurt: +1 Jauge ÉTHER.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% à tous vos SOINS."
+              },
+              {
+                "taux": 1,
+                "effet": "% de PV à vos compagnons."
+              },
+              {
+                "taux": 1,
+                "effet": "% d'AT à vos compagnons."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Effet amélioré",
+                "cout": 80,
+                "effet": "Quand un de vos compagnons meurt: Votre héros se soigne de 5% de ses PV MAX."
+              },
+              {
+                "nom": "Sagesse",
+                "cout": 50,
+                "effet": "+3% d'XP à votre héros."
+              },
+              {
+                "nom": "CC Compagnons",
+                "cout": 50,
+                "effet": "+5% de CC à vos compagnons."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nom": "Anneau Dylderaie",
+        "image": "dylderaie",
+        "rarete": "Rare",
+        "iles": [
+          "Bonta"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "Quand un de vos compagnons attaque: Il déclenche REBOND(XX)",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% à toutes vos MAGIES."
+              },
+              {
+                "taux": 1,
+                "effet": "% de PV à vos compagnons."
+              },
+              {
+                "taux": 1,
+                "effet": "% d'AT à vos compagnons."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "CC Compagnons",
+                "cout": 50,
+                "effet": "+5% de CC à vos compagnons."
+              },
+              {
+                "nom": "Esquive",
+                "cout": 50,
+                "effet": "+3% d'ESQUIVE à votre héros."
+              },
+              {
+                "nom": "Magie air",
+                "cout": 50,
+                "effet": "+10% de MAGIE AIR."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nom": "Anneau Fensif",
+        "image": "fensif",
+        "rarete": "Rare",
+        "iles": [
+          "Île des Chafers"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "Quand vous jouez un sort TERRE: +20% de chance de piocher 2 sorts.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de PV à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos MAGIES."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos TOURBES."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Effet amélioré",
+                "cout": 80,
+                "effet": "+5% de chance de piocher 2 sorts."
+              },
+              {
+                "nom": "Défense",
+                "cout": 50,
+                "effet": "+10% à toutes vos DEFENSES."
+              },
+              {
+                "nom": "Magie terre",
+                "cout": 50,
+                "effet": "+10% de MAGIE TERRE."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nom": "Anneau Fuego",
+        "image": "fuego",
+        "rarete": "Rare",
+        "iles": [
+          "Île des Cochons"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "Quand vous jouez un sort FEU: +20% de chance de réduire de 3 PA le coût du premier sort de votre main.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de PV à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos MAGIES."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos EXPLOSIONS."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Effet amélioré",
+                "cout": 80,
+                "effet": "+5% de chance de réduire de -3 PA le coût du premier sort de votre main."
+              },
+              {
+                "nom": "Riposte",
+                "cout": 50,
+                "effet": "+3% de RIPOSTE à votre héros."
+              },
+              {
+                "nom": "Magie terre",
+                "cout": 50,
+                "effet": "+10% de MAGIE FEU."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nom": "Anneau Hell",
+        "image": "hell",
+        "rarete": "Rare",
+        "iles": [
+          "Île des Cochons"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "Quand un de vos compagnons attaque: Il déclenche GRÊLE(XX)",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% à toutes vos MAGIES."
+              },
+              {
+                "taux": 1,
+                "effet": "% de PV à vos compagnons."
+              },
+              {
+                "taux": 1,
+                "effet": "% d'AT à vos compagnons."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "CC Compagnons",
+                "cout": 50,
+                "effet": "+5% de CC à vos compagnons."
+              },
+              {
+                "nom": "Soin",
+                "cout": 50,
+                "effet": "+20% à tous vos SOINS."
+              },
+              {
+                "nom": "Magie eau",
+                "cout": 50,
+                "effet": "+10% de MAGIE EAU."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nom": "Anneau Klerdlalune",
+        "image": "klerdlalune",
+        "rarete": "Rare",
+        "iles": [
+          "Île des Bworks"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "MÉTÉORE: Inflige XX dégâts magiques autour de votre héros.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de PV à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE FEU."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE TERRE."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Esquive",
+                "cout": 50,
+                "effet": "+3% d'ESQUIVE à votre héros."
+              },
+              {
+                "nom": "Défense",
+                "cout": 50,
+                "effet": "+20% à toutes vos DEFENSES."
+              },
+              {
+                "nom": "Météore",
+                "cout": 80,
+                "effet": "+50% à tous vos MÉTÉORES."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nom": "Anneau KLM",
+        "image": "klm",
+        "rarete": "Rare",
+        "iles": [
+          "Île des Craqueleurs"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "Quand vous jouez un sort FEU: +20% de chance de piocher 1 sort. Il coûte -2 PA.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de PV à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos MAGIES."
+              },
+              {
+                "taux": 1,
+                "effet": "% à tous vos REBONDS."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Effet amélioré",
+                "cout": 50,
+                "effet": "+5% de chances de piocher 1 sort coûtant -2 PA."
+              },
+              {
+                "nom": "Esquive",
+                "cout": 50,
+                "effet": "+3% d'ESQUIVE à votre héros."
+              },
+              {
+                "nom": "Magie air",
+                "cout": 50,
+                "effet": "+10% de MAGIE AIR."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nom": "Anneau Lémain",
+        "image": "lemain",
+        "rarete": "Rare",
+        "iles": [
+          "Île des Bworks"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "FOUDRE: Inflige XX dégâts magiques autour de votre héros. Si 3 adversaires touchés: inflige 30% d'AT de votre héros à tous les adversaires.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de PV à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE FEU."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE AIR."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Esquive",
+                "cout": 50,
+                "effet": "+3% d'ESQUIVE à votre héros."
+              },
+              {
+                "nom": "Riposte",
+                "cout": 50,
+                "effet": "+3% de RIPOSTE à votre héros."
+              },
+              {
+                "nom": "Foudre",
+                "cout": 80,
+                "effet": "+50% à tous vos FOUDRE."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nom": "Anneau Nymousse",
+        "image": "nymousse",
+        "rarete": "Rare",
+        "iles": [
+          "Bateau Vampyre",
+          "Île des Chuchoteurs"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "+20% de DRAIN à votre héros.",
+            "caracteristiques": [
+              {
+                "taux": 2,
+                "effet": "% de PV à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% d'AT à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos AURAS."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Effet amélioré",
+                "cout": 80,
+                "effet": "+10% de DRAIN supplémentaire à votre héros."
+              },
+              {
+                "nom": "Sagesse",
+                "cout": 50,
+                "effet": "+5% d'XP à votre héros."
+              },
+              {
+                "nom": "Vitalité compagnons",
+                "cout": 50,
+                "effet": "+10% de PV à vos compagnons."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nom": "Anneau Pulant",
+        "image": "pulant",
+        "rarete": "Rare",
+        "iles": [
+          "Île des Tofus"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "+20% de DRAIN à vos compagnons.",
+            "caracteristiques": [
+              {
+                "taux": 2,
+                "effet": "% de PV à vos compagnons."
+              },
+              {
+                "taux": 1,
+                "effet": "% d'AT à vos compagnons."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Effet amélioré",
+                "cout": 80,
+                "effet": "+10% de DRAIN supplémentaire à vos compagnons."
+              },
+              {
+                "nom": "Sagesse",
+                "cout": 50,
+                "effet": "+5% d'XP à votre héros."
+              },
+              {
+                "nom": "Gain de Kamas",
+                "cout": 50,
+                "effet": "+5% aux GAINS DE KAMAS."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nom": "Anneau Râ",
+        "image": "ra",
+        "rarete": "Rare",
+        "iles": [
+          "Île des Cochons"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "GRIMOIRE(12): DEBUT DU TOUR: +1 AURA à votre héros s'il en possède déjà.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de PV à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% d'AT à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos AURAS."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos MAGIES."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Sagesse",
+                "cout": 50,
+                "effet": "+5% d'XP à votre héros."
+              },
+              {
+                "nom": "Vitalité compagnons",
+                "cout": 50,
+                "effet": "+10% de PV à vos compagnons."
+              },
+              {
+                "nom": "Puissance compagnons",
+                "cout": 50,
+                "effet": "+10% d'AT à vos compagnons."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nom": "Anneau Rajone",
+        "image": "rajone",
+        "rarete": "Rare",
+        "iles": [
+          "Île des Chafers"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "Quand un de vos compagnons attaque: Il déclenche TOURBE(XX)",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% à toutes vos MAGIES."
+              },
+              {
+                "taux": 1,
+                "effet": "% de PV à vos compagnons."
+              },
+              {
+                "taux": 1,
+                "effet": "% d'AT à vos compagnons."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "CC Compagnons",
+                "cout": 50,
+                "effet": "+5% de CC à vos compagnons."
+              },
+              {
+                "nom": "Défense",
+                "cout": 50,
+                "effet": "+20% à toutes vos DEFENSES."
+              },
+              {
+                "nom": "Magie terre",
+                "cout": 50,
+                "effet": "+10% de MAGIE TERRE."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nom": "Anneau Réo",
+        "image": "reo",
+        "rarete": "Rare",
+        "iles": [
+          "Île des Bouftous",
+          "Île des Chuchoteurs"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "AVALANCHE: Inflige XX dégâts magiques autour de votre héros.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de PV à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE FEU."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE AIR."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Soin",
+                "cout": 50,
+                "effet": "+20% à tous vos SOINS."
+              },
+              {
+                "nom": "Esquive",
+                "cout": 50,
+                "effet": "+3% d'ESQUIVE à votre héros."
+              },
+              {
+                "nom": "Avalanche",
+                "cout": 80,
+                "effet": "+50% à toutes vos AVALANCHES."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nom": "Anneau Rizon",
+        "image": "rizon",
+        "rarete": "Rare",
+        "iles": [
+          "Île des Craqueleurs"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "Quand un de vos compagnons meurt: +1 PA en réserve.",
+            "caracteristiques": [
+              {
+                "taux": 3,
+                "effet": "% de PV à vos compagnons."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Effet amélioré",
+                "cout": 80,
+                "effet": "Quand un de vos compagnons meurt: +1PA supplémentaire en réserve."
+              },
+              {
+                "nom": "Sagesse",
+                "cout": 50,
+                "effet": "+3% d'XP à votre héros."
+              },
+              {
+                "nom": "CC Compagnons",
+                "cout": 50,
+                "effet": "+3% de CC à vos compagnons."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nom": "Anneau Roscop",
+        "image": "roscop",
+        "rarete": "Rare",
+        "iles": [
+          "Île des Tofus"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "PREMIER TOUR: Applique ASTRAL à 1 adversaire aléatoire.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de PV à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos MAGIES."
+              },
+              {
+                "taux": 1,
+                "effet": "% de PV à vos compagnons."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Effet amélioré",
+                "cout": 80,
+                "effet": "Applique ASTRAL à un adversaire supplémentaire."
+              },
+              {
+                "nom": "Sagesse",
+                "cout": 50,
+                "effet": "+3% d'XP à votre héros."
+              },
+              {
+                "nom": "CC Compagnons",
+                "cout": 50,
+                "effet": "+3% de CC à vos compagnons."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nom": "Anneau Strogote",
+        "image": "strogote",
+        "rarete": "Rare",
+        "iles": [
+          "Île des Craqueleurs"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "GEYSER: Inflige XX dégâts magiques autour de votre héros. Si 3 adversaires touchés: VOL DE VIE.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de PV à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE FEU."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE EAU."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Esquive",
+                "cout": 50,
+                "effet": "+3% d'ESQUIVE à votre héros."
+              },
+              {
+                "nom": "Soin",
+                "cout": 50,
+                "effet": "+20% à tous vos SOINS."
+              },
+              {
+                "nom": "Geyser",
+                "cout": 80,
+                "effet": "+50% à toutes vos GEYSERS."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nom": "Anneau Stromo",
+        "image": "stromo",
+        "rarete": "Rare",
+        "iles": [
+          "Île des Taures"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "Quand vous jouez un sort EAU: +20% de chance de réduire de 1 PA le coût des sorts de votre main.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de PV à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos MAGIES."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos GRÊLES."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Effet amélioré",
+                "cout": 80,
+                "effet": "+5% de chance de réduire de -1 PA le coût des sorts de votre main."
+              },
+              {
+                "nom": "Soin",
+                "cout": 50,
+                "effet": "+20% à tous vos SOINS."
+              },
+              {
+                "nom": "Magie eau",
+                "cout": 50,
+                "effet": "+10% de MAGIE EAU."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nom": "Anneau Taku",
+        "image": "taku",
+        "rarete": "Rare",
+        "iles": [
+          "Île des Chafers"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "Quand un de vos compagnons attaque: Il déclenche EXPLOSION(XX)",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% à toutes vos MAGIES."
+              },
+              {
+                "taux": 1,
+                "effet": "% de PV à vos compagnons."
+              },
+              {
+                "taux": 1,
+                "effet": "% d'AT à vos compagnons."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "CC Compagnons",
+                "cout": 50,
+                "effet": "+5% de CC à vos compagnons."
+              },
+              {
+                "nom": "Riposte",
+                "cout": 50,
+                "effet": "+3% de RIPOSTE à votre héros."
+              },
+              {
+                "nom": "Magie feu",
+                "cout": 50,
+                "effet": "+10% de MAGIE FEU."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nom": "Anneau Bélisk",
+        "image": "belisk",
+        "rarete": "Krosmique",
+        "iles": [
+          "Île des Bouftous",
+          "Île des Craqueleurs"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "DEBUT DE TOUR: +10% de MAGIE TERRE à votre héros pour le tour par adversaire BOUEUX.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de PV à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% d'AT à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos AURAS."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos MAGIES."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Sagesse",
+                "cout": 50,
+                "effet": "+3% d'XP à votre héros."
+              },
+              {
+                "nom": "Défense",
+                "cout": 50,
+                "effet": "+20% à toutes vos DEFENSES."
+              },
+              {
+                "nom": "CC Compagnons",
+                "cout": 80,
+                "effet": "+5% de CC à vos compagnons."
+              },
+              {
+                "nom": "Dégâts critiques compagnons",
+                "cout": 80,
+                "effet": "+40% de DÉGÂTS CC à vos compagnons."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nom": "Anneau Céan",
+        "image": "cean",
+        "rarete": "Krosmique",
+        "iles": [
+          "Île des Bworks",
+          "Île des Chuchoteurs"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "DEBUT DE COMBAT: Ajoute le sort CEAN à votre main.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% d'AT à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos AURAS."
+              },
+              {
+                "taux": 2,
+                "effet": "% de MAGIE EAU."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos GRÊLES."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Soin",
+                "cout": 50,
+                "effet": "+20% à tous vos SOINS."
+              },
+              {
+                "nom": "CC Compagnons",
+                "cout": 50,
+                "effet": "+5% de CC à vos compagnons."
+              },
+              {
+                "nom": "Vitalité compagnons",
+                "cout": 80,
+                "effet": "+20% de PV à vos compagnons."
+              },
+              {
+                "nom": "Puissance compagnons",
+                "cout": 80,
+                "effet": "+20% d'AT à vos compagnons."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nom": "Anneau Ctane",
+        "image": "ctane",
+        "rarete": "Krosmique",
+        "iles": [
+          "Île des Chafers"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "DEBUT DE COMBAT: Ajoute le sort CTANE à votre main.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% d'AT à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos AURAS."
+              },
+              {
+                "taux": 2,
+                "effet": "% de MAGIE FEU."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos EXPLOSIONS."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Coup critique physique",
+                "cout": 50,
+                "effet": "+5% de CC à votre héros."
+              },
+              {
+                "nom": "CC Compagnons",
+                "cout": 40,
+                "effet": "+3% de CC à vos compagnons."
+              },
+              {
+                "nom": "Vitalité compagnons",
+                "cout": 80,
+                "effet": "+20% de PV à vos compagnons."
+              },
+              {
+                "nom": "Puissance compagnons",
+                "cout": 80,
+                "effet": "+20% d'AT à vos compagnons."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nom": "Anneau Cyprès",
+        "image": "cypres",
+        "rarete": "Krosmique",
+        "iles": [
+          "Île des Taures"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "DEBUT DE COMBAT: Ajoute le sort CYPRES à votre main.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% d'AT à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos AURAS."
+              },
+              {
+                "taux": 2,
+                "effet": "% de MAGIE TERRE."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos TOURBES."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Défense",
+                "cout": 50,
+                "effet": "+20% à toutes vos DEFENSES."
+              },
+              {
+                "nom": "CC Compagnons",
+                "cout": 40,
+                "effet": "+3% de CC à vos compagnons."
+              },
+              {
+                "nom": "Vitalité compagnons",
+                "cout": 80,
+                "effet": "+20% de PV à vos compagnons."
+              },
+              {
+                "nom": "Puissance compagnons",
+                "cout": 80,
+                "effet": "+20% d'AT à vos compagnons."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nom": "Anneau Kupant",
+        "image": "kupant",
+        "rarete": "Krosmique",
+        "iles": [
+          "Bonta"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "DEBUT DE TOUR: +10% de MAGIE AIR à votre héros pour le tour par adversaire ÉVENTÉ.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de PV à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% d'AT à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos AURAS."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos MAGIES."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Sagesse",
+                "cout": 50,
+                "effet": "+3% d'XP à votre héros."
+              },
+              {
+                "nom": "Esquive",
+                "cout": 50,
+                "effet": "+3% d'ESQUIVE à votre héros."
+              },
+              {
+                "nom": "CC Compagnons",
+                "cout": 80,
+                "effet": "+5% de CC à vos compagnons."
+              },
+              {
+                "nom": "Dégâts critiques compagnons",
+                "cout": 80,
+                "effet": "+40% de DÉGÂTS CC à vos compagnons."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nom": "Anneau Ragan",
+        "image": "ragan",
+        "rarete": "Krosmique",
+        "iles": [
+          "Île des Bworks",
+          "Île des Chuchoteurs"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "DEBUT DE COMBAT: Ajoute le sort RAGAN à votre main.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% d'AT à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos AURAS."
+              },
+              {
+                "taux": 2,
+                "effet": "% de MAGIE AIR."
+              },
+              {
+                "taux": 1,
+                "effet": "% à tous vos REBONDS."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Collision",
+                "cout": 50,
+                "effet": "+20% à toutes vos COLLISIONS."
+              },
+              {
+                "nom": "CC Compagnons",
+                "cout": 40,
+                "effet": "+3% de CC à vos compagnons."
+              },
+              {
+                "nom": "Vitalité compagnons",
+                "cout": 80,
+                "effet": "+20% de PV à vos compagnons."
+              },
+              {
+                "nom": "Puissance compagnons",
+                "cout": 80,
+                "effet": "+20% d'AT à vos compagnons."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nom": "Anneau Rak",
+        "image": "rak",
+        "rarete": "Krosmique",
+        "iles": [
+          "Bonta"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "FIN DE TOUR: Vos personnages avec BOUCLIER infligent 25% de leur AT aux adversaires adjacents.",
+            "caracteristiques": [
+              {
+                "taux": 2,
+                "effet": "% à toutes vos DEFENSES."
+              },
+              {
+                "taux": 1,
+                "effet": "% de PV à vos compagnons."
+              },
+              {
+                "taux": 1,
+                "effet": "% d'AT à vos compagnons."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Effet amélioré",
+                "cout": 80,
+                "effet": "FIN DU TOUR: Vos personnages avec BOUCLIER infligent +25% aux adversaires adjacents."
+              },
+              {
+                "nom": "Sagesse",
+                "cout": 80,
+                "effet": "+3% d'XP à votre héros."
+              },
+              {
+                "nom": "Coup critique physique",
+                "cout": 80,
+                "effet": "+3% de CC à votre héros."
+              },
+              {
+                "nom": "Gain de Kamas",
+                "cout": 50,
+                "effet": "+10% aux GAINS DE KAMAS."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nom": "Anneau Recrux",
+        "image": "recrux",
+        "rarete": "Krosmique",
+        "iles": [
+          "Île des Cochons"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "Confère INCIBLABLE au premier compagnon que vous invoquez.",
+            "caracteristiques": [
+              {
+                "taux": 2,
+                "effet": "% à toutes vos SOINS."
+              },
+              {
+                "taux": 1,
+                "effet": "% de PV à vos compagnons."
+              },
+              {
+                "taux": 1,
+                "effet": "% d'AT à vos compagnons."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Effet amélioré",
+                "cout": 80,
+                "effet": "Le premier compagnon que vous invoquez gagne 50% de ses PV MAX en AR."
+              },
+              {
+                "nom": "CC Compagnons",
+                "cout": 80,
+                "effet": "+5% de CC à vos compagnons."
+              },
+              {
+                "nom": "Dégâts critiques compagnons",
+                "cout": 50,
+                "effet": "+40% de DÉGÂTS CC à vos compagnons."
+              },
+              {
+                "nom": "Gain de Kamas",
+                "cout": 50,
+                "effet": "+10% aux GAINS DE KAMAS."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nom": "Anneau Remal",
+        "image": "remal",
+        "rarete": "Krosmique",
+        "iles": [
+          "Île des Taures"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "DEBUT DE TOUR: +10% de MAGIE FEU à votre héros pour le tour par adversaire HUILÉ.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de PV à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% d'AT à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos AURAS."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos MAGIES."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Sagesse",
+                "cout": 50,
+                "effet": "+3% d'XP à votre héros."
+              },
+              {
+                "nom": "Riposte",
+                "cout": 50,
+                "effet": "+3% de RIPOSTE à votre héros."
+              },
+              {
+                "nom": "CC Compagnons",
+                "cout": 80,
+                "effet": "+5% de CC à vos compagnons."
+              },
+              {
+                "nom": "Dégâts critiques compagnons",
+                "cout": 80,
+                "effet": "+40% de DÉGÂTS CC à vos compagnons."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nom": "Anneau Tilus",
+        "image": "tilus",
+        "rarete": "Krosmique",
+        "iles": [
+          "Île des Chafers"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "DEBUT DE TOUR: +10% de MAGIE EAU à votre héros pour le tour par adversaire MOUILLÉ.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de PV à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% d'AT à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos AURAS."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos MAGIES."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Sagesse",
+                "cout": 50,
+                "effet": "+3% d'XP à votre héros."
+              },
+              {
+                "nom": "Soin",
+                "cout": 50,
+                "effet": "+20% à tous vos SOINS."
+              },
+              {
+                "nom": "CC Compagnons",
+                "cout": 80,
+                "effet": "+5% de CC à vos compagnons."
+              },
+              {
+                "nom": "Dégâts critiques compagnons",
+                "cout": 80,
+                "effet": "+40% de DÉGÂTS CC à vos compagnons."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nom": "Anneau Racle",
+        "image": "racle",
+        "rarete": "Infinite",
+        "iles": [
+          "Île des Taures"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "COUP DE GRÂCE avec un sort AIR: Un ECLAIR s'abat sur les adversaires. Elle inflige 20 dégâts magiques.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de PV à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à tous vos REBONDS."
+              },
+              {
+                "taux": 2,
+                "effet": "% de PV à vos compagnons."
+              },
+              {
+                "taux": 2,
+                "effet": "% d'AT à vos compagnons."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Effet amélioré",
+                "cout": 100,
+                "effet": "+5 dégâts magique à la FOUDRE."
+              },
+              {
+                "nom": "Sagesse",
+                "cout": 50,
+                "effet": "+5% d'XP à votre héros."
+              },
+              {
+                "nom": "Coup critique magique",
+                "cout": 80,
+                "effet": "+5% de CC MAGIQUES."
+              },
+              {
+                "nom": "CC Compagnons",
+                "cout": 80,
+                "effet": "+5% de CC à vos compagnons."
+              },
+              {
+                "nom": "Dégâts critiques compagnons",
+                "cout": 80,
+                "effet": "+40% de DÉGÂTS CC à vos compagnons."
+              },
+              {
+                "nom": "Gain de Kamas",
+                "cout": 50,
+                "effet": "+10% aux GAINS DE KAMAS."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nom": "Anneau Rore",
+        "image": "rore",
+        "rarete": "Infinite",
+        "iles": [
+          "Île des Chuchoteurs"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "COUP DE GRÂCE avec un sort FEU: Une BOULE DE FEU s'abat sur les adversaires. Elle inflige 20 dégâts magiques.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de PV à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos EXPLOSIONS."
+              },
+              {
+                "taux": 2,
+                "effet": "% de PV à vos compagnons."
+              },
+              {
+                "taux": 2,
+                "effet": "% d'AT à vos compagnons."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Effet amélioré",
+                "cout": 100,
+                "effet": "+5 dégâts magique à la BOULE DE FEU."
+              },
+              {
+                "nom": "Sagesse",
+                "cout": 50,
+                "effet": "+5% d'XP à votre héros."
+              },
+              {
+                "nom": "Coup critique magique",
+                "cout": 80,
+                "effet": "+5% de CC MAGIQUES."
+              },
+              {
+                "nom": "CC Compagnons",
+                "cout": 80,
+                "effet": "+5% de CC à vos compagnons."
+              },
+              {
+                "nom": "Dégâts critiques compagnons",
+                "cout": 80,
+                "effet": "+40% de DÉGÂTS CC à vos compagnons."
+              },
+              {
+                "nom": "Gain de Kamas",
+                "cout": 50,
+                "effet": "+10% aux GAINS DE KAMAS."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nom": "Anneau Rouboros",
+        "image": "rouboros",
+        "rarete": "Infinite",
+        "iles": [
+          "Île des Tofus"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "COUP DE GRÂCE avec un sort TERRE: Un ROCHER s'abat sur les adversaires. Elle inflige 20 dégâts magiques.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de PV à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos TOURBES."
+              },
+              {
+                "taux": 2,
+                "effet": "% de PV à vos compagnons."
+              },
+              {
+                "taux": 2,
+                "effet": "% d'AT à vos compagnons."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Effet amélioré",
+                "cout": 100,
+                "effet": "+5 dégâts magique au ROCHER."
+              },
+              {
+                "nom": "Sagesse",
+                "cout": 50,
+                "effet": "+5% d'XP à votre héros."
+              },
+              {
+                "nom": "Coup critique magique",
+                "cout": 80,
+                "effet": "+5% de CC MAGIQUES."
+              },
+              {
+                "nom": "CC Compagnons",
+                "cout": 80,
+                "effet": "+5% de CC à vos compagnons."
+              },
+              {
+                "nom": "Dégâts critiques compagnons",
+                "cout": 80,
+                "effet": "+40% de DÉGÂTS CC à vos compagnons."
+              },
+              {
+                "nom": "Gain de Kamas",
+                "cout": 50,
+                "effet": "+10% aux GAINS DE KAMAS."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nom": "Anneau Verbouké",
+        "image": "verbouke",
+        "rarete": "Infinite",
+        "iles": [
+          "Île des Chafers"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "COUP DE GRÂCE avec un sort EAU: Une VAGUE s'abat sur les adversaires. Elle inflige 20 dégâts magiques.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de PV à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos GRÊLES."
+              },
+              {
+                "taux": 2,
+                "effet": "% de PV à vos compagnons."
+              },
+              {
+                "taux": 2,
+                "effet": "% d'AT à vos compagnons."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Effet amélioré",
+                "cout": 100,
+                "effet": "+5 dégâts magique à la VAGUE."
+              },
+              {
+                "nom": "Sagesse",
+                "cout": 50,
+                "effet": "+5% d'XP à votre héros."
+              },
+              {
+                "nom": "Coup critique magique",
+                "cout": 80,
+                "effet": "+5% de CC MAGIQUES."
+              },
+              {
+                "nom": "CC Compagnons",
+                "cout": 80,
+                "effet": "+5% de CC à vos compagnons."
+              },
+              {
+                "nom": "Dégâts critiques compagnons",
+                "cout": 80,
+                "effet": "+40% de DÉGÂTS CC à vos compagnons."
+              },
+              {
+                "nom": "Gain de Kamas",
+                "cout": 50,
+                "effet": "+10% aux GAINS DE KAMAS."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nom": "Le Boom Boom",
+        "image": "boom",
+        "rarete": "Infinite",
+        "iles": [
+          "Île des Bouftous"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "Quand vous jouez un sort FEU: +15% de chance de générer une BOULE DE FEU infligeant 20 dégâts magiques sur un adversaire aléatoire.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de PV à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% d'AT à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos AURAS."
+              },
+              {
+                "taux": 2,
+                "effet": "% de MAGIE FEU."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos EXPLOSIONS."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Boom",
+                "cout": 80,
+                "effet": "DEBUT DU COMBAT: Ajoute le sort BOOM à votre main.",
+                "sort": "Boom"
+              },
+              {
+                "nom": "Sagesse",
+                "cout": 50,
+                "effet": "+5% d'XP à votre héros."
+              },
+              {
+                "nom": "Vitalité compagnons",
+                "cout": 100,
+                "effet": "+25% de PV à vos compagnons."
+              },
+              {
+                "nom": "Puissance compagnons",
+                "cout": 100,
+                "effet": "+25% de d'AT à vos compagnons."
+              },
+              {
+                "nom": "CC Compagnons",
+                "cout": 50,
+                "effet": "+5% de CC à vos compagnons."
+              },
+              {
+                "nom": "Gain de Kamas",
+                "cout": 50,
+                "effet": "+10% aux GAINS DE KAMAS."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nom": "Le Friskouille",
+        "image": "friskouille",
+        "rarete": "Infinite",
+        "iles": [
+          "Île des Cochons"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "Quand vous jouez un sort AIR: +15% de chance de générer un ECLAIR infligeant 20 dégâts magiques sur un adversaire aléatoire.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de PV à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% d'AT à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos AURAS."
+              },
+              {
+                "taux": 2,
+                "effet": "% de MAGIE AIR."
+              },
+              {
+                "taux": 1,
+                "effet": "% à tous vos REBONDS."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Boom",
+                "cout": 80,
+                "effet": "DEBUT DU COMBAT: Ajoute le sort CARACOLE à votre main.",
+                "sort": "Caracole"
+              },
+              {
+                "nom": "Sagesse",
+                "cout": 50,
+                "effet": "+5% d'XP à votre héros."
+              },
+              {
+                "nom": "Vitalité compagnons",
+                "cout": 100,
+                "effet": "+25% de PV à vos compagnons."
+              },
+              {
+                "nom": "Puissance compagnons",
+                "cout": 100,
+                "effet": "+25% de d'AT à vos compagnons."
+              },
+              {
+                "nom": "CC Compagnons",
+                "cout": 50,
+                "effet": "+5% de CC à vos compagnons."
+              },
+              {
+                "nom": "Gain de Kamas",
+                "cout": 50,
+                "effet": "+10% aux GAINS DE KAMAS."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nom": "Le Kralamourton",
+        "image": "kralamourton",
+        "rarete": "Infinite",
+        "iles": [
+          "Île des Bworks"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "Quand vous jouez un sort EAU: +15% de chance de générer une VAGUE infligeant 20 dégâts magiques sur un adversaire aléatoire.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de PV à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% d'AT à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos AURAS."
+              },
+              {
+                "taux": 2,
+                "effet": "% de MAGIE EAU."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos GRÊLES."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Flot",
+                "cout": 80,
+                "effet": "DEBUT DU COMBAT: Ajoute le sort FLOT à votre main.",
+                "sort": "Flot"
+              },
+              {
+                "nom": "Sagesse",
+                "cout": 50,
+                "effet": "+5% d'XP à votre héros."
+              },
+              {
+                "nom": "Vitalité compagnons",
+                "cout": 100,
+                "effet": "+25% de PV à vos compagnons."
+              },
+              {
+                "nom": "Puissance compagnons",
+                "cout": 100,
+                "effet": "+25% de d'AT à vos compagnons."
+              },
+              {
+                "nom": "CC Compagnons",
+                "cout": 50,
+                "effet": "+5% de CC à vos compagnons."
+              },
+              {
+                "nom": "Gain de Kamas",
+                "cout": 50,
+                "effet": "+10% aux GAINS DE KAMAS."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nom": "Le ratisseur",
+        "image": "ratisseur",
+        "rarete": "Infinite",
+        "iles": [
+          "Île des Craqueleurs"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "Quand vous jouez un sort TERRE: +15% de chance de générer un ROCHER infligeant 20 dégâts magiques sur un adversaire aléatoire.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de PV à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% d'AT à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos AURAS."
+              },
+              {
+                "taux": 2,
+                "effet": "% de MAGIE TERRE."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos TOURBES."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Broyage",
+                "cout": 80,
+                "effet": "DEBUT DU COMBAT: Ajoute le sort BROYAGE à votre main.",
+                "sort": "Broyage"
+              },
+              {
+                "nom": "Sagesse",
+                "cout": 50,
+                "effet": "+5% d'XP à votre héros."
+              },
+              {
+                "nom": "Vitalité compagnons",
+                "cout": 100,
+                "effet": "+25% de PV à vos compagnons."
+              },
+              {
+                "nom": "Puissance compagnons",
+                "cout": 100,
+                "effet": "+25% de d'AT à vos compagnons."
+              },
+              {
+                "nom": "CC Compagnons",
+                "cout": 50,
+                "effet": "+5% de CC à vos compagnons."
+              },
+              {
+                "nom": "Gain de Kamas",
+                "cout": 50,
+                "effet": "+10% aux GAINS DE KAMAS."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "brassards": [
+      {
+        "nom": "Brassard Akné",
+        "image": "akne",
+        "rarete": "Commun",
+        "iles": [
+          "Bonta"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "Attaque: REPOUSSE de 2 cases.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% d'AT à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos AURAS."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Effet amélioré",
+                "cout": 50,
+                "effet": "CRITIQUE: REPOUSSE de 2 cases supplémentaires."
+              },
+              {
+                "nom": "Bonus de coup critique",
+                "cout": 50,
+                "effet": "+10% de CC à votre héros."
+              }
+            ]
+          },
+          {
+            "version": "0.08"
+          }
+        ]
+      },
+      {
+        "nom": "Brassard Dent",
+        "image": "dent",
+        "rarete": "Commun",
+        "iles": [
+          "Bateau Vampyre",
+          "Île des Tofus"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "Attaque: Inflige 50% de l'AT de votre héros derrière la cible.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% d'AT à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos AURAS."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Effet amélioré",
+                "cout": 50,
+                "effet": "CRITIQUE: Applique ASTRAL à la cible."
+              },
+              {
+                "nom": "Bonus de coup critique",
+                "cout": 50,
+                "effet": "+10% de CC à votre héros."
+              }
+            ]
+          },
+          {
+            "version": "0.08"
+          }
+        ]
+      },
+      {
+        "nom": "Brassard Gousin",
+        "image": "gousin",
+        "rarete": "Commun",
+        "iles": [
+          "Île des Bouftous",
+          "Île des Taures"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "Attaque: -1 PA au coût du prochain sort joué ce tour.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% d'AT à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos AURAS."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Effet amélioré",
+                "cout": 50,
+                "effet": "CRITIQUE: -1PA supplémentaire au coût du prochain sort joué ce tour."
+              },
+              {
+                "nom": "Bonus de coup critique",
+                "cout": 50,
+                "effet": "+10% de CC à votre héros."
+              }
+            ]
+          },
+          {
+            "version": "0.08"
+          }
+        ]
+      },
+      {
+        "nom": "Brassard Kange",
+        "image": "kange",
+        "rarete": "Commun",
+        "iles": [
+          "Bateau Vampyre",
+          "Île des Tofus"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "Attaque: Votre héros recule de 2 cases.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% d'AT à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos AURAS."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Effet amélioré",
+                "cout": 50,
+                "effet": "CRITIQUE: Soigne votre héros de son AT."
+              },
+              {
+                "nom": "Bonus de coup critique",
+                "cout": 50,
+                "effet": "+10% de CC à votre héros."
+              }
+            ]
+          },
+          {
+            "version": "0.08"
+          }
+        ]
+      },
+      {
+        "nom": "Brassard Nakeuh",
+        "image": "nakeuh",
+        "rarete": "Commun",
+        "iles": [
+          "Île des Bworks",
+          "Île des Chuchoteurs"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "Attaque: Votre héros se téléporte dans le dos de la cible..",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% d'AT à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos AURAS."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Effet amélioré",
+                "cout": 50,
+                "effet": "CRITIQUE: Votre héros rejoue son tour. (Limité à 1 fois par tour)"
+              },
+              {
+                "nom": "Bonus de coup critique",
+                "cout": 50,
+                "effet": "+10% de CC à votre héros."
+              }
+            ]
+          },
+          {
+            "version": "0.08"
+          }
+        ]
+      },
+      {
+        "nom": "Brassard Ogan",
+        "image": "ogan",
+        "rarete": "Commun",
+        "iles": [
+          "Île des Taures"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "Attaque: Inflige 25% de l'AT de votre héros aux adversaires adjacents.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% d'AT à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos AURAS."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Effet amélioré",
+                "cout": 50,
+                "effet": "CRITIQUE: REPOUSSE de 2 cases les adversaires adjacents à votre héros."
+              },
+              {
+                "nom": "Bonus de coup critique",
+                "cout": 50,
+                "effet": "+10% de CC à votre héros."
+              }
+            ]
+          },
+          {
+            "version": "0.08"
+          }
+        ]
+      },
+      {
+        "nom": "Brassard Osage",
+        "image": "osage",
+        "rarete": "Commun",
+        "iles": [
+          "Bonta",
+          "Île des Chuchoteurs"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "Attaque: La cible se téléporte dans le dos de votre héros.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% d'AT à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos AURAS."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Effet amélioré",
+                "cout": 50,
+                "effet": "CRITIQUE: Votre héros rejoue son tour. (Limité à 1 fois par tour)"
+              },
+              {
+                "nom": "Bonus de coup critique",
+                "cout": 50,
+                "effet": "+10% de CC à votre héros."
+              }
+            ]
+          },
+          {
+            "version": "0.08"
+          }
+        ]
+      },
+      {
+        "nom": "Papy Brassard",
+        "image": "papy",
+        "rarete": "Commun",
+        "iles": [
+          "Île des Cochons"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "Attaque: +13AR à votre héros.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% d'AT à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos AURAS."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Effet amélioré",
+                "cout": 50,
+                "effet": "CRITIQUE: Double le gain d'AR de votre héros."
+              },
+              {
+                "nom": "Bonus de coup critique",
+                "cout": 50,
+                "effet": "+10% de CC à votre héros."
+              }
+            ]
+          },
+          {
+            "version": "0.08"
+          }
+        ]
+      },
+      {
+        "nom": "Brassard Chevek",
+        "image": "chevek",
+        "rarete": "Rare",
+        "iles": [
+          "Île des Taures"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "Attaque: Applique ÉVENTÉ.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% d'AT à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos AURAS."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Effet amélioré",
+                "cout": 50,
+                "effet": "CRITIQUE: Applique ÉVENTÉ aux adversaires autour de votre héros."
+              },
+              {
+                "nom": "Magie air",
+                "cout": 50,
+                "effet": "+20% de MAGIE AIR."
+              },
+              {
+                "nom": "Bonus de coup critique",
+                "cout": 50,
+                "effet": "+10% de CC à votre héros."
+              }
+            ]
+          },
+          {
+            "version": "0.08"
+          }
+        ]
+      },
+      {
+        "nom": "Brassard Dou",
+        "image": "dou",
+        "rarete": "Rare",
+        "iles": [
+          "Île des Bouftous",
+          "Île des Tofus"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "Attaque: +5% d'AT à votre héros jusqu'à la fin du combat.  (Limité à 10 fois par tour)",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% d'AT à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos AURAS."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Effet amélioré",
+                "cout": 50,
+                "effet": "CRITIQUE: Soigne votre héros de son AT."
+              },
+              {
+                "nom": "Puissance",
+                "cout": 50,
+                "effet": "+10% d'AT à votre héros"
+              },
+              {
+                "nom": "Bonus de coup critique",
+                "cout": 50,
+                "effet": "+10% de CC à votre héros."
+              }
+            ]
+          },
+          {
+            "version": "0.08"
+          }
+        ]
+      },
+      {
+        "nom": "Brassard Gile",
+        "image": "gile",
+        "rarete": "Rare",
+        "iles": [
+          "Bateau Vampyre"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "Attaque: Applique BOUEUX.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% d'AT à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos AURAS."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Effet amélioré",
+                "cout": 50,
+                "effet": "CRITIQUE: Applique BOUEUX aux adversaires autour de votre héros."
+              },
+              {
+                "nom": "Magie terre",
+                "cout": 50,
+                "effet": "+20% de MAGIE TERRE."
+              },
+              {
+                "nom": "Bonus de coup critique",
+                "cout": 50,
+                "effet": "+10% de CC à votre héros."
+              }
+            ]
+          },
+          {
+            "version": "0.08"
+          }
+        ]
+      },
+      {
+        "nom": "Brassard Gonote",
+        "image": "gonote",
+        "rarete": "Rare",
+        "iles": [
+          "Bonta"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "Attaque: Applique HUILÉ.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% d'AT à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos AURAS."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Effet amélioré",
+                "cout": 50,
+                "effet": "CRITIQUE: Applique HUILÉ aux adversaires autour de votre héros."
+              },
+              {
+                "nom": "Magie feu",
+                "cout": 50,
+                "effet": "+20% de MAGIE FEU."
+              },
+              {
+                "nom": "Bonus de coup critique",
+                "cout": 50,
+                "effet": "+10% de CC à votre héros."
+              }
+            ]
+          },
+          {
+            "version": "0.08"
+          }
+        ]
+      },
+      {
+        "nom": "Brassard Kasm",
+        "image": "kasm",
+        "rarete": "Rare",
+        "iles": [
+          "Bonta"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "Attaque: Applique MOUILLÉ.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% d'AT à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos AURAS."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Effet amélioré",
+                "cout": 50,
+                "effet": "CRITIQUE: Applique MOUILLÉ aux adversaires autour de votre héros."
+              },
+              {
+                "nom": "Magie eau",
+                "cout": 50,
+                "effet": "+20% de MAGIE EAU."
+              },
+              {
+                "nom": "Bonus de coup critique",
+                "cout": 50,
+                "effet": "+10% de CC à votre héros."
+              }
+            ]
+          },
+          {
+            "version": "0.08"
+          }
+        ]
+      },
+      {
+        "nom": "Brassard Ticho",
+        "image": "ticho",
+        "rarete": "Rare",
+        "iles": [
+          "Île des Taures"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "Attaque: Echange la position de votre héros avec celle du compagnon allié le plus proche.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% d'AT à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos AURAS."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Effet amélioré",
+                "cout": 50,
+                "effet": "CRITIQUE: Votre héros et le compagnon gagnent autant d'AR que de dégâts infligés."
+              },
+              {
+                "nom": "Vitalité compagnons",
+                "cout": 50,
+                "effet": "+10% de PV à vos compagnons."
+              },
+              {
+                "nom": "Bonus de coup critique",
+                "cout": 50,
+                "effet": "+10% de CC à votre héros."
+              }
+            ]
+          },
+          {
+            "version": "0.08"
+          }
+        ]
+      },
+      {
+        "nom": "Brassard Dine",
+        "image": "dine",
+        "rarete": "Krosmique",
+        "iles": [
+          "Bateau Vampyre",
+          "Île des Tofus"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "Attaque: Déclanche GRÊLE().",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% d'AT à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos AURAS."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE EAU."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Effet amélioré",
+                "cout": 50,
+                "effet": "CRITIQUE: Déclanche GRÊLE() une seconde fois."
+              },
+              {
+                "nom": "Grêle",
+                "cout": 50,
+                "effet": "+20% à toutes vos GRÊLES."
+              },
+              {
+                "nom": "Dégâts critiques physiques",
+                "cout": 50,
+                "effet": "+30% de DÉGÂTS CC à votre héros."
+              },
+              {
+                "nom": "Bonus de coup critique",
+                "cout": 50,
+                "effet": "+10% de CC à votre héros."
+              }
+            ]
+          },
+          {
+            "version": "0.08"
+          }
+        ]
+      },
+      {
+        "nom": "Brassard Mada",
+        "image": "mada",
+        "rarete": "Krosmique",
+        "iles": [
+          "Île des Cochons"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "Attaque: Déclanche REBOND().",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% d'AT à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos AURAS."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE AIR."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Effet amélioré",
+                "cout": 50,
+                "effet": "CRITIQUE: Déclanche REBOND() une seconde fois."
+              },
+              {
+                "nom": "Rebond",
+                "cout": 50,
+                "effet": "+20% à tous vos REBONDS."
+              },
+              {
+                "nom": "Dégâts critiques physiques",
+                "cout": 50,
+                "effet": "+30% de DÉGÂTS CC à votre héros."
+              },
+              {
+                "nom": "Bonus de coup critique",
+                "cout": 50,
+                "effet": "+10% de CC à votre héros."
+              }
+            ]
+          },
+          {
+            "version": "0.08"
+          }
+        ]
+      },
+      {
+        "nom": "Brassard Turien",
+        "image": "turien",
+        "rarete": "Krosmique",
+        "iles": [
+          "Bateau Vampyre",
+          "Île des Tofus"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "Attaque: Déclanche TOURBE().",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% d'AT à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos AURAS."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE TERRE."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Effet amélioré",
+                "cout": 50,
+                "effet": "CRITIQUE: Déclanche TOURBE() une seconde fois."
+              },
+              {
+                "nom": "Tourbe",
+                "cout": 50,
+                "effet": "+20% à toutes vos TOURBES."
+              },
+              {
+                "nom": "Dégâts critiques physiques",
+                "cout": 50,
+                "effet": "+30% de DÉGÂTS CC à votre héros."
+              },
+              {
+                "nom": "Bonus de coup critique",
+                "cout": 50,
+                "effet": "+10% de CC à votre héros."
+              }
+            ]
+          },
+          {
+            "version": "0.08"
+          }
+        ]
+      },
+      {
+        "nom": "Brassard Tyste",
+        "image": "tyste",
+        "rarete": "Krosmique",
+        "iles": [
+          "Île des Bouftous",
+          "Île des Craqueleurs"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "Attaque: Déclanche EXPLOSION().",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% d'AT à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos AURAS."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE FEU."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Effet amélioré",
+                "cout": 50,
+                "effet": "CRITIQUE: Déclanche EXPLOSION() une seconde fois."
+              },
+              {
+                "nom": "Explosion",
+                "cout": 50,
+                "effet": "+20% à toutes vos EXPLOSIONS."
+              },
+              {
+                "nom": "Dégâts critiques physiques",
+                "cout": 50,
+                "effet": "+30% de DÉGÂTS CC à votre héros."
+              },
+              {
+                "nom": "Bonus de coup critique",
+                "cout": 50,
+                "effet": "+10% de CC à votre héros."
+              }
+            ]
+          },
+          {
+            "version": "0.08"
+          }
+        ]
+      },
+      {
+        "nom": "Brassard Kantiel",
+        "image": "kantiel",
+        "rarete": "Infinite",
+        "iles": [
+          "Bonta"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "Attaque: Applique ASTRAL.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de PV à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% d'AT à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos AURAS."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Effet amélioré",
+                "cout": 50,
+                "effet": "CRITIQUE: TODO."
+              },
+              {
+                "nom": "Bonus de coup critique",
+                "cout": 50,
+                "effet": "+10% de CC à votre héros."
+              }
+            ]
+          },
+          {
+            "version": "0.08"
+          }
+        ]
+      },
+      {
+        "nom": "Brassard Leukin",
+        "image": "leukin",
+        "rarete": "Infinite",
+        "iles": [
+          "Bateau Vampyre"
+        ],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pouvoir": "Attaque: Confère BOUCLIER à votre héros.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de PV à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% d'AT à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos AURAS."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Effet amélioré",
+                "cout": 50,
+                "effet": "CRITIQUE: Confère BOUCLIER à tous vos personnages."
+              },
+              {
+                "nom": "Vitalité compagnons",
+                "cout": 50,
+                "effet": "+20% de PV à vos compagnons."
+              },
+              {
+                "nom": "Puissance compagnons",
+                "cout": 50,
+                "effet": "+10% d'AT à vos compagnons."
+              },
+              {
+                "nom": "Sagesse",
+                "cout": 50,
+                "effet": "+5% d'XP à votre héros."
+              },
+              {
+                "nom": "Bonus de coup critique",
+                "cout": 50,
+                "effet": "+10% de CC à votre héros."
+              },
+              {
+                "nom": "Dégâts critiques physiques",
+                "cout": 50,
+                "effet": "+40% de DÉGÂTS CC à votre héros."
+              }
+            ]
+          },
+          {
+            "version": "0.08"
+          }
+        ]
+      }
+    ]
+  }
+}
