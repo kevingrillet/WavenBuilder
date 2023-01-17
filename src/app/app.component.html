@@ -20,12 +20,12 @@
   </button>
 </mat-toolbar>
 
-<mat-tab-group>
+<mat-tab-group #tabGroup>
   <mat-tab label="Anneaux">
-    <app-table-equipement [equipements]="equipements.anneaux" mode="anneaux"></app-table-equipement>
+    <app-table-equipement #tableAnneaux [equipements]="equipements.anneaux" mode="anneaux"></app-table-equipement>
   </mat-tab>
   <mat-tab label="Brassards">
-    <app-table-equipement [equipements]="equipements.brassards" mode="brassards"></app-table-equipement>
+    <app-table-equipement #tableBrassards [equipements]="equipements.brassards" mode="brassards"></app-table-equipement>
   </mat-tab>
   <mat-tab label="Json">
     <div class="container">

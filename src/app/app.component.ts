@@ -1,10 +1,13 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
+import { MatTabGroup } from '@angular/material/tabs';
 
+import { AceEditorComponent } from './ace-editor/ace-editor.component';
 import { DialogEquipementComponent } from './dialog-equipement/dialog-equipement.component';
+import { TableEquipementComponent } from './table-equipement/table-equipement.component';
 
 import * as data from '../assets/json/data.json';
-import { Equipements } from './struct';
+import { Equipement, Equipements, Raretes } from './struct';
 
 @Component({
   selector: 'app-root',
@@ -12,6 +15,9 @@ import { Equipements } from './struct';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
+  @ViewChild('tabGroup') tabGroup!: MatTabGroup;
+  @ViewChild('tableAnneaux') tableAnneaux!: TableEquipementComponent;
+  @ViewChild('tableBrassards') tableBrassards!: TableEquipementComponent;
   title = 'WavenBuilder';
 
   displayedColumns = [
@@ -30,17 +36,60 @@ export class AppComponent {
     data.default.equipements
   );
 
-  _ = console.log(this.equipements);
+  // _ = console.log(this.equipements);
 
   constructor(private dialog: MatDialog) {}
 
-  openDialog() {
-    this.dialog.open(DialogEquipementComponent, {
-      width: '70%',
-    });
+  openDialog(): void {
+    this.dialog
+      .open(DialogEquipementComponent, {
+        width: '70%',
+        data: {
+          mode: this.tabGroup.selectedIndex === 0 ? 'anneau' : 'brassard',
+        },
+      })
+      .afterClosed()
+      .subscribe((response) => {
+        if (!response) return;
+        switch (this.tabGroup.selectedIndex) {
+          case 0:
+          case 1:
+            let eq =
+              this.tabGroup.selectedIndex === 0
+                ? this.equipements.anneaux
+                : this.equipements.brassards;
+
+            eq.push(response);
+            eq.sort(function (a: Equipement, b: Equipement) {
+              if (a.rarete !== b.rarete) {
+                return Object.keys(Raretes).indexOf(Raretes[a.rarete]) >
+                  Object.keys(Raretes).indexOf(Raretes[b.rarete])
+                  ? -1
+                  : 1;
+              }
+              return a.nom.localeCompare(b.nom);
+            });
+            console.log(eq);
+            break;
+
+          default:
+            console.warn('Mauvais onglet');
+            // console.log(response);
+            break;
+        }
+        switch (this.tabGroup.selectedIndex) {
+          case 0:
+            this.tableAnneaux.loadData();
+            break;
+          case 1:
+            this.tableBrassards.loadData();
+            break;
+        }
+        console.log(this.equipements);
+      });
   }
 
-  telechargerJson() {
+  telechargerJson(): void {
     var sJson = JSON.stringify(this.equipements, null, 2);
     var element = document.createElement('a');
     element.setAttribute(

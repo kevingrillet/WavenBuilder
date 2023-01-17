@@ -27,7 +27,7 @@ export class TableCardEquipementComponent implements OnInit {
     }
   }
 
-  ngAfterViewInit() {
+  ngAfterViewInit(): void {
     this.dataSource.paginator = this.paginator;
   }
 

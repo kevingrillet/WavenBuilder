@@ -7,7 +7,7 @@ import { DialogCardEquipementComponent } from '../dialog-card-equipement/dialog-
 
 import { DialogEquipementComponent } from '../dialog-equipement/dialog-equipement.component';
 
-import { Equipement } from '../struct';
+import { Equipement, Raretes } from '../struct';
 
 @Component({
   selector: 'app-table-equipement',
@@ -35,7 +35,7 @@ export class TableEquipementComponent implements OnInit {
 
   constructor(private dialog: MatDialog) {}
 
-  applyFilter(event: Event) {
+  applyFilter(event: Event): void {
     const filterValue = (event.target as HTMLInputElement).value;
     this.dataSource.filter = filterValue.trim().toLowerCase();
 
@@ -44,12 +44,55 @@ export class TableEquipementComponent implements OnInit {
     }
   }
 
-  ngAfterViewInit() {
+  ngAfterViewInit(): void {
     this.dataSource.paginator = this.paginator;
     this.dataSource.sort = this.sort;
   }
 
   ngOnInit(): void {
+    this.loadData();
+    // console.log(this.dataSource);
+  }
+
+  openDialog(equipement: Equipement, mode: string): void {
+    this.dialog
+      .open(DialogEquipementComponent, {
+        width: '70%',
+        data: {
+          equipement: equipement,
+          mode: mode.slice(0, -1),
+        },
+      })
+      .afterClosed()
+      .subscribe((response) => {
+        if (!response) return;
+        // console.log(response);
+        this.equipements[this.equipements.indexOf(equipement)] = response;
+        this.equipements.sort(function (a: Equipement, b: Equipement) {
+          if (a.rarete !== b.rarete) {
+            return Object.keys(Raretes).indexOf(Raretes[a.rarete]) >
+              Object.keys(Raretes).indexOf(Raretes[b.rarete])
+              ? -1
+              : 1;
+          }
+          return a.nom.localeCompare(b.nom);
+        });
+        // console.log(this.equipements);
+        this.loadData();
+      });
+  }
+
+  openCard(equipement: Equipement, mode: string): void {
+    this.dialog.open(DialogCardEquipementComponent, {
+      width: '70%',
+      data: {
+        equipement: equipement,
+        mode: mode,
+      },
+    });
+  }
+
+  loadData(): void {
     this.dataSource = new MatTableDataSource<Equipement>(this.equipements);
     // https://stackoverflow.com/questions/49833315/angular-material-2-datasource-filter-with-nested-object
     this.dataSource.filterPredicate = (data: Equipement, filter: string) => {
@@ -63,23 +106,5 @@ export class TableEquipementComponent implements OnInit {
       return dataStr.indexOf(transformedFilter) !== -1;
     };
     this.dataLength = this.equipements.length;
-    // console.log(this.dataSource);
-  }
-
-  openDialog(equipement: Equipement) {
-    this.dialog.open(DialogEquipementComponent, {
-      width: '70%',
-      data: equipement,
-    });
-  }
-
-  openCard(equipement: Equipement, mode: string) {
-    this.dialog.open(DialogCardEquipementComponent, {
-      width: '70%',
-      data: {
-        equipement: equipement,
-        mode: mode,
-      },
-    });
   }
 }

@@ -1,4 +1,4 @@
-<h1 mat-dialog-title>Ajouter un anneau</h1>
+<h1 mat-dialog-title>Ajouter un {{mode}}</h1>
 <form class="full-width" [formGroup]="equipementForm" (ngSubmit)="save()">
   <div mat-dialog-content>
     <h2>Informations de base:</h2>
@@ -57,10 +57,10 @@
               <mat-icon>add</mat-icon>
             </button>
           </h3>
-          <ng-container formArrayName="caracs">
-            <ng-container *ngFor="let caracForm of getCaracs(i).controls; let j = index">
+          <ng-container formArrayName="caracteristiques">
+            <ng-container *ngFor="let caracForm of getCaracteristiques(i).controls; let j = index">
               <div [formGroupName]="j">
-                <div class="container container-carac">
+                <div class="container container-caracteristique">
                   <mat-form-field appearance="outline" class="full-width">
                     <mat-label>Taux</mat-label>
                     <input matInput type="number" formControlName="taux">
@@ -69,7 +69,7 @@
                     <mat-label>Effet</mat-label>
                     <input matInput formControlName="effet">
                   </mat-form-field>
-                  <button mat-icon-button color="warn" (click)="deleteCarac(i, j)">
+                  <button mat-icon-button color="warn" (click)="deleteCaracteristiques(i, j)">
                     <mat-icon>
                       delete_forever
                     </mat-icon>

@@ -16,8 +16,8 @@
       <th mat-header-cell *matHeaderCellDef> Caractéristiques </th>
       <td mat-cell *matCellDef="let patch">
         <mat-list>
-          <mat-list-item *ngFor="let carac of patch.caracteristiques">+{{carac.taux}}
-            {{carac.effet}}
+          <mat-list-item *ngFor="let caracteristique of patch.caracteristiques">+{{caracteristique.taux}}
+            {{caracteristique.effet}}
           </mat-list-item>
         </mat-list>
       </td>

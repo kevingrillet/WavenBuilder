@@ -29,8 +29,8 @@ export class AceEditorComponent implements AfterViewInit {
     aceEditor.session.setMode('ace/mode/json');
     aceEditor.setReadOnly(true);
     // aceEditor.setTheme('ace/theme/twilight');
-    aceEditor.on('change', () => {
-      console.log(aceEditor.getValue());
-    });
+    // aceEditor.on('change', () => {
+    //   console.log(aceEditor.getValue());
+    // });
   }
 }
