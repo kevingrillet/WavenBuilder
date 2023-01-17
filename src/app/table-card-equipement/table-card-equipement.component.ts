@@ -16,8 +16,6 @@ export class TableCardEquipementComponent implements OnInit {
 
   displayedColumns = ['Patch', 'Pouvoir', 'Caractéristiques', 'Dons'];
 
-  constructor() {}
-
   applyFilter(event: Event) {
     const filterValue = (event.target as HTMLInputElement).value;
     this.dataSource.filter = filterValue.trim().toLowerCase();

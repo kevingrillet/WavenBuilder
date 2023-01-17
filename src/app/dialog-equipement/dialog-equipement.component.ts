@@ -3,6 +3,7 @@ import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { FormArray, FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 
 import { Equipement, Iles, Patch, Raretes } from '../struct';
+import { DialogEquipementInput } from '../interfaces';
 
 @Component({
   selector: 'app-dialog-equipement',
@@ -17,7 +18,11 @@ export class DialogEquipementComponent implements OnInit {
   equipement: Equipement;
   mode: string;
 
-  constructor(private formBuilder: FormBuilder, private matDialogRef: MatDialogRef<DialogEquipementComponent>, @Inject(MAT_DIALOG_DATA) public data: any) {
+  constructor(
+    private formBuilder: FormBuilder,
+    private matDialogRef: MatDialogRef<DialogEquipementComponent>,
+    @Inject(MAT_DIALOG_DATA) public data: DialogEquipementInput
+  ) {
     this.equipement = this.data.equipement;
     this.mode = this.data.mode;
   }
@@ -69,7 +74,7 @@ export class DialogEquipementComponent implements OnInit {
       this.equipement.patchs.forEach((patch, index) => {
         if (index > (this.equipementForm.controls['patchs'] as FormArray).length - 1) this.addPatch();
 
-        var pachForm = (this.equipementForm.controls['patchs'] as FormArray).at(index) as FormGroup;
+        const pachForm = (this.equipementForm.controls['patchs'] as FormArray).at(index) as FormGroup;
 
         pachForm.controls['version'].setValue(patch.version);
         pachForm.controls['pouvoir'].setValue(patch.pouvoir);
@@ -78,7 +83,7 @@ export class DialogEquipementComponent implements OnInit {
         patch.caracteristiques?.forEach((caracteristique, indexCarac) => {
           if (indexCarac > (pachForm.controls['caracteristiques'] as FormArray).length - 1) this.addCarac(index);
 
-          let caracForm = (pachForm.controls['caracteristiques'] as FormArray).at(indexCarac) as FormGroup;
+          const caracForm = (pachForm.controls['caracteristiques'] as FormArray).at(indexCarac) as FormGroup;
 
           caracForm.controls['taux'].setValue(caracteristique.taux);
           caracForm.controls['effet'].setValue(caracteristique.effet);
@@ -87,7 +92,7 @@ export class DialogEquipementComponent implements OnInit {
         patch.dons?.forEach((don, indexDon) => {
           if (indexDon > (pachForm.controls['dons'] as FormArray).length - 1) this.addDon(index);
 
-          let donForm = (pachForm.controls['dons'] as FormArray).at(indexDon) as FormGroup;
+          const donForm = (pachForm.controls['dons'] as FormArray).at(indexDon) as FormGroup;
 
           donForm.controls['nom'].setValue(don.nom);
           donForm.controls['cout'].setValue(don.cout);
@@ -151,7 +156,7 @@ export class DialogEquipementComponent implements OnInit {
   }
 
   save(): void {
-    let eq = this.equipementForm.value;
+    const eq = this.equipementForm.value;
 
     // Trier patch par numéro décroissant.
     eq.patchs.sort(function (a: Patch, b: Patch) {

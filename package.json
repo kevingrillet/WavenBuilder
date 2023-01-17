@@ -5,8 +5,9 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build --output-path docs --base-href /WavenBuilder/",
+    "eslint": "npx eslint --ext .ts src/app/",
     "pretty": "prettier --write .",
-    "git": "npm run pretty && npm run build"
+    "git": "npx eslint --ext .ts src/app/ && npm run pretty && npm run build"
   },
   "private": true,
   "dependencies": {
@@ -30,7 +31,10 @@
     "@angular/cli": "~15.0.4",
     "@angular/compiler-cli": "^15.0.0",
     "@types/jasmine": "~4.3.0",
+    "@typescript-eslint/eslint-plugin": "^5.48.2",
+    "@typescript-eslint/parser": "^5.48.2",
     "angular-cli-ghpages": "^1.0.5",
+    "eslint": "^8.32.0",
     "jasmine-core": "~4.5.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.1.0",

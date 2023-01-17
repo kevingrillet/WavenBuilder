@@ -38,10 +38,11 @@ export class AppComponent {
       .afterClosed()
       .subscribe((response) => {
         if (!response) return;
+        let eq: Equipement[];
         switch (this.tabGroup.selectedIndex) {
           case 0:
           case 1:
-            let eq = this.tabGroup.selectedIndex === 0 ? this.equipements.anneaux : this.equipements.brassards;
+            eq = this.tabGroup.selectedIndex === 0 ? this.equipements.anneaux : this.equipements.brassards;
 
             eq.push(response);
             eq.sort((a: Equipement, b: Equipement) => {
@@ -73,11 +74,13 @@ export class AppComponent {
   }
 
   ouvrirJson() {
-    const inputNode: any = document.querySelector('#file');
+    const inputNode: HTMLInputElement = document.querySelector('#file') as HTMLInputElement;
+    if (!inputNode.files) return;
 
     if (typeof FileReader !== 'undefined') {
       const reader = new FileReader();
 
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
       reader.onload = (e: any) => {
         this.equipements = Object.assign(new Equipements(), JSON.parse(e.target.result).equipements);
 
@@ -94,8 +97,8 @@ export class AppComponent {
   }
 
   telechargerJson(): void {
-    var sJson = JSON.stringify({ equipements: this.equipements }, null, 2);
-    var element = document.createElement('a');
+    const sJson = JSON.stringify({ equipements: this.equipements }, null, 2);
+    const element = document.createElement('a');
     element.setAttribute('href', 'data:text/json;charset=UTF-8,' + encodeURIComponent(sJson));
     element.setAttribute('download', 'data.json');
     element.style.display = 'none';

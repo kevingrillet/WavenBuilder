@@ -19,7 +19,7 @@ export class TableEquipementComponent implements OnInit {
   @ViewChild(MatSort) sort!: MatSort;
   @Input() equipements!: Equipement[];
   @Input() mode!: string;
-  @Output('callParent') callParent: EventEmitter<any> = new EventEmitter();
+  @Output('callParent') callParent: EventEmitter<unknown> = new EventEmitter();
   baseHref!: string;
   dataLength!: number;
   dataSource!: MatTableDataSource<Equipement>;
@@ -41,7 +41,7 @@ export class TableEquipementComponent implements OnInit {
     this.dataSource = new MatTableDataSource<Equipement>(this.equipements);
     // https://stackoverflow.com/questions/49833315/angular-material-2-datasource-filter-with-nested-object
     this.dataSource.filterPredicate = (data: Equipement, filter: string) => {
-      const accumulator = (currentTerm: any, key: string) => {
+      const accumulator = (currentTerm: string, key: string) => {
         return key === 'patchs' ? currentTerm + JSON.stringify(data.patchs[0]) : currentTerm + data[key as keyof Equipement];
       };
       const dataStr = Object.keys(data).reduce(accumulator, '').toLowerCase();
