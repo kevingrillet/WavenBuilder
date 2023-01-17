@@ -32,7 +32,8 @@
         <mat-list>
           <mat-list-item *ngFor="let don of patch.dons">
             <span matListItemTitle
-              >{{ don.nom }} [{{ don.cout }} <img src="../../assets/img/monaies/rune_d_equipement.png" alt="Rune d'équipement" style="height: 0.9em" />]</span
+              >{{ don.nom }} [{{ don.cout }}
+              <img src="{{ baseHref }}/assets/img/monaies/rune_d_equipement.png" alt="Rune d'équipement" style="height: 0.9em" />]</span
             >
             <span matListItemLine>{{ don.effet }}</span>
           </mat-list-item>

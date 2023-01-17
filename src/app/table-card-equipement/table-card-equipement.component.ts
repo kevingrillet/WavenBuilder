@@ -1,4 +1,4 @@
-import { Component, Input, OnInit, ViewChild } from '@angular/core';
+import { Component, Input, isDevMode, OnInit, ViewChild } from '@angular/core';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatTableDataSource } from '@angular/material/table';
 import { Patch } from '../struct';
@@ -11,6 +11,7 @@ import { Patch } from '../struct';
 export class TableCardEquipementComponent implements OnInit {
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @Input() patchs!: Patch[];
+  baseHref!: string;
   dataLength!: number;
   dataSource!: MatTableDataSource<Patch>;
 
@@ -32,5 +33,6 @@ export class TableCardEquipementComponent implements OnInit {
   ngOnInit(): void {
     this.dataSource = new MatTableDataSource<Patch>(this.patchs);
     this.dataLength = this.patchs.length;
+    this.baseHref = isDevMode() ? '../..' : 'WavenBuilder';
   }
 }
