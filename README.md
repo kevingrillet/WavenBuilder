@@ -30,7 +30,7 @@ Si vous cherchez à faire une PR le fichier de données se trouve ici: `src/asse
 
 ## ToDo
 
-- [ ] v1
+- [x] v1
   - [x] Créer `data.json` v0.10
   - [x] Créer interface d'affichage: `npx ng serve`
   - [x] Ajouter le filtre

@@ -14,7 +14,7 @@
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "allowedCommonJsDependencies": ["ace-builds"],
-            "outputPath": "docs",
+            "outputPath": "dist/waven-builder",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -94,6 +94,9 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
