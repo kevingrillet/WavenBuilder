@@ -1,28 +1,29 @@
-<h1 mat-dialog-title>Ajouter un {{mode}}</h1>
+<h1 mat-dialog-title>Ajouter un {{ mode }}</h1>
 <form class="full-width" [formGroup]="equipementForm" (ngSubmit)="save()">
   <div mat-dialog-content>
+    <p><i>Attention, les modifications sont locales, merci d'enregistrer vos modifications dans la partie Json.</i></p>
     <h2>Informations de base:</h2>
 
     <div class="container container-base">
       <mat-form-field appearance="outline" class="full-width">
         <mat-label>Nom</mat-label>
-        <input matInput formControlName="nom">
+        <input matInput formControlName="nom" />
       </mat-form-field>
       <mat-form-field appearance="outline" class="full-width">
         <mat-label>Image</mat-label>
-        <input matInput formControlName="image">
+        <input matInput formControlName="image" />
       </mat-form-field>
       <mat-form-field appearance="outline" class="full-width">
         <mat-label>Rareté</mat-label>
         <mat-select formControlName="rarete">
-          <mat-option *ngFor="let rarete of raretes" [value]="rarete">{{rarete}}</mat-option>
+          <mat-option *ngFor="let rarete of raretes" [value]="rarete">{{ rarete }}</mat-option>
         </mat-select>
       </mat-form-field>
     </div>
 
     <h2>Zone de farm</h2>
     <ng-container formGroupName="iles">
-      <mat-checkbox *ngFor="let ile of iles" [formControlName]="ile">{{ile}}</mat-checkbox>
+      <mat-checkbox *ngFor="let ile of iles" [formControlName]="ile">{{ ile }}</mat-checkbox>
     </ng-container>
 
     <h2>
@@ -39,15 +40,15 @@
           <div class="container container-patch">
             <mat-form-field appearance="outline" class="full-width">
               <mat-label>Version</mat-label>
-              <input matInput required formControlName="version">
+              <input matInput required formControlName="version" />
             </mat-form-field>
             <mat-form-field appearance="outline" class="full-width">
               <mat-label>Pouvoir</mat-label>
-              <input matInput required formControlName="pouvoir">
+              <input matInput required formControlName="pouvoir" />
             </mat-form-field>
             <mat-form-field appearance="outline" class="full-width">
               <mat-label>Sort</mat-label>
-              <input matInput formControlName="sort">
+              <input matInput formControlName="sort" />
             </mat-form-field>
           </div>
 
@@ -63,16 +64,14 @@
                 <div class="container container-caracteristique">
                   <mat-form-field appearance="outline" class="full-width">
                     <mat-label>Taux</mat-label>
-                    <input matInput type="number" formControlName="taux">
+                    <input matInput type="number" formControlName="taux" />
                   </mat-form-field>
                   <mat-form-field appearance="outline" class="full-width">
                     <mat-label>Effet</mat-label>
-                    <input matInput formControlName="effet">
+                    <input matInput formControlName="effet" />
                   </mat-form-field>
                   <button mat-icon-button color="warn" (click)="deleteCaracteristiques(i, j)">
-                    <mat-icon>
-                      delete_forever
-                    </mat-icon>
+                    <mat-icon> delete_forever </mat-icon>
                   </button>
                 </div>
               </div>
@@ -91,27 +90,24 @@
                 <div class="container container-don">
                   <mat-form-field appearance="outline" class="full-width">
                     <mat-label>Nom</mat-label>
-                    <input matInput formControlName="nom">
+                    <input matInput formControlName="nom" />
                   </mat-form-field>
                   <mat-form-field appearance="outline" class="full-width">
                     <mat-label>Cout</mat-label>
-                    <input matInput type="number" formControlName="cout">
+                    <input matInput type="number" formControlName="cout" />
                   </mat-form-field>
                   <mat-form-field appearance="outline" class="full-width">
                     <mat-label>Effet</mat-label>
-                    <input matInput formControlName="effet">
+                    <input matInput formControlName="effet" />
                   </mat-form-field>
                   <mat-form-field appearance="outline" class="full-width">
                     <mat-label>Sort</mat-label>
-                    <input matInput formControlName="sort">
+                    <input matInput formControlName="sort" />
                   </mat-form-field>
                   <button mat-icon-button color="warn" (click)="deleteDon(i, j)">
-                    <mat-icon>
-                      delete_forever
-                    </mat-icon>
+                    <mat-icon> delete_forever </mat-icon>
                   </button>
                 </div>
-
               </div>
             </ng-container>
           </ng-container>

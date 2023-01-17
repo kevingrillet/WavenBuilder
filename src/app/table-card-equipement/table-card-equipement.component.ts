@@ -34,6 +34,5 @@ export class TableCardEquipementComponent implements OnInit {
   ngOnInit(): void {
     this.dataSource = new MatTableDataSource<Patch>(this.patchs);
     this.dataLength = this.patchs.length;
-    // console.log(this.dataSource);
   }
 }

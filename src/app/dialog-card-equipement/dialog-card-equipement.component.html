@@ -1,17 +1,19 @@
 <mat-card>
   <mat-card-header>
     <mat-card-title-group>
-      <mat-card-title>{{equipement.nom}}</mat-card-title>
+      <mat-card-title>{{ equipement.nom }}</mat-card-title>
       <mat-card-subtitle>
-        <button mat-button color="{{equipement.rarete}}">{{equipement.rarete}}</button>
+        <button mat-button color="{{ equipement.rarete }}">
+          {{ equipement.rarete }}
+        </button>
       </mat-card-subtitle>
-      <img mat-card-m-image src="../../assets/img/{{mode}}/{{equipement.image}}.jpg">
+      <img mat-card-m-image src="../../assets/img/{{ mode }}/{{ equipement.image }}.jpg" />
     </mat-card-title-group>
   </mat-card-header>
   <mat-card-content>
     <h3>Iles</h3>
     <mat-list>
-      <mat-list-item *ngFor="let ile of equipement.iles">{{ile}}</mat-list-item>
+      <mat-list-item *ngFor="let ile of equipement.iles">{{ ile }}</mat-list-item>
     </mat-list>
     <h3>Patchs</h3>
     <app-table-card-equipement [patchs]="equipement.patchs"></app-table-card-equipement>

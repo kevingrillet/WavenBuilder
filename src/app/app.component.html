@@ -1,13 +1,13 @@
 <mat-toolbar color="primary">
   <span>WavenBuilder</span>
   <a href="https://forum.waven-game.com/fr/23-devblogs-fr" target="_blank">
-    <button mat-flat-button style="margin-left: 2em;">
+    <button mat-flat-button style="margin-left: 2em">
       <mat-icon>feed</mat-icon>
       Waven Devblog
     </button>
   </a>
   <a href="https://forum.waven-game.com/fr/3-carnet-bord" target="_blank">
-    <button mat-flat-button style="margin-left: 2em;">
+    <button mat-flat-button style="margin-left: 2em">
       <mat-icon>feed</mat-icon>
       Carnet de bord
     </button>
@@ -22,20 +22,29 @@
 
 <mat-tab-group #tabGroup>
   <mat-tab label="Anneaux">
-    <app-table-equipement #tableAnneaux [equipements]="equipements.anneaux" mode="anneaux"></app-table-equipement>
+    <app-table-equipement #tableAnneaux (callParent)="refreshAceEditor()" [equipements]="equipements.anneaux" mode="anneaux"></app-table-equipement>
   </mat-tab>
   <mat-tab label="Brassards">
-    <app-table-equipement #tableBrassards [equipements]="equipements.brassards" mode="brassards"></app-table-equipement>
+    <app-table-equipement #tableBrassards (callParent)="refreshAceEditor()" [equipements]="equipements.brassards" mode="brassards"></app-table-equipement>
   </mat-tab>
   <mat-tab label="Json">
     <div class="container">
-      <!-- <pre>{{equipements | json}}</pre> -->
-      <app-ace-editor [text]="equipements"></app-ace-editor>
-
+      <h1>Contribuer au projet</h1>
+      <p>
+        Si vous voulez contribuer au développement, merci d'ajouter / mettre à jour les différents objets puis télécharger votre <code>data.json</code> avant de
+        faire une PR sur <a href="https://github.com/kevingrillet/WavenBuilder">Github</a>.
+      </p>
+      <button mat-flat-button color="primary" (click)="fileInput.click()" style="margin-right: 8px">
+        <mat-icon>file_open</mat-icon>
+        Charger
+      </button>
+      <input hidden (change)="ouvrirJson()" #fileInput type="file" id="file" />
       <button mat-flat-button color="warn" (click)="telechargerJson()">
         <mat-icon>save</mat-icon>
         Télécharger
       </button>
+      <br /><br />
+      <app-ace-editor #aceEditor [text]="equipements"></app-ace-editor>
     </div>
   </mat-tab>
 </mat-tab-group>

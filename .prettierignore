@@ -1,0 +1,11 @@
+# Ignore artifacts:
+.angular
+.github
+.img_source
+.vscode
+docs
+node_modules
+src/assets
+*.js
+*.json
+*.md

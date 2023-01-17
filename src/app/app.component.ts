@@ -18,25 +18,12 @@ export class AppComponent {
   @ViewChild('tabGroup') tabGroup!: MatTabGroup;
   @ViewChild('tableAnneaux') tableAnneaux!: TableEquipementComponent;
   @ViewChild('tableBrassards') tableBrassards!: TableEquipementComponent;
+  @ViewChild('aceEditor') aceEditor!: AceEditorComponent;
   title = 'WavenBuilder';
 
-  displayedColumns = [
-    'Nom',
-    'Rarete',
-    'Iles',
-    'Version',
-    'Pouvoir',
-    'Caractéristiques',
-    'Dons',
-    'Action',
-  ];
+  displayedColumns = ['Nom', 'Rarete', 'Iles', 'Version', 'Pouvoir', 'Caractéristiques', 'Dons', 'Action'];
 
-  equipements: Equipements = Object.assign(
-    new Equipements(),
-    data.default.equipements
-  );
-
-  // _ = console.log(this.equipements);
+  equipements: Equipements = Object.assign(new Equipements(), data.default.equipements);
 
   constructor(private dialog: MatDialog) {}
 
@@ -54,27 +41,19 @@ export class AppComponent {
         switch (this.tabGroup.selectedIndex) {
           case 0:
           case 1:
-            let eq =
-              this.tabGroup.selectedIndex === 0
-                ? this.equipements.anneaux
-                : this.equipements.brassards;
+            let eq = this.tabGroup.selectedIndex === 0 ? this.equipements.anneaux : this.equipements.brassards;
 
             eq.push(response);
-            eq.sort(function (a: Equipement, b: Equipement) {
+            eq.sort((a: Equipement, b: Equipement) => {
               if (a.rarete !== b.rarete) {
-                return Object.keys(Raretes).indexOf(Raretes[a.rarete]) >
-                  Object.keys(Raretes).indexOf(Raretes[b.rarete])
-                  ? -1
-                  : 1;
+                return Raretes[a.rarete] > Raretes[b.rarete] ? 1 : -1;
               }
               return a.nom.localeCompare(b.nom);
             });
-            console.log(eq);
             break;
 
           default:
             console.warn('Mauvais onglet');
-            // console.log(response);
             break;
         }
         switch (this.tabGroup.selectedIndex) {
@@ -85,17 +64,39 @@ export class AppComponent {
             this.tableBrassards.loadData();
             break;
         }
-        console.log(this.equipements);
+        this.refreshAceEditor();
       });
   }
 
+  refreshAceEditor(): void {
+    this.aceEditor.loadData();
+  }
+
+  ouvrirJson() {
+    const inputNode: any = document.querySelector('#file');
+
+    if (typeof FileReader !== 'undefined') {
+      const reader = new FileReader();
+
+      reader.onload = (e: any) => {
+        this.equipements = Object.assign(new Equipements(), JSON.parse(e.target.result).equipements);
+
+        // Je sais pas pourquoi, mais il faut un petit délai -_-
+        setTimeout(() => {
+          this.tableAnneaux.loadData();
+          this.tableBrassards.loadData();
+          this.refreshAceEditor();
+        }, 10);
+      };
+
+      reader.readAsText(inputNode.files[0]);
+    }
+  }
+
   telechargerJson(): void {
-    var sJson = JSON.stringify(this.equipements, null, 2);
+    var sJson = JSON.stringify({ equipements: this.equipements }, null, 2);
     var element = document.createElement('a');
-    element.setAttribute(
-      'href',
-      'data:text/json;charset=UTF-8,' + encodeURIComponent(sJson)
-    );
+    element.setAttribute('href', 'data:text/json;charset=UTF-8,' + encodeURIComponent(sJson));
     element.setAttribute('download', 'data.json');
     element.style.display = 'none';
     document.body.appendChild(element);
