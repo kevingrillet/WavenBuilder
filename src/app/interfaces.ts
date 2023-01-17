@@ -11,4 +11,5 @@ export interface FileReaderEventTarget extends EventTarget {
 
 export interface FileReaderEvent extends ProgressEvent {
   target: FileReaderEventTarget;
+  getMessage(): string;
 }

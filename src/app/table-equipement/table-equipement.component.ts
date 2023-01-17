@@ -58,7 +58,7 @@ export class TableEquipementComponent implements OnInit {
 
   ngOnInit(): void {
     this.loadData();
-    this.baseHref = isDevMode() ? '../..' : 'WavenBuilder/';
+    this.baseHref = isDevMode() ? '../..' : '';
   }
 
   openCard(equipement: Equipement, mode: string): void {

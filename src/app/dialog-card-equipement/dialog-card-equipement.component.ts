@@ -18,6 +18,6 @@ export class DialogCardEquipementComponent implements OnInit {
     this.mode = this.data.mode;
   }
   ngOnInit(): void {
-    this.baseHref = isDevMode() ? '../..' : 'WavenBuilder';
+    this.baseHref = isDevMode() ? '../..' : '';
   }
 }
