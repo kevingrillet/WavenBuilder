@@ -1,4 +1,4 @@
-import { Component, EventEmitter, Input, OnInit, Output, ViewChild } from '@angular/core';
+import { Component, EventEmitter, Input, isDevMode, OnInit, Output, ViewChild } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
@@ -20,6 +20,7 @@ export class TableEquipementComponent implements OnInit {
   @Input() equipements!: Equipement[];
   @Input() mode!: string;
   @Output('callParent') callParent: EventEmitter<any> = new EventEmitter();
+  baseHref!: string;
   dataLength!: number;
   dataSource!: MatTableDataSource<Equipement>;
 
@@ -57,6 +58,7 @@ export class TableEquipementComponent implements OnInit {
 
   ngOnInit(): void {
     this.loadData();
+    this.baseHref = isDevMode() ? '../..' : 'WavenBuilder/';
   }
 
   openCard(equipement: Equipement, mode: string): void {

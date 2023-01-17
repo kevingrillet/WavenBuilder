@@ -38,7 +38,7 @@ Si vous cherchez à faire une PR le fichier de données se trouve ici: `src/asse
   - [x] Enregistrer / Charger
   - [x] Ajouter [Prettier](<https://prettier.io/>): `npm run pretty`
   - [x] Rendre public sur GitHub
-  - [x] Faire la GitHub Page: `npx ng build`
+  - [x] Faire la GitHub Page: `npm run git`
 - [ ] v1.5
   - [ ] Ajouter l'[autocomplete](<https://material.angular.io/components/autocomplete/overview>) pour saisir bien plus vite
   - [ ] Ajouter [v0.08](<https://forum.waven-game.com/fr/4-discussions-generales/1413-encyclopedie-objets-8>)

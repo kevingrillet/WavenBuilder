@@ -1,4 +1,4 @@
-import { Component, Inject } from '@angular/core';
+import { Component, Inject, isDevMode, OnInit } from '@angular/core';
 import { MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { Equipement } from '../struct';
 
@@ -7,12 +7,16 @@ import { Equipement } from '../struct';
   templateUrl: './dialog-card-equipement.component.html',
   styleUrls: ['./dialog-card-equipement.component.css'],
 })
-export class DialogCardEquipementComponent {
+export class DialogCardEquipementComponent implements OnInit {
+  baseHref!: string;
   equipement: Equipement;
   mode: string;
 
   constructor(@Inject(MAT_DIALOG_DATA) public data: any) {
     this.equipement = this.data.equipement;
     this.mode = this.data.mode;
+  }
+  ngOnInit(): void {
+    this.baseHref = isDevMode() ? '../..' : 'WavenBuilder';
   }
 }
