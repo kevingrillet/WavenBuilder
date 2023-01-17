@@ -7,6 +7,7 @@ import { TableEquipementComponent } from './table-equipement/table-equipement.co
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BrowserModule } from '@angular/platform-browser';
 
+import { MatAutocompleteModule } from '@angular/material/autocomplete';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 import { MatCheckboxModule } from '@angular/material/checkbox';
@@ -40,6 +41,7 @@ import { AceEditorComponent } from './ace-editor/ace-editor.component';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    MatAutocompleteModule,
     MatButtonModule,
     MatCardModule,
     MatCheckboxModule,

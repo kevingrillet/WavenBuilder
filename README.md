@@ -39,20 +39,29 @@ Si vous cherchez à faire une PR le fichier de données se trouve ici: `src/asse
   - [x] Ajouter [Prettier](<https://prettier.io/>): `npm run pretty`
   - [x] Rendre public sur GitHub
   - [x] Faire la GitHub Page: `npm run git`
-- [ ] v1.5
-  - [ ] Ajouter l'[autocomplete](<https://material.angular.io/components/autocomplete/overview>) pour saisir bien plus vite
+- [x] v1.1
+  - [x] Ajouter l'[autocomplete](<https://material.angular.io/components/autocomplete/overview>) pour saisir bien plus vite
+- [ ] v1.2
   - [ ] Ajouter [v0.08](<https://forum.waven-game.com/fr/4-discussions-generales/1413-encyclopedie-objets-8>)
 - [ ] v2
   - [ ] Ajouter les compagnons
-- [ ] v2.5
+- [ ] v2.1
   - [ ] Ajouter les spells spéciaux (liés aux items/compagnons)
-- [ ] v3
+- [ ] v2.2
   - [ ] Ajouter les classes / armes
+- [ ] v3
   - [ ] Ajouter les spells
 - [ ] v4
   - [ ] Faire un builder avec système de sauvegarde (via l'url)
 
-## Builds
+## Liens utiles
+
+- <https://wavenbuilds.com/>
+- <https://waven.jeuxonline.info/deck-builder>
+
+- Inspiration pour le builder <http://slummp.ddns.net/wakfubuilder/>
+
+## Ressources YouTube
 
 - <https://www.youtube.com/@BlackWhiteWakfu>
 - <https://www.youtube.com/@lukasobiwan>

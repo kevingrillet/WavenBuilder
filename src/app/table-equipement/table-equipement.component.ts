@@ -71,12 +71,13 @@ export class TableEquipementComponent implements OnInit {
     });
   }
 
-  openDialog(equipement: Equipement, mode: string): void {
+  openDialog(equipement: Equipement, equipements: Equipement[], mode: string): void {
     this.dialog
       .open(DialogEquipementComponent, {
         width: '70%',
         data: {
           equipement: equipement,
+          equipements: equipements,
           mode: mode.slice(0, -1),
         },
       })

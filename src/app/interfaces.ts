@@ -2,6 +2,7 @@ import { Equipement } from './struct';
 
 export interface DialogEquipementInput {
   equipement: Equipement;
+  equipements: Equipement[];
   mode: string;
 }
 

@@ -32,6 +32,7 @@ export class AppComponent {
       .open(DialogEquipementComponent, {
         width: '70%',
         data: {
+          equipements: this.tabGroup.selectedIndex === 0 ? this.equipements.anneaux : this.equipements.brassards,
           mode: this.tabGroup.selectedIndex === 0 ? 'anneau' : 'brassard',
         },
       })
