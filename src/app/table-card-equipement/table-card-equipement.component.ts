@@ -33,6 +33,6 @@ export class TableCardEquipementComponent implements OnInit {
   ngOnInit(): void {
     this.dataSource = new MatTableDataSource<Patch>(this.patchs);
     this.dataLength = this.patchs.length;
-    this.baseHref = isDevMode() ? '../..' : './WavenBuilder';
+    this.baseHref = isDevMode() ? '../..' : '.';
   }
 }
