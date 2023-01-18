@@ -45,6 +45,8 @@ export class Patch {
   version!: string;
   pouvoir?: string;
   sort?: string;
+  nom?: string;
+  rarete?: Raretes;
   caracteristiques?: Caracteristique[];
   dons?: Don[];
 }

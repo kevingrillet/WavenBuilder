@@ -10,7 +10,11 @@
   grid-template-columns: 50% 25% 25%;
 }
 
-.container-patch {
+.container-patch-base {
+  grid-template-columns: 60% 40%;
+}
+
+.container-patch-version {
   grid-template-columns: 10% 45% 45%;
 }
 

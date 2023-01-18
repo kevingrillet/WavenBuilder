@@ -1,7 +1,9 @@
 <h1 mat-dialog-title>Ajouter un {{ mode }}</h1>
 <form class="full-width" [formGroup]="equipementForm" (ngSubmit)="save()">
   <div mat-dialog-content>
-    <p><i>Attention, les modifications sont locales, merci d'enregistrer vos modifications dans la partie Json.</i></p>
+    <p>
+      <span style="color: red"><i>Attention, les modifications sont locales, merci d'enregistrer vos modifications dans la partie Json.</i></span>
+    </p>
     <h2>Informations de base:</h2>
 
     <div class="container container-base">
@@ -37,7 +39,19 @@
       <ng-container *ngFor="let patchForm of patchs.controls; let i = index">
         <div [formGroupName]="i">
           <h3>Patch</h3>
-          <div class="container container-patch">
+          <div class="container container-patch-base">
+            <mat-form-field appearance="outline" class="full-width">
+              <mat-label>Nom</mat-label>
+              <input matInput formControlName="nom" />
+            </mat-form-field>
+            <mat-form-field appearance="outline" class="full-width">
+              <mat-label>Rareté</mat-label>
+              <mat-select formControlName="rarete">
+                <mat-option *ngFor="let rarete of raretes" [value]="rarete">{{ rarete }}</mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+          <div class="container container-patch-version">
             <mat-form-field appearance="outline" class="full-width">
               <mat-label>Version</mat-label>
               <input matInput required formControlName="version" />

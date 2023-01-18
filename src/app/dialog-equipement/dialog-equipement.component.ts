@@ -15,6 +15,8 @@ export class DialogEquipementComponent implements OnInit {
   iles = Object.values(Iles).filter((value) => typeof value !== 'number');
   raretes = Object.values(Raretes).filter((value) => typeof value !== 'number');
 
+  autoCompleteAllPatch = false;
+
   oacCaracEffets!: Observable<string[]>[][];
   oacDonEffets!: Observable<string[]>[][];
   oacDonNoms!: Observable<string[]>[][];
@@ -45,6 +47,8 @@ export class DialogEquipementComponent implements OnInit {
       iles: this.formBuilder.group({}),
       patchs: this.formBuilder.array([
         this.formBuilder.group({
+          nom: [''],
+          rarete: [''],
           version: ['', Validators.required],
           pouvoir: ['', Validators.required],
           sort: [''],
@@ -76,15 +80,25 @@ export class DialogEquipementComponent implements OnInit {
     const acDE = new Set<string>();
     if (this.equipements) {
       this.equipements.forEach((eq) => {
-        eq.patchs.forEach((pat) => {
-          pat.caracteristiques?.forEach((carac) => {
+        if (this.autoCompleteAllPatch === true) {
+          eq.patchs.forEach((pat) => {
+            pat.caracteristiques?.forEach((carac) => {
+              if (carac.effet) acCE.add(carac.effet);
+            });
+            pat.dons?.forEach((dn) => {
+              if (dn.nom) acDN.add(dn.nom);
+              if (dn.effet) acDE.add(dn.effet);
+            });
+          });
+        } else {
+          eq.patchs[0].caracteristiques?.forEach((carac) => {
             if (carac.effet) acCE.add(carac.effet);
           });
-          pat.dons?.forEach((dn) => {
+          eq.patchs[0].dons?.forEach((dn) => {
             if (dn.nom) acDN.add(dn.nom);
             if (dn.effet) acDE.add(dn.effet);
           });
-        });
+        }
       });
     }
     this.acCaracEffets = [...acCE].sort();
@@ -97,7 +111,7 @@ export class DialogEquipementComponent implements OnInit {
         'effet'
       ].valueChanges.pipe(
         startWith(''),
-        map((value) => this._filterCaracEffets(value || ''))
+        map((value) => this._filter(value || '', this.acCaracEffets))
       )
     );
 
@@ -107,7 +121,7 @@ export class DialogEquipementComponent implements OnInit {
         'effet'
       ].valueChanges.pipe(
         startWith(''),
-        map((value) => this._filterDonEffets(value || ''))
+        map((value) => this._filter(value || '', this.acDonEffets))
       )
     );
 
@@ -117,7 +131,7 @@ export class DialogEquipementComponent implements OnInit {
         'nom'
       ].valueChanges.pipe(
         startWith(''),
-        map((value) => this._filterDonNoms(value || ''))
+        map((value) => this._filter(value || '', this.acDonNoms))
       )
     );
 
@@ -136,6 +150,8 @@ export class DialogEquipementComponent implements OnInit {
 
         const pachForm = (this.equipementForm.controls['patchs'] as FormArray).at(index) as FormGroup;
 
+        pachForm.controls['nom'].setValue(patch.nom);
+        pachForm.controls['rarete'].setValue(patch.rarete);
         pachForm.controls['version'].setValue(patch.version);
         pachForm.controls['pouvoir'].setValue(patch.pouvoir);
         pachForm.controls['sort'].setValue(patch.sort);
@@ -172,7 +188,7 @@ export class DialogEquipementComponent implements OnInit {
     this.oacCaracEffets[patchindex].push(
       caracForm.controls['effet'].valueChanges.pipe(
         startWith(''),
-        map((value) => this._filterCaracEffets(value || ''))
+        map((value) => this._filter(value || '', this.acCaracEffets))
       )
     );
 
@@ -189,12 +205,12 @@ export class DialogEquipementComponent implements OnInit {
 
     this.oacDonEffets[patchindex][this.getDons(patchindex).length] = donForm.controls['effet'].valueChanges.pipe(
       startWith(''),
-      map((value) => this._filterDonEffets(value || ''))
+      map((value) => this._filter(value || '', this.acDonEffets))
     );
 
     this.oacDonNoms[patchindex][this.getDons(patchindex).length] = donForm.controls['nom'].valueChanges.pipe(
       startWith(''),
-      map((value) => this._filterDonNoms(value || ''))
+      map((value) => this._filter(value || '', this.acDonNoms))
     );
 
     this.getDons(patchindex).push(donForm);
@@ -204,6 +220,8 @@ export class DialogEquipementComponent implements OnInit {
     const patchForm = this.formBuilder.group({
       version: ['', Validators.required],
       pouvoir: ['', Validators.required],
+      nom: [''],
+      rarete: [''],
       sort: [''],
       caracteristiques: this.formBuilder.array([]),
       dons: this.formBuilder.array([]),
@@ -256,21 +274,7 @@ export class DialogEquipementComponent implements OnInit {
     this.matDialogRef.close(eq);
   }
 
-  private _filterCaracEffets(value: string): string[] {
-    const filterValue = value.toLowerCase();
-
-    return this.acCaracEffets.filter((option) => option.toLowerCase().includes(filterValue));
-  }
-
-  private _filterDonEffets(value: string): string[] {
-    const filterValue = value.toLowerCase();
-
-    return this.acDonEffets.filter((option) => option.toLowerCase().includes(filterValue));
-  }
-
-  private _filterDonNoms(value: string): string[] {
-    const filterValue = value.toLowerCase();
-
-    return this.acDonNoms.filter((option) => option.toLowerCase().includes(filterValue));
+  private _filter(value: string, ac: string[]): string[] {
+    return ac.filter((option) => option.toLowerCase().includes(value.toLowerCase()));
   }
 }

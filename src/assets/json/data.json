@@ -30,6 +30,21 @@
                 "effet": "+5% de CC MAGIQUES."
               }
             ]
+          },
+          {
+            "version": "0.08",
+            "pouvoir": "Ajoute 1 à votre jauge EAU quand un de vos compagnons meurt.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de VITALITÉ à votre héros."
+              },
+              {
+                "taux": 2,
+                "effet": "% de MAGIE EAU."
+              }
+            ],
+            "dons": []
           }
         ]
       },
@@ -44,7 +59,7 @@
         "patchs": [
           {
             "version": "0.10",
-            "pouvoir": "Tant que vous avez au moins un compagnon en jeu: +25% d'AT à votre héros",
+            "pouvoir": "Tant que vous avez au moins un compagnon en jeu: +25% d'AT à votre héros.",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -71,6 +86,25 @@
                 "effet": "+5% aux GAINS DE KAMAS."
               }
             ]
+          },
+          {
+            "version": "0.08",
+            "pouvoir": "GRIMOIRE(12): Confère 25% de PUISSANCE à votre héros.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de VITALITÉ à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% de PUISSANCE à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos AURAS."
+              }
+            ],
+            "dons": []
           }
         ]
       },
@@ -103,6 +137,21 @@
                 "effet": "+5% de CC MAGIQUES."
               }
             ]
+          },
+          {
+            "version": "0.08",
+            "pouvoir": "Ajoute 1 à votre jauge AIR quand un de vos compagnons meurt.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de VITALITÉ à votre héros."
+              },
+              {
+                "taux": 2,
+                "effet": "% de MAGIE AIR."
+              }
+            ],
+            "dons": []
           }
         ]
       },
@@ -140,6 +189,25 @@
                 "effet": "+5% aux GAINS DE KAMAS."
               }
             ]
+          },
+          {
+            "version": "0.08",
+            "pouvoir": "PREMIER TOUR: Applique BOUEUX sur 2 adversaires aléatoires.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de VITALITÉ à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE TERRE."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos TOURBES."
+              }
+            ],
+            "dons": []
           }
         ]
       },
@@ -172,6 +240,21 @@
                 "effet": "+5% de CC MAGIQUES."
               }
             ]
+          },
+          {
+            "version": "0.08",
+            "pouvoir": "Ajoute 1 à votre jauge TERRE quand un de vos compagnons meurt.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de VITALITÉ à votre héros."
+              },
+              {
+                "taux": 2,
+                "effet": "% de MAGIE TERRE."
+              }
+            ],
+            "dons": []
           }
         ]
       },
@@ -185,6 +268,7 @@
         "patchs": [
           {
             "version": "0.10",
+            "nom": "Anneau Devy",
             "pouvoir": "PREMIER TOUR: +1PA en réserve.",
             "caracteristiques": [
               {
@@ -208,6 +292,22 @@
                 "effet": "+5% aux GAINS DE KAMAS."
               }
             ]
+          },
+          {
+            "version": "0.08",
+            "pouvoir": "PREMIER TOUR: +1PA en réserve.",
+            "nom": "Anneau De Vie",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de VITALITÉ à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% de VITALITÉ à vos compagnons."
+              }
+            ],
+            "dons": []
           }
         ]
       },
@@ -221,7 +321,7 @@
         "patchs": [
           {
             "version": "0.10",
-            "pouvoir": "Grimoire(15): +25% d'AT à votre héros.",
+            "pouvoir": "GRIMOIRE(15): +25% d'AT à votre héros.",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -236,7 +336,7 @@
               {
                 "nom": "Effet amélioré",
                 "cout": 80,
-                "effet": "Grimoire(15): +10% d'AT supplémentaire à votre héros."
+                "effet": "GRIMOIRE(15): +10% d'AT supplémentaire à votre héros."
               },
               {
                 "nom": "Sagesse",
@@ -244,6 +344,25 @@
                 "effet": "+5% d'XP à votre héros."
               }
             ]
+          },
+          {
+            "version": "0.08",
+            "pouvoir": "GRIMOIRE(15): Confère 50% de PUISSANCE à votre héros.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de VITALITÉ à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% de PUISSANCE à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos AURAS."
+              }
+            ],
+            "dons": []
           }
         ]
       },
@@ -281,6 +400,25 @@
                 "effet": "+5% d'XP à votre héros."
               }
             ]
+          },
+          {
+            "version": "0.08",
+            "pouvoir": "Confère BOUCLIER à votre héros quand vous invoquez un compagnon.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de VITALITÉ à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos DÉFENSES."
+              },
+              {
+                "taux": 1,
+                "effet": "% de VITALITÉ à vos compagnons."
+              }
+            ],
+            "dons": []
           }
         ]
       },
@@ -318,6 +456,29 @@
                 "effet": "+5% d'XP à votre héros."
               }
             ]
+          },
+          {
+            "version": "0.08",
+            "pouvoir": "GRIMOIRE(15): Confère 1 PM à votre héros.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de PUISSANCE à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos AURAS."
+              },
+              {
+                "taux": 1,
+                "effet": "% de VITALITÉ à vos compagnons."
+              },
+              {
+                "taux": 1,
+                "effet": "% de PUISSANCE à vos compagnons."
+              }
+            ],
+            "dons": []
           }
         ]
       },
@@ -355,6 +516,25 @@
                 "effet": "+5% aux GAINS DE KAMAS."
               }
             ]
+          },
+          {
+            "version": "0.08",
+            "pouvoir": "PREMIER TOUR: Applique ÉVENTÉ sur 2 adversaires aléatoires.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de VITALITÉ à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE AIR."
+              },
+              {
+                "taux": 1,
+                "effet": "% à tous vos REBONDS."
+              }
+            ],
+            "dons": []
           }
         ]
       },
@@ -504,6 +684,29 @@
                 "effet": "+5% aux GAINS DE KAMAS."
               }
             ]
+          },
+          {
+            "version": "0.08",
+            "pouvoir": "Votre premier compagnon mort peut être rejoué.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de PUISSANCE à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos AURAS."
+              },
+              {
+                "taux": 1,
+                "effet": "% de VITALITÉ à vos compagnons."
+              },
+              {
+                "taux": 1,
+                "effet": "% de PUISSANCE à vos compagnons."
+              }
+            ],
+            "dons": []
           }
         ]
       },
@@ -581,6 +784,29 @@
                 "effet": "+5% aux GAINS DE KAMAS."
               }
             ]
+          },
+          {
+            "version": "0.08",
+            "pouvoir": "Quand un de vos compagnons meurt: Confère son AT en AR à votre héros.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de VITALITÉ à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% de PUISSANCE à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos AURAS."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos DÉFENSES."
+              }
+            ],
+            "dons": []
           }
         ]
       },
@@ -621,6 +847,25 @@
                 "effet": "+10% d'AT à vos compagnons."
               }
             ]
+          },
+          {
+            "version": "0.08",
+            "pouvoir": "PREMIER TOUR: Piochez 2 sorts.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de VITALITÉ à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% de VITALITÉ à vos compagnons."
+              },
+              {
+                "taux": 1,
+                "effet": "% de PUISSANCE à vos compagnons."
+              }
+            ],
+            "dons": []
           }
         ]
       },
@@ -658,6 +903,33 @@
                 "effet": "+5% aux GAINS DE KAMAS."
               }
             ]
+          },
+          {
+            "version": "0.08",
+            "pouvoir": "GRIMOIRE(15): PREMIER TOUR: Réduit de 1PA le coût des sorts de votre main.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de VITALITÉ à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE FEU."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE EAU."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE TERRE."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE AIR."
+              }
+            ],
+            "dons": []
           }
         ]
       },
@@ -680,7 +952,7 @@
               },
               {
                 "taux": 1,
-                "effet": "% à toutes vos DEFENSES."
+                "effet": "% à toutes vos DÉFENSES."
               }
             ],
             "dons": [
@@ -695,6 +967,25 @@
                 "effet": "+5% aux GAINS DE KAMAS."
               }
             ]
+          },
+          {
+            "version": "0.08",
+            "pouvoir": "+5% DRAIN à votre héros.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de VITALITÉ à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à tous vos SOINS."
+              },
+              {
+                "taux": 1,
+                "effet": "% de VITALITÉ à vos compagnons."
+              }
+            ],
+            "dons": []
           }
         ]
       },
@@ -732,6 +1023,25 @@
                 "effet": "+5% aux GAINS DE KAMAS."
               }
             ]
+          },
+          {
+            "version": "0.08",
+            "pouvoir": "PREMIER TOUR: Applique MOUILLÉ sur 2 adversaires aléatoires.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de VITALITÉ à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE EAU."
+              },
+              {
+                "taux": 1,
+                "effet": "% de VITALITÉ à vos compagnons."
+              }
+            ],
+            "dons": []
           }
         ]
       },
@@ -769,6 +1079,25 @@
                 "effet": "+10% à toutes vos MAGIES."
               }
             ]
+          },
+          {
+            "version": "0.08",
+            "pouvoir": "-50% de PUISSANCE à votre héros; -50% à toutes vos AURAS; +25% de PUISSANCE à vos compagnons.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de VITALITÉ à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos COLLISIONS."
+              },
+              {
+                "taux": 1,
+                "effet": "% de VITALITÉ à vos compagnons."
+              }
+            ],
+            "dons": []
           }
         ]
       },
@@ -806,6 +1135,25 @@
                 "effet": "+5% aux GAINS DE KAMAS."
               }
             ]
+          },
+          {
+            "version": "0.08",
+            "pouvoir": "PREMIER TOUR: Applique HUILÉ sur 2 adversaires aléatoires.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de VITALITÉ à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE FEU."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos EXPLOSIONS."
+              }
+            ],
+            "dons": []
           }
         ]
       },
@@ -846,6 +1194,25 @@
                 "effet": "+10% de DÉGÂTS MAGIQUES."
               }
             ]
+          },
+          {
+            "version": "0.08",
+            "pouvoir": "GRIMOIRE(15): Piochez 1 sort quand vous jouez un sort à 6PA ou plus.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de VITALITÉ à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos COLLISIONS."
+              },
+              {
+                "taux": 1,
+                "effet": "% de VITALITÉ à vos compagnons."
+              }
+            ],
+            "dons": []
           }
         ]
       },
@@ -882,6 +1249,25 @@
                 "effet": "+5% d'XP à votre héros."
               }
             ]
+          },
+          {
+            "version": "0.08",
+            "pouvoir": "GRIMOIRE(12): PREMIER TOUR: Ajoute 3PA en réserve.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de VITALITÉ à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% de VITALITÉ à vos compagnons."
+              },
+              {
+                "taux": 1,
+                "effet": "% de PUISSANCE à vos compagnons."
+              }
+            ],
+            "dons": []
           }
         ]
       },
@@ -914,6 +1300,21 @@
                 "effet": "+5% de CC MAGIQUES."
               }
             ]
+          },
+          {
+            "version": "0.08",
+            "pouvoir": "Ajoute 1 à votre jauge FEU quand un de vos compagnons meurt.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de VITALITÉ à votre héros."
+              },
+              {
+                "taux": 2,
+                "effet": "% de MAGIE FEU."
+              }
+            ],
+            "dons": []
           }
         ]
       },
@@ -947,7 +1348,7 @@
               {
                 "nom": "Défense",
                 "cout": 50,
-                "effet": "+20% à toutes vos DEFENSES."
+                "effet": "+20% à toutes vos DÉFENSES."
               },
               {
                 "nom": "Esquive",
@@ -960,6 +1361,25 @@
                 "effet": "+50% à tous vos OURAGANS."
               }
             ]
+          },
+          {
+            "version": "0.08",
+            "pouvoir": "OURAGAN: Inflige 15 dégâts magiques autour de votre héros. Si 3 adversaires touchés: Ajoute 1 à votre Jauge ÉTHER.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de VITALITÉ à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE TERRE."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE AIR."
+              }
+            ],
+            "dons": []
           }
         ]
       },
@@ -997,7 +1417,7 @@
               {
                 "nom": "Défense",
                 "cout": 50,
-                "effet": "+20% à toutes vos DEFENSES."
+                "effet": "+20% à toutes vos DÉFENSES."
               },
               {
                 "nom": "Eboulement",
@@ -1005,6 +1425,25 @@
                 "effet": "+50% à tous vos ÉBOULEMENT."
               }
             ]
+          },
+          {
+            "version": "0.08",
+            "pouvoir": "ÉBOULEMENT: Inflige 15 dégâts magiques autour de votre héros. Si 3 adversaires touchés: Votre héros gagne 22 AR.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de VITALITÉ à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE EAU."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE TERRE."
+              }
+            ],
+            "dons": []
           }
         ]
       },
@@ -1050,6 +1489,28 @@
                 "effet": "+5% de CC à vos compagnons."
               }
             ]
+          },
+          {
+            "version": "0.08",
+            "pouvoir": "Ajoute 1 à votre jauge ÉTHER quand un de vos compagnons meurt.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de MAGIE FEU."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE EAU."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE TERRE."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE AIR."
+              }],
+            "dons": []
           }
         ]
       },
@@ -1063,7 +1524,7 @@
         "patchs": [
           {
             "version": "0.10",
-            "pouvoir": "Quand un de vos compagnons attaque: Il déclenche REBOND(XX)",
+            "pouvoir": "Quand un de vos compagnons attaque: Il déclenche REBOND(XX).",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -1095,6 +1556,29 @@
                 "effet": "+10% de MAGIE AIR."
               }
             ]
+          },
+          {
+            "version": "0.08",
+            "pouvoir": "Quand un de vos compagnons meurt, il déclenche REBOND(10).",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de MAGIE AIR."
+              },
+              {
+                "taux": 2,
+                "effet": "% à tous vos REBONDS."
+              },
+              {
+                "taux": 1,
+                "effet": "% de VITALITÉ à vos compagnons."
+              },
+              {
+                "taux": 1,
+                "effet": "% de PUISSANCE à vos compagnons."
+              }
+            ],
+            "dons": []
           }
         ]
       },
@@ -1132,7 +1616,7 @@
               {
                 "nom": "Défense",
                 "cout": 50,
-                "effet": "+10% à toutes vos DEFENSES."
+                "effet": "+10% à toutes vos DÉFENSES."
               },
               {
                 "nom": "Magie terre",
@@ -1140,6 +1624,25 @@
                 "effet": "+10% de MAGIE TERRE."
               }
             ]
+          },
+          {
+            "version": "0.08",
+            "pouvoir": "Quand vous jouez un sort TERRE, confère 30% aux autres magies élémentaires jusqu'à vnotre prochain sort non TERRE. Non cumulable.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de VITALITÉ à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE TERRE."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos TOURBES."
+              }
+            ],
+            "dons": []
           }
         ]
       },
@@ -1185,6 +1688,25 @@
                 "effet": "+10% de MAGIE FEU."
               }
             ]
+          },
+          {
+            "version": "0.08",
+            "pouvoir": "Quand vous jouez un sort FEU, confère 30% aux autres magies élémentaires jusqu'à vnotre prochain sort non FEU. Non cumulable.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de VITALITÉ à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE FEU."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos EXPLOSIONS."
+              }
+            ],
+            "dons": []
           }
         ]
       },
@@ -1230,6 +1752,29 @@
                 "effet": "+10% de MAGIE EAU."
               }
             ]
+          },
+          {
+            "version": "0.08",
+            "pouvoir": "Quand un de vos compagnons meurt, il déclenche GRÊLE(11).",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de MAGIE AIR."
+              },
+              {
+                "taux": 2,
+                "effet": "% à toutes vos GRÊLES."
+              },
+              {
+                "taux": 1,
+                "effet": "% de VITALITÉ à vos compagnons."
+              },
+              {
+                "taux": 1,
+                "effet": "% de PUISSANCE à vos compagnons."
+              }
+            ],
+            "dons": []
           }
         ]
       },
@@ -1267,7 +1812,7 @@
               {
                 "nom": "Défense",
                 "cout": 50,
-                "effet": "+20% à toutes vos DEFENSES."
+                "effet": "+20% à toutes vos DÉFENSES."
               },
               {
                 "nom": "Météore",
@@ -1275,6 +1820,25 @@
                 "effet": "+50% à tous vos MÉTÉORES."
               }
             ]
+          },
+          {
+            "version": "0.08",
+            "pouvoir": "MÉTÉORE: Inflige 15 dégâts magiques autour de votre héros. Si 3 ennemis touchés: Votre prochain sort inflige 50% de dégâts supplémentaires.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de VITALITÉ à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE FEU."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE TERRE."
+              }
+            ],
+            "dons": []
           }
         ]
       },
@@ -1320,6 +1884,25 @@
                 "effet": "+10% de MAGIE AIR."
               }
             ]
+          },
+          {
+            "version": "0.08",
+            "pouvoir": "Quand vous jouez un sort AIR, confère 30% aux autres magies élémentaires jusqu'à vnotre prochain sort non AIR. Non cumulable.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de VITALITÉ à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE AIR."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos REBONDS."
+              }
+            ],
+            "dons": []
           }
         ]
       },
@@ -1365,6 +1948,25 @@
                 "effet": "+50% à tous vos FOUDRE."
               }
             ]
+          },
+          {
+            "version": "0.08",
+            "pouvoir": "FOUDRE: Inflige 15 dégâts magiques autour de votre héros. Si 3 adversaires touchés: Un éclair infligeant 10 dégâts physiques s'abat sur les adversaires.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de VITALITÉ à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE FEU."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE AIR."
+              }
+            ],
+            "dons": []
           }
         ]
       },
@@ -1411,6 +2013,21 @@
                 "effet": "+10% de PV à vos compagnons."
               }
             ]
+          },
+          {
+            "version": "0.08",
+            "pouvoir": "+10% DRAIN à votre héros.",
+            "caracteristiques": [
+              {
+                "taux": 2,
+                "effet": "% à toutes vos GRÊLES."
+              },
+              {
+                "taux": 2,
+                "effet": "% à tous vos REBONDS."
+              }
+            ],
+            "dons": []
           }
         ]
       },
@@ -1452,6 +2069,21 @@
                 "effet": "+5% aux GAINS DE KAMAS."
               }
             ]
+          },
+          {
+            "version": "0.08",
+            "pouvoir": "+10% DRAIN à votre héros.",
+            "caracteristiques": [
+              {
+                "taux": 2,
+                "effet": "% à toutes vos EXPLOSIONS."
+              },
+              {
+                "taux": 2,
+                "effet": "% à toutes vos TOURBES."
+              }
+            ],
+            "dons": []
           }
         ]
       },
@@ -1501,6 +2133,29 @@
                 "effet": "+10% d'AT à vos compagnons."
               }
             ]
+          },
+          {
+            "version": "0.08",
+            "pouvoir": "GRIMOIRE(15): PREMIER TOUR: Le coût d'un de vos sort est réduit de 2 PA pour le reste du combat.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de VITALITÉ à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos COLLISIONS."
+              },
+              {
+                "taux": 1,
+                "effet": "% à tous vos SOINS."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos DÉFENSES."
+              }
+            ],
+            "dons": []
           }
         ]
       },
@@ -1538,7 +2193,7 @@
               {
                 "nom": "Défense",
                 "cout": 50,
-                "effet": "+20% à toutes vos DEFENSES."
+                "effet": "+20% à toutes vos DÉFENSES."
               },
               {
                 "nom": "Magie terre",
@@ -1546,6 +2201,29 @@
                 "effet": "+10% de MAGIE TERRE."
               }
             ]
+          },
+          {
+            "version": "0.08",
+            "pouvoir": "Quand un de vos compagnons meurt, il déclenche TOURBE(9)",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de MAGIE TERRE."
+              },
+              {
+                "taux": 2,
+                "effet": "% à toutes vos TOURBES."
+              },
+              {
+                "taux": 1,
+                "effet": "% de VITALITÉ à vos compagnons."
+              },
+              {
+                "taux": 1,
+                "effet": "% de PUISSANCE à vos compagnons."
+              }
+            ],
+            "dons": []
           }
         ]
       },
@@ -1568,7 +2246,7 @@
               },
               {
                 "taux": 1,
-                "effet": "% de MAGIE FEU."
+                "effet": "% de MAGIE EAU."
               },
               {
                 "taux": 1,
@@ -1592,6 +2270,25 @@
                 "effet": "+50% à toutes vos AVALANCHES."
               }
             ]
+          },
+          {
+            "version": "0.08",
+            "pouvoir": "AVALANCHE: Inflige 15 dégâts magiques autour de votre héros. Si 3 ennemis touchés: Piochez 1 sort dont le coût est réduit de 1PA.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de VITALITÉ à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE EAU."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE AIR."
+              }
+            ],
+            "dons": []
           }
         ]
       },
@@ -1629,6 +2326,25 @@
                 "effet": "+3% de CC à vos compagnons."
               }
             ]
+          },
+          {
+            "version": "0.08",
+            "pouvoir": "Ajoute 1PA en réserve quand un de vos compagnons meurt.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de VITALITÉ à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% de VITALITÉ à vos compagnons."
+              },
+              {
+                "taux": 1,
+                "effet": "% de PUISSANCE à vos compagnons."
+              }
+            ],
+            "dons": []
           }
         ]
       },
@@ -1674,6 +2390,33 @@
                 "effet": "+3% de CC à vos compagnons."
               }
             ]
+          },
+          {
+            "version": "0.08",
+            "pouvoir": "PREMIER TOUR: Applique ASTRAL sur 1 adversaire aléatoire.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de VITALITÉ à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE FEU."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE EAU."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE TERRE."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE AIR."
+              }
+            ],
+            "dons": []
           }
         ]
       },
@@ -1719,6 +2462,25 @@
                 "effet": "+50% à toutes vos GEYSERS."
               }
             ]
+          },
+          {
+            "version": "0.08",
+            "pouvoir": "GEYSER: Inflige 15 dégâts magiques autour de votre héros. Si 3 adversaires touchés: VOL DE VIE.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de VITALITÉ à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE FEU."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE EAU."
+              }
+            ],
+            "dons": []
           }
         ]
       },
@@ -1764,6 +2526,25 @@
                 "effet": "+10% de MAGIE EAU."
               }
             ]
+          },
+          {
+            "version": "0.08",
+            "pouvoir": "Quand vous jouez un sort EAU, confère 30% aux autres magies élémentaires jusqu'à vnotre prochain sort non EAU. Non cumulable.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de VITALITÉ à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE EAU."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos GRÊLES."
+              }
+            ],
+            "dons": []
           }
         ]
       },
@@ -1809,6 +2590,29 @@
                 "effet": "+10% de MAGIE FEU."
               }
             ]
+          },
+          {
+            "version": "0.08",
+            "pouvoir": "Quand un de vos compagnons meurt, il déclenche EXPLOSION(11).",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de MAGIE FEU."
+              },
+              {
+                "taux": 2,
+                "effet": "% à toutes vos EXPLOSIONS."
+              },
+              {
+                "taux": 1,
+                "effet": "% de VITALITÉ à vos compagnons."
+              },
+              {
+                "taux": 1,
+                "effet": "% de PUISSANCE à vos compagnons."
+              }
+            ],
+            "dons": []
           }
         ]
       },
@@ -1851,7 +2655,7 @@
               {
                 "nom": "Défense",
                 "cout": 50,
-                "effet": "+20% à toutes vos DEFENSES."
+                "effet": "+20% à toutes vos DÉFENSES."
               },
               {
                 "nom": "CC Compagnons",
@@ -1864,6 +2668,29 @@
                 "effet": "+40% de DÉGÂTS CC à vos compagnons."
               }
             ]
+          },
+          {
+            "version": "0.08",
+            "pouvoir": "Quand vous consommez BOUEUX, votre prochain sort inflige 50% de dégâts supplémentaires.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de VITALITÉ à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% de PUISSANCE à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos AURAS."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE TERRE."
+              }
+            ],
+            "dons": []
           }
         ]
       },
@@ -1878,7 +2705,8 @@
         "patchs": [
           {
             "version": "0.10",
-            "pouvoir": "DEBUT DE COMBAT: Ajoute le sort CEAN à votre main.",
+            "pouvoir": "DEBUT DE COMBAT: Ajoute le sort CÉAN à votre main.",
+            "sort": "Céan",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -1919,6 +2747,25 @@
                 "effet": "+20% d'AT à vos compagnons."
               }
             ]
+          },
+          {
+            "version": "0.08",
+            "pouvoir": "Quand un de vos compagnons meurt, il applique MOUILLÉ autour de lui.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de VITALITÉ à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE EAU."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos GRÊLES."
+              }
+            ],
+            "dons": []
           }
         ]
       },
@@ -1933,6 +2780,7 @@
           {
             "version": "0.10",
             "pouvoir": "DEBUT DE COMBAT: Ajoute le sort CTANE à votre main.",
+            "sort": "Ctane",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -1973,6 +2821,25 @@
                 "effet": "+20% d'AT à vos compagnons."
               }
             ]
+          },
+          {
+            "version": "0.08",
+            "pouvoir": "Quand un de vos compagnons meurt, il applique HUILÉ autour de lui.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de VITALITÉ à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE FEU."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos EXPLOSIONS."
+              }
+            ],
+            "dons": []
           }
         ]
       },
@@ -1987,6 +2854,7 @@
           {
             "version": "0.10",
             "pouvoir": "DEBUT DE COMBAT: Ajoute le sort CYPRES à votre main.",
+            "sort": "Cypres",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -2009,7 +2877,7 @@
               {
                 "nom": "Défense",
                 "cout": 50,
-                "effet": "+20% à toutes vos DEFENSES."
+                "effet": "+20% à toutes vos DÉFENSES."
               },
               {
                 "nom": "CC Compagnons",
@@ -2027,6 +2895,25 @@
                 "effet": "+20% d'AT à vos compagnons."
               }
             ]
+          },
+          {
+            "version": "0.08",
+            "pouvoir": "Quand un de vos compagnons meurt, il applique BOUEUX autour de lui.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de VITALITÉ à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE TERRE."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos TOURBES."
+              }
+            ],
+            "dons": []
           }
         ]
       },
@@ -2081,6 +2968,29 @@
                 "effet": "+40% de DÉGÂTS CC à vos compagnons."
               }
             ]
+          },
+          {
+            "version": "0.08",
+            "pouvoir": "Quand vous consommez ÉVENTÉ, votre prochain sort inflige 50% de dégâts supplémentaires.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de VITALITÉ à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% de PUISSANCE à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos AURAS."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE AIR."
+              }
+            ],
+            "dons": []
           }
         ]
       },
@@ -2096,6 +3006,7 @@
           {
             "version": "0.10",
             "pouvoir": "DEBUT DE COMBAT: Ajoute le sort RAGAN à votre main.",
+            "sort": "Ragan",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -2136,6 +3047,26 @@
                 "effet": "+20% d'AT à vos compagnons."
               }
             ]
+          },
+          {
+            "version": "0.08",
+            "pouvoir": "Quand un de vos compagnons meurt, il applique ÉVENTÉ autour de lui.",
+            "nom": "Anneau Librius",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de VITALITÉ à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE AIR."
+              },
+              {
+                "taux": 1,
+                "effet": "% à tous vos REBONDS."
+              }
+            ],
+            "dons": []
           }
         ]
       },
@@ -2153,7 +3084,7 @@
             "caracteristiques": [
               {
                 "taux": 2,
-                "effet": "% à toutes vos DEFENSES."
+                "effet": "% à toutes vos DÉFENSES."
               },
               {
                 "taux": 1,
@@ -2236,6 +3167,29 @@
                 "effet": "+10% aux GAINS DE KAMAS."
               }
             ]
+          },
+          {
+            "version": "0.08",
+            "pouvoir": "Quand un adversaire est déplacé, il subit 20% de AT de votre héros.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de VITALITÉ à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% de PUISSANCE à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos AURAS."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos COLLISIONS."
+              }
+            ],
+            "dons": []
           }
         ]
       },
@@ -2290,6 +3244,30 @@
                 "effet": "+40% de DÉGÂTS CC à vos compagnons."
               }
             ]
+          },
+          {
+            "version": "0.08",
+            "pouvoir": "Quand vous consommez HUILÉ, votre prochain sort inflige 50% de dégâts supplémentaires.",
+            "nom": "L'anormal",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de VITALITÉ à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% de PUISSANCE à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos AURAS."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE FEU."
+              }
+            ],
+            "dons": []
           }
         ]
       },
@@ -2344,6 +3322,29 @@
                 "effet": "+40% de DÉGÂTS CC à vos compagnons."
               }
             ]
+          },
+          {
+            "version": "0.08",
+            "pouvoir": "Quand vous consommez MOUILLÉ, votre prochain sort inflige 50% de dégâts supplémentaires.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de VITALITÉ à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% de PUISSANCE à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos AURAS."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE EAU."
+              }
+            ],
+            "dons": []
           }
         ]
       },
@@ -2472,6 +3473,41 @@
                 "effet": "+10% aux GAINS DE KAMAS."
               }
             ]
+          },
+          {
+            "version": "0.08",
+            "pouvoir": "Quand un de vos compagnons meurt, il applique ASTRAL autour de lui.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de VITALITÉ à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% de PUISSANCE à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos AURAS."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE FEU."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE EAU."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE TERRE."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE AIR."
+              }
+            ],
+            "dons": []
           }
         ]
       },
@@ -2536,6 +3572,41 @@
                 "effet": "+10% aux GAINS DE KAMAS."
               }
             ]
+          },
+          {
+            "version": "0.08",
+            "pouvoir": "Ajoute 1 jauge de chaque élément quand un de vos compagnons meurt.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de VITALITÉ à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% de PUISSANCE à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos AURAS."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE FEU."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE EAU."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE TERRE."
+              },
+              {
+                "taux": 1,
+                "effet": "% de MAGIE AIR."
+              }
+            ],
+            "dons": []
           }
         ]
       },
@@ -2600,6 +3671,31 @@
                 "effet": "+10% aux GAINS DE KAMAS."
               }
             ]
+          },
+          {
+            "version": "0.08",
+            "pouvoir": "GRIMOIRE(15): Réduit de 1PA le coût du premier sort que vous jouez chaque tour.",
+            "nom": "",
+            "rarete": "",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de VITALITÉ à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% de PUISSANCE à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos AURAS."
+              },
+              {
+                "taux": 1,
+                "effet": "% à toutes vos DÉFENSES."
+              }
+            ],
+            "dons": []
           }
         ]
       },
@@ -2669,6 +3765,29 @@
                 "effet": "+10% aux GAINS DE KAMAS."
               }
             ]
+          },
+          {
+            "version": "0.08",
+            "pouvoir": "Ajoute 2PA en réserve quand un de vos compagnons FEU meurt.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de VITALITÉ à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% de PUISSANCE à votre héros."
+              },
+              {
+                "taux": 2,
+                "effet": "% de MAGIE FEU."
+              },
+              {
+                "taux": 2,
+                "effet": "% à toutes vos EXPLOSIONS."
+              }
+            ],
+            "dons": []
           }
         ]
       },
@@ -2738,6 +3857,29 @@
                 "effet": "+10% aux GAINS DE KAMAS."
               }
             ]
+          },
+          {
+            "version": "0.08",
+            "pouvoir": "Ajoute 2PA en réserve quand un de vos compagnons AIR meurt.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de VITALITÉ à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% de PUISSANCE à votre héros."
+              },
+              {
+                "taux": 2,
+                "effet": "% de MAGIE AIR."
+              },
+              {
+                "taux": 2,
+                "effet": "% à tous vos REBONDS."
+              }
+            ],
+            "dons": []
           }
         ]
       },
@@ -2807,6 +3949,29 @@
                 "effet": "+10% aux GAINS DE KAMAS."
               }
             ]
+          },
+          {
+            "version": "0.08",
+            "pouvoir": "Ajoute 2PA en réserve quand un de vos compagnons EAU meurt.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de VITALITÉ à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% de PUISSANCE à votre héros."
+              },
+              {
+                "taux": 2,
+                "effet": "% de MAGIE EAU."
+              },
+              {
+                "taux": 2,
+                "effet": "% à toutes vos GRÊLES."
+              }
+            ],
+            "dons": []
           }
         ]
       },
@@ -2876,6 +4041,29 @@
                 "effet": "+10% aux GAINS DE KAMAS."
               }
             ]
+          },
+          {
+            "version": "0.08",
+            "pouvoir": "Ajoute 2PA en réserve quand un de vos compagnons TERRE meurt.",
+            "caracteristiques": [
+              {
+                "taux": 1,
+                "effet": "% de VITALITÉ à votre héros."
+              },
+              {
+                "taux": 1,
+                "effet": "% de PUISSANCE à votre héros."
+              },
+              {
+                "taux": 2,
+                "effet": "% de MAGIE TERRE."
+              },
+              {
+                "taux": 2,
+                "effet": "% à toutes vos TOURBES."
+              }
+            ],
+            "dons": []
           }
         ]
       }
@@ -2916,7 +4104,9 @@
             ]
           },
           {
-            "version": "0.08"
+            "version": "0.08",
+            "caracteristiques": [],
+            "dons": []
           }
         ]
       },
@@ -2956,7 +4146,9 @@
             ]
           },
           {
-            "version": "0.08"
+            "version": "0.08",
+            "caracteristiques": [],
+            "dons": []
           }
         ]
       },
@@ -2996,7 +4188,9 @@
             ]
           },
           {
-            "version": "0.08"
+            "version": "0.08",
+            "caracteristiques": [],
+            "dons": []
           }
         ]
       },
@@ -3036,7 +4230,9 @@
             ]
           },
           {
-            "version": "0.08"
+            "version": "0.08",
+            "caracteristiques": [],
+            "dons": []
           }
         ]
       },
@@ -3076,7 +4272,9 @@
             ]
           },
           {
-            "version": "0.08"
+            "version": "0.08",
+            "caracteristiques": [],
+            "dons": []
           }
         ]
       },
@@ -3115,7 +4313,9 @@
             ]
           },
           {
-            "version": "0.08"
+            "version": "0.08",
+            "caracteristiques": [],
+            "dons": []
           }
         ]
       },
@@ -3155,7 +4355,9 @@
             ]
           },
           {
-            "version": "0.08"
+            "version": "0.08",
+            "caracteristiques": [],
+            "dons": []
           }
         ]
       },
@@ -3194,7 +4396,9 @@
             ]
           },
           {
-            "version": "0.08"
+            "version": "0.08",
+            "caracteristiques": [],
+            "dons": []
           }
         ]
       },
@@ -3238,7 +4442,9 @@
             ]
           },
           {
-            "version": "0.08"
+            "version": "0.08",
+            "caracteristiques": [],
+            "dons": []
           }
         ]
       },
@@ -3283,7 +4489,9 @@
             ]
           },
           {
-            "version": "0.08"
+            "version": "0.08",
+            "caracteristiques": [],
+            "dons": []
           }
         ]
       },
@@ -3327,7 +4535,9 @@
             ]
           },
           {
-            "version": "0.08"
+            "version": "0.08",
+            "caracteristiques": [],
+            "dons": []
           }
         ]
       },
@@ -3371,7 +4581,9 @@
             ]
           },
           {
-            "version": "0.08"
+            "version": "0.08",
+            "caracteristiques": [],
+            "dons": []
           }
         ]
       },
@@ -3415,7 +4627,9 @@
             ]
           },
           {
-            "version": "0.08"
+            "version": "0.08",
+            "caracteristiques": [],
+            "dons": []
           }
         ]
       },
@@ -3459,7 +4673,9 @@
             ]
           },
           {
-            "version": "0.08"
+            "version": "0.08",
+            "caracteristiques": [],
+            "dons": []
           }
         ]
       },
@@ -3513,7 +4729,9 @@
             ]
           },
           {
-            "version": "0.08"
+            "version": "0.08",
+            "caracteristiques": [],
+            "dons": []
           }
         ]
       },
@@ -3566,7 +4784,9 @@
             ]
           },
           {
-            "version": "0.08"
+            "version": "0.08",
+            "caracteristiques": [],
+            "dons": []
           }
         ]
       },
@@ -3620,7 +4840,9 @@
             ]
           },
           {
-            "version": "0.08"
+            "version": "0.08",
+            "caracteristiques": [],
+            "dons": []
           }
         ]
       },
@@ -3674,7 +4896,9 @@
             ]
           },
           {
-            "version": "0.08"
+            "version": "0.08",
+            "caracteristiques": [],
+            "dons": []
           }
         ]
       },
@@ -3717,7 +4941,9 @@
             ]
           },
           {
-            "version": "0.08"
+            "version": "0.08",
+            "caracteristiques": [],
+            "dons": []
           }
         ]
       },
@@ -3780,7 +5006,9 @@
             ]
           },
           {
-            "version": "0.08"
+            "version": "0.08",
+            "caracteristiques": [],
+            "dons": []
           }
         ]
       }

@@ -7,7 +7,7 @@
     "build": "ng build --output-path docs --base-href /WavenBuilder/",
     "eslint": "npx eslint --ext .ts src/app/",
     "pretty": "prettier --write .",
-    "git": "npx eslint --ext .ts src/app/ && npm run pretty && npm run build"
+    "git": "npm run eslint && npm run pretty && npm run build"
   },
   "private": true,
   "dependencies": {
