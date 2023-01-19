@@ -4927,18 +4927,7 @@
                 "effet": "% à toutes vos AURAS."
               }
             ],
-            "dons": [
-              {
-                "nom": "Effet amélioré",
-                "cout": 50,
-                "effet": "CRITIQUE: TODO."
-              },
-              {
-                "nom": "Bonus de coup critique",
-                "cout": 50,
-                "effet": "+10% de CC à votre héros."
-              }
-            ]
+            "dons": []
           },
           {
             "version": "0.08",

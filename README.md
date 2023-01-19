@@ -48,7 +48,7 @@ Si vous cherchez à faire une PR le fichier de données se trouve ici: `src/asse
 - [x] v1.2 - Version v0.08
   - [x] Reprendre dialog-equipement pour ajouter l'ancien nom dans le patch.
   - [x] Ajouter [v0.08](<https://forum.waven-game.com/fr/4-discussions-generales/1413-encyclopedie-objets-8>)
-- [ ] v1.3 - UI
+- [x] v1.3 - UI
   - [x] Ajouter de la [couleur](https://www.codeproject.com/Questions/1163473/Find-a-word-in-text-and-change-the-color) sur les mots clés.
     - Regex & Méthode statique?
       - <https://stackoverflow.com/questions/41857047/call-static-function-from-angular2-template>
