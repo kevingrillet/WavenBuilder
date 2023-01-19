@@ -1,6 +1,7 @@
 import { Component, Input, isDevMode, OnInit, ViewChild } from '@angular/core';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatTableDataSource } from '@angular/material/table';
+import { Highlighter } from '../highlighter';
 import { Patch } from '../struct';
 
 @Component({
@@ -9,6 +10,7 @@ import { Patch } from '../struct';
   styleUrls: ['./table-card-equipement.component.css'],
 })
 export class TableCardEquipementComponent implements OnInit {
+  public highlight = Highlighter.highlight;
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @Input() patchs!: Patch[];
   baseHref!: string;

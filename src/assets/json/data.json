@@ -625,7 +625,7 @@
         "patchs": [
           {
             "version": "0.10",
-            "pouvoir": "COLLISION: +1 PA en réserve. (Limité à 1 fois par tour)",
+            "pouvoir": "COLLISION: +1 PA en réserve. Limité à 1 fois par tour.",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -661,7 +661,7 @@
         "patchs": [
           {
             "version": "0.10",
-            "pouvoir": "Votre premier compagnon invoqué est RÉINVOCABLE. (Limité à une fois par combat)",
+            "pouvoir": "Votre premier compagnon invoqué est RÉINVOCABLE. Limité à 1 fois par combat.",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -1329,7 +1329,7 @@
         "patchs": [
           {
             "version": "0.10",
-            "pouvoir": "OURAGAN: Inflige XX dégâts magiques autour de votre héros. Si 3 adversaires touchés: +1 Jauge ÉTHER.",
+            "pouvoir": "OURAGAN: Inflige 0 dégâts magiques autour de votre héros. Si 3 adversaires touchés: +1 Jauge ÉTHER.",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -1393,7 +1393,7 @@
         "patchs": [
           {
             "version": "0.10",
-            "pouvoir": "ÉBOULEMENT: Inflige XX dégâts magiques autour de votre héros. Si 3 adversaires touchés: +18 AR à votre héros.",
+            "pouvoir": "ÉBOULEMENT: Inflige 0 dégâts magiques autour de votre héros. Si 3 adversaires touchés: +18 AR à votre héros.",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -1524,7 +1524,7 @@
         "patchs": [
           {
             "version": "0.10",
-            "pouvoir": "Quand un de vos compagnons attaque: Il déclenche REBOND(XX).",
+            "pouvoir": "Quand un de vos compagnons attaque: Il déclenche REBOND(0).",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -1720,7 +1720,7 @@
         "patchs": [
           {
             "version": "0.10",
-            "pouvoir": "Quand un de vos compagnons attaque: Il déclenche GRÊLE(XX)",
+            "pouvoir": "Quand un de vos compagnons attaque: Il déclenche GRÊLE(0)",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -1788,7 +1788,7 @@
         "patchs": [
           {
             "version": "0.10",
-            "pouvoir": "MÉTÉORE: Inflige XX dégâts magiques autour de votre héros.",
+            "pouvoir": "MÉTÉORE: Inflige 0 dégâts magiques autour de votre héros.",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -1916,7 +1916,7 @@
         "patchs": [
           {
             "version": "0.10",
-            "pouvoir": "FOUDRE: Inflige XX dégâts magiques autour de votre héros. Si 3 adversaires touchés: inflige 30% d'AT de votre héros à tous les adversaires.",
+            "pouvoir": "FOUDRE: Inflige 0 dégâts magiques autour de votre héros. Si 3 adversaires touchés: inflige 30% d'AT de votre héros à tous les adversaires.",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -2169,7 +2169,7 @@
         "patchs": [
           {
             "version": "0.10",
-            "pouvoir": "Quand un de vos compagnons attaque: Il déclenche TOURBE(XX)",
+            "pouvoir": "Quand un de vos compagnons attaque: Il déclenche TOURBE(0)",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -2238,7 +2238,7 @@
         "patchs": [
           {
             "version": "0.10",
-            "pouvoir": "AVALANCHE: Inflige XX dégâts magiques autour de votre héros.",
+            "pouvoir": "AVALANCHE: Inflige 0 dégâts magiques autour de votre héros.",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -2430,7 +2430,7 @@
         "patchs": [
           {
             "version": "0.10",
-            "pouvoir": "GEYSER: Inflige XX dégâts magiques autour de votre héros. Si 3 adversaires touchés: VOL DE VIE.",
+            "pouvoir": "GEYSER: Inflige 0 dégâts magiques autour de votre héros. Si 3 adversaires touchés: VOL DE VIE.",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -2558,7 +2558,7 @@
         "patchs": [
           {
             "version": "0.10",
-            "pouvoir": "Quand un de vos compagnons attaque: Il déclenche EXPLOSION(XX)",
+            "pouvoir": "Quand un de vos compagnons attaque: Il déclenche EXPLOSION(0)",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -4262,7 +4262,7 @@
               {
                 "nom": "Effet amélioré",
                 "cout": 50,
-                "effet": "CRITIQUE: Votre héros rejoue son tour. (Limité à 1 fois par tour)"
+                "effet": "CRITIQUE: Votre héros rejoue son tour. Limité à 1 fois par tour."
               },
               {
                 "nom": "Bonus de coup critique",
@@ -4345,7 +4345,7 @@
               {
                 "nom": "Effet amélioré",
                 "cout": 50,
-                "effet": "CRITIQUE: Votre héros rejoue son tour. (Limité à 1 fois par tour)"
+                "effet": "CRITIQUE: Votre héros rejoue son tour. Limité à 1 fois par tour."
               },
               {
                 "nom": "Bonus de coup critique",
@@ -4459,7 +4459,7 @@
         "patchs": [
           {
             "version": "0.10",
-            "pouvoir": "Attaque: +5% d'AT à votre héros jusqu'à la fin du combat.  (Limité à 10 fois par tour)",
+            "pouvoir": "Attaque: +5% d'AT à votre héros jusqu'à la fin du combat. Limité à 10 fois par tour.",
             "caracteristiques": [
               {
                 "taux": 1,

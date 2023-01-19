@@ -49,24 +49,28 @@ Si vous cherchez à faire une PR le fichier de données se trouve ici: `src/asse
   - [x] Reprendre dialog-equipement pour ajouter l'ancien nom dans le patch.
   - [x] Ajouter [v0.08](<https://forum.waven-game.com/fr/4-discussions-generales/1413-encyclopedie-objets-8>)
 - [ ] v1.3 - UI
-  - [ ] Ajouter de la [couleur](https://www.codeproject.com/Questions/1163473/Find-a-word-in-text-and-change-the-color) sur les mots clés.
-    - Composant avec une ptite REGEX?
-  - [ ] Ajouter les images après les mots clés.
-- [ ] v1.4 - Spells
+  - [x] Ajouter de la [couleur](https://www.codeproject.com/Questions/1163473/Find-a-word-in-text-and-change-the-color) sur les mots clés.
+    - Regex & Méthode statique?
+      - <https://stackoverflow.com/questions/41857047/call-static-function-from-angular2-template>
+      - <https://stackoverflow.com/questions/5069464/replace-multiple-strings-at-once>
+      - <https://stackoverflow.com/questions/44210786/style-not-working-for-innerhtml-in-angular>
+  - [x] Ajouter les images après les mots clés.
+- [ ] v1.4 - Sorts
   - [ ] Ajouter l'interface des sorts.
-  - [ ] Affichage des sorts sur la page des items.
   - [ ] Ajouter les sorts des items.
+  - [ ] Affichage des sorts sur la page des items.
 - [ ] v1.5 - Compagnons
   - [ ] Ajouter l'interface des compagnons.
+  - [ ] Ajouter les compagnons.
   - [ ] Modifier l'interface des sorts pour les compagnons.
+  - [ ] Ajouter les sorts des compagnons.
   - [ ] Affichage des sorts sur la page des compagnons.
-  - [ ] Ajouter les compagnons & leurs spells.
 - [ ] v1.6 - Classes & Armes
   - [ ] Ajouter les classes.
   - [ ] Ajouter les armes.
 - [ ] v2 - Toutes les données sont là
-  - [ ] Rechercher les spells des versions précédentes.
-  - [ ] Ajouter les spells des classes & armes.
+  - [ ] Rechercher les sorts des versions précédentes.
+  - [ ] Ajouter les sorts des classes & armes.
 - [ ] v2.1 - Builder à proprement parler
   - [ ] Faire le builder:
     - [ ] Interface de création / visualisation.

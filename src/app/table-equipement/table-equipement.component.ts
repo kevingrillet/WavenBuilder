@@ -6,6 +6,7 @@ import { MatTableDataSource } from '@angular/material/table';
 import { DialogCardEquipementComponent } from '../dialog-card-equipement/dialog-card-equipement.component';
 
 import { DialogEquipementComponent } from '../dialog-equipement/dialog-equipement.component';
+import { Highlighter } from '../highlighter';
 
 import { Equipement, Raretes } from '../struct';
 
@@ -15,6 +16,7 @@ import { Equipement, Raretes } from '../struct';
   styleUrls: ['./table-equipement.component.css'],
 })
 export class TableEquipementComponent implements OnInit {
+  public highlight = Highlighter.highlight;
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) sort!: MatSort;
   @Input() equipements!: Equipement[];

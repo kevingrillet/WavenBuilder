@@ -8,3 +8,28 @@ body {
   margin: 0;
   font-family: Roboto, 'Helvetica Neue', sans-serif;
 }
+
+/* Highlighter */
+.style-blue {
+  color: CornflowerBlue !important;
+}
+
+.style-bold {
+  font-weight: bold !important;
+}
+
+.style-green {
+  color: limegreen !important;
+}
+
+.style-gray {
+  color: gray !important;
+}
+
+.style-italic {
+  font-style: italic !important;
+}
+
+.style-image-inline {
+  height: 0.9em;
+}

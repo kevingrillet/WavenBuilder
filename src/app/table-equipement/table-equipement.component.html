@@ -46,7 +46,7 @@
     <ng-container matColumnDef="Pouvoir">
       <th mat-header-cell *matHeaderCellDef>Pouvoir</th>
       <td mat-cell *matCellDef="let equipement">
-        {{ equipement.patchs[0].pouvoir }}
+        <span [innerHTML]="highlight(equipement.patchs[0].pouvoir)"></span>
       </td>
     </ng-container>
 
@@ -54,9 +54,8 @@
       <th mat-header-cell *matHeaderCellDef>Caractéristiques</th>
       <td mat-cell *matCellDef="let equipement">
         <mat-list>
-          <mat-list-item *ngFor="let caracteristique of equipement.patchs[0].caracteristiques"
-            >+{{ caracteristique.taux }}
-            {{ caracteristique.effet }}
+          <mat-list-item *ngFor="let caracteristique of equipement.patchs[0].caracteristiques">
+            <span [innerHTML]="'+' + caracteristique.taux + highlight(caracteristique.effet)"></span>
           </mat-list-item>
         </mat-list>
       </td>
@@ -71,7 +70,7 @@
               >{{ don.nom }} [{{ don.cout }}
               <img src="{{ baseHref }}/assets/img/monaies/rune_d_equipement.png" alt="Rune d'équipement" style="height: 0.9em" />]</span
             >
-            <span matListItemLine>{{ don.effet }}</span>
+            <span matListItemLine [innerHTML]="highlight(don.effet)"></span>
           </mat-list-item>
         </mat-list>
       </td>
