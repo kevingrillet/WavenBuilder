@@ -96,7 +96,7 @@ export class Highlighter {
     output = output.replace(new RegExp('(' + imgKeywords.join('|') + ')', 'g'), function (match) {
       return (
         match +
-        " <img src='/assets/img/effets/" +
+        " <img src='./assets/img/effets/" +
         match
           .toLowerCase()
           .normalize('NFD')
