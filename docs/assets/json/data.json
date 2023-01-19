@@ -5002,5 +5002,137 @@
         ]
       }
     ]
+  },
+  "sorts": {
+    "sorts": [
+      {
+        "nom": "Boom",
+        "image": "boom",
+        "element": "Feu",
+        "patchs": [
+          {
+            "version": "0.10",
+            "cout": 5,
+            "gains": {
+              "feu": 2
+            },
+            "effet": "Inflige 0 dégâts magiques. Si la cible est HUILÉE: Déclanche EXPLOSION(0) et applique HUILÉ",
+            "dons": []
+          }
+        ]
+      },
+      {
+        "nom": "Ctane",
+        "image": "ctane",
+        "element": "Feu",
+        "patchs": [
+          {
+            "version": "0.10",
+            "cout": 5,
+            "gains": {
+              "feu": 2
+            },
+            "effet": "Inflige 0 dégâts magiques. Quand vous jouez un sort FEU: +20% aux dégâts de base du sort. Ce sort est détruit quand il est joué.",
+            "dons": []
+          }
+        ]
+      },
+      {
+        "nom": "Caracole",
+        "image": "caracole",
+        "element": "Air",
+        "patchs": [
+          {
+            "version": "0.10",
+            "cout": 5,
+            "gains": {
+              "air": 2
+            },
+            "effet": "Inflige 0 dégâts magiques. Si la cible est ÉVENTÉE: Déclanche REBOND(0) et applique ÉVENTÉ",
+            "dons": []
+          }
+        ]
+      },
+      {
+        "nom": "Ragan",
+        "image": "ragan",
+        "element": "Air",
+        "patchs": [
+          {
+            "version": "0.10",
+            "cout": 5,
+            "gains": {
+              "air": 2
+            },
+            "effet": "Inflige 0 dégâts magiques. +20% aux dégâts quand vous jouez un sort AIR. Ce sort est détruit quand il est joué.",
+            "dons": []
+          }
+        ]
+      },
+      {
+        "nom": "Broyage",
+        "image": "broyage",
+        "element": "Terre",
+        "patchs": [
+          {
+            "version": "0.10",
+            "cout": 5,
+            "gains": {
+              "terre": 2
+            },
+            "effet": "Inflige 0 dégâts magiques. Si la cible est BOUEUSE: Déclanche TOURBE(0) et applique BOUEUX",
+            "dons": []
+          }
+        ]
+      },
+      {
+        "nom": "Cypres",
+        "image": "cypres",
+        "element": "Terre",
+        "patchs": [
+          {
+            "version": "0.10",
+            "cout": 5,
+            "gains": {
+              "terre": 2
+            },
+            "effet": "Inflige 0 dégâts magiques. +20% aux dégâts quand vous jouez un sort TERRE. Ce sort est détruit quand il est joué.",
+            "dons": []
+          }
+        ]
+      },
+      {
+        "nom": "Céan",
+        "image": "cean",
+        "element": "Eau",
+        "patchs": [
+          {
+            "version": "0.10",
+            "cout": 5,
+            "gains": {
+              "eau": 2
+            },
+            "effet": "Inflige 0 dégâts magiques. Quand vous jouez un sort EAU: +20% aux dégâts de base du sort. Ce sort est détruit quand il est joué.",
+            "dons": []
+          }
+        ]
+      },
+      {
+        "nom": "Flot",
+        "image": "flot",
+        "element": "Eau",
+        "patchs": [
+          {
+            "version": "0.10",
+            "cout": 5,
+            "gains": {
+              "eau": 2
+            },
+            "effet": "Inflige 0 dégâts magiques. Si la cible est MOUILLÉE: Déclanche GRÊLE(0) et applique MOUILLÉ",
+            "dons": []
+          }
+        ]
+      }
+    ]
   }
 }

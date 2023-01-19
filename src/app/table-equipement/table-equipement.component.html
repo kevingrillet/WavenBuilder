@@ -8,7 +8,7 @@
     <ng-container matColumnDef="Nom">
       <th mat-header-cell *matHeaderCellDef mat-sort-header>Nom</th>
       <td mat-cell *matCellDef="let equipement">
-        <img src="{{ baseHref }}/assets/img/{{ mode }}/{{ equipement.image }}.jpg" alt="Rune d'équipement" style="height: 5em" />
+        <img src="{{ baseHref }}/assets/img/{{ mode }}/{{ equipement.image }}.jpg" alt="{{ equipement.nom }}" style="height: 5em" />
         <br />{{ equipement.nom }}
       </td>
     </ng-container>

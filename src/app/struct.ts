@@ -1,11 +1,14 @@
 // https://www.waven-game.com/fr/actualite/1373544-alpha-8-les-equipements
 
+import { Dictionary } from './interfaces';
+
 // Enums
 export enum Elements {
   Feu,
   Air,
   Terre,
   Eau,
+  Neutre,
 }
 
 export enum Raretes {
@@ -66,24 +69,45 @@ export class Equipements {
 }
 
 // Compagnons
-export class CompagnonPatch extends Patch {
-  cout!: Map<Elements, number>;
-  pv!: number;
-  at!: number;
-  cc!: number;
-  pm!: number;
-}
+// export class CompagnonPatch {
+//   version!: string;
+//   cout!: Dictionnary<number>;
+//   pv!: number;
+//   at!: number;
+//   cc!: number;
+//   pm!: number;
+//   pouvoir?: string;
+//   dons?: Don[];
+// }
 
-export class Compagnon {
-  iles?: Iles[];
-  nom!: string;
-  image?: string;
-  rarete!: Raretes;
-  patchs!: CompagnonPatch[];
-}
+// export class Compagnon {
+//   iles?: Iles[];
+//   nom!: string;
+//   image?: string;
+//   rarete!: Raretes;
+//   patchs!: CompagnonPatch[];
+// }
 
-export class Compagnons {
-  compagnons!: Compagnons[];
-}
+// export class Compagnons {
+//   compagnons!: Compagnons[];
+// }
 
 // Spells
+export class SortPatch {
+  version!: string;
+  cout!: number;
+  gains!: Dictionary<number>;
+  effet!: string;
+  dons?: Don[];
+}
+
+export class Sort {
+  nom!: string;
+  element!: Elements;
+  image?: string;
+  patchs!: SortPatch[];
+}
+
+export class Sorts {
+  sorts!: Sort[];
+}

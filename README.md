@@ -32,7 +32,7 @@ Si vous cherchez à faire une PR le fichier de données se trouve ici: `src/asse
 
 - [x] v1 - Base
   - [x] Créer `data.json` v0.10.
-  - [x] Créer interface d'affichage: `npx ng serve`
+  - [x] Créer interface d'affichage: `npx ng serve`, `npx ng g c`
   - [x] Ajouter le filtre.
   - [x] Créer interface de modification.
     - <https://stackblitz.com/edit/deep-nested-reactive-form>
@@ -55,16 +55,14 @@ Si vous cherchez à faire une PR le fichier de données se trouve ici: `src/asse
       - <https://stackoverflow.com/questions/5069464/replace-multiple-strings-at-once>
       - <https://stackoverflow.com/questions/44210786/style-not-working-for-innerhtml-in-angular>
   - [x] Ajouter les images après les mots clés.
-- [ ] v1.4 - Sorts
-  - [ ] Ajouter l'interface des sorts.
-  - [ ] Ajouter les sorts des items.
-  - [ ] Affichage des sorts sur la page des items.
+- [x] v1.4 - Sorts
+  - [x] Ajouter l'interface des sorts.
+  - [x] Ajouter les sorts des items.
 - [ ] v1.5 - Compagnons
   - [ ] Ajouter l'interface des compagnons.
   - [ ] Ajouter les compagnons.
   - [ ] Modifier l'interface des sorts pour les compagnons.
   - [ ] Ajouter les sorts des compagnons.
-  - [ ] Affichage des sorts sur la page des compagnons.
 - [ ] v1.6 - Classes & Armes
   - [ ] Ajouter les classes.
   - [ ] Ajouter les armes.

@@ -1,8 +1,15 @@
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { AceEditorComponent } from './ace-editor/ace-editor.component';
+import { DialogCardEquipementComponent } from './dialog-card-equipement/dialog-card-equipement.component';
+import { DialogCardSortComponent } from './dialog-card-sort/dialog-card-sort.component';
 import { DialogEquipementComponent } from './dialog-equipement/dialog-equipement.component';
+import { DialogSortComponent } from './dialog-sort/dialog-sort.component';
+import { TableCardEquipementComponent } from './table-card-equipement/table-card-equipement.component';
+import { TableCardSortComponent } from './table-card-sort/table-card-sort.component';
 import { TableEquipementComponent } from './table-equipement/table-equipement.component';
+import { TableSortComponent } from './table-sort/table-sort.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BrowserModule } from '@angular/platform-browser';
@@ -25,18 +32,19 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatTooltipModule } from '@angular/material/tooltip';
 
 import { ReactiveFormsModule } from '@angular/forms';
-import { DialogCardEquipementComponent } from './dialog-card-equipement/dialog-card-equipement.component';
-import { TableCardEquipementComponent } from './table-card-equipement/table-card-equipement.component';
-import { AceEditorComponent } from './ace-editor/ace-editor.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DialogEquipementComponent,
-    TableEquipementComponent,
-    DialogCardEquipementComponent,
-    TableCardEquipementComponent,
     AceEditorComponent,
+    DialogCardEquipementComponent,
+    DialogCardSortComponent,
+    DialogEquipementComponent,
+    DialogSortComponent,
+    TableCardEquipementComponent,
+    TableCardSortComponent,
+    TableEquipementComponent,
+    TableSortComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,27 @@
+.container {
+  display: grid;
+  gap: 5px;
+  grid-template-columns: 50% 25% 25%;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.container-base {
+  grid-template-columns: 50% 25% 25%;
+}
+
+.container-patch-version {
+  grid-template-columns: 10% 20% 65%;
+}
+
+.container-patch-gains {
+  grid-template-columns: 16% 16% 16% 16% 16% 16%;
+}
+
+.container-don {
+  grid-template-columns: 20% 15% 60% 5%;
+}
+
+.full-width {
+  width: 100%;
+}

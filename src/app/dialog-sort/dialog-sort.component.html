@@ -1,0 +1,127 @@
+<h1 mat-dialog-title>Ajouter un sort</h1>
+<form class="full-width" [formGroup]="sortForm" (ngSubmit)="save()">
+  <div mat-dialog-content>
+    <p>
+      <span style="color: red"><i>Attention, les modifications sont locales, merci d'enregistrer vos modifications dans la partie Json.</i></span>
+    </p>
+    <h2>Informations de base:</h2>
+
+    <div class="container container-base">
+      <mat-form-field appearance="outline" class="full-width">
+        <mat-label>Nom</mat-label>
+        <input matInput formControlName="nom" />
+      </mat-form-field>
+      <mat-form-field appearance="outline" class="full-width">
+        <mat-label>Image</mat-label>
+        <input matInput formControlName="image" />
+      </mat-form-field>
+      <mat-form-field appearance="outline" class="full-width">
+        <mat-label>Élément</mat-label>
+        <mat-select formControlName="element">
+          <mat-option *ngFor="let element of elements" [value]="element">{{ element }}</mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+
+    <h2>
+      Patchs
+      <button mat-icon-button color="primary" type="button" (click)="addPatch()">
+        <mat-icon>add</mat-icon>
+      </button>
+    </h2>
+
+    <ng-container formArrayName="patchs">
+      <ng-container *ngFor="let patchForm of patchs.controls; let i = index">
+        <div [formGroupName]="i">
+          <h3>Patch</h3>
+          <div class="container container-patch-version">
+            <mat-form-field appearance="outline" class="full-width">
+              <mat-label>Version</mat-label>
+              <input matInput required formControlName="version" />
+            </mat-form-field>
+            <mat-form-field appearance="outline" class="full-width">
+              <mat-label>Coût</mat-label>
+              <input matInput required type="number" formControlName="cout" />
+            </mat-form-field>
+            <mat-form-field appearance="outline" class="full-width">
+              <mat-label>Effet</mat-label>
+              <input matInput required formControlName="effet" />
+            </mat-form-field>
+          </div>
+
+          <h3>Gains</h3>
+          <div class="container container-patch-gains">
+            <mat-form-field appearance="outline" class="full-width">
+              <mat-label>Feu</mat-label>
+              <input matInput type="number" formControlName="feu" />
+            </mat-form-field>
+            <mat-form-field appearance="outline" class="full-width">
+              <mat-label>Air</mat-label>
+              <input matInput type="number" type="number" formControlName="air" />
+            </mat-form-field>
+            <mat-form-field appearance="outline" class="full-width">
+              <mat-label>Terre</mat-label>
+              <input matInput type="number" formControlName="terre" />
+            </mat-form-field>
+            <mat-form-field appearance="outline" class="full-width">
+              <mat-label>Eau</mat-label>
+              <input matInput type="number" formControlName="eau" />
+            </mat-form-field>
+            <mat-form-field appearance="outline" class="full-width">
+              <mat-label>Neutre</mat-label>
+              <input matInput type="number" formControlName="neutre" />
+            </mat-form-field>
+            <mat-form-field appearance="outline" class="full-width">
+              <mat-label>Éther</mat-label>
+              <input matInput type="number" formControlName="ether" />
+            </mat-form-field>
+          </div>
+
+          <h3>
+            Dons
+            <button mat-icon-button color="primary" type="button" (click)="addDon(i)">
+              <mat-icon>add</mat-icon>
+            </button>
+          </h3>
+          <ng-container formArrayName="dons">
+            <ng-container *ngFor="let donForm of getDons(i).controls; let j = index">
+              <div [formGroupName]="j">
+                <div class="container container-don">
+                  <mat-form-field appearance="outline" class="full-width">
+                    <mat-label>Nom</mat-label>
+                    <input matInput formControlName="nom" [matAutocomplete]="autoDonNom" />
+                    <mat-autocomplete autoActiveFirstOption #autoDonNom="matAutocomplete">
+                      <mat-option *ngFor="let option of oacDonNoms[i][j] | async" [value]="option">
+                        {{ option }}
+                      </mat-option>
+                    </mat-autocomplete>
+                  </mat-form-field>
+                  <mat-form-field appearance="outline" class="full-width">
+                    <mat-label>Cout</mat-label>
+                    <input matInput type="number" formControlName="cout" />
+                  </mat-form-field>
+                  <mat-form-field appearance="outline" class="full-width">
+                    <mat-label>Effet</mat-label>
+                    <input matInput formControlName="effet" [matAutocomplete]="autoDonEffet" />
+                    <mat-autocomplete autoActiveFirstOption #autoDonEffet="matAutocomplete">
+                      <mat-option *ngFor="let option of oacDonEffets[i][j] | async" [value]="option">
+                        {{ option }}
+                      </mat-option>
+                    </mat-autocomplete>
+                  </mat-form-field>
+                  <button mat-icon-button color="warn" (click)="deleteDon(i, j)">
+                    <mat-icon> delete_forever </mat-icon>
+                  </button>
+                </div>
+              </div>
+            </ng-container>
+          </ng-container>
+        </div>
+      </ng-container>
+    </ng-container>
+  </div>
+  <div mat-dialog-actions [align]="'end'">
+    <button mat-raised-button color="warn" mat-dialog-close>Fermer</button>
+    <button mat-raised-button type="submit" color="primary">Enregistrer</button>
+  </div>
+</form>

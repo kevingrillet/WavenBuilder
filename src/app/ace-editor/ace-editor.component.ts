@@ -1,7 +1,7 @@
 import { AfterViewInit, Component, ElementRef, Input, ViewChild } from '@angular/core';
 
 import * as ace from 'ace-builds';
-import { Equipements } from '../struct';
+import { Equipements, Sorts } from '../struct';
 
 @Component({
   selector: 'app-ace-editor',
@@ -10,12 +10,13 @@ import { Equipements } from '../struct';
 })
 export class AceEditorComponent implements AfterViewInit {
   @ViewChild('editor') private editor!: ElementRef<HTMLElement>;
-  @Input() text!: Equipements;
+  @Input() equipements!: Equipements;
+  @Input() sorts!: Sorts;
 
   aceEditor!: ace.Ace.Editor;
 
   loadData(): void {
-    this.aceEditor.session.setValue(JSON.stringify({ equipements: this.text }, null, 2));
+    this.aceEditor.session.setValue(JSON.stringify({ equipements: this.equipements, sorts: this.sorts }, null, 2));
   }
 
   ngAfterViewInit(): void {

@@ -1,0 +1,15 @@
+<mat-card>
+  <mat-card-header>
+    <mat-card-title-group>
+      <mat-card-title>{{ sort.nom }}</mat-card-title>
+      <mat-card-subtitle>
+        {{ sort.element }}
+      </mat-card-subtitle>
+      <img mat-card-m-image src="{{ baseHref }}/assets/img/sorts/{{ sort.image }}.jpg" alt="{{ sort.nom }}" />
+    </mat-card-title-group>
+  </mat-card-header>
+  <mat-card-content>
+    <h3>Patchs</h3>
+    <app-table-card-sort [patchs]="sort.patchs"></app-table-card-sort>
+  </mat-card-content>
+</mat-card>

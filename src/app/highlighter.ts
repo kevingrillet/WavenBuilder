@@ -1,6 +1,10 @@
 export class Highlighter {
   static highlight(input: string): string {
-    const imgKeywords = ['adjacents', 'ASTRAL', 'autour', 'BOUEUX', 'ÉVENTÉ', 'HUILÉ', 'MOUILLÉ'];
+    if (!input) return '';
+    if (input === '') return '';
+    const imgKeywords = ['adjacents', 'ASTRAL', 'autour', 'BOUEUSE', 'BOUEUX', 'ÉVENTÉ', 'ÉVENTÉE', 'HUILÉ', 'HUILÉE', 'MOUILLÉ', 'MOUILLÉE'].sort((a, b) =>
+      b.localeCompare(a)
+    );
     const blueKeywords = [
       'ASTRAL',
       'AVALANCHE',
@@ -47,6 +51,7 @@ export class Highlighter {
       'AT',
       'ATTAQUE',
       'AURAS',
+      'BOUEUSE',
       'BOUEUX',
       'BOULE DE FEU',
       'CC',
@@ -58,12 +63,15 @@ export class Highlighter {
       'ECLAIR',
       'ÉTHER',
       'ÉVENTÉ',
+      'ÉVENTÉE',
       'FEU',
       'GAINS DE KAMAS',
       'HUILÉ',
+      'HUILÉE',
       'MAGIE',
       'MAGIES',
       'MOUILLÉ',
+      'MOUILLÉE',
       'PA',
       'PUISSANCE',
       'PV',
@@ -77,7 +85,7 @@ export class Highlighter {
       'XP',
     ].sort((a, b) => b.localeCompare(a));
     const greenKeywords = ['[0-9]+ dégâts magiques'];
-    const greyKeywords = ['Limité à [0-9]+ fois par combat.', 'Limité à [0-9]+ fois par tour.'];
+    const greyKeywords = ['Ce sort est détruit quand il est joué.', 'Limité à [0-9]+ fois par combat.', 'Limité à [0-9]+ fois par tour.'];
 
     let output = input;
     output = output.replace(new RegExp('(' + blueKeywords.join('|') + ')', 'g'), "<span class='style-bold style-blue'>$1</span>");
@@ -94,10 +102,13 @@ export class Highlighter {
     output = output.replace(new RegExp('(' + greyKeywords.join('|') + ')', 'g'), "<br /><span class='style-italic style-gray'>$1</span>");
 
     output = output.replace(new RegExp('(' + imgKeywords.join('|') + ')', 'g'), function (match) {
+      let localMatch = match;
+      if (localMatch === 'BOUEUSE') localMatch = 'BOUEUX';
+      if (localMatch.slice(-2) === 'ÉE') localMatch = localMatch.slice(0, -1);
       return (
         match +
         " <img src='./assets/img/effets/" +
-        match
+        localMatch
           .toLowerCase()
           .normalize('NFD')
           .replace(/\p{Diacritic}/gu, '') +
