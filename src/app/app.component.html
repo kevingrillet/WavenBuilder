@@ -33,7 +33,9 @@
   <mat-tab label="Brassards">
     <app-table-equipement #tableBrassards (callParent)="refreshAceEditor()" [equipements]="equipements.brassards" mode="brassards"></app-table-equipement>
   </mat-tab>
-  <mat-tab label="Compagnons">WIP</mat-tab>
+  <mat-tab label="Compagnons">
+    <app-table-compagnon #tableCompagnons (callParent)="refreshAceEditor()" [compagnons]="compagnons.compagnons"></app-table-compagnon>
+  </mat-tab>
   <mat-tab label="Sorts">
     <app-table-sort #tableSpells (callParent)="refreshAceEditor()" [sorts]="spells.sorts"></app-table-sort>
   </mat-tab>
@@ -54,7 +56,7 @@
         Télécharger
       </button>
       <br /><br />
-      <app-ace-editor #aceEditor [equipements]="equipements" [sorts]="spells"></app-ace-editor>
+      <app-ace-editor #aceEditor [compagnons]="compagnons" [equipements]="equipements" [sorts]="spells"></app-ace-editor>
     </div>
   </mat-tab>
 </mat-tab-group>

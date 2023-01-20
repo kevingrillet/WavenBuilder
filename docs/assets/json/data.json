@@ -1,4 +1,2578 @@
 {
+  "compagnons": {
+    "compagnons": [
+      {
+        "nom": "Nugget",
+        "rarete": "Commun",
+        "image": "nugget",
+        "iles": [],
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "Aucun effet.",
+            "pv": 52,
+            "at": 8,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Vitalité et puissance",
+                "cout": 70,
+                "effet": "+100% de PV à ce personnage. +100% d'AT à ce personnage."
+              },
+              {
+                "nom": "Envol",
+                "cout": 50,
+                "effet": "Quand ce personnage subit des dégâts: Prend son ENVOL."
+              }
+            ],
+            "couts": {
+              "feu": 2
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Championne Périmée",
+        "rarete": "Commun",
+        "image": "championne_perimee",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "ATTAQUE: -1PA de coût de premier sort de votre main.",
+            "pv": 66,
+            "at": 14,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Gain de Kamas",
+                "cout": 50,
+                "effet": "+10% aux GAINS DE KAMAS."
+              },
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage."
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage."
+              }
+            ],
+            "couts": {
+              "feu": 3
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Dargone",
+        "rarete": "Commun",
+        "image": "dargone",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "ATTAQUE: +1 AURA COEUR DE FLAMME.",
+            "pv": 65,
+            "at": 12,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "feu": 3
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Hendo",
+        "rarete": "Commun",
+        "image": "hendo",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "ATTAQUE: +100% de dégâts si la cible est HUILÉE.",
+            "pv": 63,
+            "at": 13,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "feu": 3
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Maitre egreneur",
+        "rarete": "Commun",
+        "image": "maitre_egreneur",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "ATTAQUE: -2 PA au coût du prochain sort de MÉCANISME ou de PIÈGE que vous jouez.",
+            "pv": 58,
+            "at": 11,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "feu": 3
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Sentinelle affutée",
+        "rarete": "Commun",
+        "image": "sentinelle_affutee",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "ATTAQUE: +1 Jauge FEU.",
+            "pv": 65,
+            "at": 8,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "feu": 3
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Skhul",
+        "rarete": "Commun",
+        "image": "skhul",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "ATTAQUE: -25% d'AT à la cible pour le tour.",
+            "pv": 60,
+            "at": 10,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "feu": 3
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Championne Sanglante",
+        "rarete": "Rare",
+        "image": "championne_sanglante",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "ATTAQUE: VOL DE VIE.",
+            "pv": 95,
+            "at": 11,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "feu": 4
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Hilda",
+        "rarete": "Rare",
+        "image": "hilda",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "APPARITION: Inflige son AT aux adversaires adjacents à elle.",
+            "pv": 78,
+            "at": 16,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "feu": 4
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Igror",
+        "rarete": "Rare",
+        "image": "igror",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "ATTAQUE: Applique HUILÉ.",
+            "pv": 90,
+            "at": 18,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "feu": 4
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Séraphin",
+        "rarete": "Rare",
+        "image": "seraphin",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "ATTAQUE: Vole 1 PA à la réserve adversaire.",
+            "pv": 85,
+            "at": 16,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "feu": 4
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Shushette",
+        "rarete": "Rare",
+        "image": "achmea",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "ATTAQUE: Déclanche EXPLOSION(6).",
+            "pv": 84,
+            "at": 16,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "feu": 4
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Bakara",
+        "rarete": "Krosmique",
+        "image": "bakara",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "Tant qu'elle est en jeu: -1PA au coût de vos sorts FEU.",
+            "pv": 98,
+            "at": 25,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "feu": 5
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Dark Vlad",
+        "rarete": "Krosmique",
+        "image": "dark_vlad",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "ATTAQUE: +25% d'AT pour le reste du combat.",
+            "pv": 122,
+            "at": 20,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "feu": 5
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Elely",
+        "rarete": "Krosmique",
+        "image": "elely",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "Si elle est l'unique allié en jeu: +100% d'AT.",
+            "pv": 100,
+            "at": 16,
+            "cc": 5,
+            "pm": 4,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "feu": 5
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Remington smisse",
+        "rarete": "Krosmique",
+        "image": "remington_smisse",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "ATTAQUE: Construit une BOMBE SMISSE (1) derrière la cible..",
+            "pv": 106,
+            "at": 17,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "feu": 5
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Goultard",
+        "rarete": "Infinite",
+        "image": "goultard",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "ATTAQUE: Déclanche 2 foix EXPLOSION(6).",
+            "pv": 169,
+            "at": 30,
+            "cc": 5,
+            "pm": 4,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "feu": 9
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Tika",
+        "rarete": "Commun",
+        "image": "tika",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "Aucun effet.",
+            "pv": 52,
+            "at": 8,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Vitalité et puissance",
+                "cout": 70,
+                "effet": "+100% de PV à ce personnage. +100% d'AT à ce personnage."
+              },
+              {
+                "nom": "Envol",
+                "cout": 50,
+                "effet": "Quand ce personnage subit des dégâts: Prend son ENVOL."
+              }
+            ],
+            "couts": {
+              "air": 2
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Abigaïl",
+        "rarete": "Commun",
+        "image": "abigail",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "ATTAQUE: +50% de dégâts si elle est l'unique compagnon allié en jeu.",
+            "pv": 67,
+            "at": 14,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "air": 3
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Angèle",
+        "rarete": "Commun",
+        "image": "angele",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "DÉPHASAGE.",
+            "pv": 63,
+            "at": 18,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "air": 3
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Championne du blasphème",
+        "rarete": "Commun",
+        "image": "championne_du_blaspheme",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "ATTAQUE: +100% de dégâts si la cible est ÉVENTÉE.",
+            "pv": 63,
+            "at": 13,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "air": 3
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Flécheur",
+        "rarete": "Commun",
+        "image": "flecheur",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "APPARITION et DÉBUT DU TOUR: +1 AURA MIRE.",
+            "pv": 65,
+            "at": 10,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "air": 3
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Héros félin",
+        "rarete": "Commun",
+        "image": "heros_felin",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "ATTAQUE: +1 Jauge AIR.",
+            "pv": 65,
+            "at": 8,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "air": 3
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Oracle offensé",
+        "rarete": "Commun",
+        "image": "oracle_offense",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "ATTAQUE: REPOUSSE de 2 cases.",
+            "pv": 63,
+            "at": 14,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "air": 3
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Assa",
+        "rarete": "Rare",
+        "image": "assa",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "ATTAQUE: Applique ÉVENTÉ.",
+            "pv": 91,
+            "at": 17,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "air": 4
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Duelliste spectral",
+        "rarete": "Rare",
+        "image": "duelist_spectral",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "ATTAQUE: Déclanche REBOND(8).",
+            "pv": 82,
+            "at": 17,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "air": 4
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Empaleur embusqué",
+        "rarete": "Rare",
+        "image": "empaleur_embusque",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "APPARITION et DÉBUT DU TOUR: +1 AURA MIRE REPOUSSANTE.",
+            "pv": 80,
+            "at": 12,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "air": 4
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Exécuteur endeuillé",
+        "rarete": "Rare",
+        "image": "executeur_endeuille",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "Possède 50% de DRAIN.",
+            "pv": 90,
+            "at": 22,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "air": 4
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Farnix",
+        "rarete": "Rare",
+        "image": "farnix",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "APPARITION et DÉBUT DU TOUR: +1 AURA MIRE REBOND.",
+            "pv": 79,
+            "at": 12,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "air": 4
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Atcham",
+        "rarete": "Krosmique",
+        "image": "atcham",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "ATTAQUE: Inflige également sont AT à l'adversaire ayant le plus de PV.",
+            "pv": 96,
+            "at": 18,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "air": 5
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Coqueline",
+        "rarete": "Krosmique",
+        "image": "coqueline",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "DÉPHASAGE.",
+            "pv": 92,
+            "at": 22,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "air": 5
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Corbeau noir",
+        "rarete": "Krosmique",
+        "image": "corbeau_noir",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "ATTAQUE: Touche tous les adversaires derrière la cible.",
+            "pv": 110,
+            "at": 20,
+            "cc": 5,
+            "pm": 4,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "air": 5
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Évangelyne",
+        "rarete": "Infinite",
+        "image": "evangelyne",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "FIN DE TOUR: Inflige son AT aux adversaires alignés avec elle à plus de 1 case.",
+            "pv": 118,
+            "at": 22,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "air": 6
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Delta",
+        "rarete": "Commun",
+        "image": "delta",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "Aucun effet.",
+            "pv": 52,
+            "at": 8,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Vitalité et puissance",
+                "cout": 70,
+                "effet": "+100% de PV à ce personnage. +100% d'AT à ce personnage."
+              },
+              {
+                "nom": "Envol",
+                "cout": 50,
+                "effet": "Quand ce personnage subit des dégâts: Prend son ENVOL."
+              }
+            ],
+            "couts": {
+              "terre": 2
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Achméa",
+        "rarete": "Commun",
+        "image": "achmea",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "ATTAQUE: +1 Jauge TERRE.",
+            "pv": 65,
+            "at": 8,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "terre": 3
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Argolio",
+        "rarete": "Commun",
+        "image": "argolio",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "APPARITION et DÉBUT DU TOUR: +1 AURA MIRE GRAVELEUSE.",
+            "pv": 63,
+            "at": 10,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "terre": 3
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Ashmal",
+        "rarete": "Commun",
+        "image": "ashmal",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "APPARITION: Confère son AT en AR à votre héros.",
+            "pv": 63,
+            "at": 12,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "terre": 3
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Kaotika",
+        "rarete": "Commun",
+        "image": "kaotika",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "ATTAQUE: +100% de dégâts si la cible est un MÉCANISME.",
+            "pv": 66,
+            "at": 14,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "terre": 3
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Soigneuse corrompue",
+        "rarete": "Commun",
+        "image": "soigneuse_corrompue",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "ATTAQUE: +100% de dégâts si la cible est BOUEUSE.",
+            "pv": 63,
+            "at": 13,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "terre": 3
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Zorine",
+        "rarete": "Commun",
+        "image": "zorine",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "ATTAQUE: +50% de dégâts si la cible possède au moins 1 AURA.",
+            "pv": 66,
+            "at": 16,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "terre": 3
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Eclaireur d'élite",
+        "rarete": "Rare",
+        "image": "eclaireur_d_elite",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "APPARITION et DÉBUT DU TOUR: +1 AURA MIRE DE PIERRE.",
+            "pv": 80,
+            "at": 15,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "terre": 4
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Griffeur tonkino",
+        "rarete": "Rare",
+        "image": "griffeur_tonkino",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "ATTAQUE: Applique BOUEUX.",
+            "pv": 95,
+            "at": 14,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "terre": 4
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Héros châtaigner",
+        "rarete": "Rare",
+        "image": "heros_chataigner",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "MORT: ASSOMME les adversaires autour.",
+            "pv": 79,
+            "at": 18,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "terre": 4
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Héros endurci",
+        "rarete": "Rare",
+        "image": "heros_endurci",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "ATTAQUE: Gagne 50% de son AT en AR.",
+            "pv": 86,
+            "at": 16,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "terre": 4
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Marcus",
+        "rarete": "Rare",
+        "image": "marcus",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "Attaque: Déclanche TOURBE(6).",
+            "pv": 84,
+            "at": 16,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "terre": 4
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Amalia",
+        "rarete": "Krosmique",
+        "image": "amalia",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "Tant qu'elle est en jeu: -1PA au coût de vos sorts TERRE.",
+            "pv": 108,
+            "at": 19,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "terre": 5
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Joris",
+        "rarete": "Krosmique",
+        "image": "joris",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "Jout 2 fois par tour.",
+            "pv": 90,
+            "at": 17,
+            "cc": 5,
+            "pm": 4,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "terre": 5
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Lilotte",
+        "rarete": "Krosmique",
+        "image": "lilotte",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "ATTAQUE: REPOUSSE de 3 cases, puis avance d'autant.",
+            "pv": 95,
+            "at": 16,
+            "cc": 5,
+            "pm": 4,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "terre": 5
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Toxine",
+        "rarete": "Krosmique",
+        "image": "toxine",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "Attaque: -1PM à la cible pour le tour. +100% de dégâts si la cible est BOUEUSE.",
+            "pv": 86,
+            "at": 22,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "terre": 5
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Ruel",
+        "rarete": "Infinite",
+        "image": "ruel",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "ATTAQUE: Inflige son AT aux adversaires autour.",
+            "pv": 120,
+            "at": 24,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "terre": 6
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Yaki",
+        "rarete": "Commun",
+        "image": "nugget",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "Aucun effet.",
+            "pv": 52,
+            "at": 8,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Vitalité et puissance",
+                "cout": 70,
+                "effet": "+100% de PV à ce personnage. +100% d'AT à ce personnage."
+              },
+              {
+                "nom": "Envol",
+                "cout": 50,
+                "effet": "Quand ce personnage subit des dégâts: Prend son ENVOL."
+              }
+            ],
+            "couts": {
+              "eau": 2
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Initiée funèbre",
+        "rarete": "Commun",
+        "image": "initiee_funebre",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "INCIBLABLE. APPARITION: Confère INCIBLABLE à votre héros jusqu'à son prochain tour.",
+            "pv": 51,
+            "at": 8,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "eau": 3
+            }
+          }
+        ]
+      },
+      {
+        "nom": "M. Looter King",
+        "rarete": "Commun",
+        "image": "m_looter_king",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "ATTAQUE: +100% de dégâts si la cible est MOUILLÉE.",
+            "pv": 63,
+            "at": 13,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "eau": 3
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Pacificatrice enjouée",
+        "rarete": "Commun",
+        "image": "pacificatrice_enjouee",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "ATTAQUE: +1 AURA COEUR DE GLACE.",
+            "pv": 65,
+            "at": 12,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "eau": 3
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Saly",
+        "rarete": "Commun",
+        "image": "saly",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "Attaque: +1 Jauge EAU.",
+            "pv": 65,
+            "at": 8,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "eau": 3
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Shura",
+        "rarete": "Commun",
+        "image": "shura",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "ATTAQUE: Soigne la cible de son AT si c'est un allié.",
+            "pv": 67,
+            "at": 16,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "eau": 3
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Synchroniseur minutieux",
+        "rarete": "Commun",
+        "image": "synchroniseur_minutieux",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "APPARITION: +1PA en réserve.",
+            "pv": 62,
+            "at": 12,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "eau": 3
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Baron sramedi",
+        "rarete": "Rare",
+        "image": "baron_sramedi",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "ATTAQUE: +3 AURAS DAGUES SOURNOISES.",
+            "pv": 78,
+            "at": 17,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "eau": 4
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Gardienne inflexible",
+        "rarete": "Rare",
+        "image": "gardienne_inflexible",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "ATTAQUE: Applique MOUILLÉ.",
+            "pv": 92,
+            "at": 16,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "eau": 4
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Héroïne perfide",
+        "rarete": "Rare",
+        "image": "heroine_perfide",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "FIN DU TOUR: Se soigne de son AT si elle a au moins un allié autour d'elle.",
+            "pv": 82,
+            "at": 14,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "eau": 4
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Héros impartial",
+        "rarete": "Rare",
+        "image": "heros_impartial",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "ATTAQUE: +100% de dégâts s'il possède tous ses PV.",
+            "pv": 82,
+            "at": 16,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "eau": 4
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Rémus",
+        "rarete": "Rare",
+        "image": "remus",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "ATTAQUE: Déclanche GRÊLE(8).",
+            "pv": 85,
+            "at": 16,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "eau": 4
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Albert",
+        "rarete": "Krosmique",
+        "image": "albert",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "APPARITION: Ajoute le sort RÉPIT D'ALBERT à votre main.",
+            "pv": 104,
+            "at": 24,
+            "cc": 5,
+            "pm": 3,
+            "sort": "Répit d'Albert",
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "eau": 5
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Bump",
+        "rarete": "Krosmique",
+        "image": "bump",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "ATTAQUE: Devient GARDE DU CORPS de votre héros jusqu'au prochain tour.",
+            "pv": 108,
+            "at": 12,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "eau": 5
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Comte Harebourg",
+        "rarete": "Krosmique",
+        "image": "comte_harebourg",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "Tant qu'il est en jeu: -1PA au coût de vos sorts EAU.",
+            "pv": 109,
+            "at": 19,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "eau": 5
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Nox",
+        "rarete": "Infinite",
+        "image": "nox",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "ATTAQUE: Invoque une Noxine (1PV, 5AT, 5PM) derrière la cible. Mort: Détruit les NOXINES alliées en jeu.",
+            "pv": 162,
+            "at": 30,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "eau": 8
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Phaeris",
+        "rarete": "Infinite",
+        "image": "phaeris",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "Attaque: +1PA en réserve.",
+            "pv": 185,
+            "at": 40,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "eau": 9
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Alchimiste armurée",
+        "rarete": "Rare",
+        "image": "alchimiste_armuree",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "APPARITION: Confère BOUCLIER à votre héros.",
+            "pv": 82,
+            "at": 15,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "air": 2,
+              "feu": 2
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Brute Impie",
+        "rarete": "Rare",
+        "image": "brute_impie",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "APPARITION: Sacrifie le compagnon allié ayant le moins de PV pour gagner 100% d'AT.",
+            "pv": 88,
+            "at": 17,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Reflet d'heurt de gloire",
+                "cout": 50,
+                "effet": "APPARITION: Ajoute le sort REFLET D'HEURT DE GLOIRE à votre main."
+              },
+              {
+                "nom": "Puissance",
+                "cout": 90,
+                "effet": "+50% d'AT à ce personnage."
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage."
+              },
+              {
+                "nom": "Dégâts aux coups critiques",
+                "cout": 80,
+                "effet": "+50% de DÉGÂTS CC à ce personnage."
+              }
+            ],
+            "couts": {
+              "feu": 2,
+              "terre": 2
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Grany smisse",
+        "rarete": "Krosmique",
+        "image": "grany_smisse",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "APPARITION: -1 Jauge au coût de REMINGTON SMISSE (106PV, 17AT, 3PM). ATTAQUE: +1PM à votre héros pour le jour.",
+            "pv": 82,
+            "at": 17,
+            "cc": 5,
+            "pm": 4,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "terre": 3,
+              "feu": 2
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Disciple de l'agonie",
+        "rarete": "Rare",
+        "image": "disciple_de_l_agonie",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "APPARITION: GÈLE ses adversaires adjacents.",
+            "pv": 68,
+            "at": 13,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "feu": 2,
+              "eau": 2
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Grufon",
+        "rarete": "Krosmique",
+        "image": "grufon",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "APPARITION: Piochez 2 sorts. Ils coûtent -1PA.",
+            "pv": 70,
+            "at": 18,
+            "cc": 5,
+            "pm": 2,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "eau": 3,
+              "feu": 2
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Igôle",
+        "rarete": "Krosmique",
+        "image": "igole",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "APPARITION: -1 Jauge au coût de NOX (162PV, 30AT, 3PM). COUP DE GRÂCE: Peut rejouer son tour. Limité à 1 fois par tour.",
+            "pv": 76,
+            "at": 16,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "feu": 3,
+              "air": 2
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Lou",
+        "rarete": "Krosmique",
+        "image": "lou",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "Possède 50% de RIPOSTE. APPARITION: +1 AURA à votre héros s'il en possède déjà.",
+            "pv": 74,
+            "at": 14,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "feu": 3,
+              "terre": 2
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Percimol",
+        "rarete": "Krosmique",
+        "image": "percimol",
+        "iles": [],
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "INCIBLABLE.",
+            "pv": 110,
+            "at": 25,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "feu": 3,
+              "eau": 3
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Épinette",
+        "rarete": "Rare",
+        "image": "epinette",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "APPARITION: GÈLE ses adversaires adjacents.",
+            "pv": 98,
+            "at": 17,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "terre": 2,
+              "air": 2
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Shani",
+        "rarete": "Rare",
+        "image": "shani",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "Peut être invoquée sur une case adjacente à un adversaire. ATTAQUE: Ajoute le sort REFLET DE POUSSETTE à votre main.",
+            "pv": 82,
+            "at": 16,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "air": 2,
+              "eau": 2
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Championne embrocheuse",
+        "rarete": "Krosmique",
+        "image": "championne_embrocheuse",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "ATTAQUE: Piochez 1 sort.",
+            "pv": 102,
+            "at": 18,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "eau": 3,
+              "air": 2
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Héros martyr",
+        "rarete": "Rare",
+        "image": "heros_martyr",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "MORT: Soigne vos personnages du double de son AT.",
+            "pv": 82,
+            "at": 20,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "eau": 2,
+              "terre": 2
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Champion croulant",
+        "rarete": "Krosmique",
+        "image": "champion_croulant",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "APPARITION: Echange sa position avec celle de votre héros. Piochez 1 sort.",
+            "pv": 95,
+            "at": 20,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "eau": 3,
+              "terre": 2
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Rôdeur sylvestre",
+        "rarete": "Krosmique",
+        "image": "rodeur_sylvestre",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "Tant qu'il est en jeu: +50% de DRAIN à votre héros.",
+            "pv": 100,
+            "at": 22,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "eau": 3,
+              "terre": 2
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Recrue indomptée",
+        "rarete": "Krosmique",
+        "image": "recrue_indomptee",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "APPARITION: Piochez votre prochain sort à 6PA ou plus.",
+            "pv": 100,
+            "at": 24,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "terre": 3,
+              "eau": 2
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Khan Karkass",
+        "rarete": "Infinite",
+        "image": "khan_karkass",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "Tant qu'il est en jeu: +1PM à vos personnages. Peut être invoqué sur une case libre du terrain.",
+            "pv": 140,
+            "at": 32,
+            "cc": 5,
+            "pm": 4,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "terre": 3,
+              "air": 2,
+              "feu": 2
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Quilby",
+        "rarete": "Infinite",
+        "image": "quilby",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "APPARITION: +2 Jauges ÉTHER. ATTAQUE: Se téléporte dans le dos de la cible. Peut être invoqué sur une case libre du terrain.",
+            "pv": 172,
+            "at": 36,
+            "cc": 5,
+            "pm": 4,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "feu": 4,
+              "air": 3,
+              "eau": 2
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Katar",
+        "rarete": "Infinite",
+        "image": "katar",
+        "patchs": [
+          {
+            "version": "0.10",
+            "effet": "ATTAQUE: Inflige son AT aux adversaires autour.",
+            "pv": 134,
+            "at": 28,
+            "cc": 5,
+            "pm": 3,
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage.."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [],
+            "couts": {
+              "air": 3,
+              "terre": 2,
+              "eau": 2
+            }
+          }
+        ]
+      }
+    ]
+  },
   "equipements": {
     "anneaux": [
       {
@@ -1509,7 +4083,8 @@
               {
                 "taux": 1,
                 "effet": "% de MAGIE AIR."
-              }],
+              }
+            ],
             "dons": []
           }
         ]
@@ -4690,7 +7265,7 @@
         "patchs": [
           {
             "version": "0.10",
-            "pouvoir": "Attaque: Déclanche GRÊLE().",
+            "pouvoir": "Attaque: Déclanche GRÊLE(0).",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -4709,7 +7284,7 @@
               {
                 "nom": "Effet amélioré",
                 "cout": 50,
-                "effet": "CRITIQUE: Déclanche GRÊLE() une seconde fois."
+                "effet": "CRITIQUE: Déclanche GRÊLE(0) une seconde fois."
               },
               {
                 "nom": "Grêle",
@@ -4745,7 +7320,7 @@
         "patchs": [
           {
             "version": "0.10",
-            "pouvoir": "Attaque: Déclanche REBOND().",
+            "pouvoir": "Attaque: Déclanche REBOND(0).",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -4764,7 +7339,7 @@
               {
                 "nom": "Effet amélioré",
                 "cout": 50,
-                "effet": "CRITIQUE: Déclanche REBOND() une seconde fois."
+                "effet": "CRITIQUE: Déclanche REBOND(0) une seconde fois."
               },
               {
                 "nom": "Rebond",
@@ -4801,7 +7376,7 @@
         "patchs": [
           {
             "version": "0.10",
-            "pouvoir": "Attaque: Déclanche TOURBE().",
+            "pouvoir": "Attaque: Déclanche TOURBE(0).",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -4820,7 +7395,7 @@
               {
                 "nom": "Effet amélioré",
                 "cout": 50,
-                "effet": "CRITIQUE: Déclanche TOURBE() une seconde fois."
+                "effet": "CRITIQUE: Déclanche TOURBE(0) une seconde fois."
               },
               {
                 "nom": "Tourbe",
@@ -4857,7 +7432,7 @@
         "patchs": [
           {
             "version": "0.10",
-            "pouvoir": "Attaque: Déclanche EXPLOSION().",
+            "pouvoir": "Attaque: Déclanche EXPLOSION(0).",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -4876,7 +7451,7 @@
               {
                 "nom": "Effet amélioré",
                 "cout": 50,
-                "effet": "CRITIQUE: Déclanche EXPLOSION() une seconde fois."
+                "effet": "CRITIQUE: Déclanche EXPLOSION(0) une seconde fois."
               },
               {
                 "nom": "Explosion",
@@ -5007,129 +7582,159 @@
     "sorts": [
       {
         "nom": "Boom",
-        "image": "boom",
         "element": "Feu",
+        "image": "boom",
         "patchs": [
           {
             "version": "0.10",
             "cout": 5,
+            "effet": "Inflige 0 dégâts magiques. Si la cible est HUILÉE: Déclanche EXPLOSION(0) et applique HUILÉ",
+            "dons": [],
             "gains": {
               "feu": 2
-            },
-            "effet": "Inflige 0 dégâts magiques. Si la cible est HUILÉE: Déclanche EXPLOSION(0) et applique HUILÉ",
-            "dons": []
+            }
           }
         ]
       },
       {
         "nom": "Ctane",
-        "image": "ctane",
         "element": "Feu",
+        "image": "ctane",
         "patchs": [
           {
             "version": "0.10",
             "cout": 5,
+            "effet": "Inflige 0 dégâts magiques. Quand vous jouez un sort FEU: +20% aux dégâts de base du sort. Ce sort est détruit quand il est joué.",
+            "dons": [],
             "gains": {
               "feu": 2
-            },
-            "effet": "Inflige 0 dégâts magiques. Quand vous jouez un sort FEU: +20% aux dégâts de base du sort. Ce sort est détruit quand il est joué.",
-            "dons": []
+            }
           }
         ]
       },
       {
         "nom": "Caracole",
-        "image": "caracole",
         "element": "Air",
+        "image": "caracole",
         "patchs": [
           {
             "version": "0.10",
             "cout": 5,
+            "effet": "Inflige 0 dégâts magiques. Si la cible est ÉVENTÉE: Déclanche REBOND(0) et applique ÉVENTÉ",
+            "dons": [],
             "gains": {
               "air": 2
-            },
-            "effet": "Inflige 0 dégâts magiques. Si la cible est ÉVENTÉE: Déclanche REBOND(0) et applique ÉVENTÉ",
-            "dons": []
+            }
           }
         ]
       },
       {
         "nom": "Ragan",
-        "image": "ragan",
         "element": "Air",
+        "image": "ragan",
         "patchs": [
           {
             "version": "0.10",
             "cout": 5,
+            "effet": "Inflige 0 dégâts magiques. +20% aux dégâts quand vous jouez un sort AIR. Ce sort est détruit quand il est joué.",
+            "dons": [],
             "gains": {
               "air": 2
-            },
-            "effet": "Inflige 0 dégâts magiques. +20% aux dégâts quand vous jouez un sort AIR. Ce sort est détruit quand il est joué.",
-            "dons": []
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Reflet d'heurt de gloire",
+        "image": "reflet_d_heurt_de_gloire",
+        "element": "Terre",
+        "patchs": [
+          {
+            "version": "0.10",
+            "cout": 3,
+            "effet": "Inflige 0 dégâts magiques. MÉLÉE: +7AR à votre héros.",
+            "dons": [],
+            "gains": {
+              "terre": 1
+            }
           }
         ]
       },
       {
         "nom": "Broyage",
-        "image": "broyage",
         "element": "Terre",
+        "image": "broyage",
         "patchs": [
           {
             "version": "0.10",
             "cout": 5,
+            "effet": "Inflige 0 dégâts magiques. Si la cible est BOUEUSE: Déclanche TOURBE(0) et applique BOUEUX",
+            "dons": [],
             "gains": {
               "terre": 2
-            },
-            "effet": "Inflige 0 dégâts magiques. Si la cible est BOUEUSE: Déclanche TOURBE(0) et applique BOUEUX",
-            "dons": []
+            }
           }
         ]
       },
       {
         "nom": "Cypres",
-        "image": "cypres",
         "element": "Terre",
+        "image": "cypres",
         "patchs": [
           {
             "version": "0.10",
             "cout": 5,
+            "effet": "Inflige 0 dégâts magiques. +20% aux dégâts quand vous jouez un sort TERRE. Ce sort est détruit quand il est joué.",
+            "dons": [],
             "gains": {
               "terre": 2
-            },
-            "effet": "Inflige 0 dégâts magiques. +20% aux dégâts quand vous jouez un sort TERRE. Ce sort est détruit quand il est joué.",
-            "dons": []
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Répit d'Albert",
+        "element": "Eau",
+        "image": "repit_d_albert",
+        "patchs": [
+          {
+            "version": "0.10",
+            "cout": 3,
+            "effet": "Soigne un allié de 19 PV.",
+            "dons": [],
+            "gains": {}
           }
         ]
       },
       {
         "nom": "Céan",
-        "image": "cean",
         "element": "Eau",
+        "image": "cean",
         "patchs": [
           {
             "version": "0.10",
             "cout": 5,
+            "effet": "Inflige 0 dégâts magiques. Quand vous jouez un sort EAU: +20% aux dégâts de base du sort. Ce sort est détruit quand il est joué.",
+            "dons": [],
             "gains": {
               "eau": 2
-            },
-            "effet": "Inflige 0 dégâts magiques. Quand vous jouez un sort EAU: +20% aux dégâts de base du sort. Ce sort est détruit quand il est joué.",
-            "dons": []
+            }
           }
         ]
       },
       {
         "nom": "Flot",
-        "image": "flot",
         "element": "Eau",
+        "image": "flot",
         "patchs": [
           {
             "version": "0.10",
             "cout": 5,
+            "effet": "Inflige 0 dégâts magiques. Si la cible est MOUILLÉE: Déclanche GRÊLE(0) et applique MOUILLÉ",
+            "dons": [],
             "gains": {
               "eau": 2
-            },
-            "effet": "Inflige 0 dégâts magiques. Si la cible est MOUILLÉE: Déclanche GRÊLE(0) et applique MOUILLÉ",
-            "dons": []
+            }
           }
         ]
       }

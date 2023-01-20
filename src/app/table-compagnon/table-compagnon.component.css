@@ -1,0 +1,34 @@
+/* Largeur de la table & de la recherche*/
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+table {
+  width: 100%;
+}
+
+.mat-mdc-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+/* Boutons rareté */
+.mat-Commun {
+  background-color: brown;
+  color: ghostwhite !important;
+}
+
+.mat-Rare {
+  background-color: dodgerblue;
+  color: ghostwhite !important;
+}
+
+.mat-Krosmique {
+  background-color: blueviolet;
+  color: ghostwhite !important;
+}
+
+.mat-Infinite {
+  background-color: gold;
+}

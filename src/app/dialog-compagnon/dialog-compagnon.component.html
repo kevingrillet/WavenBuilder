@@ -1,5 +1,5 @@
-<h1 mat-dialog-title>Ajouter un sort</h1>
-<form class="full-width" [formGroup]="sortForm" (ngSubmit)="save()">
+<h1 mat-dialog-title>Ajouter un compagnon</h1>
+<form class="full-width" [formGroup]="compagnonForm" (ngSubmit)="save()">
   <div mat-dialog-content>
     <p>
       <span style="color: red"><i>Attention, les modifications sont locales, merci d'enregistrer vos modifications dans la partie Json.</i></span>
@@ -16,12 +16,17 @@
         <input matInput formControlName="image" />
       </mat-form-field>
       <mat-form-field appearance="outline" class="full-width">
-        <mat-label>Élément</mat-label>
-        <mat-select formControlName="element">
-          <mat-option *ngFor="let element of elements" [value]="element">{{ element }}</mat-option>
+        <mat-label>Rareté</mat-label>
+        <mat-select formControlName="rarete">
+          <mat-option *ngFor="let rarete of raretes" [value]="rarete">{{ rarete }}</mat-option>
         </mat-select>
       </mat-form-field>
     </div>
+
+    <h2>Zone de farm</h2>
+    <ng-container formGroupName="iles">
+      <mat-checkbox *ngFor="let ile of iles" [formControlName]="ile">{{ ile }}</mat-checkbox>
+    </ng-container>
 
     <h2>
       Patchs
@@ -40,17 +45,17 @@
               <input matInput required formControlName="version" />
             </mat-form-field>
             <mat-form-field appearance="outline" class="full-width">
-              <mat-label>Coût</mat-label>
-              <input matInput required type="number" formControlName="cout" />
-            </mat-form-field>
-            <mat-form-field appearance="outline" class="full-width">
               <mat-label>Effet</mat-label>
               <input matInput required formControlName="effet" />
             </mat-form-field>
+            <mat-form-field appearance="outline" class="full-width">
+              <mat-label>Sort</mat-label>
+              <input matInput formControlName="sort" />
+            </mat-form-field>
           </div>
 
-          <h3>Gains</h3>
-          <div class="container container-patch-gains">
+          <h3>Coût</h3>
+          <div class="container container-patch-cout">
             <mat-form-field appearance="outline" class="full-width">
               <mat-label>Feu</mat-label>
               <input matInput type="number" formControlName="feu" />
@@ -67,15 +72,58 @@
               <mat-label>Eau</mat-label>
               <input matInput type="number" formControlName="eau" />
             </mat-form-field>
+          </div>
+
+          <h3>Stats</h3>
+          <div class="container container-patch-stats">
             <mat-form-field appearance="outline" class="full-width">
-              <mat-label>Neutre</mat-label>
-              <input matInput type="number" formControlName="neutre" />
+              <mat-label>PV</mat-label>
+              <input matInput required type="number" formControlName="pv" />
             </mat-form-field>
             <mat-form-field appearance="outline" class="full-width">
-              <mat-label>Éther</mat-label>
-              <input matInput type="number" formControlName="ether" />
+              <mat-label>AT</mat-label>
+              <input matInput required type="number" type="number" formControlName="at" />
+            </mat-form-field>
+            <mat-form-field appearance="outline" class="full-width">
+              <mat-label>CC</mat-label>
+              <input matInput required type="number" formControlName="cc" />
+            </mat-form-field>
+            <mat-form-field appearance="outline" class="full-width">
+              <mat-label>PM</mat-label>
+              <input matInput required type="number" formControlName="pm" />
             </mat-form-field>
           </div>
+
+          <h3>
+            Caractéristiques
+            <button mat-icon-button color="primary" type="button" (click)="addCarac(i)">
+              <mat-icon>add</mat-icon>
+            </button>
+          </h3>
+          <ng-container formArrayName="caracteristiques">
+            <ng-container *ngFor="let caracForm of getCaracteristiques(i).controls; let j = index">
+              <div [formGroupName]="j">
+                <div class="container container-caracteristique">
+                  <mat-form-field appearance="outline" class="full-width">
+                    <mat-label>Taux</mat-label>
+                    <input matInput type="number" formControlName="taux" />
+                  </mat-form-field>
+                  <mat-form-field appearance="outline" class="full-width">
+                    <mat-label>Effet</mat-label>
+                    <input matInput formControlName="effet" [matAutocomplete]="autoCaracEffet" />
+                    <mat-autocomplete autoActiveFirstOption #autoCaracEffet="matAutocomplete">
+                      <mat-option *ngFor="let option of oacCaracEffets[i][j] | async" [value]="option">
+                        {{ option }}
+                      </mat-option>
+                    </mat-autocomplete>
+                  </mat-form-field>
+                  <button mat-icon-button color="warn" (click)="deleteCaracteristiques(i, j)">
+                    <mat-icon> delete_forever </mat-icon>
+                  </button>
+                </div>
+              </div>
+            </ng-container>
+          </ng-container>
 
           <h3>
             Dons
@@ -108,6 +156,10 @@
                         {{ option }}
                       </mat-option>
                     </mat-autocomplete>
+                  </mat-form-field>
+                  <mat-form-field appearance="outline" class="full-width">
+                    <mat-label>Sort</mat-label>
+                    <input matInput formControlName="sort" />
                   </mat-form-field>
                   <button mat-icon-button color="warn" (click)="deleteDon(i, j)">
                     <mat-icon> delete_forever </mat-icon>

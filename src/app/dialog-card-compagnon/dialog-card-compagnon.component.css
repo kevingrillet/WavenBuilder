@@ -1,0 +1,26 @@
+mat-card {
+  width: 100%;
+}
+
+table {
+  width: 100%;
+}
+
+.mat-Commun {
+  background-color: brown;
+  color: ghostwhite !important;
+}
+
+.mat-Rare {
+  background-color: dodgerblue;
+  color: ghostwhite !important;
+}
+
+.mat-Krosmique {
+  background-color: blueviolet;
+  color: ghostwhite !important;
+}
+
+.mat-Infinite {
+  background-color: gold;
+}

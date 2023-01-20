@@ -1,17 +1,16 @@
 import { Component, Inject, OnInit } from '@angular/core';
+import { FormGroup, FormBuilder, Validators, FormControl, FormArray } from '@angular/forms';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
-import { FormArray, FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
-
-import { Equipement, Iles, Patch, Raretes } from '../struct';
-import { DialogEquipementInput } from '../interfaces';
-import { map, Observable, startWith } from 'rxjs';
+import { Observable, startWith, map } from 'rxjs';
+import { DialogCompagnonInput } from '../interfaces';
+import { Iles, Raretes, Compagnon, CompagnonPatch } from '../struct';
 
 @Component({
-  selector: 'app-dialog-equipement',
-  templateUrl: './dialog-equipement.component.html',
-  styleUrls: ['./dialog-equipement.component.css'],
+  selector: 'app-dialog-compagnon',
+  templateUrl: './dialog-compagnon.component.html',
+  styleUrls: ['./dialog-compagnon.component.css'],
 })
-export class DialogEquipementComponent implements OnInit {
+export class DialogCompagnonComponent implements OnInit {
   iles = Object.values(Iles).filter((value) => typeof value !== 'number');
   raretes = Object.values(Raretes).filter((value) => typeof value !== 'number');
 
@@ -23,24 +22,22 @@ export class DialogEquipementComponent implements OnInit {
   acCaracEffets!: string[];
   acDonEffets!: string[];
   acDonNoms!: string[];
-  equipementForm!: FormGroup;
-  equipement: Equipement;
-  equipements: Equipement[];
-  mode: string;
+  compagnonForm!: FormGroup;
+  compagnon: Compagnon;
+  compagnons: Compagnon[];
 
   constructor(
     private formBuilder: FormBuilder,
-    private matDialogRef: MatDialogRef<DialogEquipementComponent>,
-    @Inject(MAT_DIALOG_DATA) public data: DialogEquipementInput
+    private matDialogRef: MatDialogRef<DialogCompagnonComponent>,
+    @Inject(MAT_DIALOG_DATA) public data: DialogCompagnonInput
   ) {
-    this.equipement = this.data.equipement;
-    this.equipements = this.data.equipements;
-    this.mode = this.data.mode;
+    this.compagnon = this.data.compagnon;
+    this.compagnons = this.data.compagnons;
   }
 
   ngOnInit(): void {
     // Mise en place du form
-    this.equipementForm = this.formBuilder.group({
+    this.compagnonForm = this.formBuilder.group({
       nom: ['', Validators.required],
       rarete: ['', Validators.required],
       image: [''],
@@ -48,10 +45,16 @@ export class DialogEquipementComponent implements OnInit {
       patchs: this.formBuilder.array([
         this.formBuilder.group({
           version: ['', Validators.required],
-          pouvoir: ['', Validators.required],
+          pv: ['', Validators.required],
+          at: ['', Validators.required],
+          cc: ['', Validators.required],
+          pm: ['', Validators.required],
+          effet: ['', Validators.required],
           sort: [''],
-          nom: [''],
-          rarete: [''],
+          feu: [''],
+          air: [''],
+          terre: [''],
+          eau: [''],
           caracteristiques: this.formBuilder.array([
             this.formBuilder.group({
               taux: ['', Validators.required],
@@ -71,17 +74,17 @@ export class DialogEquipementComponent implements OnInit {
     });
 
     this.iles.forEach((ile) => {
-      (this.equipementForm.controls['iles'] as FormGroup).addControl(ile as string, new FormControl(false));
+      (this.compagnonForm.controls['iles'] as FormGroup).addControl(ile as string, new FormControl(false));
     });
 
     // Construction des listes pour l'autocomplete
     const acCE = new Set<string>();
     const acDN = new Set<string>();
     const acDE = new Set<string>();
-    if (this.equipements) {
-      this.equipements.forEach((eq) => {
+    if (this.compagnons) {
+      this.compagnons.forEach((sp) => {
         if (this.autoCompleteAllPatch === true) {
-          eq.patchs.forEach((pat) => {
+          sp.patchs.forEach((pat) => {
             pat.caracteristiques?.forEach((carac) => {
               if (carac.effet) acCE.add(carac.effet);
             });
@@ -91,23 +94,24 @@ export class DialogEquipementComponent implements OnInit {
             });
           });
         } else {
-          eq.patchs[0].caracteristiques?.forEach((carac) => {
+          sp.patchs[0].caracteristiques?.forEach((carac) => {
             if (carac.effet) acCE.add(carac.effet);
           });
-          eq.patchs[0].dons?.forEach((dn) => {
+          sp.patchs[0].dons?.forEach((dn) => {
             if (dn.nom) acDN.add(dn.nom);
             if (dn.effet) acDE.add(dn.effet);
           });
         }
       });
     }
+
     this.acCaracEffets = [...acCE].sort();
     this.acDonEffets = [...acDE].sort();
     this.acDonNoms = [...acDN].sort();
 
     this.oacCaracEffets = [[]];
     this.oacCaracEffets[0].push(
-      ((((this.equipementForm.controls['patchs'] as FormArray).at(0) as FormGroup).controls['caracteristiques'] as FormArray).at(0) as FormGroup).controls[
+      ((((this.compagnonForm.controls['patchs'] as FormArray).at(0) as FormGroup).controls['caracteristiques'] as FormArray).at(0) as FormGroup).controls[
         'effet'
       ].valueChanges.pipe(
         startWith(''),
@@ -117,7 +121,7 @@ export class DialogEquipementComponent implements OnInit {
 
     this.oacDonEffets = [[]];
     this.oacDonEffets[0].push(
-      ((((this.equipementForm.controls['patchs'] as FormArray).at(0) as FormGroup).controls['dons'] as FormArray).at(0) as FormGroup).controls[
+      ((((this.compagnonForm.controls['patchs'] as FormArray).at(0) as FormGroup).controls['dons'] as FormArray).at(0) as FormGroup).controls[
         'effet'
       ].valueChanges.pipe(
         startWith(''),
@@ -127,7 +131,7 @@ export class DialogEquipementComponent implements OnInit {
 
     this.oacDonNoms = [[]];
     this.oacDonNoms[0].push(
-      ((((this.equipementForm.controls['patchs'] as FormArray).at(0) as FormGroup).controls['dons'] as FormArray).at(0) as FormGroup).controls[
+      ((((this.compagnonForm.controls['patchs'] as FormArray).at(0) as FormGroup).controls['dons'] as FormArray).at(0) as FormGroup).controls[
         'nom'
       ].valueChanges.pipe(
         startWith(''),
@@ -136,25 +140,35 @@ export class DialogEquipementComponent implements OnInit {
     );
 
     // Mise en place de l'édition
-    if (this.equipement) {
-      this.equipementForm.controls['nom'].setValue(this.equipement.nom);
-      this.equipementForm.controls['image'].setValue(this.equipement.image);
-      this.equipementForm.controls['rarete'].setValue(this.equipement.rarete);
+    if (this.compagnon) {
+      this.compagnonForm.controls['nom'].setValue(this.compagnon.nom);
+      this.compagnonForm.controls['image'].setValue(this.compagnon.image);
+      this.compagnonForm.controls['rarete'].setValue(this.compagnon.rarete);
 
-      this.equipement.iles?.forEach((ile) => {
-        (this.equipementForm.controls['iles'] as FormGroup).controls[ile].setValue(true);
+      this.compagnon.iles?.forEach((ile) => {
+        (this.compagnonForm.controls['iles'] as FormGroup).controls[ile].setValue(true);
       });
 
-      this.equipement.patchs.forEach((patch, index) => {
-        if (index > (this.equipementForm.controls['patchs'] as FormArray).length - 1) this.addPatch();
+      this.compagnon.patchs.forEach((patch, index) => {
+        if (index > (this.compagnonForm.controls['patchs'] as FormArray).length - 1) this.addPatch();
 
-        const pachForm = (this.equipementForm.controls['patchs'] as FormArray).at(index) as FormGroup;
+        const pachForm = (this.compagnonForm.controls['patchs'] as FormArray).at(index) as FormGroup;
 
-        pachForm.controls['nom'].setValue(patch.nom);
-        pachForm.controls['rarete'].setValue(patch.rarete);
         pachForm.controls['version'].setValue(patch.version);
-        pachForm.controls['pouvoir'].setValue(patch.pouvoir);
+        pachForm.controls['effet'].setValue(patch.effet);
         pachForm.controls['sort'].setValue(patch.sort);
+
+        if (patch.couts) {
+          if (patch.couts['feu'] !== undefined) pachForm.controls['feu'].setValue(patch.couts['feu']);
+          if (patch.couts['air'] !== undefined) pachForm.controls['air'].setValue(patch.couts['air']);
+          if (patch.couts['terre'] !== undefined) pachForm.controls['terre'].setValue(patch.couts['terre']);
+          if (patch.couts['eau'] !== undefined) pachForm.controls['eau'].setValue(patch.couts['eau']);
+        }
+
+        pachForm.controls['pv'].setValue(patch.pv);
+        pachForm.controls['at'].setValue(patch.at);
+        pachForm.controls['cc'].setValue(patch.cc);
+        pachForm.controls['pm'].setValue(patch.pm);
 
         patch.caracteristiques?.forEach((caracteristique, indexCarac) => {
           if (indexCarac > (pachForm.controls['caracteristiques'] as FormArray).length - 1) this.addCarac(index);
@@ -219,10 +233,16 @@ export class DialogEquipementComponent implements OnInit {
   addPatch(): void {
     const patchForm = this.formBuilder.group({
       version: ['', Validators.required],
-      pouvoir: ['', Validators.required],
+      pv: ['', Validators.required],
+      at: ['', Validators.required],
+      cc: ['', Validators.required],
+      pm: ['', Validators.required],
+      effet: ['', Validators.required],
       sort: [''],
-      nom: [''],
-      rarete: [''],
+      feu: [''],
+      air: [''],
+      terre: [''],
+      eau: [''],
       caracteristiques: this.formBuilder.array([]),
       dons: this.formBuilder.array([]),
     });
@@ -246,32 +266,48 @@ export class DialogEquipementComponent implements OnInit {
   }
 
   getCaracteristiques(patchindex: number): FormArray {
-    return ((this.equipementForm.controls['patchs'] as FormArray).at(patchindex) as FormGroup).controls['caracteristiques'] as FormArray;
+    return ((this.compagnonForm.controls['patchs'] as FormArray).at(patchindex) as FormGroup).controls['caracteristiques'] as FormArray;
   }
 
   getDons(patchindex: number): FormArray {
-    return ((this.equipementForm.controls['patchs'] as FormArray).at(patchindex) as FormGroup).controls['dons'] as FormArray;
+    return ((this.compagnonForm.controls['patchs'] as FormArray).at(patchindex) as FormGroup).controls['dons'] as FormArray;
   }
 
   get patchs(): FormArray {
-    return this.equipementForm.controls['patchs'] as FormArray;
+    return this.compagnonForm.controls['patchs'] as FormArray;
   }
 
   save(): void {
-    const eq = this.equipementForm.value;
+    const sp = this.compagnonForm.value;
+
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    sp.patchs.forEach((patch: any) => {
+      patch.couts = {
+        feu: patch.feu,
+        air: patch.air,
+        terre: patch.terre,
+        eau: patch.eau,
+      };
+      Object.keys(patch.couts).forEach((key) => {
+        if (!patch.couts[key] || patch.couts[key] === 0) delete patch.couts[key];
+      });
+      delete patch.feu;
+      delete patch.air;
+      delete patch.terre;
+      delete patch.eau;
+    });
+
+    Object.keys(sp.iles).forEach((key) => {
+      if (!sp.iles[key]) delete sp.iles[key];
+    });
+    sp.iles = Object.keys(sp.iles);
 
     // Trier patch par numéro décroissant.
-    eq.patchs.sort(function (a: Patch, b: Patch) {
+    sp.patchs.sort(function (a: CompagnonPatch, b: CompagnonPatch) {
       return Number(b.version) - Number(a.version);
     });
 
-    // Convertir checkbox des iles en string si true.
-    Object.keys(eq.iles).forEach((key) => {
-      if (!eq.iles[key]) delete eq.iles[key];
-    });
-    eq.iles = Object.keys(eq.iles);
-
-    this.matDialogRef.close(eq);
+    this.matDialogRef.close(sp);
   }
 
   private _filter(value: string, ac: string[]): string[] {

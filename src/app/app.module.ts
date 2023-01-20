@@ -32,6 +32,10 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatTooltipModule } from '@angular/material/tooltip';
 
 import { ReactiveFormsModule } from '@angular/forms';
+import { TableCompagnonComponent } from './table-compagnon/table-compagnon.component';
+import { TableCardCompagnonComponent } from './table-card-compagnon/table-card-compagnon.component';
+import { DialogCardCompagnonComponent } from './dialog-card-compagnon/dialog-card-compagnon.component';
+import { DialogCompagnonComponent } from './dialog-compagnon/dialog-compagnon.component';
 
 @NgModule({
   declarations: [
@@ -45,6 +49,10 @@ import { ReactiveFormsModule } from '@angular/forms';
     TableCardSortComponent,
     TableEquipementComponent,
     TableSortComponent,
+    TableCompagnonComponent,
+    TableCardCompagnonComponent,
+    DialogCardCompagnonComponent,
+    DialogCompagnonComponent,
   ],
   imports: [
     BrowserModule,

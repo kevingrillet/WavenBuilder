@@ -44,6 +44,7 @@ export class Don {
   sort?: string;
 }
 
+// Equipements
 export class Patch {
   version!: string;
   pouvoir?: string;
@@ -54,7 +55,6 @@ export class Patch {
   dons?: Don[];
 }
 
-// Equipements
 export class Equipement {
   iles?: Iles[];
   nom!: string;
@@ -69,36 +69,38 @@ export class Equipements {
 }
 
 // Compagnons
-// export class CompagnonPatch {
-//   version!: string;
-//   cout!: Dictionnary<number>;
-//   pv!: number;
-//   at!: number;
-//   cc!: number;
-//   pm!: number;
-//   pouvoir?: string;
-//   dons?: Don[];
-// }
+export class CompagnonPatch {
+  version!: string;
+  pv!: number;
+  at!: number;
+  cc!: number;
+  pm!: number;
+  effet?: string;
+  sort?: string;
+  caracteristiques?: Caracteristique[];
+  dons?: Don[];
+  couts!: Dictionary<number>;
+}
 
-// export class Compagnon {
-//   iles?: Iles[];
-//   nom!: string;
-//   image?: string;
-//   rarete!: Raretes;
-//   patchs!: CompagnonPatch[];
-// }
+export class Compagnon {
+  iles?: Iles[];
+  nom!: string;
+  image?: string;
+  rarete!: Raretes;
+  patchs!: CompagnonPatch[];
+}
 
-// export class Compagnons {
-//   compagnons!: Compagnons[];
-// }
+export class Compagnons {
+  compagnons!: Compagnon[];
+}
 
 // Spells
 export class SortPatch {
   version!: string;
   cout!: number;
-  gains!: Dictionary<number>;
   effet!: string;
   dons?: Don[];
+  gains!: Dictionary<number>;
 }
 
 export class Sort {

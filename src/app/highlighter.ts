@@ -1,3 +1,5 @@
+// ÉÈ
+
 export class Highlighter {
   static highlight(input: string): string {
     if (!input) return '';
@@ -6,39 +8,61 @@ export class Highlighter {
       b.localeCompare(a)
     );
     const blueKeywords = [
+      'ASSOMME',
       'ASTRAL',
       'AVALANCHE',
       'AVALANCHES',
+      'BOMBE SMISSE',
       'BOOM',
       'BOUCLIER',
       'BROYAGE',
       'CARACOLE',
       'CÉAN',
+      'COEUR DE GLACE',
+      'COEUR DE FLAMME',
       'COLLISIONS',
       'CRITIQUE',
       'CTANE',
       'CYPRES',
+      'DAGUES SOURNOISES',
+      'DE PIERRE',
       'DÉPHASAGE',
       'DRAIN',
       'ÉBOULEMENT',
       'ÉBOULEMENTS',
+      'ENVOL',
       'ESQUIVE',
       'EXPLOSIONS',
       'FLOT',
       'FOUDRE',
       'FOUDRES',
+      'GARDE DU CORPS',
+      'GÈLE',
       'GEYSER',
       'GEYSERS',
+      'GRAVELEUSE',
       'GRÊLES',
       'INCIBLABLE',
+      'MÉCANISME',
+      'MÉLÉE',
       'MÉTÉORE',
       'MÉTÉORES',
+      'MIRE',
+      'NOX',
+      'NOXINE',
+      'NOXINES',
       'OURAGAN',
       'OURAGANS',
       'RAGAN',
+      "REFLET D'HEURT DE GLOIRE",
+      'REPOUSSANTE',
       'REPOUSSE',
       'RÉINVOCABLE',
+      'REBOND',
       'REBONDS',
+      'REFLET DE POUSSETTE',
+      'REMINGTON SMISSE',
+      "RÉPIT D'ALBERT",
       'RIPOSTE',
       'TOURBES',
       'VOL DE VIE',
@@ -47,6 +71,7 @@ export class Highlighter {
     const blueWhiteKeywords = ['GRIMOIRE'];
     const boldKeywords = [
       'AIR',
+      'APPARITION',
       'AR',
       'AT',
       'ATTAQUE',
@@ -57,6 +82,7 @@ export class Highlighter {
       'CC',
       'CC MAGIQUES',
       'COUP DE GRÂCE',
+      'DÉBUT DU TOUR',
       'DÉFENSES',
       'DÉGÂTS CC',
       'EAU',
@@ -65,6 +91,7 @@ export class Highlighter {
       'ÉVENTÉ',
       'ÉVENTÉE',
       'FEU',
+      'FIN DE TOUR',
       'GAINS DE KAMAS',
       'HUILÉ',
       'HUILÉE',
@@ -73,6 +100,7 @@ export class Highlighter {
       'MOUILLÉ',
       'MOUILLÉE',
       'PA',
+      'PIÈGE',
       'PUISSANCE',
       'PV',
       'PV MAX',
@@ -85,23 +113,28 @@ export class Highlighter {
       'XP',
     ].sort((a, b) => b.localeCompare(a));
     const greenKeywords = ['[0-9]+ dégâts magiques'];
-    const greyKeywords = ['Ce sort est détruit quand il est joué.', 'Limité à [0-9]+ fois par combat.', 'Limité à [0-9]+ fois par tour.'];
+    const greyKeywords = [
+      'Ce sort est détruit quand il est joué.',
+      'Limité à [0-9]+ fois par combat.',
+      'Limité à [0-9]+ fois par tour.',
+      'Peut être invoqué sur une case libre du terrain.',
+    ];
 
     let output = input;
-    output = output.replace(new RegExp('(' + blueKeywords.join('|') + ')', 'g'), "<span class='style-bold style-blue'>$1</span>");
+    output = output.replace(new RegExp('\\b(' + blueKeywords.join('|') + ')\\b', 'g'), "<span class='style-bold style-blue'>$1</span>");
     output = output.replace(
-      new RegExp('(' + blueGreenKeywords.join('|') + ')\\(([0-9]+)\\)', 'g'),
+      new RegExp('\\b(' + blueGreenKeywords.join('|') + ')\\(([0-9]+)\\)\\b', 'g'),
       "<span class='style-bold style-blue'>$1(</span><span class='style-green'>$2</span><span class='style-bold style-blue'>)</span>"
     );
     output = output.replace(
-      new RegExp('(' + blueWhiteKeywords.join('|') + ')\\(([0-9]+)\\)', 'g'),
+      new RegExp('\\b(' + blueWhiteKeywords.join('|') + ')\\(([0-9]+)\\)\\b', 'g'),
       "<span class='style-bold style-blue'>$1(</span>$2<span class='style-bold style-blue'>)</span>"
     );
-    output = output.replace(new RegExp('(' + boldKeywords.join('|') + ')', 'g'), "<span class='style-bold'>$1</span>");
-    output = output.replace(new RegExp('(' + greenKeywords.join('|') + ')', 'g'), "<span class='style-green'>$1</span>");
-    output = output.replace(new RegExp('(' + greyKeywords.join('|') + ')', 'g'), "<br /><span class='style-italic style-gray'>$1</span>");
+    output = output.replace(new RegExp('\\b(' + boldKeywords.join('|') + ')\\b', 'g'), "<span class='style-bold'>$1</span>");
+    output = output.replace(new RegExp('\\b(' + greenKeywords.join('|') + ')\\b', 'g'), "<span class='style-green'>$1</span>");
+    output = output.replace(new RegExp('\\b(' + greyKeywords.join('|') + ')\\b', 'g'), "<br /><span class='style-italic style-gray'>$1</span>");
 
-    output = output.replace(new RegExp('(' + imgKeywords.join('|') + ')', 'g'), function (match) {
+    output = output.replace(new RegExp('\\b(' + imgKeywords.join('|') + ')\\b', 'g'), function (match) {
       let localMatch = match;
       if (localMatch === 'BOUEUSE') localMatch = 'BOUEUX';
       if (localMatch.slice(-2) === 'ÉE') localMatch = localMatch.slice(0, -1);

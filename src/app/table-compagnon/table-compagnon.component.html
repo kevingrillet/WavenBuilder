@@ -1,0 +1,126 @@
+<div class="container">
+  <mat-form-field>
+    <mat-label>Filtre</mat-label>
+    <input matInput (keyup)="applyFilter($event)" #input />
+  </mat-form-field>
+
+  <table mat-table [dataSource]="dataSource" matSort>
+    <ng-container matColumnDef="Nom">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Nom</th>
+      <td mat-cell *matCellDef="let compagnon">
+        <!-- <img src="{{ baseHref }}/assets/img/compagnons/{{ compagnon.image }}.jpg" alt="{{ compagnon.nom }}" style="height: 5em" />
+        <br /> -->
+        {{ compagnon.nom }}
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="Rarete">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Rareté</th>
+      <td mat-cell *matCellDef="let compagnon">
+        <button mat-button color="{{ compagnon.rarete }}">
+          {{ compagnon.rarete }}
+        </button>
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="Iles">
+      <th mat-header-cell *matHeaderCellDef>Iles</th>
+      <td mat-cell *matCellDef="let compagnon">
+        <mat-list>
+          <mat-list-item *ngFor="let ile of compagnon.iles">{{ ile }}</mat-list-item>
+        </mat-list>
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="Patch">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Patch</th>
+      <td mat-cell *matCellDef="let compagnon">
+        <span
+          matTooltip="Ajout: {{ compagnon.patchs[compagnon.patchs.length - 1].version }}"
+          matTooltipDisabled="{{ compagnon.patchs.length }} > 0 ? disabled : null"
+        >
+          Patch: {{ compagnon.patchs[0].version }}
+        </span>
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="Cout">
+      <th mat-header-cell *matHeaderCellDef>Coût</th>
+      <td mat-cell *matCellDef="let compagnon">
+        <mat-list>
+          <mat-list-item *ngFor="let cout of compagnon.patchs[0].couts | keyvalue">
+            {{ cout.value }} <img src="{{ baseHref }}/assets/img/utils/{{ cout.key }}.png" style="height: 0.9em" />
+          </mat-list-item>
+        </mat-list>
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="Stats">
+      <th mat-header-cell *matHeaderCellDef>Stats</th>
+      <td mat-cell *matCellDef="let compagnon">
+        <mat-list>
+          <mat-list-item> {{ compagnon.patchs[0].pv }} <img src="{{ baseHref }}/assets/img/utils/pv.png" alt="PV" style="height: 0.9em" /> </mat-list-item>
+          <mat-list-item> {{ compagnon.patchs[0].at }} <img src="{{ baseHref }}/assets/img/utils/at.png" alt="AT" style="height: 0.9em" /> </mat-list-item>
+          <mat-list-item> {{ compagnon.patchs[0].cc }} <img src="{{ baseHref }}/assets/img/utils/cc.png" alt="CC" style="height: 0.9em" /> </mat-list-item>
+          <mat-list-item> {{ compagnon.patchs[0].pm }} <img src="{{ baseHref }}/assets/img/utils/pm.png" alt="PM" style="height: 0.9em" /> </mat-list-item>
+        </mat-list>
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="Effet">
+      <th mat-header-cell *matHeaderCellDef>Effet</th>
+      <td mat-cell *matCellDef="let compagnon">
+        <span [innerHTML]="highlight(compagnon.patchs[0].effet)"></span>
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="Caractéristiques">
+      <th mat-header-cell *matHeaderCellDef>Caractéristiques*</th>
+      <td mat-cell *matCellDef="let compagnon">
+        <mat-list>
+          <mat-list-item *ngFor="let caracteristique of compagnon.patchs[0].caracteristiques">
+            <span [innerHTML]="'+' + caracteristique.taux + highlight(caracteristique.effet)"></span>
+          </mat-list-item>
+        </mat-list>
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="Dons">
+      <th mat-header-cell *matHeaderCellDef>Dons</th>
+      <td mat-cell *matCellDef="let compagnon">
+        <mat-list>
+          <mat-list-item *ngFor="let don of compagnon.patchs[0].dons">
+            <span matListItemTitle
+              >{{ don.nom }} [{{ don.cout }}
+              <img src="{{ baseHref }}/assets/img/monaies/rune_de_compagnon.png" alt="Rune de compagnon" style="height: 0.9em" />]</span
+            >
+            <span matListItemLine [innerHTML]="highlight(don.effet)"></span>
+          </mat-list-item>
+        </mat-list>
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="Action">
+      <th mat-header-cell *matHeaderCellDef>Action</th>
+      <td mat-cell *matCellDef="let compagnon">
+        <button mat-icon-button color="primary" (click)="openCard(compagnon)">
+          <mat-icon>search</mat-icon>
+        </button>
+        <button mat-icon-button color="primary" (click)="openDialog(compagnon, compagnons)">
+          <mat-icon>edit</mat-icon>
+        </button>
+      </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+    <tr class="mat-row" *matNoDataRow>
+      <td class="mat-cell" colspan="4">Aucune donnée ne correspond au filtre "{{ input.value }}"</td>
+    </tr>
+  </table>
+  <mat-paginator [length]="dataLength" [pageSize]="100" [pageSizeOptions]="[25, 50, 100]" aria-label="Select page of users"></mat-paginator>
+</div>
+
+<p>
+  <i>*Les caractéristiques sont données pour chaque niveau de compagnon supérieur à 1.</i>
+</p>

@@ -1,0 +1,17 @@
+<mat-card>
+  <mat-card-header>
+    <mat-card-title-group>
+      <mat-card-title>{{ compagnon.nom }}</mat-card-title>
+      <mat-card-subtitle>
+        <button mat-button color="{{ compagnon.rarete }}">
+          {{ compagnon.rarete }}
+        </button>
+      </mat-card-subtitle>
+      <!-- <img mat-card-m-image src="{{ baseHref }}/assets/img/compagnons/{{ compagnon.image }}.jpg" alt="{{ compagnon.nom }}" /> -->
+    </mat-card-title-group>
+  </mat-card-header>
+  <mat-card-content>
+    <h3>Patchs</h3>
+    <app-table-card-compagnon [patchs]="compagnon.patchs"></app-table-card-compagnon>
+  </mat-card-content>
+</mat-card>

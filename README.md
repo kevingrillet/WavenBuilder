@@ -59,10 +59,11 @@ Si vous cherchez à faire une PR le fichier de données se trouve ici: `src/asse
   - [x] Ajouter l'interface des sorts.
   - [x] Ajouter les sorts des items.
 - [ ] v1.5 - Compagnons
-  - [ ] Ajouter l'interface des compagnons.
-  - [ ] Ajouter les compagnons.
-  - [ ] Modifier l'interface des sorts pour les compagnons.
+  - [x] Ajouter l'interface des compagnons.
+  - [x] Ajouter les compagnons.
+  - [ ] Ajouter les dons des compagnons.
   - [ ] Ajouter les sorts des compagnons.
+  - [ ] Ajouter les images des compagnons.
 - [ ] v1.6 - Classes & Armes
   - [ ] Ajouter les classes.
   - [ ] Ajouter les armes.

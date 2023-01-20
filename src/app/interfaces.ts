@@ -1,4 +1,9 @@
-import { Equipement, Sort } from './struct';
+import { Compagnon, Equipement, Sort } from './struct';
+
+export interface DialogCompagnonInput {
+  compagnon: Compagnon;
+  compagnons: Compagnon[];
+}
 
 export interface DialogEquipementInput {
   equipement: Equipement;

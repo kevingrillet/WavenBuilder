@@ -87,6 +87,9 @@ export class TableSortComponent implements OnInit {
           if (a.element !== b.element) {
             return Elements[a.element] > Elements[b.element] ? 1 : -1;
           }
+          if (a.patchs[0].cout !== b.patchs[0].cout) {
+            return a.patchs[0].cout > b.patchs[0].cout ? 1 : -1;
+          }
           return a.nom.localeCompare(b.nom);
         });
         this.loadData();
