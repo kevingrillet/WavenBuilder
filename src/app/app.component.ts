@@ -12,6 +12,7 @@ import { DialogSortComponent } from './dialog-sort/dialog-sort.component';
 import { TableSortComponent } from './table-sort/table-sort.component';
 import { DialogCompagnonComponent } from './dialog-compagnon/dialog-compagnon.component';
 import { TableCompagnonComponent } from './table-compagnon/table-compagnon.component';
+import { MatSlideToggle } from '@angular/material/slide-toggle';
 
 @Component({
   selector: 'app-root',
@@ -25,6 +26,7 @@ export class AppComponent {
   @ViewChild('tableCompagnons') tableCompagnons!: TableCompagnonComponent;
   @ViewChild('tableSpells') tableSorts!: TableSortComponent;
   @ViewChild('aceEditor') aceEditor!: AceEditorComponent;
+  @ViewChild('aceToogle') aceToogle!: MatSlideToggle;
   title = 'WavenBuilder';
 
   equipements: Equipements = Object.assign(new Equipements(), data.default.equipements);

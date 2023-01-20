@@ -9,11 +9,11 @@
         "patchs": [
           {
             "version": "0.10",
-            "effet": "Aucun effet.",
             "pv": 52,
             "at": 8,
             "cc": 5,
             "pm": 3,
+            "effet": "Aucun effet.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -46,14 +46,15 @@
         "nom": "Championne Périmée",
         "rarete": "Commun",
         "image": "championne_perimee",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "ATTAQUE: -1PA de coût de premier sort de votre main.",
             "pv": 66,
             "at": 14,
             "cc": 5,
             "pm": 3,
+            "effet": "ATTAQUE: -1PA de coût de premier sort de votre main.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -91,14 +92,15 @@
         "nom": "Dargone",
         "rarete": "Commun",
         "image": "dargone",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "ATTAQUE: +1 AURA COEUR DE FLAMME.",
             "pv": 65,
             "at": 12,
             "cc": 5,
             "pm": 3,
+            "effet": "ATTAQUE: +1 AURA COEUR DE FLAMME.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -109,7 +111,26 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Spécialité Eniripsa",
+                "cout": 50,
+                "effet": "APPARITION: +3 AURAS COEUR DE FLAMME.",
+                "sort": ""
+              },
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Magie feu 20",
+                "cout": 90,
+                "effet": "+20% de MAGIE FEU.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "feu": 3
             }

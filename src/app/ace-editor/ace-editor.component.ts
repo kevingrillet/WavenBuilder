@@ -13,11 +13,14 @@ export class AceEditorComponent implements AfterViewInit {
   @Input() compagnons!: Compagnons;
   @Input() equipements!: Equipements;
   @Input() sorts!: Sorts;
+  @Input() show!: boolean;
 
   aceEditor!: ace.Ace.Editor;
 
   loadData(): void {
-    this.aceEditor.session.setValue(JSON.stringify({ compagnons: this.compagnons, equipements: this.equipements, sorts: this.sorts }, null, 2));
+    this.aceEditor.session.setValue(
+      this.show ? JSON.stringify({ compagnons: this.compagnons, equipements: this.equipements, sorts: this.sorts }, null, 2) : ''
+    );
   }
 
   ngAfterViewInit(): void {
@@ -27,6 +30,5 @@ export class AceEditorComponent implements AfterViewInit {
     this.aceEditor.session.setMode('ace/mode/json');
     this.aceEditor.setReadOnly(true);
     this.aceEditor.setShowPrintMargin(false);
-    this.loadData();
   }
 }

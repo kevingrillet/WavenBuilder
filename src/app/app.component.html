@@ -55,8 +55,9 @@
         <mat-icon>save</mat-icon>
         Télécharger
       </button>
+      <mat-slide-toggle #aceToogle (toggleChange)="refreshAceEditor()" style="margin-left: 8px">Afficher le contenu</mat-slide-toggle>
       <br /><br />
-      <app-ace-editor #aceEditor [compagnons]="compagnons" [equipements]="equipements" [sorts]="spells"></app-ace-editor>
+      <app-ace-editor #aceEditor [compagnons]="compagnons" [equipements]="equipements" [sorts]="spells" [show]="!aceToogle.checked"></app-ace-editor>
     </div>
   </mat-tab>
 </mat-tab-group>
