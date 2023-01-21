@@ -17,7 +17,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -58,7 +58,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -104,7 +104,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -141,25 +141,45 @@
         "nom": "Hendo",
         "rarete": "Commun",
         "image": "hendo",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "ATTAQUE: +100% de dégâts si la cible est HUILÉE.",
             "pv": 63,
             "at": 13,
             "cc": 5,
             "pm": 3,
+            "effet": "ATTAQUE: +100% de dégâts si la cible est HUILÉE.",
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Reflet de masser",
+                "cout": 50,
+                "effet": "APPARITION: Ajoute le sort REFLET DE MASSER à votre main.",
+                "sort": "Reflet de masser"
+              },
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Puissance",
+                "cout": 90,
+                "effet": "+50% d'AT à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "feu": 3
             }
@@ -170,25 +190,45 @@
         "nom": "Maitre egreneur",
         "rarete": "Commun",
         "image": "maitre_egreneur",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "ATTAQUE: -2 PA au coût du prochain sort de MÉCANISME ou de PIÈGE que vous jouez.",
             "pv": 58,
             "at": 11,
             "cc": 5,
             "pm": 3,
+            "effet": "ATTAQUE: -2 PA au coût du prochain sort de MÉCANISME ou de PIÈGE que vous jouez.",
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Puissance",
+                "cout": 80,
+                "effet": "+50% d'AT à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "feu": 3
             }
@@ -210,7 +250,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -239,7 +279,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -268,7 +308,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -297,7 +337,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -326,7 +366,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -355,7 +395,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -384,7 +424,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -413,7 +453,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -442,7 +482,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -471,7 +511,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -492,7 +532,7 @@
         "patchs": [
           {
             "version": "0.10",
-            "effet": "ATTAQUE: Construit une BOMBE SMISSE (1) derrière la cible..",
+            "effet": "ATTAQUE: Construit une BOMBE SMISSE (1) derrière la cible.",
             "pv": 106,
             "at": 17,
             "cc": 5,
@@ -500,7 +540,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -529,7 +569,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -558,7 +598,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -598,7 +638,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -627,7 +667,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -656,7 +696,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -685,7 +725,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -714,7 +754,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -743,7 +783,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -772,7 +812,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -801,7 +841,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -830,7 +870,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -859,7 +899,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -888,7 +928,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -917,7 +957,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -946,7 +986,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -975,7 +1015,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1004,7 +1044,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1033,7 +1073,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1073,7 +1113,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1102,7 +1142,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1131,7 +1171,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1160,7 +1200,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1189,7 +1229,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1218,7 +1258,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1247,7 +1287,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1276,7 +1316,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1305,7 +1345,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1334,7 +1374,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1363,7 +1403,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1392,7 +1432,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1421,7 +1461,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1450,7 +1490,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1479,7 +1519,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1508,7 +1548,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1537,7 +1577,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1577,7 +1617,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1606,7 +1646,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1635,7 +1675,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1664,7 +1704,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1693,7 +1733,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1722,7 +1762,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1751,7 +1791,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1780,7 +1820,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1809,7 +1849,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1838,7 +1878,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1867,7 +1907,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1897,7 +1937,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1926,7 +1966,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1955,7 +1995,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1984,7 +2024,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -2013,7 +2053,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -2042,7 +2082,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -2072,7 +2112,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -2123,7 +2163,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -2153,7 +2193,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -2183,7 +2223,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -2213,7 +2253,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -2243,7 +2283,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -2274,7 +2314,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -2304,7 +2344,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -2334,7 +2374,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -2364,7 +2404,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -2394,7 +2434,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -2424,7 +2464,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -2454,7 +2494,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -2484,7 +2524,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -2514,7 +2554,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -2545,7 +2585,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -2576,7 +2616,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -6843,7 +6883,7 @@
         "patchs": [
           {
             "version": "0.10",
-            "pouvoir": "Attaque: Votre héros se téléporte dans le dos de la cible..",
+            "pouvoir": "Attaque: Votre héros se téléporte dans le dos de la cible.",
             "caracteristiques": [
               {
                 "taux": 1,
