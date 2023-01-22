@@ -239,14 +239,15 @@
         "nom": "Sentinelle affutée",
         "rarete": "Commun",
         "image": "sentinelle_affutee",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "ATTAQUE: +1 Jauge FEU.",
             "pv": 65,
             "at": 8,
             "cc": 5,
             "pm": 3,
+            "effet": "ATTAQUE: +1 Jauge FEU.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -257,7 +258,26 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Spécialité Ecaflip",
+                "cout": 50,
+                "effet": "APPARITION: +3 AURAS GRIFFES JOUEUSES.",
+                "sort": ""
+              },
+              {
+                "nom": "Dégâts de riposte",
+                "cout": 50,
+                "effet": "+20% de RIPOSTE à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "feu": 3
             }
@@ -268,14 +288,15 @@
         "nom": "Skhul",
         "rarete": "Commun",
         "image": "skhul",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "ATTAQUE: -25% d'AT à la cible pour le tour.",
             "pv": 60,
             "at": 10,
             "cc": 5,
             "pm": 3,
+            "effet": "ATTAQUE: -25% d'AT à la cible pour le tour.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -286,7 +307,26 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Vitalitéé",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Explosion",
+                "cout": 50,
+                "effet": "+50% à toutes vos EXPLOSIONS.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "feu": 3
             }
@@ -297,14 +337,15 @@
         "nom": "Championne Sanglante",
         "rarete": "Rare",
         "image": "championne_sanglante",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "ATTAQUE: VOL DE VIE.",
             "pv": 95,
             "at": 11,
             "cc": 5,
             "pm": 3,
+            "effet": "ATTAQUE: VOL DE VIE.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -315,7 +356,32 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Sacrieur",
+                "cout": 50,
+                "effet": "Si votre héros est un SACRIEUR: RÉINVOCABLE",
+                "sort": ""
+              },
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Puissance",
+                "cout": 90,
+                "effet": "+50% d'AT à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "feu": 4
             }
@@ -326,14 +392,15 @@
         "nom": "Hilda",
         "rarete": "Rare",
         "image": "hilda",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "APPARITION: Inflige son AT aux adversaires adjacents à elle.",
             "pv": 78,
             "at": 16,
             "cc": 5,
             "pm": 3,
+            "effet": "APPARITION: Inflige son AT aux adversaires adjacents à elle.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -344,7 +411,32 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Puissance",
+                "cout": 90,
+                "effet": "+50% d'AT à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Dégâts de riposte",
+                "cout": 50,
+                "effet": "+20% de RIPOSTE à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "feu": 4
             }
@@ -355,14 +447,15 @@
         "nom": "Igror",
         "rarete": "Rare",
         "image": "igror",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "ATTAQUE: Applique HUILÉ.",
             "pv": 90,
             "at": 18,
             "cc": 5,
             "pm": 3,
+            "effet": "ATTAQUE: Applique HUILÉ.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -373,7 +466,32 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Puissance",
+                "cout": 90,
+                "effet": "+50% d'AT à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "feu": 4
             }
@@ -384,14 +502,15 @@
         "nom": "Séraphin",
         "rarete": "Rare",
         "image": "seraphin",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "ATTAQUE: Vole 1 PA à la réserve adversaire.",
             "pv": 85,
             "at": 16,
             "cc": 5,
             "pm": 3,
+            "effet": "ATTAQUE: Vole 1 PA à la réserve adversaire.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -402,7 +521,32 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Spécialité Ecaflip",
+                "cout": 50,
+                "effet": "APPARITION: +3 AURAS GRIFFES JOUEUSES.",
+                "sort": ""
+              },
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Puissance",
+                "cout": 90,
+                "effet": "+50% d'AT à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "feu": 4
             }
@@ -413,14 +557,15 @@
         "nom": "Shushette",
         "rarete": "Rare",
         "image": "achmea",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "ATTAQUE: Déclanche EXPLOSION(6).",
             "pv": 84,
             "at": 16,
             "cc": 5,
             "pm": 3,
+            "effet": "ATTAQUE: Déclanche EXPLOSION(6).",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -431,7 +576,32 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Explosion",
+                "cout": 50,
+                "effet": "+50% à toutes vos EXPLOSIONS.",
+                "sort": ""
+              },
+              {
+                "nom": "Magie feu 20",
+                "cout": 80,
+                "effet": "+20% de MAGIE FEU.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "feu": 4
             }
@@ -442,14 +612,15 @@
         "nom": "Bakara",
         "rarete": "Krosmique",
         "image": "bakara",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "Tant qu'elle est en jeu: -1PA au coût de vos sorts FEU.",
             "pv": 98,
             "at": 25,
             "cc": 5,
             "pm": 3,
+            "effet": "Tant qu'elle est en jeu: -1PA au coût de vos sorts FEU.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -460,7 +631,38 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Surcharge de bakara",
+                "cout": 50,
+                "effet": "APPARITION: Ajoute le sort SURCHARGE DE BAKARA à votre main.",
+                "sort": ""
+              },
+              {
+                "nom": "Maîtrise de baraka",
+                "cout": 120,
+                "effet": "ATTAQUE: -1PA au coût des sorts FEU de votre main.",
+                "sort": ""
+              },
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Puissance",
+                "cout": 90,
+                "effet": "+50% d'AT à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "feu": 5
             }
@@ -471,14 +673,15 @@
         "nom": "Dark Vlad",
         "rarete": "Krosmique",
         "image": "dark_vlad",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "ATTAQUE: +25% d'AT pour le reste du combat.",
             "pv": 122,
             "at": 20,
             "cc": 5,
             "pm": 3,
+            "effet": "ATTAQUE: +25% d'AT pour le reste du combat.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -489,7 +692,38 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Folie du dark vlad",
+                "cout": 50,
+                "effet": "APPARITION: Ajoute le sort FOLIE DU DARK VLAD à votre main.",
+                "sort": ""
+              },
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Puissance",
+                "cout": 80,
+                "effet": "+50% d'AT à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Magie feu 30",
+                "cout": 90,
+                "effet": "+30% de MAGIE FEU.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC et +50% de DÉGÂTS CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "feu": 5
             }
@@ -500,14 +734,15 @@
         "nom": "Elely",
         "rarete": "Krosmique",
         "image": "elely",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "Si elle est l'unique allié en jeu: +100% d'AT.",
             "pv": 100,
             "at": 16,
             "cc": 5,
             "pm": 4,
+            "effet": "Si elle est l'unique allié en jeu: +100% d'AT.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -518,7 +753,32 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Petite furie",
+                "cout": 50,
+                "effet": "APPARITION: Ajoute le sort PETITE FURIE à votre main.",
+                "sort": ""
+              },
+              {
+                "nom": "Puissance",
+                "cout": 80,
+                "effet": "+50% d'AT à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Dégâts de riposte",
+                "cout": 50,
+                "effet": "+20% de RIPOSTE à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC et +50% de DÉGÂTS CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "feu": 5
             }
@@ -529,14 +789,15 @@
         "nom": "Remington smisse",
         "rarete": "Krosmique",
         "image": "remington_smisse",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "ATTAQUE: Construit une BOMBE SMISSE (1) derrière la cible.",
             "pv": 106,
             "at": 17,
             "cc": 5,
             "pm": 3,
+            "effet": "ATTAQUE: Construit une BOMBE SMISSE (1) derrière la cible.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -547,7 +808,38 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Bombe smisse",
+                "cout": 50,
+                "effet": "APPARITION: Ajoute le sort BOMBE SMISSE à votre main.",
+                "sort": ""
+              },
+              {
+                "nom": "Spécialité roublard",
+                "cout": 50,
+                "effet": "APPARITION: +3 AURAS LANCE-PIERRE.",
+                "sort": ""
+              },
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Puissance",
+                "cout": 90,
+                "effet": "+50% d'AT à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "feu": 5
             }
@@ -558,14 +850,15 @@
         "nom": "Goultard",
         "rarete": "Infinite",
         "image": "goultard",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "ATTAQUE: Déclanche 2 foix EXPLOSION(6).",
             "pv": 169,
             "at": 30,
             "cc": 5,
             "pm": 4,
+            "effet": "ATTAQUE: Déclanche 2 foix EXPLOSION(6).",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -576,7 +869,44 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Saut de goultard",
+                "cout": 50,
+                "effet": "APPARITION: Ajoute le sort SAUT DE GOULTARD à votre main.",
+                "sort": ""
+              },
+              {
+                "nom": "Explosion",
+                "cout": 50,
+                "effet": "+50% à toutes vos EXPLOSIONS.",
+                "sort": ""
+              },
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Puissance",
+                "cout": 90,
+                "effet": "+50% d'AT à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Dégâts de riposte",
+                "cout": 50,
+                "effet": "+20% de RIPOSTE à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC et +50% de DÉGÂTS CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "feu": 9
             }
@@ -6707,8 +7037,8 @@
     "brassards": [
       {
         "nom": "Brassard Akné",
-        "image": "akne",
         "rarete": "Commun",
+        "image": "akne",
         "iles": [
           "Bonta"
         ],
@@ -6748,8 +7078,8 @@
       },
       {
         "nom": "Brassard Dent",
-        "image": "dent",
         "rarete": "Commun",
+        "image": "dent",
         "iles": [
           "Bateau Vampyre",
           "Île des Tofus"
@@ -6790,8 +7120,8 @@
       },
       {
         "nom": "Brassard Gousin",
-        "image": "gousin",
         "rarete": "Commun",
+        "image": "gousin",
         "iles": [
           "Île des Bouftous",
           "Île des Taures"
@@ -6832,8 +7162,8 @@
       },
       {
         "nom": "Brassard Kange",
-        "image": "kange",
         "rarete": "Commun",
+        "image": "kange",
         "iles": [
           "Bateau Vampyre",
           "Île des Tofus"
@@ -6874,8 +7204,8 @@
       },
       {
         "nom": "Brassard Nakeuh",
-        "image": "nakeuh",
         "rarete": "Commun",
+        "image": "nakeuh",
         "iles": [
           "Île des Bworks",
           "Île des Chuchoteurs"
@@ -6916,8 +7246,8 @@
       },
       {
         "nom": "Brassard Ogan",
-        "image": "ogan",
         "rarete": "Commun",
+        "image": "ogan",
         "iles": [
           "Île des Taures"
         ],
@@ -6957,8 +7287,8 @@
       },
       {
         "nom": "Brassard Osage",
-        "image": "osage",
         "rarete": "Commun",
+        "image": "osage",
         "iles": [
           "Bonta",
           "Île des Chuchoteurs"
@@ -6999,8 +7329,8 @@
       },
       {
         "nom": "Papy Brassard",
-        "image": "papy",
         "rarete": "Commun",
+        "image": "papy",
         "iles": [
           "Île des Cochons"
         ],
@@ -7040,8 +7370,8 @@
       },
       {
         "nom": "Brassard Chevek",
-        "image": "chevek",
         "rarete": "Rare",
+        "image": "chevek",
         "iles": [
           "Île des Taures"
         ],
@@ -7086,8 +7416,8 @@
       },
       {
         "nom": "Brassard Dou",
-        "image": "dou",
         "rarete": "Rare",
+        "image": "dou",
         "iles": [
           "Île des Bouftous",
           "Île des Tofus"
@@ -7133,8 +7463,8 @@
       },
       {
         "nom": "Brassard Gile",
-        "image": "gile",
         "rarete": "Rare",
+        "image": "gile",
         "iles": [
           "Bateau Vampyre"
         ],
@@ -7179,8 +7509,8 @@
       },
       {
         "nom": "Brassard Gonote",
-        "image": "gonote",
         "rarete": "Rare",
+        "image": "gonote",
         "iles": [
           "Bonta"
         ],
@@ -7225,8 +7555,8 @@
       },
       {
         "nom": "Brassard Kasm",
-        "image": "kasm",
         "rarete": "Rare",
+        "image": "kasm",
         "iles": [
           "Bonta"
         ],
@@ -7271,8 +7601,8 @@
       },
       {
         "nom": "Brassard Ticho",
-        "image": "ticho",
         "rarete": "Rare",
+        "image": "ticho",
         "iles": [
           "Île des Taures"
         ],
@@ -7317,8 +7647,8 @@
       },
       {
         "nom": "Brassard Dine",
-        "image": "dine",
         "rarete": "Krosmique",
+        "image": "dine",
         "iles": [
           "Bateau Vampyre",
           "Île des Tofus"
@@ -7373,8 +7703,8 @@
       },
       {
         "nom": "Brassard Mada",
-        "image": "mada",
         "rarete": "Krosmique",
+        "image": "mada",
         "iles": [
           "Île des Cochons"
         ],
@@ -7428,8 +7758,8 @@
       },
       {
         "nom": "Brassard Turien",
-        "image": "turien",
         "rarete": "Krosmique",
+        "image": "turien",
         "iles": [
           "Bateau Vampyre",
           "Île des Tofus"
@@ -7484,8 +7814,8 @@
       },
       {
         "nom": "Brassard Tyste",
-        "image": "tyste",
         "rarete": "Krosmique",
+        "image": "tyste",
         "iles": [
           "Île des Bouftous",
           "Île des Craqueleurs"
@@ -7540,8 +7870,8 @@
       },
       {
         "nom": "Brassard Kantiel",
-        "image": "kantiel",
         "rarete": "Infinite",
+        "image": "kantiel",
         "iles": [
           "Bonta"
         ],
@@ -7574,8 +7904,8 @@
       },
       {
         "nom": "Brassard Leukin",
-        "image": "leukin",
         "rarete": "Infinite",
+        "image": "leukin",
         "iles": [
           "Bateau Vampyre"
         ],

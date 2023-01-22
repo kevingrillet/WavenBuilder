@@ -62,11 +62,22 @@ Si vous cherchez à faire une PR le fichier de données se trouve ici: `src/asse
   - [x] Ajouter l'interface des compagnons.
   - [x] Ajouter les compagnons.
   - [ ] Ajouter les dons des compagnons.
+    - [x] Feu
+    - [ ] Air
+    - [ ] Terre
+    - [ ] Eau
+    - [ ] Hybride
   - [ ] Ajouter les sorts des compagnons.
-  - [ ] Ajouter les images des compagnons.
+  - [ ] Bonus: Ajouter les images des compagnons.
 - [ ] v1.6 - Classes & Armes
   - [ ] Ajouter les classes.
   - [ ] Ajouter les armes.
+- [ ] v1.7 - Refacto?
+  - [ ] Optimiser le DOM (de plus en plus de lags)...
+  - [ ] Factoriser?
+  - [ ] Récupérer des images de meilleur qualité?
+  - [ ] Reprendre Highlighter pour récupérer la liste des compagnons / sorts?
+  - [ ] Faire le hint des spells / compagnons
 - [ ] v2 - Toutes les données sont là
   - [ ] Rechercher les sorts des versions précédentes.
   - [ ] Ajouter les sorts des classes & armes.
