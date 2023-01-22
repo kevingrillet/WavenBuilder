@@ -17,7 +17,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -58,7 +58,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -104,7 +104,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -141,25 +141,45 @@
         "nom": "Hendo",
         "rarete": "Commun",
         "image": "hendo",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "ATTAQUE: +100% de dégâts si la cible est HUILÉE.",
             "pv": 63,
             "at": 13,
             "cc": 5,
             "pm": 3,
+            "effet": "ATTAQUE: +100% de dégâts si la cible est HUILÉE.",
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Reflet de masser",
+                "cout": 50,
+                "effet": "APPARITION: Ajoute le sort REFLET DE MASSER à votre main.",
+                "sort": "Reflet de masser"
+              },
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Puissance",
+                "cout": 90,
+                "effet": "+50% d'AT à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "feu": 3
             }
@@ -170,25 +190,45 @@
         "nom": "Maitre egreneur",
         "rarete": "Commun",
         "image": "maitre_egreneur",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "ATTAQUE: -2 PA au coût du prochain sort de MÉCANISME ou de PIÈGE que vous jouez.",
             "pv": 58,
             "at": 11,
             "cc": 5,
             "pm": 3,
+            "effet": "ATTAQUE: -2 PA au coût du prochain sort de MÉCANISME ou de PIÈGE que vous jouez.",
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Puissance",
+                "cout": 80,
+                "effet": "+50% d'AT à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "feu": 3
             }
@@ -199,25 +239,45 @@
         "nom": "Sentinelle affutée",
         "rarete": "Commun",
         "image": "sentinelle_affutee",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "ATTAQUE: +1 Jauge FEU.",
             "pv": 65,
             "at": 8,
             "cc": 5,
             "pm": 3,
+            "effet": "ATTAQUE: +1 Jauge FEU.",
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Spécialité Ecaflip",
+                "cout": 50,
+                "effet": "APPARITION: +3 AURAS GRIFFES JOUEUSES.",
+                "sort": ""
+              },
+              {
+                "nom": "Dégâts de riposte",
+                "cout": 50,
+                "effet": "+20% de RIPOSTE à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "feu": 3
             }
@@ -228,25 +288,45 @@
         "nom": "Skhul",
         "rarete": "Commun",
         "image": "skhul",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "ATTAQUE: -25% d'AT à la cible pour le tour.",
             "pv": 60,
             "at": 10,
             "cc": 5,
             "pm": 3,
+            "effet": "ATTAQUE: -25% d'AT à la cible pour le tour.",
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Vitalitéé",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Explosion",
+                "cout": 50,
+                "effet": "+50% à toutes vos EXPLOSIONS.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "feu": 3
             }
@@ -257,25 +337,51 @@
         "nom": "Championne Sanglante",
         "rarete": "Rare",
         "image": "championne_sanglante",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "ATTAQUE: VOL DE VIE.",
             "pv": 95,
             "at": 11,
             "cc": 5,
             "pm": 3,
+            "effet": "ATTAQUE: VOL DE VIE.",
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Sacrieur",
+                "cout": 50,
+                "effet": "Si votre héros est un SACRIEUR: RÉINVOCABLE",
+                "sort": ""
+              },
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Puissance",
+                "cout": 90,
+                "effet": "+50% d'AT à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "feu": 4
             }
@@ -286,25 +392,51 @@
         "nom": "Hilda",
         "rarete": "Rare",
         "image": "hilda",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "APPARITION: Inflige son AT aux adversaires adjacents à elle.",
             "pv": 78,
             "at": 16,
             "cc": 5,
             "pm": 3,
+            "effet": "APPARITION: Inflige son AT aux adversaires adjacents à elle.",
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Puissance",
+                "cout": 90,
+                "effet": "+50% d'AT à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Dégâts de riposte",
+                "cout": 50,
+                "effet": "+20% de RIPOSTE à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "feu": 4
             }
@@ -315,25 +447,51 @@
         "nom": "Igror",
         "rarete": "Rare",
         "image": "igror",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "ATTAQUE: Applique HUILÉ.",
             "pv": 90,
             "at": 18,
             "cc": 5,
             "pm": 3,
+            "effet": "ATTAQUE: Applique HUILÉ.",
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Puissance",
+                "cout": 90,
+                "effet": "+50% d'AT à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "feu": 4
             }
@@ -344,25 +502,51 @@
         "nom": "Séraphin",
         "rarete": "Rare",
         "image": "seraphin",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "ATTAQUE: Vole 1 PA à la réserve adversaire.",
             "pv": 85,
             "at": 16,
             "cc": 5,
             "pm": 3,
+            "effet": "ATTAQUE: Vole 1 PA à la réserve adversaire.",
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Spécialité Ecaflip",
+                "cout": 50,
+                "effet": "APPARITION: +3 AURAS GRIFFES JOUEUSES.",
+                "sort": ""
+              },
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Puissance",
+                "cout": 90,
+                "effet": "+50% d'AT à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "feu": 4
             }
@@ -373,25 +557,51 @@
         "nom": "Shushette",
         "rarete": "Rare",
         "image": "achmea",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "ATTAQUE: Déclanche EXPLOSION(6).",
             "pv": 84,
             "at": 16,
             "cc": 5,
             "pm": 3,
+            "effet": "ATTAQUE: Déclanche EXPLOSION(6).",
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Explosion",
+                "cout": 50,
+                "effet": "+50% à toutes vos EXPLOSIONS.",
+                "sort": ""
+              },
+              {
+                "nom": "Magie feu 20",
+                "cout": 80,
+                "effet": "+20% de MAGIE FEU.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "feu": 4
             }
@@ -402,25 +612,57 @@
         "nom": "Bakara",
         "rarete": "Krosmique",
         "image": "bakara",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "Tant qu'elle est en jeu: -1PA au coût de vos sorts FEU.",
             "pv": 98,
             "at": 25,
             "cc": 5,
             "pm": 3,
+            "effet": "Tant qu'elle est en jeu: -1PA au coût de vos sorts FEU.",
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Surcharge de bakara",
+                "cout": 50,
+                "effet": "APPARITION: Ajoute le sort SURCHARGE DE BAKARA à votre main.",
+                "sort": ""
+              },
+              {
+                "nom": "Maîtrise de baraka",
+                "cout": 120,
+                "effet": "ATTAQUE: -1PA au coût des sorts FEU de votre main.",
+                "sort": ""
+              },
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Puissance",
+                "cout": 90,
+                "effet": "+50% d'AT à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "feu": 5
             }
@@ -431,25 +673,57 @@
         "nom": "Dark Vlad",
         "rarete": "Krosmique",
         "image": "dark_vlad",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "ATTAQUE: +25% d'AT pour le reste du combat.",
             "pv": 122,
             "at": 20,
             "cc": 5,
             "pm": 3,
+            "effet": "ATTAQUE: +25% d'AT pour le reste du combat.",
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Folie du dark vlad",
+                "cout": 50,
+                "effet": "APPARITION: Ajoute le sort FOLIE DU DARK VLAD à votre main.",
+                "sort": ""
+              },
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Puissance",
+                "cout": 80,
+                "effet": "+50% d'AT à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Magie feu 30",
+                "cout": 90,
+                "effet": "+30% de MAGIE FEU.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC et +50% de DÉGÂTS CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "feu": 5
             }
@@ -460,25 +734,51 @@
         "nom": "Elely",
         "rarete": "Krosmique",
         "image": "elely",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "Si elle est l'unique allié en jeu: +100% d'AT.",
             "pv": 100,
             "at": 16,
             "cc": 5,
             "pm": 4,
+            "effet": "Si elle est l'unique allié en jeu: +100% d'AT.",
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Petite furie",
+                "cout": 50,
+                "effet": "APPARITION: Ajoute le sort PETITE FURIE à votre main.",
+                "sort": ""
+              },
+              {
+                "nom": "Puissance",
+                "cout": 80,
+                "effet": "+50% d'AT à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Dégâts de riposte",
+                "cout": 50,
+                "effet": "+20% de RIPOSTE à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC et +50% de DÉGÂTS CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "feu": 5
             }
@@ -489,25 +789,57 @@
         "nom": "Remington smisse",
         "rarete": "Krosmique",
         "image": "remington_smisse",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "ATTAQUE: Construit une BOMBE SMISSE (1) derrière la cible..",
             "pv": 106,
             "at": 17,
             "cc": 5,
             "pm": 3,
+            "effet": "ATTAQUE: Construit une BOMBE SMISSE (1) derrière la cible.",
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Bombe smisse",
+                "cout": 50,
+                "effet": "APPARITION: Ajoute le sort BOMBE SMISSE à votre main.",
+                "sort": ""
+              },
+              {
+                "nom": "Spécialité roublard",
+                "cout": 50,
+                "effet": "APPARITION: +3 AURAS LANCE-PIERRE.",
+                "sort": ""
+              },
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Puissance",
+                "cout": 90,
+                "effet": "+50% d'AT à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "feu": 5
             }
@@ -518,25 +850,63 @@
         "nom": "Goultard",
         "rarete": "Infinite",
         "image": "goultard",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "ATTAQUE: Déclanche 2 foix EXPLOSION(6).",
             "pv": 169,
             "at": 30,
             "cc": 5,
             "pm": 4,
+            "effet": "ATTAQUE: Déclanche 2 foix EXPLOSION(6).",
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Saut de goultard",
+                "cout": 50,
+                "effet": "APPARITION: Ajoute le sort SAUT DE GOULTARD à votre main.",
+                "sort": ""
+              },
+              {
+                "nom": "Explosion",
+                "cout": 50,
+                "effet": "+50% à toutes vos EXPLOSIONS.",
+                "sort": ""
+              },
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Puissance",
+                "cout": 90,
+                "effet": "+50% d'AT à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Dégâts de riposte",
+                "cout": 50,
+                "effet": "+20% de RIPOSTE à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC et +50% de DÉGÂTS CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "feu": 9
             }
@@ -558,7 +928,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -598,7 +968,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -627,7 +997,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -656,7 +1026,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -685,7 +1055,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -714,7 +1084,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -743,7 +1113,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -772,7 +1142,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -801,7 +1171,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -830,7 +1200,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -859,7 +1229,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -888,7 +1258,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -917,7 +1287,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -946,7 +1316,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -975,7 +1345,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1004,7 +1374,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1033,7 +1403,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1073,7 +1443,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1102,7 +1472,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1131,7 +1501,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1160,7 +1530,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1189,7 +1559,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1218,7 +1588,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1247,7 +1617,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1276,7 +1646,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1305,7 +1675,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1334,7 +1704,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1363,7 +1733,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1392,7 +1762,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1421,7 +1791,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1450,7 +1820,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1479,7 +1849,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1508,7 +1878,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1537,7 +1907,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1577,7 +1947,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1606,7 +1976,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1635,7 +2005,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1664,7 +2034,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1693,7 +2063,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1722,7 +2092,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1751,7 +2121,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1780,7 +2150,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1809,7 +2179,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1838,7 +2208,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1867,7 +2237,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1897,7 +2267,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1926,7 +2296,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1955,7 +2325,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -1984,7 +2354,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -2013,7 +2383,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -2042,7 +2412,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -2072,7 +2442,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -2123,7 +2493,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -2153,7 +2523,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -2183,7 +2553,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -2213,7 +2583,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -2243,7 +2613,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -2274,7 +2644,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -2304,7 +2674,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -2334,7 +2704,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -2364,7 +2734,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -2394,7 +2764,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -2424,7 +2794,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -2454,7 +2824,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -2484,7 +2854,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -2514,7 +2884,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -2545,7 +2915,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -2576,7 +2946,7 @@
             "caracteristiques": [
               {
                 "taux": 5,
-                "effet": "% de PV à ce personnage.."
+                "effet": "% de PV à ce personnage."
               },
               {
                 "taux": 5,
@@ -2598,8 +2968,8 @@
     "anneaux": [
       {
         "nom": "Ann'eau",
-        "image": "eau",
         "rarete": "Commun",
+        "image": "eau",
         "iles": [
           "Île des Cochons"
         ],
@@ -2645,8 +3015,8 @@
       },
       {
         "nom": "Anneau Bstiné",
-        "image": "bstine",
         "rarete": "Commun",
+        "image": "bstine",
         "iles": [
           "Île des Bouftous",
           "Île des Craqueleurs"
@@ -2705,8 +3075,8 @@
       },
       {
         "nom": "Anneau Carina",
-        "image": "carina",
         "rarete": "Commun",
+        "image": "carina",
         "iles": [
           "Bonta"
         ],
@@ -2752,8 +3122,8 @@
       },
       {
         "nom": "Anneau Culaire",
-        "image": "culaire",
         "rarete": "Commun",
+        "image": "culaire",
         "iles": [
           "Île des Bouftous",
           "Île des Craqueleurs"
@@ -2808,8 +3178,8 @@
       },
       {
         "nom": "Anneau Deter",
-        "image": "deter",
         "rarete": "Commun",
+        "image": "deter",
         "iles": [
           "Île des Chafers"
         ],
@@ -2855,16 +3225,16 @@
       },
       {
         "nom": "Anneau Devy",
-        "image": "devy",
         "rarete": "Commun",
+        "image": "devy",
         "iles": [
           "Île des Taures"
         ],
         "patchs": [
           {
             "version": "0.10",
-            "nom": "Anneau Devy",
             "pouvoir": "PREMIER TOUR: +1PA en réserve.",
+            "nom": "Anneau Devy",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -2908,8 +3278,8 @@
       },
       {
         "nom": "Anneau Fer",
-        "image": "fer",
         "rarete": "Commun",
+        "image": "fer",
         "iles": [
           "Île des Chafers"
         ],
@@ -2963,8 +3333,8 @@
       },
       {
         "nom": "Anneau Gnon",
-        "image": "gnon",
         "rarete": "Commun",
+        "image": "gnon",
         "iles": [
           "Bateau Vampyre",
           "Île des Craqueleurs"
@@ -3019,8 +3389,8 @@
       },
       {
         "nom": "Anneau Greuh",
-        "image": "greuh",
         "rarete": "Commun",
+        "image": "greuh",
         "iles": [
           "Île des Bouftous",
           "Île des Taures"
@@ -3079,8 +3449,8 @@
       },
       {
         "nom": "Anneau Lympique",
-        "image": "lympique",
         "rarete": "Commun",
+        "image": "lympique",
         "iles": [
           "Île des Bworks",
           "Île des Chuchoteurs"
@@ -3135,8 +3505,8 @@
       },
       {
         "nom": "Anneau Mazo",
-        "image": "mazo",
         "rarete": "Commun",
+        "image": "mazo",
         "iles": [
           "Île des Bworks",
           "Île des Chuchoteurs"
@@ -3172,8 +3542,8 @@
       },
       {
         "nom": "Anneau Nolimit",
-        "image": "nolimit",
         "rarete": "Commun",
+        "image": "nolimit",
         "iles": [
           "Île des Cochons"
         ],
@@ -3212,8 +3582,8 @@
       },
       {
         "nom": "Anneau Papyon",
-        "image": "papyon",
         "rarete": "Commun",
+        "image": "papyon",
         "iles": [
           "Île des Cochons"
         ],
@@ -3248,8 +3618,8 @@
       },
       {
         "nom": "Anneau Pignâtre",
-        "image": "pignatre",
         "rarete": "Commun",
+        "image": "pignatre",
         "iles": [
           "Bonta"
         ],
@@ -3307,8 +3677,8 @@
       },
       {
         "nom": "Anneau Pital",
-        "image": "pital",
         "rarete": "Commun",
+        "image": "pital",
         "iles": [
           "Île des Chafers"
         ],
@@ -3347,8 +3717,8 @@
       },
       {
         "nom": "Anneau Problemo",
-        "image": "problemo",
         "rarete": "Commun",
+        "image": "problemo",
         "iles": [
           "Île des Bworks",
           "Île des Tofus"
@@ -3407,8 +3777,8 @@
       },
       {
         "nom": "Anneau Ptimâle",
-        "image": "ptimale",
         "rarete": "Commun",
+        "image": "ptimale",
         "iles": [
           "Île des Chafers"
         ],
@@ -3466,8 +3836,8 @@
       },
       {
         "nom": "Anneau Rifice",
-        "image": "rifice",
         "rarete": "Commun",
+        "image": "rifice",
         "iles": [
           "Île des Bouftous",
           "Île des Craqueleurs"
@@ -3530,8 +3900,8 @@
       },
       {
         "nom": "Anneau Rifique",
-        "image": "rifique",
         "rarete": "Commun",
+        "image": "rifique",
         "iles": [
           "Île des Bworks",
           "Île des Tofus"
@@ -3586,8 +3956,8 @@
       },
       {
         "nom": "Anneau Steké",
-        "image": "steke",
         "rarete": "Commun",
+        "image": "steke",
         "iles": [
           "Bonta",
           "Île des Chuchoteurs"
@@ -3642,8 +4012,8 @@
       },
       {
         "nom": "Anneau Stradamus",
-        "image": "stradamus",
         "rarete": "Commun",
+        "image": "stradamus",
         "iles": [
           "Bateau Vampyre",
           "Île des Tofus"
@@ -3698,8 +4068,8 @@
       },
       {
         "nom": "Anneau Telo",
-        "image": "telo",
         "rarete": "Commun",
+        "image": "telo",
         "iles": [
           "Bateau Vampyre",
           "Île des Craqueleurs"
@@ -3754,8 +4124,8 @@
       },
       {
         "nom": "Anneau Tomatik",
-        "image": "tomatik",
         "rarete": "Commun",
+        "image": "tomatik",
         "iles": [
           "Île des Taures"
         ],
@@ -3813,8 +4183,8 @@
       },
       {
         "nom": "Anneau Vulant",
-        "image": "vulant",
         "rarete": "Commun",
+        "image": "vulant",
         "iles": [
           "Île des Chafers"
         ],
@@ -3868,8 +4238,8 @@
       },
       {
         "nom": "Vulk'Anneau",
-        "image": "vulk",
         "rarete": "Commun",
+        "image": "vulk",
         "iles": [
           "Île des Cochons"
         ],
@@ -3915,8 +4285,8 @@
       },
       {
         "nom": "Anneau Bscur",
-        "image": "bscur",
         "rarete": "Rare",
+        "image": "bscur",
         "iles": [
           "Île des Bouftous",
           "Île des Chuchoteurs"
@@ -3980,8 +4350,8 @@
       },
       {
         "nom": "Anneau Busier",
-        "image": "busier",
         "rarete": "Rare",
+        "image": "busier",
         "iles": [
           "Île des Bworks"
         ],
@@ -4044,8 +4414,8 @@
       },
       {
         "nom": "Anneau Cultant",
-        "image": "cultant",
         "rarete": "Rare",
+        "image": "cultant",
         "iles": [
           "Bateau Vampyre"
         ],
@@ -4112,8 +4482,8 @@
       },
       {
         "nom": "Anneau Dylderaie",
-        "image": "dylderaie",
         "rarete": "Rare",
+        "image": "dylderaie",
         "iles": [
           "Bonta"
         ],
@@ -4180,8 +4550,8 @@
       },
       {
         "nom": "Anneau Fensif",
-        "image": "fensif",
         "rarete": "Rare",
+        "image": "fensif",
         "iles": [
           "Île des Chafers"
         ],
@@ -4244,8 +4614,8 @@
       },
       {
         "nom": "Anneau Fuego",
-        "image": "fuego",
         "rarete": "Rare",
+        "image": "fuego",
         "iles": [
           "Île des Cochons"
         ],
@@ -4308,8 +4678,8 @@
       },
       {
         "nom": "Anneau Hell",
-        "image": "hell",
         "rarete": "Rare",
+        "image": "hell",
         "iles": [
           "Île des Cochons"
         ],
@@ -4376,8 +4746,8 @@
       },
       {
         "nom": "Anneau Klerdlalune",
-        "image": "klerdlalune",
         "rarete": "Rare",
+        "image": "klerdlalune",
         "iles": [
           "Île des Bworks"
         ],
@@ -4440,8 +4810,8 @@
       },
       {
         "nom": "Anneau KLM",
-        "image": "klm",
         "rarete": "Rare",
+        "image": "klm",
         "iles": [
           "Île des Craqueleurs"
         ],
@@ -4504,8 +4874,8 @@
       },
       {
         "nom": "Anneau Lémain",
-        "image": "lemain",
         "rarete": "Rare",
+        "image": "lemain",
         "iles": [
           "Île des Bworks"
         ],
@@ -4568,8 +4938,8 @@
       },
       {
         "nom": "Anneau Nymousse",
-        "image": "nymousse",
         "rarete": "Rare",
+        "image": "nymousse",
         "iles": [
           "Bateau Vampyre",
           "Île des Chuchoteurs"
@@ -4629,8 +4999,8 @@
       },
       {
         "nom": "Anneau Pulant",
-        "image": "pulant",
         "rarete": "Rare",
+        "image": "pulant",
         "iles": [
           "Île des Tofus"
         ],
@@ -4685,8 +5055,8 @@
       },
       {
         "nom": "Anneau Râ",
-        "image": "ra",
         "rarete": "Rare",
+        "image": "ra",
         "iles": [
           "Île des Cochons"
         ],
@@ -4757,8 +5127,8 @@
       },
       {
         "nom": "Anneau Rajone",
-        "image": "rajone",
         "rarete": "Rare",
+        "image": "rajone",
         "iles": [
           "Île des Chafers"
         ],
@@ -4825,8 +5195,8 @@
       },
       {
         "nom": "Anneau Réo",
-        "image": "reo",
         "rarete": "Rare",
+        "image": "reo",
         "iles": [
           "Île des Bouftous",
           "Île des Chuchoteurs"
@@ -4890,8 +5260,8 @@
       },
       {
         "nom": "Anneau Rizon",
-        "image": "rizon",
         "rarete": "Rare",
+        "image": "rizon",
         "iles": [
           "Île des Craqueleurs"
         ],
@@ -4946,8 +5316,8 @@
       },
       {
         "nom": "Anneau Roscop",
-        "image": "roscop",
         "rarete": "Rare",
+        "image": "roscop",
         "iles": [
           "Île des Tofus"
         ],
@@ -5018,8 +5388,8 @@
       },
       {
         "nom": "Anneau Strogote",
-        "image": "strogote",
         "rarete": "Rare",
+        "image": "strogote",
         "iles": [
           "Île des Craqueleurs"
         ],
@@ -5082,8 +5452,8 @@
       },
       {
         "nom": "Anneau Stromo",
-        "image": "stromo",
         "rarete": "Rare",
+        "image": "stromo",
         "iles": [
           "Île des Taures"
         ],
@@ -5146,8 +5516,8 @@
       },
       {
         "nom": "Anneau Taku",
-        "image": "taku",
         "rarete": "Rare",
+        "image": "taku",
         "iles": [
           "Île des Chafers"
         ],
@@ -5214,8 +5584,8 @@
       },
       {
         "nom": "Anneau Bélisk",
-        "image": "belisk",
         "rarete": "Krosmique",
+        "image": "belisk",
         "iles": [
           "Île des Bouftous",
           "Île des Craqueleurs"
@@ -5292,8 +5662,8 @@
       },
       {
         "nom": "Anneau Céan",
-        "image": "cean",
         "rarete": "Krosmique",
+        "image": "cean",
         "iles": [
           "Île des Bworks",
           "Île des Chuchoteurs"
@@ -5367,8 +5737,8 @@
       },
       {
         "nom": "Anneau Ctane",
-        "image": "ctane",
         "rarete": "Krosmique",
+        "image": "ctane",
         "iles": [
           "Île des Chafers"
         ],
@@ -5441,8 +5811,8 @@
       },
       {
         "nom": "Anneau Cyprès",
-        "image": "cypres",
         "rarete": "Krosmique",
+        "image": "cypres",
         "iles": [
           "Île des Taures"
         ],
@@ -5515,8 +5885,8 @@
       },
       {
         "nom": "Anneau Kupant",
-        "image": "kupant",
         "rarete": "Krosmique",
+        "image": "kupant",
         "iles": [
           "Bonta"
         ],
@@ -5592,8 +5962,8 @@
       },
       {
         "nom": "Anneau Ragan",
-        "image": "ragan",
         "rarete": "Krosmique",
+        "image": "ragan",
         "iles": [
           "Île des Bworks",
           "Île des Chuchoteurs"
@@ -5668,8 +6038,8 @@
       },
       {
         "nom": "Anneau Rak",
-        "image": "rak",
         "rarete": "Krosmique",
+        "image": "rak",
         "iles": [
           "Bonta"
         ],
@@ -5718,8 +6088,8 @@
       },
       {
         "nom": "Anneau Recrux",
-        "image": "recrux",
         "rarete": "Krosmique",
+        "image": "recrux",
         "iles": [
           "Île des Cochons"
         ],
@@ -5791,8 +6161,8 @@
       },
       {
         "nom": "Anneau Remal",
-        "image": "remal",
         "rarete": "Krosmique",
+        "image": "remal",
         "iles": [
           "Île des Taures"
         ],
@@ -5869,8 +6239,8 @@
       },
       {
         "nom": "Anneau Tilus",
-        "image": "tilus",
         "rarete": "Krosmique",
+        "image": "tilus",
         "iles": [
           "Île des Chafers"
         ],
@@ -5946,8 +6316,8 @@
       },
       {
         "nom": "Anneau Racle",
-        "image": "racle",
         "rarete": "Infinite",
+        "image": "racle",
         "iles": [
           "Île des Taures"
         ],
@@ -6010,8 +6380,8 @@
       },
       {
         "nom": "Anneau Rore",
-        "image": "rore",
         "rarete": "Infinite",
+        "image": "rore",
         "iles": [
           "Île des Chuchoteurs"
         ],
@@ -6109,8 +6479,8 @@
       },
       {
         "nom": "Anneau Rouboros",
-        "image": "rouboros",
         "rarete": "Infinite",
+        "image": "rouboros",
         "iles": [
           "Île des Tofus"
         ],
@@ -6208,8 +6578,8 @@
       },
       {
         "nom": "Anneau Verbouké",
-        "image": "verbouke",
         "rarete": "Infinite",
+        "image": "verbouke",
         "iles": [
           "Île des Chafers"
         ],
@@ -6297,8 +6667,8 @@
       },
       {
         "nom": "Le Boom Boom",
-        "image": "boom",
         "rarete": "Infinite",
+        "image": "boom",
         "iles": [
           "Île des Bouftous"
         ],
@@ -6389,8 +6759,8 @@
       },
       {
         "nom": "Le Friskouille",
-        "image": "friskouille",
         "rarete": "Infinite",
+        "image": "friskouille",
         "iles": [
           "Île des Cochons"
         ],
@@ -6481,8 +6851,8 @@
       },
       {
         "nom": "Le Kralamourton",
-        "image": "kralamourton",
         "rarete": "Infinite",
+        "image": "kralamourton",
         "iles": [
           "Île des Bworks"
         ],
@@ -6573,8 +6943,8 @@
       },
       {
         "nom": "Le ratisseur",
-        "image": "ratisseur",
         "rarete": "Infinite",
+        "image": "ratisseur",
         "iles": [
           "Île des Craqueleurs"
         ],
@@ -6667,8 +7037,8 @@
     "brassards": [
       {
         "nom": "Brassard Akné",
-        "image": "akne",
         "rarete": "Commun",
+        "image": "akne",
         "iles": [
           "Bonta"
         ],
@@ -6708,8 +7078,8 @@
       },
       {
         "nom": "Brassard Dent",
-        "image": "dent",
         "rarete": "Commun",
+        "image": "dent",
         "iles": [
           "Bateau Vampyre",
           "Île des Tofus"
@@ -6750,8 +7120,8 @@
       },
       {
         "nom": "Brassard Gousin",
-        "image": "gousin",
         "rarete": "Commun",
+        "image": "gousin",
         "iles": [
           "Île des Bouftous",
           "Île des Taures"
@@ -6792,8 +7162,8 @@
       },
       {
         "nom": "Brassard Kange",
-        "image": "kange",
         "rarete": "Commun",
+        "image": "kange",
         "iles": [
           "Bateau Vampyre",
           "Île des Tofus"
@@ -6834,8 +7204,8 @@
       },
       {
         "nom": "Brassard Nakeuh",
-        "image": "nakeuh",
         "rarete": "Commun",
+        "image": "nakeuh",
         "iles": [
           "Île des Bworks",
           "Île des Chuchoteurs"
@@ -6843,7 +7213,7 @@
         "patchs": [
           {
             "version": "0.10",
-            "pouvoir": "Attaque: Votre héros se téléporte dans le dos de la cible..",
+            "pouvoir": "Attaque: Votre héros se téléporte dans le dos de la cible.",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -6876,8 +7246,8 @@
       },
       {
         "nom": "Brassard Ogan",
-        "image": "ogan",
         "rarete": "Commun",
+        "image": "ogan",
         "iles": [
           "Île des Taures"
         ],
@@ -6917,8 +7287,8 @@
       },
       {
         "nom": "Brassard Osage",
-        "image": "osage",
         "rarete": "Commun",
+        "image": "osage",
         "iles": [
           "Bonta",
           "Île des Chuchoteurs"
@@ -6959,8 +7329,8 @@
       },
       {
         "nom": "Papy Brassard",
-        "image": "papy",
         "rarete": "Commun",
+        "image": "papy",
         "iles": [
           "Île des Cochons"
         ],
@@ -7000,8 +7370,8 @@
       },
       {
         "nom": "Brassard Chevek",
-        "image": "chevek",
         "rarete": "Rare",
+        "image": "chevek",
         "iles": [
           "Île des Taures"
         ],
@@ -7046,8 +7416,8 @@
       },
       {
         "nom": "Brassard Dou",
-        "image": "dou",
         "rarete": "Rare",
+        "image": "dou",
         "iles": [
           "Île des Bouftous",
           "Île des Tofus"
@@ -7093,8 +7463,8 @@
       },
       {
         "nom": "Brassard Gile",
-        "image": "gile",
         "rarete": "Rare",
+        "image": "gile",
         "iles": [
           "Bateau Vampyre"
         ],
@@ -7139,8 +7509,8 @@
       },
       {
         "nom": "Brassard Gonote",
-        "image": "gonote",
         "rarete": "Rare",
+        "image": "gonote",
         "iles": [
           "Bonta"
         ],
@@ -7185,8 +7555,8 @@
       },
       {
         "nom": "Brassard Kasm",
-        "image": "kasm",
         "rarete": "Rare",
+        "image": "kasm",
         "iles": [
           "Bonta"
         ],
@@ -7231,8 +7601,8 @@
       },
       {
         "nom": "Brassard Ticho",
-        "image": "ticho",
         "rarete": "Rare",
+        "image": "ticho",
         "iles": [
           "Île des Taures"
         ],
@@ -7277,8 +7647,8 @@
       },
       {
         "nom": "Brassard Dine",
-        "image": "dine",
         "rarete": "Krosmique",
+        "image": "dine",
         "iles": [
           "Bateau Vampyre",
           "Île des Tofus"
@@ -7333,8 +7703,8 @@
       },
       {
         "nom": "Brassard Mada",
-        "image": "mada",
         "rarete": "Krosmique",
+        "image": "mada",
         "iles": [
           "Île des Cochons"
         ],
@@ -7388,8 +7758,8 @@
       },
       {
         "nom": "Brassard Turien",
-        "image": "turien",
         "rarete": "Krosmique",
+        "image": "turien",
         "iles": [
           "Bateau Vampyre",
           "Île des Tofus"
@@ -7444,8 +7814,8 @@
       },
       {
         "nom": "Brassard Tyste",
-        "image": "tyste",
         "rarete": "Krosmique",
+        "image": "tyste",
         "iles": [
           "Île des Bouftous",
           "Île des Craqueleurs"
@@ -7500,8 +7870,8 @@
       },
       {
         "nom": "Brassard Kantiel",
-        "image": "kantiel",
         "rarete": "Infinite",
+        "image": "kantiel",
         "iles": [
           "Bonta"
         ],
@@ -7534,8 +7904,8 @@
       },
       {
         "nom": "Brassard Leukin",
-        "image": "leukin",
         "rarete": "Infinite",
+        "image": "leukin",
         "iles": [
           "Bateau Vampyre"
         ],

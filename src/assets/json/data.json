@@ -2968,8 +2968,8 @@
     "anneaux": [
       {
         "nom": "Ann'eau",
-        "image": "eau",
         "rarete": "Commun",
+        "image": "eau",
         "iles": [
           "Île des Cochons"
         ],
@@ -3015,8 +3015,8 @@
       },
       {
         "nom": "Anneau Bstiné",
-        "image": "bstine",
         "rarete": "Commun",
+        "image": "bstine",
         "iles": [
           "Île des Bouftous",
           "Île des Craqueleurs"
@@ -3075,8 +3075,8 @@
       },
       {
         "nom": "Anneau Carina",
-        "image": "carina",
         "rarete": "Commun",
+        "image": "carina",
         "iles": [
           "Bonta"
         ],
@@ -3122,8 +3122,8 @@
       },
       {
         "nom": "Anneau Culaire",
-        "image": "culaire",
         "rarete": "Commun",
+        "image": "culaire",
         "iles": [
           "Île des Bouftous",
           "Île des Craqueleurs"
@@ -3178,8 +3178,8 @@
       },
       {
         "nom": "Anneau Deter",
-        "image": "deter",
         "rarete": "Commun",
+        "image": "deter",
         "iles": [
           "Île des Chafers"
         ],
@@ -3225,16 +3225,16 @@
       },
       {
         "nom": "Anneau Devy",
-        "image": "devy",
         "rarete": "Commun",
+        "image": "devy",
         "iles": [
           "Île des Taures"
         ],
         "patchs": [
           {
             "version": "0.10",
-            "nom": "Anneau Devy",
             "pouvoir": "PREMIER TOUR: +1PA en réserve.",
+            "nom": "Anneau Devy",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -3278,8 +3278,8 @@
       },
       {
         "nom": "Anneau Fer",
-        "image": "fer",
         "rarete": "Commun",
+        "image": "fer",
         "iles": [
           "Île des Chafers"
         ],
@@ -3333,8 +3333,8 @@
       },
       {
         "nom": "Anneau Gnon",
-        "image": "gnon",
         "rarete": "Commun",
+        "image": "gnon",
         "iles": [
           "Bateau Vampyre",
           "Île des Craqueleurs"
@@ -3389,8 +3389,8 @@
       },
       {
         "nom": "Anneau Greuh",
-        "image": "greuh",
         "rarete": "Commun",
+        "image": "greuh",
         "iles": [
           "Île des Bouftous",
           "Île des Taures"
@@ -3449,8 +3449,8 @@
       },
       {
         "nom": "Anneau Lympique",
-        "image": "lympique",
         "rarete": "Commun",
+        "image": "lympique",
         "iles": [
           "Île des Bworks",
           "Île des Chuchoteurs"
@@ -3505,8 +3505,8 @@
       },
       {
         "nom": "Anneau Mazo",
-        "image": "mazo",
         "rarete": "Commun",
+        "image": "mazo",
         "iles": [
           "Île des Bworks",
           "Île des Chuchoteurs"
@@ -3542,8 +3542,8 @@
       },
       {
         "nom": "Anneau Nolimit",
-        "image": "nolimit",
         "rarete": "Commun",
+        "image": "nolimit",
         "iles": [
           "Île des Cochons"
         ],
@@ -3582,8 +3582,8 @@
       },
       {
         "nom": "Anneau Papyon",
-        "image": "papyon",
         "rarete": "Commun",
+        "image": "papyon",
         "iles": [
           "Île des Cochons"
         ],
@@ -3618,8 +3618,8 @@
       },
       {
         "nom": "Anneau Pignâtre",
-        "image": "pignatre",
         "rarete": "Commun",
+        "image": "pignatre",
         "iles": [
           "Bonta"
         ],
@@ -3677,8 +3677,8 @@
       },
       {
         "nom": "Anneau Pital",
-        "image": "pital",
         "rarete": "Commun",
+        "image": "pital",
         "iles": [
           "Île des Chafers"
         ],
@@ -3717,8 +3717,8 @@
       },
       {
         "nom": "Anneau Problemo",
-        "image": "problemo",
         "rarete": "Commun",
+        "image": "problemo",
         "iles": [
           "Île des Bworks",
           "Île des Tofus"
@@ -3777,8 +3777,8 @@
       },
       {
         "nom": "Anneau Ptimâle",
-        "image": "ptimale",
         "rarete": "Commun",
+        "image": "ptimale",
         "iles": [
           "Île des Chafers"
         ],
@@ -3836,8 +3836,8 @@
       },
       {
         "nom": "Anneau Rifice",
-        "image": "rifice",
         "rarete": "Commun",
+        "image": "rifice",
         "iles": [
           "Île des Bouftous",
           "Île des Craqueleurs"
@@ -3900,8 +3900,8 @@
       },
       {
         "nom": "Anneau Rifique",
-        "image": "rifique",
         "rarete": "Commun",
+        "image": "rifique",
         "iles": [
           "Île des Bworks",
           "Île des Tofus"
@@ -3956,8 +3956,8 @@
       },
       {
         "nom": "Anneau Steké",
-        "image": "steke",
         "rarete": "Commun",
+        "image": "steke",
         "iles": [
           "Bonta",
           "Île des Chuchoteurs"
@@ -4012,8 +4012,8 @@
       },
       {
         "nom": "Anneau Stradamus",
-        "image": "stradamus",
         "rarete": "Commun",
+        "image": "stradamus",
         "iles": [
           "Bateau Vampyre",
           "Île des Tofus"
@@ -4068,8 +4068,8 @@
       },
       {
         "nom": "Anneau Telo",
-        "image": "telo",
         "rarete": "Commun",
+        "image": "telo",
         "iles": [
           "Bateau Vampyre",
           "Île des Craqueleurs"
@@ -4124,8 +4124,8 @@
       },
       {
         "nom": "Anneau Tomatik",
-        "image": "tomatik",
         "rarete": "Commun",
+        "image": "tomatik",
         "iles": [
           "Île des Taures"
         ],
@@ -4183,8 +4183,8 @@
       },
       {
         "nom": "Anneau Vulant",
-        "image": "vulant",
         "rarete": "Commun",
+        "image": "vulant",
         "iles": [
           "Île des Chafers"
         ],
@@ -4238,8 +4238,8 @@
       },
       {
         "nom": "Vulk'Anneau",
-        "image": "vulk",
         "rarete": "Commun",
+        "image": "vulk",
         "iles": [
           "Île des Cochons"
         ],
@@ -4285,8 +4285,8 @@
       },
       {
         "nom": "Anneau Bscur",
-        "image": "bscur",
         "rarete": "Rare",
+        "image": "bscur",
         "iles": [
           "Île des Bouftous",
           "Île des Chuchoteurs"
@@ -4350,8 +4350,8 @@
       },
       {
         "nom": "Anneau Busier",
-        "image": "busier",
         "rarete": "Rare",
+        "image": "busier",
         "iles": [
           "Île des Bworks"
         ],
@@ -4414,8 +4414,8 @@
       },
       {
         "nom": "Anneau Cultant",
-        "image": "cultant",
         "rarete": "Rare",
+        "image": "cultant",
         "iles": [
           "Bateau Vampyre"
         ],
@@ -4482,8 +4482,8 @@
       },
       {
         "nom": "Anneau Dylderaie",
-        "image": "dylderaie",
         "rarete": "Rare",
+        "image": "dylderaie",
         "iles": [
           "Bonta"
         ],
@@ -4550,8 +4550,8 @@
       },
       {
         "nom": "Anneau Fensif",
-        "image": "fensif",
         "rarete": "Rare",
+        "image": "fensif",
         "iles": [
           "Île des Chafers"
         ],
@@ -4614,8 +4614,8 @@
       },
       {
         "nom": "Anneau Fuego",
-        "image": "fuego",
         "rarete": "Rare",
+        "image": "fuego",
         "iles": [
           "Île des Cochons"
         ],
@@ -4678,8 +4678,8 @@
       },
       {
         "nom": "Anneau Hell",
-        "image": "hell",
         "rarete": "Rare",
+        "image": "hell",
         "iles": [
           "Île des Cochons"
         ],
@@ -4746,8 +4746,8 @@
       },
       {
         "nom": "Anneau Klerdlalune",
-        "image": "klerdlalune",
         "rarete": "Rare",
+        "image": "klerdlalune",
         "iles": [
           "Île des Bworks"
         ],
@@ -4810,8 +4810,8 @@
       },
       {
         "nom": "Anneau KLM",
-        "image": "klm",
         "rarete": "Rare",
+        "image": "klm",
         "iles": [
           "Île des Craqueleurs"
         ],
@@ -4874,8 +4874,8 @@
       },
       {
         "nom": "Anneau Lémain",
-        "image": "lemain",
         "rarete": "Rare",
+        "image": "lemain",
         "iles": [
           "Île des Bworks"
         ],
@@ -4938,8 +4938,8 @@
       },
       {
         "nom": "Anneau Nymousse",
-        "image": "nymousse",
         "rarete": "Rare",
+        "image": "nymousse",
         "iles": [
           "Bateau Vampyre",
           "Île des Chuchoteurs"
@@ -4999,8 +4999,8 @@
       },
       {
         "nom": "Anneau Pulant",
-        "image": "pulant",
         "rarete": "Rare",
+        "image": "pulant",
         "iles": [
           "Île des Tofus"
         ],
@@ -5055,8 +5055,8 @@
       },
       {
         "nom": "Anneau Râ",
-        "image": "ra",
         "rarete": "Rare",
+        "image": "ra",
         "iles": [
           "Île des Cochons"
         ],
@@ -5127,8 +5127,8 @@
       },
       {
         "nom": "Anneau Rajone",
-        "image": "rajone",
         "rarete": "Rare",
+        "image": "rajone",
         "iles": [
           "Île des Chafers"
         ],
@@ -5195,8 +5195,8 @@
       },
       {
         "nom": "Anneau Réo",
-        "image": "reo",
         "rarete": "Rare",
+        "image": "reo",
         "iles": [
           "Île des Bouftous",
           "Île des Chuchoteurs"
@@ -5260,8 +5260,8 @@
       },
       {
         "nom": "Anneau Rizon",
-        "image": "rizon",
         "rarete": "Rare",
+        "image": "rizon",
         "iles": [
           "Île des Craqueleurs"
         ],
@@ -5316,8 +5316,8 @@
       },
       {
         "nom": "Anneau Roscop",
-        "image": "roscop",
         "rarete": "Rare",
+        "image": "roscop",
         "iles": [
           "Île des Tofus"
         ],
@@ -5388,8 +5388,8 @@
       },
       {
         "nom": "Anneau Strogote",
-        "image": "strogote",
         "rarete": "Rare",
+        "image": "strogote",
         "iles": [
           "Île des Craqueleurs"
         ],
@@ -5452,8 +5452,8 @@
       },
       {
         "nom": "Anneau Stromo",
-        "image": "stromo",
         "rarete": "Rare",
+        "image": "stromo",
         "iles": [
           "Île des Taures"
         ],
@@ -5516,8 +5516,8 @@
       },
       {
         "nom": "Anneau Taku",
-        "image": "taku",
         "rarete": "Rare",
+        "image": "taku",
         "iles": [
           "Île des Chafers"
         ],
@@ -5584,8 +5584,8 @@
       },
       {
         "nom": "Anneau Bélisk",
-        "image": "belisk",
         "rarete": "Krosmique",
+        "image": "belisk",
         "iles": [
           "Île des Bouftous",
           "Île des Craqueleurs"
@@ -5662,8 +5662,8 @@
       },
       {
         "nom": "Anneau Céan",
-        "image": "cean",
         "rarete": "Krosmique",
+        "image": "cean",
         "iles": [
           "Île des Bworks",
           "Île des Chuchoteurs"
@@ -5737,8 +5737,8 @@
       },
       {
         "nom": "Anneau Ctane",
-        "image": "ctane",
         "rarete": "Krosmique",
+        "image": "ctane",
         "iles": [
           "Île des Chafers"
         ],
@@ -5811,8 +5811,8 @@
       },
       {
         "nom": "Anneau Cyprès",
-        "image": "cypres",
         "rarete": "Krosmique",
+        "image": "cypres",
         "iles": [
           "Île des Taures"
         ],
@@ -5885,8 +5885,8 @@
       },
       {
         "nom": "Anneau Kupant",
-        "image": "kupant",
         "rarete": "Krosmique",
+        "image": "kupant",
         "iles": [
           "Bonta"
         ],
@@ -5962,8 +5962,8 @@
       },
       {
         "nom": "Anneau Ragan",
-        "image": "ragan",
         "rarete": "Krosmique",
+        "image": "ragan",
         "iles": [
           "Île des Bworks",
           "Île des Chuchoteurs"
@@ -6038,8 +6038,8 @@
       },
       {
         "nom": "Anneau Rak",
-        "image": "rak",
         "rarete": "Krosmique",
+        "image": "rak",
         "iles": [
           "Bonta"
         ],
@@ -6088,8 +6088,8 @@
       },
       {
         "nom": "Anneau Recrux",
-        "image": "recrux",
         "rarete": "Krosmique",
+        "image": "recrux",
         "iles": [
           "Île des Cochons"
         ],
@@ -6161,8 +6161,8 @@
       },
       {
         "nom": "Anneau Remal",
-        "image": "remal",
         "rarete": "Krosmique",
+        "image": "remal",
         "iles": [
           "Île des Taures"
         ],
@@ -6239,8 +6239,8 @@
       },
       {
         "nom": "Anneau Tilus",
-        "image": "tilus",
         "rarete": "Krosmique",
+        "image": "tilus",
         "iles": [
           "Île des Chafers"
         ],
@@ -6316,8 +6316,8 @@
       },
       {
         "nom": "Anneau Racle",
-        "image": "racle",
         "rarete": "Infinite",
+        "image": "racle",
         "iles": [
           "Île des Taures"
         ],
@@ -6380,8 +6380,8 @@
       },
       {
         "nom": "Anneau Rore",
-        "image": "rore",
         "rarete": "Infinite",
+        "image": "rore",
         "iles": [
           "Île des Chuchoteurs"
         ],
@@ -6479,8 +6479,8 @@
       },
       {
         "nom": "Anneau Rouboros",
-        "image": "rouboros",
         "rarete": "Infinite",
+        "image": "rouboros",
         "iles": [
           "Île des Tofus"
         ],
@@ -6578,8 +6578,8 @@
       },
       {
         "nom": "Anneau Verbouké",
-        "image": "verbouke",
         "rarete": "Infinite",
+        "image": "verbouke",
         "iles": [
           "Île des Chafers"
         ],
@@ -6667,8 +6667,8 @@
       },
       {
         "nom": "Le Boom Boom",
-        "image": "boom",
         "rarete": "Infinite",
+        "image": "boom",
         "iles": [
           "Île des Bouftous"
         ],
@@ -6759,8 +6759,8 @@
       },
       {
         "nom": "Le Friskouille",
-        "image": "friskouille",
         "rarete": "Infinite",
+        "image": "friskouille",
         "iles": [
           "Île des Cochons"
         ],
@@ -6851,8 +6851,8 @@
       },
       {
         "nom": "Le Kralamourton",
-        "image": "kralamourton",
         "rarete": "Infinite",
+        "image": "kralamourton",
         "iles": [
           "Île des Bworks"
         ],
@@ -6943,8 +6943,8 @@
       },
       {
         "nom": "Le ratisseur",
-        "image": "ratisseur",
         "rarete": "Infinite",
+        "image": "ratisseur",
         "iles": [
           "Île des Craqueleurs"
         ],
