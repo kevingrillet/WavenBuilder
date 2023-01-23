@@ -3,12 +3,12 @@ name: ESLint
 on:
   push:
     paths:
-      - '*.js'
-      - '**/*.js'
+      - '*.ts'
+      - '**/*.ts'
   pull_request:
     paths:
-      - '*.js'
-      - '**/*.js'
+      - '*.ts'
+      - '**/*.ts'
   schedule:
     - cron:  '0 0 * * SUN'
 
@@ -18,6 +18,9 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
+
+      - name: Install Plugin
+        run: npm i @typescript-eslint/eslint-plugin
 
       - name: Run ESLint
         run: npx eslint --ext .ts src/app/
