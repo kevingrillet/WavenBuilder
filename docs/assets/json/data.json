@@ -54,7 +54,7 @@
             "at": 14,
             "cc": 5,
             "pm": 3,
-            "effet": "ATTAQUE: -1PA de coût de premier sort de votre main.",
+            "effet": "ATTAQUE: -1 PA de coût de premier sort de votre main.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -565,7 +565,7 @@
             "at": 16,
             "cc": 5,
             "pm": 3,
-            "effet": "ATTAQUE: Déclanche EXPLOSION(6).",
+            "effet": "ATTAQUE: Déclenche EXPLOSION(6).",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -620,7 +620,7 @@
             "at": 25,
             "cc": 5,
             "pm": 3,
-            "effet": "Tant qu'elle est en jeu: -1PA au coût de vos sorts FEU.",
+            "effet": "Tant qu'elle est en jeu: -1 PA au coût de vos sorts FEU.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -641,7 +641,7 @@
               {
                 "nom": "Maîtrise de baraka",
                 "cout": 120,
-                "effet": "ATTAQUE: -1PA au coût des sorts FEU de votre main.",
+                "effet": "ATTAQUE: -1 PA au coût des sorts FEU de votre main.",
                 "sort": ""
               },
               {
@@ -858,7 +858,7 @@
             "at": 30,
             "cc": 5,
             "pm": 4,
-            "effet": "ATTAQUE: Déclanche 2 foix EXPLOSION(6).",
+            "effet": "ATTAQUE: Déclenche 2 foix EXPLOSION(6).",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -1078,7 +1078,7 @@
               {
                 "nom": "Reflet d'uppercut",
                 "cout": 50,
-                "effet": "APPARITION: Ajoute le sort REFFLET D'UPPERCUT à votre main.",
+                "effet": "APPARITION: Ajoute le sort REFLET D'UPPERCUT à votre main.",
                 "sort": "Reflet d'uppercut"
               },
               {
@@ -1314,7 +1314,7 @@
             "at": 17,
             "cc": 5,
             "pm": 3,
-            "effet": "ATTAQUE: Déclanche REBOND(8).",
+            "effet": "ATTAQUE: Déclenche REBOND(8).",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -2339,7 +2339,7 @@
             "at": 16,
             "cc": 5,
             "pm": 3,
-            "effet": "ATTAQUE: Déclanche TOURBE(6).",
+            "effet": "ATTAQUE: Déclenche TOURBE(6).",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -2394,7 +2394,7 @@
             "at": 19,
             "cc": 5,
             "pm": 3,
-            "effet": "Tant qu'elle est en jeu: -1PA au coût de vos sorts TERRE.",
+            "effet": "Tant qu'elle est en jeu: -1 PA au coût de vos sorts TERRE.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -2415,7 +2415,7 @@
               {
                 "nom": "Maîtrise d'Amalia",
                 "cout": 50,
-                "effet": "ATTAQUE: -1PA au coût des sorts TERRE de votre main.",
+                "effet": "ATTAQUE: -1 PA au coût des sorts TERRE de votre main.",
                 "sort": ""
               },
               {
@@ -2476,7 +2476,7 @@
               {
                 "nom": "Mobilité",
                 "cout": 50,
-                "effet": "+1PM à ce personnage.",
+                "effet": "+1 PM à ce personnage.",
                 "sort": ""
               },
               {
@@ -2577,7 +2577,7 @@
             "at": 22,
             "cc": 5,
             "pm": 3,
-            "effet": "ATTAQUE: -1PM à la cible pour le tour. +100% de dégâts si la cible est BOUEUSE.",
+            "effet": "ATTAQUE: -1 PM à la cible pour le tour. +100% de dégâts si la cible est BOUEUSE.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -2598,7 +2598,7 @@
               {
                 "nom": "Poison de Toxine",
                 "cout": 50,
-                "effet": "ATTAQUE: -1PM supplémentaire à la cible pour le tour.",
+                "effet": "ATTAQUE: -1 PM supplémentaire à la cible pour le tour.",
                 "sort": ""
               },
               {
@@ -2991,7 +2991,7 @@
             "at": 12,
             "cc": 5,
             "pm": 3,
-            "effet": "APPARITION: +1PA en réserve.",
+            "effet": "APPARITION: +1 PA en réserve.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -3260,7 +3260,7 @@
             "at": 16,
             "cc": 5,
             "pm": 3,
-            "effet": "ATTAQUE: Déclanche GRÊLE(8).",
+            "effet": "ATTAQUE: Déclenche GRÊLE(8).",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -3438,7 +3438,7 @@
             "at": 19,
             "cc": 5,
             "pm": 3,
-            "effet": "Tant qu'il est en jeu: -1PA au coût de vos sorts EAU.",
+            "effet": "Tant qu'il est en jeu: -1 PA au coût de vos sorts EAU.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -3459,7 +3459,7 @@
               {
                 "nom": "Maîtrise d'Harebourg",
                 "cout": 50,
-                "effet": "ATTAQUE: -1PA au coût des sorts EAU de votre main.",
+                "effet": "ATTAQUE: -1 PA au coût des sorts EAU de votre main.",
                 "sort": ""
               },
               {
@@ -3499,7 +3499,7 @@
             "at": 30,
             "cc": 5,
             "pm": 3,
-            "effet": "ATTAQUE: Invoque une Noxine (1PV, 5AT, 5PM) derrière la cible. Mort: Détruit les NOXINES alliées en jeu.",
+            "effet": "ATTAQUE: Invoque une NOXINE (1 PV, 5 AT, 5 PM) derrière la cible. Mort: Détruit les NOXINES alliées en jeu.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -3566,7 +3566,7 @@
             "at": 40,
             "cc": 5,
             "pm": 3,
-            "effet": "ATTAQUE: +1PA en réserve.",
+            "effet": "ATTAQUE: +1 PA en réserve.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -3593,7 +3593,7 @@
               {
                 "nom": "Sagesse de Phaeris",
                 "cout": 50,
-                "effet": "ATTAQUE: +1PA supplémentaire en réserve.",
+                "effet": "ATTAQUE: +1 PA supplémentaire en réserve.",
                 "sort": ""
               },
               {
@@ -3742,7 +3742,7 @@
             "at": 17,
             "cc": 5,
             "pm": 4,
-            "effet": "APPARITION: -1 Jauge au coût de REMINGTON SMISSE (106PV, 17AT, 3PM). ATTAQUE: +1PM à votre héros pour le jour.",
+            "effet": "APPARITION: -1 Jauge au coût de REMINGTON SMISSE (106 PV, 17 AT, 3 PM). ATTAQUE: +1 PM à votre héros pour le jour.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -3860,7 +3860,7 @@
             "at": 18,
             "cc": 5,
             "pm": 2,
-            "effet": "APPARITION: Piochez 2 sorts. Ils coûtent -1PA.",
+            "effet": "APPARITION: Piochez 2 sorts. Ils coûtent -1 PA.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -3922,7 +3922,7 @@
             "at": 16,
             "cc": 5,
             "pm": 3,
-            "effet": "APPARITION: -1 Jauge au coût de NOX (162PV, 30AT, 3PM). COUP DE GRÂCE: Peut rejouer son tour. Limité à 1 fois par tour.",
+            "effet": "APPARITION: -1 Jauge au coût de NOX (162 PV, 30 AT, 3 PM). COUP DE GRÂCE: Peut rejouer son tour. Limité à 1 fois par tour.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -3937,7 +3937,7 @@
               {
                 "nom": "Maîtrise d'Igôle",
                 "cout": 120,
-                "effet": "APPARITION: -2 Jauges supplémentaires au coût de NOX (162PV, 30AT, 3PM).",
+                "effet": "APPARITION: -2 Jauges supplémentaires au coût de NOX (162 PV, 30 AT, 3 PM).",
                 "sort": ""
               },
               {
@@ -4108,7 +4108,7 @@
             "at": 17,
             "cc": 5,
             "pm": 3,
-            "effet": "ATTAQUE: -1PA au coût du premier sort de votre main.",
+            "effet": "ATTAQUE: -1 PA au coût du premier sort de votre main.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -4525,7 +4525,7 @@
             "at": 24,
             "cc": 5,
             "pm": 3,
-            "effet": "APPARITION: Piochez votre prochain sort à 6PA ou plus.",
+            "effet": "APPARITION: Piochez votre prochain sort à 6 PA ou plus.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -4587,7 +4587,7 @@
             "at": 32,
             "cc": 5,
             "pm": 4,
-            "effet": "Tant qu'il est en jeu: +1PM à vos personnages. Peut être invoqué sur une case libre du terrain.",
+            "effet": "Tant qu'il est en jeu: +1 PM à vos personnages. Peut être invoqué sur une case libre du terrain.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -4796,7 +4796,7 @@
         "patchs": [
           {
             "version": "0.10",
-            "pouvoir": "Quand vous invoquez un compagnon: +1PA en réserve.",
+            "pouvoir": "Quand vous invoquez un compagnon: +1 PA en réserve.",
             "caracteristiques": [
               {
                 "taux": 2,
@@ -4966,7 +4966,7 @@
               {
                 "nom": "Effet amélioré",
                 "cout": 80,
-                "effet": "Applique BOUEUR à un adversaire supplémentaire."
+                "effet": "Applique BOUEUX à un adversaire supplémentaire."
               },
               {
                 "nom": "Gain de Kamas",
@@ -5053,7 +5053,7 @@
         "patchs": [
           {
             "version": "0.10",
-            "pouvoir": "PREMIER TOUR: +1PA en réserve.",
+            "pouvoir": "PREMIER TOUR: +1 PA en réserve.",
             "nom": "Anneau Devy",
             "caracteristiques": [
               {
@@ -5069,7 +5069,7 @@
               {
                 "nom": "Effet amélioré",
                 "cout": 80,
-                "effet": "PREMIER TOUR: +1PA supplémentaire en réserve."
+                "effet": "PREMIER TOUR: +1 PA supplémentaire en réserve."
               },
               {
                 "nom": "Gain de Kamas",
@@ -5080,7 +5080,7 @@
           },
           {
             "version": "0.08",
-            "pouvoir": "PREMIER TOUR: +1PA en réserve.",
+            "pouvoir": "PREMIER TOUR: +1 PA en réserve.",
             "nom": "Anneau De Vie",
             "caracteristiques": [
               {
@@ -5349,7 +5349,7 @@
               {
                 "nom": "Effet amélioré",
                 "cout": 80,
-                "effet": "Quand un de vos compagnons meurt: -1PA au coût du sort pioché."
+                "effet": "Quand un de vos compagnons meurt: -1 PA au coût du sort pioché."
               },
               {
                 "nom": "CC Compagnons",
@@ -5665,7 +5665,7 @@
         "patchs": [
           {
             "version": "0.10",
-            "pouvoir": "GRIMOIRE(15): PREMIER TOUR: -1PA au coût des sorts de votre main.",
+            "pouvoir": "GRIMOIRE(15): PREMIER TOUR: -1 PA au coût des sorts de votre main.",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -5691,7 +5691,7 @@
           },
           {
             "version": "0.08",
-            "pouvoir": "GRIMOIRE(15): PREMIER TOUR: Réduit de 1PA le coût des sorts de votre main.",
+            "pouvoir": "GRIMOIRE(15): PREMIER TOUR: Réduit de 1 PA le coût des sorts de votre main.",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -5982,7 +5982,7 @@
           },
           {
             "version": "0.08",
-            "pouvoir": "GRIMOIRE(15): Piochez 1 sort quand vous jouez un sort à 6PA ou plus.",
+            "pouvoir": "GRIMOIRE(15): Piochez 1 sort quand vous jouez un sort à 6 PA ou plus.",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -6011,7 +6011,7 @@
         "patchs": [
           {
             "version": "0.10",
-            "pouvoir": "GRIMOIRE(12): PREMIER TOUR: +2PA en réserve.",
+            "pouvoir": "GRIMOIRE(12): PREMIER TOUR: +2 PA en réserve.",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -6026,7 +6026,7 @@
               {
                 "nom": "Effet amélioré",
                 "cout": 80,
-                "effet": "GRIMOIRE(12): PREMIER TOUR: +2PA supplémentaires en réserve."
+                "effet": "GRIMOIRE(12): PREMIER TOUR: +2 PA supplémentaires en réserve."
               },
               {
                 "nom": "Sagesse",
@@ -6037,7 +6037,7 @@
           },
           {
             "version": "0.08",
-            "pouvoir": "GRIMOIRE(12): PREMIER TOUR: Ajoute 3PA en réserve.",
+            "pouvoir": "GRIMOIRE(12): PREMIER TOUR: Ajoute 3 PA en réserve.",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -6506,7 +6506,7 @@
         "patchs": [
           {
             "version": "0.10",
-            "pouvoir": "Quand un de vos compagnons attaque: Il déclenche GRÊLE(0)",
+            "pouvoir": "Quand un de vos compagnons attaque: Il déclenche GRÊLE(0).",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -6883,7 +6883,7 @@
         "patchs": [
           {
             "version": "0.10",
-            "pouvoir": "GRIMOIRE(12): DEBUT DU TOUR: +1 AURA à votre héros s'il en possède déjà.",
+            "pouvoir": "GRIMOIRE(12): DÉBUT DU TOUR: +1 AURA à votre héros s'il en possède déjà.",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -6955,7 +6955,7 @@
         "patchs": [
           {
             "version": "0.10",
-            "pouvoir": "Quand un de vos compagnons attaque: Il déclenche TOURBE(0)",
+            "pouvoir": "Quand un de vos compagnons attaque: Il déclenche TOURBE(0).",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -7059,7 +7059,7 @@
           },
           {
             "version": "0.08",
-            "pouvoir": "AVALANCHE: Inflige 15 dégâts magiques autour de votre héros. Si 3 ennemis touchés: Piochez 1 sort dont le coût est réduit de 1PA.",
+            "pouvoir": "AVALANCHE: Inflige 15 dégâts magiques autour de votre héros. Si 3 ennemis touchés: Piochez 1 sort dont le coût est réduit de 1 PA.",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -7099,7 +7099,7 @@
               {
                 "nom": "Effet amélioré",
                 "cout": 80,
-                "effet": "Quand un de vos compagnons meurt: +1PA supplémentaire en réserve."
+                "effet": "Quand un de vos compagnons meurt: +1 PA supplémentaire en réserve."
               },
               {
                 "nom": "Sagesse",
@@ -7115,7 +7115,7 @@
           },
           {
             "version": "0.08",
-            "pouvoir": "Ajoute 1PA en réserve quand un de vos compagnons meurt.",
+            "pouvoir": "Ajoute 1 PA en réserve quand un de vos compagnons meurt.",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -7344,7 +7344,7 @@
         "patchs": [
           {
             "version": "0.10",
-            "pouvoir": "Quand un de vos compagnons attaque: Il déclenche EXPLOSION(0)",
+            "pouvoir": "Quand un de vos compagnons attaque: Il déclenche EXPLOSION(0).",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -7413,7 +7413,7 @@
         "patchs": [
           {
             "version": "0.10",
-            "pouvoir": "DEBUT DE TOUR: +10% de MAGIE TERRE à votre héros pour le tour par adversaire BOUEUX.",
+            "pouvoir": "DÉBUT DU TOUR: +10% de MAGIE TERRE à votre héros pour le tour par adversaire BOUEUX.",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -7491,7 +7491,7 @@
         "patchs": [
           {
             "version": "0.10",
-            "pouvoir": "DEBUT DE COMBAT: Ajoute le sort CÉAN à votre main.",
+            "pouvoir": "DÉBUT DE COMBAT: Ajoute le sort CÉAN à votre main.",
             "sort": "Céan",
             "caracteristiques": [
               {
@@ -7565,7 +7565,7 @@
         "patchs": [
           {
             "version": "0.10",
-            "pouvoir": "DEBUT DE COMBAT: Ajoute le sort CTANE à votre main.",
+            "pouvoir": "DÉBUT DE COMBAT: Ajoute le sort CTANE à votre main.",
             "sort": "Ctane",
             "caracteristiques": [
               {
@@ -7639,7 +7639,7 @@
         "patchs": [
           {
             "version": "0.10",
-            "pouvoir": "DEBUT DE COMBAT: Ajoute le sort CYPRES à votre main.",
+            "pouvoir": "DÉBUT DE COMBAT: Ajoute le sort CYPRES à votre main.",
             "sort": "Cypres",
             "caracteristiques": [
               {
@@ -7713,7 +7713,7 @@
         "patchs": [
           {
             "version": "0.10",
-            "pouvoir": "DEBUT DE TOUR: +10% de MAGIE AIR à votre héros pour le tour par adversaire ÉVENTÉ.",
+            "pouvoir": "DÉBUT DU TOUR: +10% de MAGIE AIR à votre héros pour le tour par adversaire ÉVENTÉ.",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -7791,7 +7791,7 @@
         "patchs": [
           {
             "version": "0.10",
-            "pouvoir": "DEBUT DE COMBAT: Ajoute le sort RAGAN à votre main.",
+            "pouvoir": "DÉBUT DE COMBAT: Ajoute le sort RAGAN à votre main.",
             "sort": "Ragan",
             "caracteristiques": [
               {
@@ -7989,7 +7989,7 @@
         "patchs": [
           {
             "version": "0.10",
-            "pouvoir": "DEBUT DE TOUR: +10% de MAGIE FEU à votre héros pour le tour par adversaire HUILÉ.",
+            "pouvoir": "DÉBUT DU TOUR: +10% de MAGIE FEU à votre héros pour le tour par adversaire HUILÉ.",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -8067,7 +8067,7 @@
         "patchs": [
           {
             "version": "0.10",
-            "pouvoir": "DEBUT DE TOUR: +10% de MAGIE EAU à votre héros pour le tour par adversaire MOUILLÉ.",
+            "pouvoir": "DÉBUT DU TOUR: +10% de MAGIE EAU à votre héros pour le tour par adversaire MOUILLÉ.",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -8460,7 +8460,7 @@
           },
           {
             "version": "0.08",
-            "pouvoir": "GRIMOIRE(15): Réduit de 1PA le coût du premier sort que vous jouez chaque tour.",
+            "pouvoir": "GRIMOIRE(15): Réduit de 1 PA le coût du premier sort que vous jouez chaque tour.",
             "nom": "",
             "rarete": "",
             "caracteristiques": [
@@ -8522,7 +8522,7 @@
               {
                 "nom": "Boom",
                 "cout": 80,
-                "effet": "DEBUT DU COMBAT: Ajoute le sort BOOM à votre main.",
+                "effet": "DÉBUT DU COMBAT: Ajoute le sort BOOM à votre main.",
                 "sort": "Boom"
               },
               {
@@ -8554,7 +8554,7 @@
           },
           {
             "version": "0.08",
-            "pouvoir": "Ajoute 2PA en réserve quand un de vos compagnons FEU meurt.",
+            "pouvoir": "Ajoute 2 PA en réserve quand un de vos compagnons FEU meurt.",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -8614,7 +8614,7 @@
               {
                 "nom": "Boom",
                 "cout": 80,
-                "effet": "DEBUT DU COMBAT: Ajoute le sort CARACOLE à votre main.",
+                "effet": "DÉBUT DU COMBAT: Ajoute le sort CARACOLE à votre main.",
                 "sort": "Caracole"
               },
               {
@@ -8646,7 +8646,7 @@
           },
           {
             "version": "0.08",
-            "pouvoir": "Ajoute 2PA en réserve quand un de vos compagnons AIR meurt.",
+            "pouvoir": "Ajoute 2 PA en réserve quand un de vos compagnons AIR meurt.",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -8706,7 +8706,7 @@
               {
                 "nom": "Flot",
                 "cout": 80,
-                "effet": "DEBUT DU COMBAT: Ajoute le sort FLOT à votre main.",
+                "effet": "DÉBUT DU COMBAT: Ajoute le sort FLOT à votre main.",
                 "sort": "Flot"
               },
               {
@@ -8738,7 +8738,7 @@
           },
           {
             "version": "0.08",
-            "pouvoir": "Ajoute 2PA en réserve quand un de vos compagnons EAU meurt.",
+            "pouvoir": "Ajoute 2 PA en réserve quand un de vos compagnons EAU meurt.",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -8798,7 +8798,7 @@
               {
                 "nom": "Broyage",
                 "cout": 80,
-                "effet": "DEBUT DU COMBAT: Ajoute le sort BROYAGE à votre main.",
+                "effet": "DÉBUT DU COMBAT: Ajoute le sort BROYAGE à votre main.",
                 "sort": "Broyage"
               },
               {
@@ -8830,7 +8830,7 @@
           },
           {
             "version": "0.08",
-            "pouvoir": "Ajoute 2PA en réserve quand un de vos compagnons TERRE meurt.",
+            "pouvoir": "Ajoute 2 PA en réserve quand un de vos compagnons TERRE meurt.",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -8964,7 +8964,7 @@
               {
                 "nom": "Effet amélioré",
                 "cout": 50,
-                "effet": "CRITIQUE: -1PA supplémentaire au coût du prochain sort joué ce tour."
+                "effet": "CRITIQUE: -1 PA supplémentaire au coût du prochain sort joué ce tour."
               },
               {
                 "nom": "Bonus de coup critique",
@@ -9157,7 +9157,7 @@
         "patchs": [
           {
             "version": "0.10",
-            "pouvoir": "ATTAQUE: +13AR à votre héros.",
+            "pouvoir": "ATTAQUE: +13 AR à votre héros.",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -9476,7 +9476,7 @@
         "patchs": [
           {
             "version": "0.10",
-            "pouvoir": "ATTAQUE: Déclanche GRÊLE(0).",
+            "pouvoir": "ATTAQUE: Déclenche GRÊLE(0).",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -9495,7 +9495,7 @@
               {
                 "nom": "Effet amélioré",
                 "cout": 50,
-                "effet": "CRITIQUE: Déclanche GRÊLE(0) une seconde fois."
+                "effet": "CRITIQUE: Déclenche GRÊLE(0) une seconde fois."
               },
               {
                 "nom": "Grêle",
@@ -9531,7 +9531,7 @@
         "patchs": [
           {
             "version": "0.10",
-            "pouvoir": "ATTAQUE: Déclanche REBOND(0).",
+            "pouvoir": "ATTAQUE: Déclenche REBOND(0).",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -9550,7 +9550,7 @@
               {
                 "nom": "Effet amélioré",
                 "cout": 50,
-                "effet": "CRITIQUE: Déclanche REBOND(0) une seconde fois."
+                "effet": "CRITIQUE: Déclenche REBOND(0) une seconde fois."
               },
               {
                 "nom": "Rebond",
@@ -9587,7 +9587,7 @@
         "patchs": [
           {
             "version": "0.10",
-            "pouvoir": "ATTAQUE: Déclanche TOURBE(0).",
+            "pouvoir": "ATTAQUE: Déclenche TOURBE(0).",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -9606,7 +9606,7 @@
               {
                 "nom": "Effet amélioré",
                 "cout": 50,
-                "effet": "CRITIQUE: Déclanche TOURBE(0) une seconde fois."
+                "effet": "CRITIQUE: Déclenche TOURBE(0) une seconde fois."
               },
               {
                 "nom": "Tourbe",
@@ -9643,7 +9643,7 @@
         "patchs": [
           {
             "version": "0.10",
-            "pouvoir": "ATTAQUE: Déclanche EXPLOSION(0).",
+            "pouvoir": "ATTAQUE: Déclenche EXPLOSION(0).",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -9662,7 +9662,7 @@
               {
                 "nom": "Effet amélioré",
                 "cout": 50,
-                "effet": "CRITIQUE: Déclanche EXPLOSION(0) une seconde fois."
+                "effet": "CRITIQUE: Déclenche EXPLOSION(0) une seconde fois."
               },
               {
                 "nom": "Explosion",
@@ -9792,14 +9792,81 @@
   "sorts": {
     "sorts": [
       {
+        "nom": "Bombe smisse",
+        "element": "Feu",
+        "source": "Compagnon",
+        "image": "bombe_smisse",
+        "patchs": [
+          {
+            "version": "0.10",
+            "cout": 2,
+            "effet": "Construit une BOMBE SMISSE (1) sur une case adjacente à un allié.",
+            "dons": [],
+            "gains": {}
+          }
+        ]
+      },
+      {
+        "nom": "Folie du Dark Vlad",
+        "element": "Feu",
+        "source": "Compagnon",
+        "image": "folie_du_dark_vlad",
+        "patchs": [
+          {
+            "version": "0.10",
+            "cout": 3,
+            "effet": "Inflige 0 dégâts magiques aux personnages autour du DARK VLAD.",
+            "dons": [],
+            "gains": {
+              "feu": 1
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Surcharge de Bakara",
+        "element": "Feu",
+        "source": "Compagnon",
+        "image": "surcharge_de_bakara",
+        "patchs": [
+          {
+            "version": "0.10",
+            "cout": 3,
+            "effet": "Inflige 0 dégâts magiques.",
+            "dons": [],
+            "gains": {
+              "feu": 1
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Fouet de Lou",
+        "element": "Feu",
+        "source": "Compagnon",
+        "image": "fouet_de_lou",
+        "patchs": [
+          {
+            "version": "0.10",
+            "cout": 4,
+            "effet": "Inflige 0 dégâts magiques aux adversaires sur les 3 cases devant LOU.",
+            "dons": [],
+            "gains": {
+              "feu": 1
+            }
+          }
+        ]
+      },
+      {
         "nom": "Boom",
         "element": "Feu",
+        "source": "Accessoire",
         "image": "boom",
         "patchs": [
           {
             "version": "0.10",
             "cout": 5,
-            "effet": "Inflige 0 dégâts magiques. Si la cible est HUILÉE: Déclanche EXPLOSION(0) et applique HUILÉ",
+            "effet": "Inflige 0 dégâts magiques. Si la cible est HUILÉE: Déclenche EXPLOSION(0) et applique HUILÉ.",
             "dons": [],
             "gains": {
               "feu": 2
@@ -9810,6 +9877,7 @@
       {
         "nom": "Ctane",
         "element": "Feu",
+        "source": "Accessoire",
         "image": "ctane",
         "patchs": [
           {
@@ -9824,14 +9892,117 @@
         ]
       },
       {
+        "nom": "Petite furie",
+        "element": "Feu",
+        "source": "Compagnon",
+        "image": "petite_furie",
+        "patchs": [
+          {
+            "version": "0.10",
+            "cout": 5,
+            "effet": "+2 PM et +100% d'AT à ELELY pour le tour.",
+            "dons": [],
+            "gains": {
+              "feu": 2
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Saut de Goultard",
+        "element": "Feu",
+        "source": "Compagnon",
+        "image": "saut_de_goultard",
+        "patchs": [
+          {
+            "version": "0.10",
+            "cout": 7,
+            "effet": "Téléporte GOULTARD (169 PV, 30 AT, 4 PM) jusqu'à 3 cases. Il déclenche EXPLOSION(0) par adversaire en jeu.",
+            "dons": [],
+            "gains": {
+              "feu": 2
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Trait d'Évangelyne",
+        "element": "Air",
+        "source": "Compagnon",
+        "image": "trait_d_evangelyne",
+        "patchs": [
+          {
+            "version": "0.10",
+            "cout": 3,
+            "effet": "Inflige 0 dégâts magiques.",
+            "dons": [],
+            "gains": {
+              "air": 1
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Nuée de corbacs",
+        "element": "Air",
+        "source": "Compagnon",
+        "image": "nuee_de_corbacs",
+        "patchs": [
+          {
+            "version": "0.10",
+            "cout": 4,
+            "effet": "Inflige 0 dégâts magiques aux adversaires dans la zone ciblée.",
+            "dons": [],
+            "gains": {
+              "air": 1
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Toucher de Coqueline",
+        "element": "Air",
+        "source": "Compagnon",
+        "image": "toucher_de_coqueline",
+        "patchs": [
+          {
+            "version": "0.10",
+            "cout": 4,
+            "effet": "Transforme la cible en TOFU pour le tour.",
+            "dons": [],
+            "gains": {
+              "air": 1
+            }
+          }
+        ]
+      },
+      {
         "nom": "Caracole",
         "element": "Air",
+        "source": "Accessoire",
         "image": "caracole",
         "patchs": [
           {
             "version": "0.10",
             "cout": 5,
-            "effet": "Inflige 0 dégâts magiques. Si la cible est ÉVENTÉE: Déclanche REBOND(0) et applique ÉVENTÉ",
+            "effet": "Inflige 0 dégâts magiques. Si la cible est ÉVENTÉE: Déclenche REBOND(0) et applique ÉVENTÉ.",
+            "dons": [],
+            "gains": {
+              "air": 2
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Jalousie d'Atcham",
+        "element": "Air",
+        "source": "Compagnon",
+        "image": "jalousie_d_atcham",
+        "patchs": [
+          {
+            "version": "0.10",
+            "cout": 5,
+            "effet": "Téléporte ATCHAM sur une case adjacente à l'adversaire ayant le plus de PV. Il inflige 0 dégâts magiques aux adversaires autour de lui.",
             "dons": [],
             "gains": {
               "air": 2
@@ -9842,6 +10013,7 @@
       {
         "nom": "Ragan",
         "element": "Air",
+        "source": "Accessoire",
         "image": "ragan",
         "patchs": [
           {
@@ -9856,14 +10028,66 @@
         ]
       },
       {
-        "nom": "Reflet d'heurt de gloire",
-        "image": "reflet_d_heurt_de_gloire",
+        "nom": "Morsure de Lilotte",
         "element": "Terre",
+        "source": "Compagnon",
+        "image": "morsure_de_lilotte",
         "patchs": [
           {
             "version": "0.10",
             "cout": 3,
-            "effet": "Inflige 0 dégâts magiques. MÉLÉE: +7AR à votre héros.",
+            "effet": "Inflige 0 dégâts magiques et applique BOUEUX.",
+            "dons": [],
+            "gains": {
+              "terre": 1
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Pelle de Ruel",
+        "element": "Terre",
+        "source": "Compagnon",
+        "image": "pelle_de_ruel",
+        "patchs": [
+          {
+            "version": "0.10",
+            "cout": 3,
+            "effet": "Inflige 0 dégâts magiques. Si la cible est BOUEUSE: Déclenche TOURBE(0).",
+            "dons": [],
+            "gains": {
+              "terre": 1
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Reflet d'heurt de gloire",
+        "element": "Terre",
+        "source": "Compagnon",
+        "image": "reflet_d_heurt_de_gloire",
+        "patchs": [
+          {
+            "version": "0.10",
+            "cout": 3,
+            "effet": "Inflige 0 dégâts magiques. MÊLÉE: +7 AR à votre héros.",
+            "dons": [],
+            "gains": {
+              "terre": 1
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Hypnose de Toxine",
+        "element": "Terre",
+        "source": "Compagnon",
+        "image": "hypnose_de_toxine",
+        "patchs": [
+          {
+            "version": "0.10",
+            "cout": 4,
+            "effet": "TOXINE CHARGE un adversaire aligné jusqu'à 5 cases. Elle lui inflige 10 dégâts magiques et l'ASSOMME.",
             "dons": [],
             "gains": {
               "terre": 1
@@ -9874,12 +10098,13 @@
       {
         "nom": "Broyage",
         "element": "Terre",
+        "source": "Accessoire",
         "image": "broyage",
         "patchs": [
           {
             "version": "0.10",
             "cout": 5,
-            "effet": "Inflige 0 dégâts magiques. Si la cible est BOUEUSE: Déclanche TOURBE(0) et applique BOUEUX",
+            "effet": "Inflige 0 dégâts magiques. Si la cible est BOUEUSE: Déclenche TOURBE(0) et applique BOUEUX.",
             "dons": [],
             "gains": {
               "terre": 2
@@ -9890,6 +10115,7 @@
       {
         "nom": "Cypres",
         "element": "Terre",
+        "source": "Accessoire",
         "image": "cypres",
         "patchs": [
           {
@@ -9904,8 +10130,60 @@
         ]
       },
       {
+        "nom": "Ronces d'Amalia",
+        "element": "Terre",
+        "source": "Compagnon",
+        "image": "ronces_d_amalia",
+        "patchs": [
+          {
+            "version": "0.10",
+            "cout": 6,
+            "effet": "Inflige 0 dégâts magiques aux adversaires autout d'AMALIA. Invoque une POUPÉE D'AMALIA (58 PV, 13 AT, 2 PM) jusqu'à  cases de votre héros. Détruit votre POUPÉE déjà en jeu.",
+            "dons": [],
+            "gains": {
+              "terre": 2
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Eliacube de Nox",
+        "element": "Eau",
+        "source": "Compagnon",
+        "image": "eliacube_de_nox",
+        "patchs": [
+          {
+            "version": "0.10",
+            "cout": 2,
+            "effet": "Téléporte la cible jusqu'à 2 cases autour d'une NOXINE (1 PV, 2 AT, 5 PM).",
+            "dons": [],
+            "gains": {
+              "ether": 1
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Gel d'Harebourg",
+        "element": "Eau",
+        "source": "Compagnon",
+        "image": "gel_d_harebourg",
+        "patchs": [
+          {
+            "version": "0.10",
+            "cout": 2,
+            "effet": "GÈLE la cible.",
+            "dons": [],
+            "gains": {
+              "eau": 1
+            }
+          }
+        ]
+      },
+      {
         "nom": "Répit d'Albert",
         "element": "Eau",
+        "source": "Compagnon",
         "image": "repit_d_albert",
         "patchs": [
           {
@@ -9920,6 +10198,7 @@
       {
         "nom": "Céan",
         "element": "Eau",
+        "source": "Accessoire",
         "image": "cean",
         "patchs": [
           {
@@ -9936,16 +10215,150 @@
       {
         "nom": "Flot",
         "element": "Eau",
+        "source": "Accessoire",
         "image": "flot",
         "patchs": [
           {
             "version": "0.10",
             "cout": 5,
-            "effet": "Inflige 0 dégâts magiques. Si la cible est MOUILLÉE: Déclanche GRÊLE(0) et applique MOUILLÉ",
+            "effet": "Inflige 0 dégâts magiques. Si la cible est MOUILLÉE: Déclenche GRÊLE(0) et applique MOUILLÉ.",
             "dons": [],
             "gains": {
               "eau": 2
             }
+          }
+        ]
+      },
+      {
+        "nom": "Frappe de Percimol",
+        "element": "Eau",
+        "source": "Compagnon",
+        "image": "frappe_de_percimol",
+        "patchs": [
+          {
+            "version": "0.10",
+            "cout": 5,
+            "effet": "Téléporte PERCIMOL (110 PV, 25 AT, 3 PM) jusqu'à 3 cases. Il inflige 26 dégâts magiques à ses adversaires adjacents.",
+            "dons": [],
+            "gains": {
+              "eau": 1,
+              "ether": 1
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Souffle de Phaeris",
+        "element": "Eau",
+        "source": "Compagnon",
+        "image": "souffle_de_phaeris",
+        "patchs": [
+          {
+            "version": "0.10",
+            "cout": 5,
+            "effet": "Inflige 20 dégâts magiques à la cible et échange sa position avec celle de PHAERIS.",
+            "dons": [],
+            "gains": {
+              "eau": 2
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Bouclier de Bump",
+        "element": "Neutre",
+        "source": "Compagnon",
+        "image": "bouclier_de_bump",
+        "patchs": [
+          {
+            "version": "0.10",
+            "cout": 2,
+            "effet": "Confère BOUCLIER à un personnage allié.",
+            "dons": [],
+            "gains": {}
+          }
+        ]
+      },
+      {
+        "nom": "Course de Joris",
+        "element": "Neutre",
+        "source": "Compagnon",
+        "image": "course_de_joris",
+        "patchs": [
+          {
+            "version": "0.10",
+            "cout": 3,
+            "effet": "+3 PM à un allié pour le tour. Piochez 1 sort.",
+            "dons": [],
+            "gains": {
+              "neutre": 1
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Essai de Khan Karkass",
+        "element": "Neutre",
+        "source": "Compagnon",
+        "image": "essai_de_khan_karkass",
+        "patchs": [
+          {
+            "version": "0.10",
+            "cout": 5,
+            "effet": "Téléporte KHAN KARKASS jusqu'à 3 cases. Il inflige son AT aux adversaires adjacents.",
+            "dons": [],
+            "gains": {
+              "neutre": 1
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Vengeance de KATAR",
+        "element": "Neutre",
+        "source": "Compagnon",
+        "image": "vengeance_de_katar",
+        "patchs": [
+          {
+            "version": "0.10",
+            "cout": 5,
+            "effet": "Attire de 3 cases les premiers adversaires alignés à KATAR. Il inflige son AT aux adversaires adjacents.",
+            "dons": [],
+            "gains": {
+              "neutre": 1
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Folie de Qilby",
+        "element": "Neutre",
+        "source": "Compagnon",
+        "image": "folie_de_qilby",
+        "patchs": [
+          {
+            "version": "0.10",
+            "cout": 6,
+            "effet": "Téléporte QILBY jusqu'à 3 cases. Il inflige son AT aux personnages autour de lui et se soigne de la moitié de son AT par personnage touché.",
+            "dons": [],
+            "gains": {
+              "neutre": 1
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Soin des démons",
+        "element": "Neutre",
+        "source": "Compagnon",
+        "image": "soin_des_demons",
+        "patchs": [
+          {
+            "version": "0.10",
+            "cout": 6,
+            "effet": "Soigne un allié de 30 PV + 7 PV pour chacun de vos personnages en jeu.",
+            "dons": [],
+            "gains": {}
           }
         ]
       }

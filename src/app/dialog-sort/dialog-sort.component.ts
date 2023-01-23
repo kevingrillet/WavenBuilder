@@ -3,7 +3,7 @@ import { FormGroup, FormBuilder, Validators, FormArray } from '@angular/forms';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { Observable, startWith, map } from 'rxjs';
 import { DialogSortInput } from '../interfaces';
-import { Sort, Patch, Elements } from '../struct';
+import { Sort, Patch, Elements, Sources } from '../struct';
 
 @Component({
   selector: 'app-dialog-sort',
@@ -12,6 +12,7 @@ import { Sort, Patch, Elements } from '../struct';
 })
 export class DialogSortComponent implements OnInit {
   elements = Object.values(Elements).filter((value) => typeof value !== 'number');
+  sources = Object.values(Sources).filter((value) => typeof value !== 'number');
 
   autoCompleteAllPatch = false;
 
@@ -38,6 +39,7 @@ export class DialogSortComponent implements OnInit {
     this.sortForm = this.formBuilder.group({
       nom: ['', Validators.required],
       element: ['', Validators.required],
+      source: ['', Validators.required],
       image: [''],
       patchs: this.formBuilder.array([
         this.formBuilder.group({
@@ -107,8 +109,9 @@ export class DialogSortComponent implements OnInit {
     // Mise en place de l'édition
     if (this.spell) {
       this.sortForm.controls['nom'].setValue(this.spell.nom);
-      this.sortForm.controls['image'].setValue(this.spell.image);
       this.sortForm.controls['element'].setValue(this.spell.element);
+      this.sortForm.controls['source'].setValue(this.spell.source);
+      this.sortForm.controls['image'].setValue(this.spell.image);
 
       this.spell.patchs.forEach((patch, index) => {
         if (index > (this.sortForm.controls['patchs'] as FormArray).length - 1) this.addPatch();

@@ -11,13 +11,6 @@ export enum Elements {
   Neutre,
 }
 
-export enum Raretes {
-  Commun,
-  Rare,
-  Krosmique,
-  Infinite,
-}
-
 export enum Iles {
   'Bateau Vampyre',
   Bonta,
@@ -29,6 +22,20 @@ export enum Iles {
   'Île des Craqueleurs',
   'Île des Taures',
   'Île des Tofus',
+}
+
+export enum Raretes {
+  Commun,
+  Rare,
+  Krosmique,
+  Infinite,
+}
+
+export enum Sources {
+  Accessoire,
+  // Arme,
+  // Classe,
+  Compagnon,
 }
 
 // Général
@@ -106,6 +113,7 @@ export class SortPatch {
 export class Sort {
   nom!: string;
   element!: Elements;
+  source!: Sources;
   image?: string;
   patchs!: SortPatch[];
 }

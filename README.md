@@ -50,7 +50,7 @@ Si vous cherchez à faire une PR le fichier de données se trouve ici: `src/asse
   - [x] Ajouter [v0.08](<https://forum.waven-game.com/fr/4-discussions-generales/1413-encyclopedie-objets-8>)
 - [x] v1.3 - UI
   - [x] Ajouter de la [couleur](https://www.codeproject.com/Questions/1163473/Find-a-word-in-text-and-change-the-color) sur les mots clés.
-    - Regex & Méthode statique?
+    - Regex & Méthode statique
       - <https://stackoverflow.com/questions/41857047/call-static-function-from-angular2-template>
       - <https://stackoverflow.com/questions/5069464/replace-multiple-strings-at-once>
       - <https://stackoverflow.com/questions/44210786/style-not-working-for-innerhtml-in-angular>
@@ -58,7 +58,7 @@ Si vous cherchez à faire une PR le fichier de données se trouve ici: `src/asse
 - [x] v1.4 - Sorts
   - [x] Ajouter l'interface des sorts.
   - [x] Ajouter les sorts des items.
-- [ ] v1.5 - Compagnons
+- [x] v1.5 - Compagnons
   - [x] Ajouter l'interface des compagnons.
   - [x] Ajouter les compagnons.
   - [x] Ajouter les dons des compagnons.
@@ -67,22 +67,29 @@ Si vous cherchez à faire une PR le fichier de données se trouve ici: `src/asse
     - [x] Terre
     - [x] Eau
     - [x] Hybride
-  - [ ] Ajouter les sorts des compagnons.
+  - [x] Ajouter les sorts des compagnons.
   - [ ] Bonus: Ajouter les images des compagnons.
   - [ ] Bonus: Ajouter les iles des compagnons.
-- [ ] v1.6 - Classes & Armes
-  - [ ] Ajouter les classes.
-  - [ ] Ajouter les armes.
-- [ ] v1.7 - Refacto?
+- [ ] v1.6 - Refacto
+  - [ ] Bugs
+    - [ ] Ordre des compagnons multi éléments (et de leurs éléments)
+      - Trie par nombre par élément puis par ordre des éléments feu, terre, air, eau
+    - [x] Highlights
+      - [x] Les accents posent problème -> <https://stackoverflow.com/questions/49835481/javascript-regexp-b-metacharacter-with-accented-characters>
+        - Utiliser `(^|\\s*)(...)($|\\s*)` à la place de `\\b` -> <https://stackoverflow.com/questions/25400876/b-alternatives-in-regular-expression>
+      - [x] Voir comment faire les images pour les invocations entre parenthèse
   - [ ] Optimiser le DOM (de plus en plus de lags)...
-  - [ ] Factoriser?
-  - [ ] Récupérer des images de meilleur qualité?
-  - [ ] Reprendre Highlighter pour récupérer la liste des compagnons / sorts?
-    - Retoucher les sorts pour connaitre l'origine.
+  - [ ] Factoriser
+  - [x] Récupérer des images de meilleur qualité
+  - [ ] Reprendre Highlighter pour récupérer la liste des compagnons / sorts
+    - [x] Retoucher les sorts pour connaitre l'origine.
   - [ ] Faire le hint des spells / compagnons
 - [ ] v2 - Toutes les données sont là
-  - [ ] Rechercher les sorts des versions précédentes.
+  - [ ] MAJ source des sorts
+    - [ ] Ajouter les classes.
+    - [ ] Ajouter les armes.
   - [ ] Ajouter les sorts des classes & armes.
+    - [ ] Rechercher les sorts des versions précédentes.
 - [ ] v2.1 - Builder à proprement parler
   - [ ] Faire le builder:
     - [ ] Interface de création / visualisation.

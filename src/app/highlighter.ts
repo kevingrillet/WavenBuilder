@@ -4,119 +4,118 @@ export class Highlighter {
   static highlight(input: string): string {
     if (!input) return '';
     if (input === '') return '';
-    const imgKeywords = ['adjacents', 'ASTRAL', 'autour', 'BOUEUSE', 'BOUEUX', 'ÉVENTÉ', 'ÉVENTÉE', 'HUILÉ', 'HUILÉE', 'MOUILLÉ', 'MOUILLÉE'].sort((a, b) =>
-      b.localeCompare(a)
-    );
-    const blueKeywords = [
-      'ASSOMME',
-      'ASTRAL',
-      'AVALANCHE',
-      'AVALANCHES',
+    const etat: string[] = ['BOUEUSE', 'BOUEUX', 'ÉVENTÉ', 'ÉVENTÉE', 'HUILÉ', 'HUILÉE', 'MOUILLÉ', 'MOUILLÉE'];
+    const imgKeywords: string[] = ['adjacente', 'adjacents', 'ASTRAL', 'autour', 'zone'].concat(etat).sort((a, b) => b.localeCompare(a));
+    const compagnons: string[] = ['GOULTARD', 'NOX', 'NOXINE', 'NOXINES', 'PERCIMOL', "POUPÉE D'AMALIA", 'REMINGTON SMISSE'];
+    const compagnonsSpells: string[] = [
       'BOMBE SMISSE',
-      'BOOM',
-      'BOUCLIER',
       'BOUCLIER DE BUMP',
-      'BOUFTONS ROUGES',
-      'BROYAGE',
-      'CARACOLE',
-      'CÉAN',
-      'COEUR DE FLAMME',
-      'COEUR DE GLACE',
-      'COEUR DE PIERRE',
-      'COLLISIONS',
       'COURSE DE JORIS',
-      'CRITIQUE',
-      'CTANE',
-      'CYPRES',
-      'DAGUES SOURNOISES',
-      'DE PIERRE',
-      'DÉPHASAGE',
-      'DRAIN',
-      'ÉBOULEMENT',
-      'ÉBOULEMENTS',
-      'ÉCAILLE DE PHAERIS',
+      'ÉCAILLE DE PHAERIS', // Sort manquant
       'ELIACUBE DE NOX',
-      'ENVOL',
-      'ÉPEE DE GLACE',
-      'ESQUIVE',
       'ESSAI DE KHAN KARKASS',
-      'EXPLOSIONS',
-      'FLOT',
       'FOLIE DE QILBY',
       'FOLIE DU DARK VLAD',
-      'FOUDRE',
-      'FOUDRES',
       'FOUET DE LOU',
-      'GARDE DU CORPS',
+      'FRAPPE DE PERCIMOL',
       "GEL D'HAREBOURG",
-      'GÈLE',
-      'GEYSER',
-      'GEYSERS',
-      'GRAVELEUSE',
-      'GRÊLES',
-      'GRIFFES JOUEUSES',
       'HYPNOSE DE TOXINE',
-      'INCIBLABLE',
       "JALOUSIE D'ATCHAM",
-      'LANCE-PIERRE',
-      'MÉCANISME',
-      'MÉLÉE',
-      'MÉTÉORE',
-      'MÉTÉORES',
-      'MIRE',
       'MORSURE DE LILOTTE',
-      'NOX',
-      'NOXINE',
-      'NOXINES',
       'NUÉE DE CORBACS',
-      'OURAGAN',
-      'OURAGANS',
       'PELLE DE RUEL',
       'PETITE FURIE',
-      'PIÈGE OSSEUX',
-      'POING REPOUSSANT',
-      'PUPUCE',
-      'RAGAN',
       "REFLET D'HEURT DE GLOIRE",
-      "REFFLET D'UPPERCUT",
-      'REFLET DE MASSER',
-      'REPOUSSANTE',
-      'REPOUSSE',
-      'RÉINVOCABLE',
-      'REBOND',
-      'REBONDS',
-      'REFLET DE POUSSETTE',
-      'REMINGTON SMISSE',
+      "REFLET D'UPPERCUT", // Sort manquant
+      'REFLET DE MASSER', // Sort manquant
+      'REFLET DE POUSSETTE', // Sort manquant
       "RÉPIT D'ALBERT",
-      'RIPOSTE',
       "RONCES D'AMALIA",
       'SAUT DE GOULTARD',
       'SOIN DES DÉMONS',
       'SOUFFLE DE PHAERIS',
       'SURCHARGE DE BAKARA',
       'TOUCHER DE COQUELINE',
-      'TOURBES',
       "TRAIT D'ÉVANGELYNE",
       'VENGEANCE DE KATAR',
+    ];
+    const objetsSpells: string[] = ['BOOM', 'BROYAGE', 'CARACOLE', 'CÉAN', 'CTANE', 'CYPRES', 'FLOT', 'RAGAN'];
+    const blueKeywords: string[] = [
+      'ASSOMME',
+      'ASTRAL',
+      'AVALANCHE',
+      'AVALANCHES',
+      'BOUCLIER',
+      'BOUFTONS ROUGES',
+      'COEUR DE FLAMME',
+      'COEUR DE GLACE',
+      'COEUR DE PIERRE',
+      'COLLISION',
+      'COLLISIONS',
+      'CRITIQUE',
+      'DAGUES SOURNOISES',
+      'DE PIERRE',
+      'DÉPHASAGE',
+      'DRAIN',
+      'ÉBOULEMENT',
+      'ÉBOULEMENTS',
+      'ENVOL',
+      'ÉPEE DE GLACE',
+      'ESQUIVE',
+      'EXPLOSIONS',
+      'FOUDRE',
+      'FOUDRES',
+      'GARDE DU CORPS',
+      'GÈLE',
+      'GEYSER',
+      'GEYSERS',
+      'GRAVELEUSE',
+      'GRÊLES',
+      'GRIFFES JOUEUSES',
+      'INCIBLABLE',
+      'LANCE-PIERRE',
+      'MÉCANISME',
+      'MÊLÉE',
+      'MÉTÉORE',
+      'MÉTÉORES',
+      'MIRE',
+      'OURAGAN',
+      'OURAGANS',
+      'PIÈGE OSSEUX',
+      'POING REPOUSSANT',
+      'PUPUCE',
+      'REPOUSSANTE',
+      'REPOUSSE',
+      'RÉINVOCABLE',
+      'REBOND',
+      'REBONDS',
+      'RIPOSTE',
+      'TOFU',
+      'TOURBES',
       'VOL DE VIE',
-    ].sort((a, b) => b.localeCompare(a));
-    const blueGreenKeywords = ['EXPLOSION', 'GRÊLE', 'REBOND', 'TOURBE'];
-    const blueWhiteKeywords = ['GRIMOIRE'];
-    const boldKeywords = [
+    ]
+      .concat(compagnons)
+      .concat(compagnonsSpells)
+      .concat(objetsSpells)
+      .sort((a, b) => b.localeCompare(a));
+    const blueGreenKeywords: string[] = ['EXPLOSION', 'GRÊLE', 'REBOND', 'TOURBE'];
+    const blueWhiteKeywords: string[] = ['GRIMOIRE'];
+    const compagnonsBold: string[] = ['ATCHAM', 'AMALIA', 'DARK VLAD', 'ELELY', 'KATAR', 'KHAN KARKASS', 'LOU', 'PHAERIS', 'QILBY', 'TOXINE'];
+    const boldKeywords: string[] = [
       'AIR',
       'APPARITION',
       'AR',
       'AT',
       'ATTAQUE',
       'AURAS',
-      'BOUEUSE',
-      'BOUEUX',
       'BOULE DE FEU',
       'CC',
       'CC MAGIQUES',
+      'CHARGE',
       'COMPAGNON',
       'COUP DE GRÂCE',
       'CRÂ',
+      'DÉBUT DE COMBAT',
       'DÉBUT DU TOUR',
       'DÉFENSES',
       'DÉGÂTS CC',
@@ -125,20 +124,17 @@ export class Highlighter {
       'ENIRIPSA',
       'ÉQUIPEMENT',
       'ÉTHER',
-      'ÉVENTÉ',
-      'ÉVENTÉE',
       'FEU',
       'FIN DU TOUR',
       'GAINS DE KAMAS',
-      'HUILÉ',
-      'HUILÉE',
       'IOP',
       'MAGIE',
       'MAGIES',
-      'MOUILLÉ',
-      'MOUILLÉE',
+      'MORT',
       'PA',
       'PIÈGE',
+      'PM',
+      'POUPÉE',
       'PUISSANCE',
       'PV',
       'PV MAX',
@@ -151,31 +147,43 @@ export class Highlighter {
       'VAGUE',
       'VITALITÉ',
       'XP',
-    ].sort((a, b) => b.localeCompare(a));
-    const greenKeywords = ['[0-9]+ dégâts magiques'];
-    const greyKeywords = [
+    ]
+      .concat(compagnonsBold)
+      .concat(etat)
+      .sort((a, b) => b.localeCompare(a));
+    const greenKeywords: string[] = ['\\+[0-9]+ AR', '[0-9]+ dégâts magiques'];
+    const greyKeywords: string[] = [
       'Ce sort est détruit quand il est joué.',
+      'Détruit votre POUPÉE déjà en jeu.',
       'Limité à [0-9]+ fois par combat.',
       'Limité à [0-9]+ fois par tour.',
       'Peut être invoqué sur une case libre du terrain.',
     ];
 
     let output = input;
-    output = output.replace(new RegExp('\\b(' + blueKeywords.join('|') + ')', 'g'), "<span class='style-bold style-blue'>$1</span>");
-    output = output.replace(
-      new RegExp('\\b(' + blueGreenKeywords.join('|') + ')\\(([0-9]+)\\)', 'g'),
-      "<span class='style-bold style-blue'>$1(</span><span class='style-green'>$2</span><span class='style-bold style-blue'>)</span>"
-    );
-    output = output.replace(
-      new RegExp('\\b(' + blueWhiteKeywords.join('|') + ')\\(([0-9]+)\\)', 'g'),
-      "<span class='style-bold style-blue'>$1(</span>$2<span class='style-bold style-blue'>)</span>"
-    );
-    output = output.replace(new RegExp('\\b(' + boldKeywords.join('|') + ')', 'g'), "<span class='style-bold'>$1</span>");
-    output = output.replace(new RegExp('\\b(' + greenKeywords.join('|') + ')', 'g'), "<span class='style-green'>$1</span>");
-    output = output.replace(new RegExp('\\b(' + greyKeywords.join('|') + ')', 'g'), "<br /><span class='style-italic style-gray'>$1</span>");
 
-    output = output.replace(new RegExp('\\b(' + imgKeywords.join('|') + ')', 'g'), function (match) {
-      let localMatch = match;
+    // invoc
+    output = output.replace(
+      new RegExp('\\(([0-9]+) PV, ([0-9]+) AT, ([0-9]+) PM\\)', 'g'),
+      '(<img src="./assets/img/utils/pv.png" class="style-image-inline"/> $1, <img src="./assets/img/utils/at.png" class="style-image-inline"/> $2, <img src="./assets/img/utils/pm.png" class="style-image-inline"/> $3)'
+    );
+
+    output = output.replace(
+      new RegExp('(^|\\s*)(' + blueGreenKeywords.join('|') + ')\\(([0-9]+)\\)($|\\s*)', 'g'),
+      "$1<span class='style-bold style-blue'>$2(</span><span class='style-green'>$3</span><span class='style-bold style-blue'>)</span>$4"
+    );
+    output = output.replace(
+      new RegExp('(^|\\s*)(' + blueWhiteKeywords.join('|') + ')\\(([0-9]+)\\)($|\\s*)', 'g'),
+      "$1<span class='style-bold style-blue'>$2(</span>$3<span class='style-bold style-blue'>)</span>$4"
+    );
+    output = output.replace(new RegExp('(^|\\s*)(' + blueKeywords.join('|') + ')($|\\s*)', 'g'), "$1<span class='style-bold style-blue'>$2</span>$3");
+    output = output.replace(new RegExp('(^|\\s*)(' + greenKeywords.join('|') + ')($|\\s*)', 'g'), "$1<span class='style-green'>$2</span>$3");
+    output = output.replace(new RegExp('(^|\\s*)(' + greyKeywords.join('|') + ')($|\\s*)', 'g'), "$1<br /><span class='style-italic style-gray'>$2</span>$3");
+    output = output.replace(new RegExp('(^|\\s*)(' + boldKeywords.join('|') + ')($|\\s*)', 'g'), "$1<span class='style-bold'>$2</span>$3");
+
+    output = output.replace(new RegExp('(^|\\s*)(' + imgKeywords.join('|') + ')($|\\s*)', 'g'), function (match, _, part2) {
+      let localMatch = part2;
+      if (localMatch === 'adjacente') localMatch = 'adjacents';
       if (localMatch === 'BOUEUSE') localMatch = 'BOUEUX';
       if (localMatch.slice(-2) === 'ÉE') localMatch = localMatch.slice(0, -1);
       return (
@@ -185,7 +193,7 @@ export class Highlighter {
           .toLowerCase()
           .normalize('NFD')
           .replace(/\p{Diacritic}/gu, '') +
-        ".png' class='style-image-inline' />"
+        ".png' class='style-image-inline' /> "
       );
     });
     return output;

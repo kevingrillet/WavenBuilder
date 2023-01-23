@@ -16,6 +16,12 @@
         <input matInput formControlName="image" />
       </mat-form-field>
       <mat-form-field appearance="outline" class="full-width">
+        <mat-label>Source</mat-label>
+        <mat-select formControlName="source">
+          <mat-option *ngFor="let source of sources" [value]="source">{{ source }}</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <mat-form-field appearance="outline" class="full-width">
         <mat-label>Élément</mat-label>
         <mat-select formControlName="element">
           <mat-option *ngFor="let element of elements" [value]="element">{{ element }}</mat-option>

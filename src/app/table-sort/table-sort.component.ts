@@ -24,7 +24,7 @@ export class TableSortComponent implements OnInit {
   dataLength!: number;
   dataSource!: MatTableDataSource<Sort>;
 
-  displayedColumns = ['Nom', 'Element', 'Patch', 'Cout', 'Gain', 'Effet', 'Dons', 'Action'];
+  displayedColumns = ['Nom', 'Element', 'Source', 'Patch', 'Cout', 'Gain', 'Effet', 'Dons', 'Action'];
 
   constructor(private dialog: MatDialog) {}
 
