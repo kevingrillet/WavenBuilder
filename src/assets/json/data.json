@@ -125,7 +125,7 @@
                 "sort": ""
               },
               {
-                "nom": "Magie feu 20",
+                "nom": "Magie FEU 20",
                 "cout": 90,
                 "effet": "+20% de MAGIE FEU.",
                 "sort": ""
@@ -309,7 +309,7 @@
             ],
             "dons": [
               {
-                "nom": "Vitalitéé",
+                "nom": "Vitalité",
                 "cout": 70,
                 "effet": "+50% de PV à ce personnage.",
                 "sort": ""
@@ -360,7 +360,7 @@
               {
                 "nom": "Sacrieur",
                 "cout": 50,
-                "effet": "Si votre héros est un SACRIEUR: RÉINVOCABLE",
+                "effet": "Si votre héros est un SACRIEUR: RÉINVOCABLE.",
                 "sort": ""
               },
               {
@@ -590,7 +590,7 @@
                 "sort": ""
               },
               {
-                "nom": "Magie feu 20",
+                "nom": "Magie FEU 20",
                 "cout": 80,
                 "effet": "+20% de MAGIE FEU.",
                 "sort": ""
@@ -633,10 +633,10 @@
             ],
             "dons": [
               {
-                "nom": "Surcharge de bakara",
+                "nom": "Surcharge de Bakara",
                 "cout": 50,
                 "effet": "APPARITION: Ajoute le sort SURCHARGE DE BAKARA à votre main.",
-                "sort": ""
+                "sort": "Surcharge de Bakara"
               },
               {
                 "nom": "Maîtrise de baraka",
@@ -694,10 +694,10 @@
             ],
             "dons": [
               {
-                "nom": "Folie du dark vlad",
+                "nom": "Folie du Dark Vlad",
                 "cout": 50,
                 "effet": "APPARITION: Ajoute le sort FOLIE DU DARK VLAD à votre main.",
-                "sort": ""
+                "sort": "Folie du Dark Vlad"
               },
               {
                 "nom": "Vitalité",
@@ -712,7 +712,7 @@
                 "sort": ""
               },
               {
-                "nom": "Magie feu 30",
+                "nom": "Magie FEU 30",
                 "cout": 90,
                 "effet": "+30% de MAGIE FEU.",
                 "sort": ""
@@ -758,7 +758,7 @@
                 "nom": "Petite furie",
                 "cout": 50,
                 "effet": "APPARITION: Ajoute le sort PETITE FURIE à votre main.",
-                "sort": ""
+                "sort": "Petite furie"
               },
               {
                 "nom": "Puissance",
@@ -813,10 +813,10 @@
                 "nom": "Bombe smisse",
                 "cout": 50,
                 "effet": "APPARITION: Ajoute le sort BOMBE SMISSE à votre main.",
-                "sort": ""
+                "sort": "Bombe smisse"
               },
               {
-                "nom": "Spécialité roublard",
+                "nom": "Spécialité Roublard",
                 "cout": 50,
                 "effet": "APPARITION: +3 AURAS LANCE-PIERRE.",
                 "sort": ""
@@ -871,10 +871,10 @@
             ],
             "dons": [
               {
-                "nom": "Saut de goultard",
+                "nom": "Saut de Goultard",
                 "cout": 50,
                 "effet": "APPARITION: Ajoute le sort SAUT DE GOULTARD à votre main.",
-                "sort": ""
+                "sort": "Saut de Goultard"
               },
               {
                 "nom": "Explosion",
@@ -957,14 +957,15 @@
         "nom": "Abigaïl",
         "rarete": "Commun",
         "image": "abigail",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "ATTAQUE: +50% de dégâts si elle est l'unique compagnon allié en jeu.",
             "pv": 67,
             "at": 14,
             "cc": 5,
             "pm": 3,
+            "effet": "ATTAQUE: +50% de dégâts si elle est l'unique compagnon allié en jeu.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -975,7 +976,26 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Puissance",
+                "cout": 90,
+                "effet": "+50% d'AT à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "air": 3
             }
@@ -986,14 +1006,15 @@
         "nom": "Angèle",
         "rarete": "Commun",
         "image": "angele",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "DÉPHASAGE.",
             "pv": 63,
             "at": 18,
             "cc": 5,
             "pm": 3,
+            "effet": "DÉPHASAGE.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -1004,7 +1025,26 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Secourisme",
+                "cout": 50,
+                "effet": "Soigne les alliés qu'elle traverse de son AT.",
+                "sort": ""
+              },
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "air": 3
             }
@@ -1015,14 +1055,15 @@
         "nom": "Championne du blasphème",
         "rarete": "Commun",
         "image": "championne_du_blaspheme",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "ATTAQUE: +100% de dégâts si la cible est ÉVENTÉE.",
             "pv": 63,
             "at": 13,
             "cc": 5,
             "pm": 3,
+            "effet": "ATTAQUE: +100% de dégâts si la cible est ÉVENTÉE.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -1033,7 +1074,26 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Reflet d'uppercut",
+                "cout": 50,
+                "effet": "APPARITION: Ajoute le sort REFFLET D'UPPERCUT à votre main.",
+                "sort": "Reflet d'uppercut"
+              },
+              {
+                "nom": "Iop",
+                "cout": 50,
+                "effet": "Si votre héros est un IOP: RÉINVOCABLE.",
+                "sort": ""
+              },
+              {
+                "nom": "Puissance",
+                "cout": 90,
+                "effet": "+50% d'AT à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "air": 3
             }
@@ -1044,14 +1104,15 @@
         "nom": "Flécheur",
         "rarete": "Commun",
         "image": "flecheur",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "APPARITION et DÉBUT DU TOUR: +1 AURA MIRE.",
             "pv": 65,
             "at": 10,
             "cc": 5,
             "pm": 3,
+            "effet": "APPARITION et DÉBUT DU TOUR: +1 AURA MIRE.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -1062,7 +1123,26 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Fuite",
+                "cout": 50,
+                "effet": "ATTAQUE: Se téléporte dans un coin du terrain.",
+                "sort": ""
+              },
+              {
+                "nom": "Auras",
+                "cout": 50,
+                "effet": "+50% à toutes vos AURAS.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "air": 3
             }
@@ -1073,14 +1153,15 @@
         "nom": "Héros félin",
         "rarete": "Commun",
         "image": "heros_felin",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "ATTAQUE: +1 Jauge AIR.",
             "pv": 65,
             "at": 8,
             "cc": 5,
             "pm": 3,
+            "effet": "ATTAQUE: +1 Jauge AIR.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -1091,7 +1172,26 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Spécialité Ecaflip",
+                "cout": 50,
+                "effet": "APPARITION: +3 AURAS GRIFFES JOUEUSES.",
+                "sort": ""
+              },
+              {
+                "nom": "Esquive",
+                "cout": 50,
+                "effet": "+20% d'ESQUIVE à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "air": 3
             }
@@ -1102,14 +1202,15 @@
         "nom": "Oracle offensé",
         "rarete": "Commun",
         "image": "oracle_offense",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "ATTAQUE: REPOUSSE de 2 cases.",
             "pv": 63,
             "at": 14,
             "cc": 5,
             "pm": 3,
+            "effet": "ATTAQUE: REPOUSSE de 2 cases.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -1120,7 +1221,26 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Pouss-pouss",
+                "cout": 50,
+                "effet": "APPARITION: +3 AURAS POING REPOUSSANT.",
+                "sort": ""
+              },
+              {
+                "nom": "Esquive",
+                "cout": 50,
+                "effet": "+20% d'ESQUIVE à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Collision",
+                "cout": 70,
+                "effet": "+100% à toutes vos COLLISIONS.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "air": 3
             }
@@ -1131,14 +1251,15 @@
         "nom": "Assa",
         "rarete": "Rare",
         "image": "assa",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "ATTAQUE: Applique ÉVENTÉ.",
             "pv": 91,
             "at": 17,
             "cc": 5,
             "pm": 3,
+            "effet": "ATTAQUE: Applique ÉVENTÉ.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -1149,7 +1270,32 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Puissance",
+                "cout": 90,
+                "effet": "+50% d'AT à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "air": 4
             }
@@ -1160,14 +1306,15 @@
         "nom": "Duelliste spectral",
         "rarete": "Rare",
         "image": "duelist_spectral",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "ATTAQUE: Déclanche REBOND(8).",
             "pv": 82,
             "at": 17,
             "cc": 5,
             "pm": 3,
+            "effet": "ATTAQUE: Déclanche REBOND(8).",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -1178,7 +1325,32 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Rebond",
+                "cout": 50,
+                "effet": "+50% à tous vos REBONDS.",
+                "sort": ""
+              },
+              {
+                "nom": "Magie AIR 20",
+                "cout": 80,
+                "effet": "+20% de MAGIE AIR.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "air": 4
             }
@@ -1189,14 +1361,15 @@
         "nom": "Empaleur embusqué",
         "rarete": "Rare",
         "image": "empaleur_embusque",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "APPARITION et DÉBUT DU TOUR: +1 AURA MIRE REPOUSSANTE.",
             "pv": 80,
             "at": 12,
             "cc": 5,
             "pm": 3,
+            "effet": "APPARITION et DÉBUT DU TOUR: +1 AURA MIRE REPOUSSANTE.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -1207,7 +1380,32 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Crâ",
+                "cout": 50,
+                "effet": "Si votre héros est un CRÂ: RÉINVOCABLE.",
+                "sort": ""
+              },
+              {
+                "nom": "Auras",
+                "cout": 50,
+                "effet": "+50% à toutes vos AURAS.",
+                "sort": ""
+              },
+              {
+                "nom": "Collision",
+                "cout": 50,
+                "effet": "+50% à toutes vos COLLISIONS.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "air": 4
             }
@@ -1218,14 +1416,15 @@
         "nom": "Exécuteur endeuillé",
         "rarete": "Rare",
         "image": "executeur_endeuille",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "Possède 50% de DRAIN.",
             "pv": 90,
             "at": 22,
             "cc": 5,
             "pm": 3,
+            "effet": "Possède 50% de DRAIN.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -1236,7 +1435,32 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Cycle régénérant",
+                "cout": 50,
+                "effet": "FIN DU TOUR: Se soigne de son AT.",
+                "sort": ""
+              },
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Puissance",
+                "cout": 90,
+                "effet": "+50% d'AT à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "air": 4
             }
@@ -1247,14 +1471,15 @@
         "nom": "Farnix",
         "rarete": "Rare",
         "image": "farnix",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "APPARITION et DÉBUT DU TOUR: +1 AURA MIRE REBOND.",
             "pv": 79,
             "at": 12,
             "cc": 5,
             "pm": 3,
+            "effet": "APPARITION et DÉBUT DU TOUR: +1 AURA MIRE REBOND.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -1265,7 +1490,32 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Auras",
+                "cout": 50,
+                "effet": "+50% à toutes vos AURAS.",
+                "sort": ""
+              },
+              {
+                "nom": "Puissance",
+                "cout": 90,
+                "effet": "+50% d'AT à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Esquive",
+                "cout": 50,
+                "effet": "+20% d'ESQUIVE à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "air": 4
             }
@@ -1276,14 +1526,15 @@
         "nom": "Atcham",
         "rarete": "Krosmique",
         "image": "atcham",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "ATTAQUE: Inflige également sont AT à l'adversaire ayant le plus de PV.",
             "pv": 96,
             "at": 18,
             "cc": 5,
             "pm": 3,
+            "effet": "ATTAQUE: Inflige également sont AT à l'adversaire ayant le plus de PV.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -1294,7 +1545,38 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Jalousie d'Atcham",
+                "cout": 50,
+                "effet": "APPARITION: Ajoute le sort JALOUSIE D'ATCHAM à votre main.",
+                "sort": "Jalousie d'Atcham"
+              },
+              {
+                "nom": "Spécialité Ecaflip",
+                "cout": 50,
+                "effet": "APPARITION: +3 AURAS PUPUCE.",
+                "sort": ""
+              },
+              {
+                "nom": "Puissance",
+                "cout": 90,
+                "effet": "+50% d'AT à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Esquive",
+                "cout": 50,
+                "effet": "+20% d'ESQUIVE à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "air": 5
             }
@@ -1305,14 +1587,15 @@
         "nom": "Coqueline",
         "rarete": "Krosmique",
         "image": "coqueline",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "DÉPHASAGE.",
             "pv": 92,
             "at": 22,
             "cc": 5,
             "pm": 3,
+            "effet": "DÉPHASAGE.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -1323,7 +1606,38 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Toucher de Coqueline",
+                "cout": 50,
+                "effet": "APPARITION: Ajoute le sort TOUCHER DE COQUELINE à votre main.",
+                "sort": "Toucher de Coqueline"
+              },
+              {
+                "nom": "Résonance animale",
+                "cout": 50,
+                "effet": "Se soigne d'autant de PV que de dégâts infligés lorsqu'elle traverse des adversaires.",
+                "sort": ""
+              },
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Esquive",
+                "cout": 50,
+                "effet": "+20% d'ESQUIVE à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "air": 5
             }
@@ -1334,14 +1648,15 @@
         "nom": "Corbeau noir",
         "rarete": "Krosmique",
         "image": "corbeau_noir",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "ATTAQUE: Touche tous les adversaires derrière la cible.",
             "pv": 110,
             "at": 20,
             "cc": 5,
             "pm": 4,
+            "effet": "ATTAQUE: Touche tous les adversaires derrière la cible.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -1352,7 +1667,38 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Nuée de corbacs",
+                "cout": 50,
+                "effet": "APPARITION: Ajoute le sort NUÉE DE CORBACS à votre main.",
+                "sort": "Nuée de corbacs"
+              },
+              {
+                "nom": "Sombre assaut",
+                "cout": 50,
+                "effet": "FIN DU TOUR: Traverse une ligne et inflige son AT aux adversaires traversés.",
+                "sort": ""
+              },
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Esquive",
+                "cout": 50,
+                "effet": "+20% d'ESQUIVE à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "air": 5
             }
@@ -1363,14 +1709,15 @@
         "nom": "Évangelyne",
         "rarete": "Infinite",
         "image": "evangelyne",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "FIN DE TOUR: Inflige son AT aux adversaires alignés avec elle à plus de 1 case.",
             "pv": 118,
             "at": 22,
             "cc": 5,
             "pm": 3,
+            "effet": "FIN DU TOUR: Inflige son AT aux adversaires alignés avec elle à plus de 1 case.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -1381,7 +1728,44 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Trait d'Évangelyne",
+                "cout": 50,
+                "effet": "APPARITION: Ajoute le sort TRAIT D'ÉVANGELYNE à votre main.",
+                "sort": "Trait d'Évangelyne"
+              },
+              {
+                "nom": "Spécialité Crâ",
+                "cout": 50,
+                "effet": "APPARITION: +3 AURAS MIRE REBOND.",
+                "sort": ""
+              },
+              {
+                "nom": "Auras",
+                "cout": 50,
+                "effet": "+50% à toutes vos AURAS.",
+                "sort": ""
+              },
+              {
+                "nom": "Rebond",
+                "cout": 50,
+                "effet": "+50% à tous vos REBONDS.",
+                "sort": ""
+              },
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC et +50% de DÉGÂTS CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "air": 6
             }
@@ -1392,14 +1776,15 @@
         "nom": "Delta",
         "rarete": "Commun",
         "image": "delta",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "Aucun effet.",
             "pv": 52,
             "at": 8,
             "cc": 5,
             "pm": 3,
+            "effet": "Aucun effet.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -1432,14 +1817,15 @@
         "nom": "Achméa",
         "rarete": "Commun",
         "image": "achmea",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "ATTAQUE: +1 Jauge TERRE.",
             "pv": 65,
             "at": 8,
             "cc": 5,
             "pm": 3,
+            "effet": "ATTAQUE: +1 Jauge TERRE.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -1450,7 +1836,26 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Puissance",
+                "cout": 90,
+                "effet": "+50% d'AT à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "terre": 3
             }
@@ -1461,14 +1866,15 @@
         "nom": "Argolio",
         "rarete": "Commun",
         "image": "argolio",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "APPARITION et DÉBUT DU TOUR: +1 AURA MIRE GRAVELEUSE.",
             "pv": 63,
             "at": 10,
             "cc": 5,
             "pm": 3,
+            "effet": "APPARITION et DÉBUT DU TOUR: +1 AURA MIRE GRAVELEUSE.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -1479,7 +1885,26 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Auras",
+                "cout": 50,
+                "effet": "+50% à toutes vos AURAS.",
+                "sort": ""
+              },
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "terre": 3
             }
@@ -1490,14 +1915,15 @@
         "nom": "Ashmal",
         "rarete": "Commun",
         "image": "ashmal",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "APPARITION: Confère son AT en AR à votre héros.",
             "pv": 63,
             "at": 12,
             "cc": 5,
             "pm": 3,
+            "effet": "APPARITION: Confère son AT en AR à votre héros.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -1508,7 +1934,26 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Spécialité Eniripsa",
+                "cout": 50,
+                "effet": "APPARITION: +3 AURAS COEUR DE PIERRE.",
+                "sort": ""
+              },
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 70,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "terre": 3
             }
@@ -1519,14 +1964,15 @@
         "nom": "Kaotika",
         "rarete": "Commun",
         "image": "kaotika",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "ATTAQUE: +100% de dégâts si la cible est un MÉCANISME.",
             "pv": 66,
             "at": 14,
             "cc": 5,
             "pm": 3,
+            "effet": "ATTAQUE: +100% de dégâts si la cible est un MÉCANISME.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -1537,7 +1983,26 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Puissance",
+                "cout": 70,
+                "effet": "+50% d'AT à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "terre": 3
             }
@@ -1548,14 +2013,15 @@
         "nom": "Soigneuse corrompue",
         "rarete": "Commun",
         "image": "soigneuse_corrompue",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "ATTAQUE: +100% de dégâts si la cible est BOUEUSE.",
             "pv": 63,
             "at": 13,
             "cc": 5,
             "pm": 3,
+            "effet": "ATTAQUE: +100% de dégâts si la cible est BOUEUSE.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -1566,7 +2032,26 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Eniripsa",
+                "cout": 50,
+                "effet": "Si votre héros est un ENIRIPSA: RÉINVOCABLE.",
+                "sort": ""
+              },
+              {
+                "nom": "Puissance",
+                "cout": 90,
+                "effet": "+50% d'AT à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Soin",
+                "cout": 70,
+                "effet": "+30% à tous vos SOINS.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "terre": 3
             }
@@ -1577,14 +2062,15 @@
         "nom": "Zorine",
         "rarete": "Commun",
         "image": "zorine",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "ATTAQUE: +50% de dégâts si la cible possède au moins 1 AURA.",
             "pv": 66,
             "at": 16,
             "cc": 5,
             "pm": 3,
+            "effet": "ATTAQUE: +50% de dégâts si la cible possède au moins 1 AURA.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -1595,7 +2081,26 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Puissance",
+                "cout": 90,
+                "effet": "+50% d'AT à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "terre": 3
             }
@@ -1606,14 +2111,15 @@
         "nom": "Eclaireur d'élite",
         "rarete": "Rare",
         "image": "eclaireur_d_elite",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "APPARITION et DÉBUT DU TOUR: +1 AURA MIRE DE PIERRE.",
             "pv": 80,
             "at": 15,
             "cc": 5,
             "pm": 3,
+            "effet": "APPARITION et DÉBUT DU TOUR: +1 AURA MIRE DE PIERRE.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -1624,7 +2130,32 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Auras",
+                "cout": 50,
+                "effet": "+50% à toutes vos AURAS.",
+                "sort": ""
+              },
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Puissance",
+                "cout": 90,
+                "effet": "+50% d'AT à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "terre": 4
             }
@@ -1635,14 +2166,15 @@
         "nom": "Griffeur tonkino",
         "rarete": "Rare",
         "image": "griffeur_tonkino",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "ATTAQUE: Applique BOUEUX.",
             "pv": 95,
             "at": 14,
             "cc": 5,
             "pm": 3,
+            "effet": "ATTAQUE: Applique BOUEUX.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -1653,7 +2185,32 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Puissance",
+                "cout": 90,
+                "effet": "+50% d'AT à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "terre": 4
             }
@@ -1664,14 +2221,15 @@
         "nom": "Héros châtaigner",
         "rarete": "Rare",
         "image": "heros_chataigner",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "MORT: ASSOMME les adversaires autour.",
             "pv": 79,
             "at": 18,
             "cc": 5,
             "pm": 3,
+            "effet": "MORT: ASSOMME les adversaires autour.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -1682,7 +2240,32 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Puissance",
+                "cout": 90,
+                "effet": "+50% d'AT à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Dégâts aux coups critiques",
+                "cout": 80,
+                "effet": "+50% de DÉGÂTS CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "terre": 4
             }
@@ -1693,14 +2276,15 @@
         "nom": "Héros endurci",
         "rarete": "Rare",
         "image": "heros_endurci",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "ATTAQUE: Gagne 50% de son AT en AR.",
             "pv": 86,
             "at": 16,
             "cc": 5,
             "pm": 3,
+            "effet": "ATTAQUE: Gagne 50% de son AT en AR.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -1711,7 +2295,32 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Protecteur",
+                "cout": 70,
+                "effet": "Quand il gagne de l'AR: Un allié aléatoire en gagne autant.",
+                "sort": ""
+              },
+              {
+                "nom": "Puissance",
+                "cout": 90,
+                "effet": "+50% d'AT à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Défense",
+                "cout": 50,
+                "effet": "+20% à toutes vos DÉFENSES.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "terre": 4
             }
@@ -1722,14 +2331,15 @@
         "nom": "Marcus",
         "rarete": "Rare",
         "image": "marcus",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "Attaque: Déclanche TOURBE(6).",
             "pv": 84,
             "at": 16,
             "cc": 5,
             "pm": 3,
+            "effet": "ATTAQUE: Déclanche TOURBE(6).",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -1740,7 +2350,32 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Tourbe",
+                "cout": 50,
+                "effet": "+50% à toutes vos TOURBES.",
+                "sort": ""
+              },
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Magie TERRE 20",
+                "cout": 80,
+                "effet": "+20% de MAGIE TERRE.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "terre": 4
             }
@@ -1751,14 +2386,15 @@
         "nom": "Amalia",
         "rarete": "Krosmique",
         "image": "amalia",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "Tant qu'elle est en jeu: -1PA au coût de vos sorts TERRE.",
             "pv": 108,
             "at": 19,
             "cc": 5,
             "pm": 3,
+            "effet": "Tant qu'elle est en jeu: -1PA au coût de vos sorts TERRE.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -1769,7 +2405,38 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Ronces d'Amalia",
+                "cout": 50,
+                "effet": "APPARITION: Ajoute le sort RONCES D'AMALIA à votre main.",
+                "sort": "Ronces d'Amalia"
+              },
+              {
+                "nom": "Maîtrise d'Amalia",
+                "cout": 50,
+                "effet": "ATTAQUE: -1PA au coût des sorts TERRE de votre main.",
+                "sort": ""
+              },
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Puissance",
+                "cout": 90,
+                "effet": "+50% d'AT à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC et +50% de DÉGÂTS CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "terre": 5
             }
@@ -1780,14 +2447,15 @@
         "nom": "Joris",
         "rarete": "Krosmique",
         "image": "joris",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "Jout 2 fois par tour.",
             "pv": 90,
             "at": 17,
             "cc": 5,
             "pm": 4,
+            "effet": "Jout 2 fois par tour.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -1798,7 +2466,38 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Course de Joris",
+                "cout": 50,
+                "effet": "APPARITION: Ajoute le sort COURSE DE JORIS à votre main.",
+                "sort": "Course de Joris"
+              },
+              {
+                "nom": "Mobilité",
+                "cout": 50,
+                "effet": "+1PM à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Puissance",
+                "cout": 90,
+                "effet": "+50% d'AT à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "terre": 5
             }
@@ -1809,14 +2508,15 @@
         "nom": "Lilotte",
         "rarete": "Krosmique",
         "image": "lilotte",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "ATTAQUE: REPOUSSE de 3 cases, puis avance d'autant.",
             "pv": 95,
             "at": 16,
             "cc": 5,
             "pm": 4,
+            "effet": "ATTAQUE: REPOUSSE de 3 cases, puis avance d'autant.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -1827,7 +2527,38 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Morsure de Lilotte",
+                "cout": 50,
+                "effet": "APPARITION: Ajoute le sort MORSURE DE LILOTTE à votre main.",
+                "sort": "Morsure de Lilotte"
+              },
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Puissance",
+                "cout": 90,
+                "effet": "+50% d'AT à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 50,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 50,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "terre": 5
             }
@@ -1838,14 +2569,15 @@
         "nom": "Toxine",
         "rarete": "Krosmique",
         "image": "toxine",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "Attaque: -1PM à la cible pour le tour. +100% de dégâts si la cible est BOUEUSE.",
             "pv": 86,
             "at": 22,
             "cc": 5,
             "pm": 3,
+            "effet": "ATTAQUE: -1PM à la cible pour le tour. +100% de dégâts si la cible est BOUEUSE.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -1856,7 +2588,38 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Hypnose de Toxine",
+                "cout": 50,
+                "effet": "APPARITION: Ajoute le sort HYPNOSE DE TOXINE à votre main.",
+                "sort": "Hypnose de Toxine"
+              },
+              {
+                "nom": "Poison de Toxine",
+                "cout": 50,
+                "effet": "ATTAQUE: -1PM supplémentaire à la cible pour le tour.",
+                "sort": ""
+              },
+              {
+                "nom": "Fuite",
+                "cout": 50,
+                "effet": "ATTAQUE: Se téléporte dans un coin du terrain.",
+                "sort": ""
+              },
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Puissance",
+                "cout": 90,
+                "effet": "+50% d'AT à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "terre": 5
             }
@@ -1867,14 +2630,15 @@
         "nom": "Ruel",
         "rarete": "Infinite",
         "image": "ruel",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "ATTAQUE: Inflige son AT aux adversaires autour.",
             "pv": 120,
             "at": 24,
             "cc": 5,
             "pm": 3,
+            "effet": "ATTAQUE: Inflige son AT aux adversaires autour.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -1885,7 +2649,44 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Pelle de Ruel",
+                "cout": 50,
+                "effet": "APPARITION: Ajoute le sort PELLE DE RUEL à votre main.",
+                "sort": "Pelle de Ruel"
+              },
+              {
+                "nom": "Tourbe",
+                "cout": 50,
+                "effet": "+50% à toutes vos TOURBES.",
+                "sort": ""
+              },
+              {
+                "nom": "Gain de Kamas",
+                "cout": 50,
+                "effet": "+20% aux GAINS DE KAMAS.",
+                "sort": ""
+              },
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Puissance",
+                "cout": 90,
+                "effet": "+50% d'AT à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC et +50% de DÉGÂTS CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "terre": 6
             }
@@ -1895,15 +2696,16 @@
       {
         "nom": "Yaki",
         "rarete": "Commun",
-        "image": "nugget",
+        "image": "yaki",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "Aucun effet.",
             "pv": 52,
             "at": 8,
             "cc": 5,
             "pm": 3,
+            "effet": "Aucun effet.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -1936,14 +2738,15 @@
         "nom": "Initiée funèbre",
         "rarete": "Commun",
         "image": "initiee_funebre",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "INCIBLABLE. APPARITION: Confère INCIBLABLE à votre héros jusqu'à son prochain tour.",
             "pv": 51,
             "at": 8,
             "cc": 5,
             "pm": 3,
+            "effet": "INCIBLABLE. APPARITION: Confère INCIBLABLE à votre héros jusqu'à son prochain tour.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -1954,7 +2757,26 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Puissance",
+                "cout": 90,
+                "effet": "+50% d'AT à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "eau": 3
             }
@@ -1965,14 +2787,15 @@
         "nom": "M. Looter King",
         "rarete": "Commun",
         "image": "m_looter_king",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "ATTAQUE: +100% de dégâts si la cible est MOUILLÉE.",
             "pv": 63,
             "at": 13,
             "cc": 5,
             "pm": 3,
+            "effet": "ATTAQUE: +100% de dégâts si la cible est MOUILLÉE.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -1983,7 +2806,26 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Gain de Kamas",
+                "cout": 50,
+                "effet": "+10% aux GAINS DE KAMAS.",
+                "sort": ""
+              },
+              {
+                "nom": "Gains de Loot",
+                "cout": 50,
+                "effet": "+5% aux chances de loot un SORT, COMPAGNON, ou un ÉQUIPEMENT.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "eau": 3
             }
@@ -1994,14 +2836,15 @@
         "nom": "Pacificatrice enjouée",
         "rarete": "Commun",
         "image": "pacificatrice_enjouee",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "ATTAQUE: +1 AURA COEUR DE GLACE.",
             "pv": 65,
             "at": 12,
             "cc": 5,
             "pm": 3,
+            "effet": "ATTAQUE: +1 AURA COEUR DE GLACE.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -2012,7 +2855,26 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Spécialité Eniripsa",
+                "cout": 50,
+                "effet": "APPARITION: +3 AURAS COEUR DE GLACE.",
+                "sort": ""
+              },
+              {
+                "nom": "Fuite",
+                "cout": 50,
+                "effet": "ATTAQUE: Se téléporte dans un coin du terrain.",
+                "sort": ""
+              },
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "eau": 3
             }
@@ -2023,14 +2885,15 @@
         "nom": "Saly",
         "rarete": "Commun",
         "image": "saly",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "Attaque: +1 Jauge EAU.",
             "pv": 65,
             "at": 8,
             "cc": 5,
             "pm": 3,
+            "effet": "ATTAQUE: +1 Jauge EAU.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -2041,7 +2904,26 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Puissance",
+                "cout": 90,
+                "effet": "+50% d'AT à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "eau": 3
             }
@@ -2052,14 +2934,15 @@
         "nom": "Shura",
         "rarete": "Commun",
         "image": "shura",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "ATTAQUE: Soigne la cible de son AT si c'est un allié.",
             "pv": 67,
             "at": 16,
             "cc": 5,
             "pm": 3,
+            "effet": "ATTAQUE: Soigne la cible de son AT si c'est un allié.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -2070,7 +2953,26 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Spécialité Eniripsa",
+                "cout": 50,
+                "effet": "APPARITION: +3 AURAS COEUR DE GLACE.",
+                "sort": ""
+              },
+              {
+                "nom": "Soin",
+                "cout": 70,
+                "effet": "+30% à tous vos SOINS.",
+                "sort": ""
+              },
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "eau": 3
             }
@@ -2081,14 +2983,15 @@
         "nom": "Synchroniseur minutieux",
         "rarete": "Commun",
         "image": "synchroniseur_minutieux",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "APPARITION: +1PA en réserve.",
             "pv": 62,
             "at": 12,
             "cc": 5,
             "pm": 3,
+            "effet": "APPARITION: +1PA en réserve.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -2099,7 +3002,26 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Puissance",
+                "cout": 90,
+                "effet": "+50% d'AT à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "eau": 3
             }
@@ -2110,14 +3032,15 @@
         "nom": "Baron sramedi",
         "rarete": "Rare",
         "image": "baron_sramedi",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "ATTAQUE: +3 AURAS DAGUES SOURNOISES.",
             "pv": 78,
             "at": 17,
             "cc": 5,
             "pm": 3,
+            "effet": "ATTAQUE: +3 AURAS DAGUES SOURNOISES.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -2128,7 +3051,32 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Piège osseux",
+                "cout": 50,
+                "effet": "MORT: Construit un PIÈGE OSSEUX sur sa case.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Puissance",
+                "cout": 90,
+                "effet": "+50% d'AT à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "eau": 4
             }
@@ -2139,14 +3087,15 @@
         "nom": "Gardienne inflexible",
         "rarete": "Rare",
         "image": "gardienne_inflexible",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "ATTAQUE: Applique MOUILLÉ.",
             "pv": 92,
             "at": 16,
             "cc": 5,
             "pm": 3,
+            "effet": "ATTAQUE: Applique MOUILLÉ.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -2157,7 +3106,32 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Puissance",
+                "cout": 90,
+                "effet": "+50% d'AT à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "eau": 4
             }
@@ -2168,14 +3142,15 @@
         "nom": "Héroïne perfide",
         "rarete": "Rare",
         "image": "heroine_perfide",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "FIN DU TOUR: Se soigne de son AT si elle a au moins un allié autour d'elle.",
             "pv": 82,
             "at": 14,
             "cc": 5,
             "pm": 3,
+            "effet": "FIN DU TOUR: Se soigne de son AT si elle a au moins un allié autour d'elle.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -2186,7 +3161,32 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Puissance",
+                "cout": 90,
+                "effet": "+50% d'AT à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Drain",
+                "cout": 50,
+                "effet": "+50% de DRAIN à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "eau": 4
             }
@@ -2197,14 +3197,15 @@
         "nom": "Héros impartial",
         "rarete": "Rare",
         "image": "heros_impartial",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "ATTAQUE: +100% de dégâts s'il possède tous ses PV.",
             "pv": 82,
             "at": 16,
             "cc": 5,
             "pm": 3,
+            "effet": "ATTAQUE: +100% de dégâts s'il possède tous ses PV.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -2215,7 +3216,32 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Spécialité Iop",
+                "cout": 50,
+                "effet": "APPARITION: +3 AURAS ÉPEE DE GLACE.",
+                "sort": ""
+              },
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Puissance",
+                "cout": 90,
+                "effet": "+50% d'AT à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "eau": 4
             }
@@ -2226,14 +3252,15 @@
         "nom": "Rémus",
         "rarete": "Rare",
         "image": "remus",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "ATTAQUE: Déclanche GRÊLE(8).",
             "pv": 85,
             "at": 16,
             "cc": 5,
             "pm": 3,
+            "effet": "ATTAQUE: Déclanche GRÊLE(8).",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -2244,7 +3271,32 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Grêle",
+                "cout": 50,
+                "effet": "+25% à toutes vos GRÊLES.",
+                "sort": ""
+              },
+              {
+                "nom": "Magie EAU 20",
+                "cout": 80,
+                "effet": "+20% de MAGIE EAU.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "eau": 4
             }
@@ -2255,14 +3307,15 @@
         "nom": "Albert",
         "rarete": "Krosmique",
         "image": "albert",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "APPARITION: Ajoute le sort RÉPIT D'ALBERT à votre main.",
             "pv": 104,
             "at": 24,
             "cc": 5,
             "pm": 3,
+            "effet": "APPARITION: Ajoute le sort RÉPIT D'ALBERT à votre main.",
             "sort": "Répit d'Albert",
             "caracteristiques": [
               {
@@ -2274,7 +3327,38 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Bienveillance d'Albert",
+                "cout": 50,
+                "effet": "ATTAQUE: Soigne les alliés autour de lui de son AT.",
+                "sort": "Bienveillance d'Albert"
+              },
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Puissance",
+                "cout": 90,
+                "effet": "+50% d'AT à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Dégâts aux coups critiques",
+                "cout": 80,
+                "effet": "+50% de DÉGÂTS CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "eau": 5
             }
@@ -2285,14 +3369,15 @@
         "nom": "Bump",
         "rarete": "Krosmique",
         "image": "bump",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "ATTAQUE: Devient GARDE DU CORPS de votre héros jusqu'au prochain tour.",
             "pv": 108,
             "at": 12,
             "cc": 5,
             "pm": 3,
+            "effet": "ATTAQUE: Devient GARDE DU CORPS de votre héros jusqu'au prochain tour.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -2303,7 +3388,38 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Bouclier de Bump",
+                "cout": 50,
+                "effet": "APPARITION: Ajoute le sort BOUCLIER DE BUMP à votre main.",
+                "sort": "Bouclier de Bump"
+              },
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Puissance",
+                "cout": 90,
+                "effet": "+50% d'AT à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Dégâts aux coups critiques",
+                "cout": 80,
+                "effet": "+50% de DÉGÂTS CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "eau": 5
             }
@@ -2314,14 +3430,15 @@
         "nom": "Comte Harebourg",
         "rarete": "Krosmique",
         "image": "comte_harebourg",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "Tant qu'il est en jeu: -1PA au coût de vos sorts EAU.",
             "pv": 109,
             "at": 19,
             "cc": 5,
             "pm": 3,
+            "effet": "Tant qu'il est en jeu: -1PA au coût de vos sorts EAU.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -2332,7 +3449,38 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Gel d'Harebourg",
+                "cout": 50,
+                "effet": "APPARITION: Ajoute le sort GEL D'HAREBOURG à votre main.",
+                "sort": "Gel d'Harebourg"
+              },
+              {
+                "nom": "Maîtrise d'Harebourg",
+                "cout": 50,
+                "effet": "ATTAQUE: -1PA au coût des sorts EAU de votre main.",
+                "sort": ""
+              },
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Puissance",
+                "cout": 90,
+                "effet": "+50% d'AT à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "eau": 5
             }
@@ -2343,14 +3491,15 @@
         "nom": "Nox",
         "rarete": "Infinite",
         "image": "nox",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "ATTAQUE: Invoque une Noxine (1PV, 5AT, 5PM) derrière la cible. Mort: Détruit les NOXINES alliées en jeu.",
             "pv": 162,
             "at": 30,
             "cc": 5,
             "pm": 3,
+            "effet": "ATTAQUE: Invoque une Noxine (1PV, 5AT, 5PM) derrière la cible. Mort: Détruit les NOXINES alliées en jeu.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -2361,7 +3510,44 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Eliacube de Nox",
+                "cout": 50,
+                "effet": "APPARITION: Ajoute le sort ELIACUBE DE NOX à votre main.",
+                "sort": "Eliacube de Nox"
+              },
+              {
+                "nom": "Bain de Wakfu",
+                "cout": 50,
+                "effet": "COUP DE GRÂCE: Se soigne de son AT.",
+                "sort": ""
+              },
+              {
+                "nom": "Magie EAU 30",
+                "cout": 90,
+                "effet": "+30% de MAGIE EAU.",
+                "sort": ""
+              },
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Puissance",
+                "cout": 90,
+                "effet": "+50% d'AT à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC et +50% de DÉGÂTS CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "eau": 8
             }
@@ -2372,14 +3558,15 @@
         "nom": "Phaeris",
         "rarete": "Infinite",
         "image": "phaeris",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "Attaque: +1PA en réserve.",
             "pv": 185,
             "at": 40,
             "cc": 5,
             "pm": 3,
+            "effet": "ATTAQUE: +1PA en réserve.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -2390,7 +3577,44 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Souffle de Phaeris",
+                "cout": 50,
+                "effet": "APPARITION: Ajoute le sort SOUFFLE DE PHAERIS à votre main.",
+                "sort": "Souffle de Phaeris"
+              },
+              {
+                "nom": "Écaille de Phaeris",
+                "cout": 50,
+                "effet": "MORT: Ajoute une ÉCAILLE DE PHAERIS à votre main.",
+                "sort": "Écaille de Phaeris"
+              },
+              {
+                "nom": "Sagesse de Phaeris",
+                "cout": 50,
+                "effet": "ATTAQUE: +1PA supplémentaire en réserve.",
+                "sort": ""
+              },
+              {
+                "nom": "Magie EAU 30",
+                "cout": 90,
+                "effet": "+30% de MAGIE EAU.",
+                "sort": ""
+              },
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 90,
+                "effet": "+15% de CC et +50% de DÉGÂTS CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "eau": 9
             }
@@ -2401,14 +3625,15 @@
         "nom": "Alchimiste armurée",
         "rarete": "Rare",
         "image": "alchimiste_armuree",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "APPARITION: Confère BOUCLIER à votre héros.",
             "pv": 82,
             "at": 15,
             "cc": 5,
             "pm": 3,
+            "effet": "APPARITION: Confère BOUCLIER à votre héros.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -2419,10 +3644,35 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Magie AIR 20",
+                "cout": 80,
+                "effet": "+20% de MAGIE AIR.",
+                "sort": ""
+              },
+              {
+                "nom": "Magie FEU 20",
+                "cout": 80,
+                "effet": "+20% de MAGIE FEU.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
-              "air": 2,
-              "feu": 2
+              "feu": 2,
+              "air": 2
             }
           }
         ]
@@ -2431,14 +3681,15 @@
         "nom": "Brute Impie",
         "rarete": "Rare",
         "image": "brute_impie",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "APPARITION: Sacrifie le compagnon allié ayant le moins de PV pour gagner 100% d'AT.",
             "pv": 88,
             "at": 17,
             "cc": 5,
             "pm": 3,
+            "effet": "APPARITION: Sacrifie le compagnon allié ayant le moins de PV pour gagner 100% d'AT.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -2453,7 +3704,8 @@
               {
                 "nom": "Reflet d'heurt de gloire",
                 "cout": 50,
-                "effet": "APPARITION: Ajoute le sort REFLET D'HEURT DE GLOIRE à votre main."
+                "effet": "APPARITION: Ajoute le sort REFLET D'HEURT DE GLOIRE à votre main.",
+                "sort": "Reflet d'heurt de gloire"
               },
               {
                 "nom": "Puissance",
@@ -2482,14 +3734,15 @@
         "nom": "Grany smisse",
         "rarete": "Krosmique",
         "image": "grany_smisse",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "APPARITION: -1 Jauge au coût de REMINGTON SMISSE (106PV, 17AT, 3PM). ATTAQUE: +1PM à votre héros pour le jour.",
             "pv": 82,
             "at": 17,
             "cc": 5,
             "pm": 4,
+            "effet": "APPARITION: -1 Jauge au coût de REMINGTON SMISSE (106PV, 17AT, 3PM). ATTAQUE: +1PM à votre héros pour le jour.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -2500,10 +3753,41 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "???",
+                "cout": 0,
+                "effet": "???",
+                "sort": ""
+              },
+              {
+                "nom": "Puissance",
+                "cout": 90,
+                "effet": "+50% d'AT à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Magie FEU 20",
+                "cout": 80,
+                "effet": "+20% de MAGIE FEU.",
+                "sort": ""
+              },
+              {
+                "nom": "Magie TERRE 20",
+                "cout": 80,
+                "effet": "+20% de MAGIE TERRE.",
+                "sort": ""
+              },
+              {
+                "nom": "???",
+                "cout": 0,
+                "effet": "???",
+                "sort": ""
+              }
+            ],
             "couts": {
-              "terre": 3,
-              "feu": 2
+              "feu": 2,
+              "terre": 3
             }
           }
         ]
@@ -2512,14 +3796,15 @@
         "nom": "Disciple de l'agonie",
         "rarete": "Rare",
         "image": "disciple_de_l_agonie",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "APPARITION: GÈLE ses adversaires adjacents.",
             "pv": 68,
             "at": 13,
             "cc": 5,
             "pm": 3,
+            "effet": "APPARITION: GÈLE ses adversaires adjacents.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -2530,7 +3815,32 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Puissance",
+                "cout": 90,
+                "effet": "+50% d'AT à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Dégâts aux coups critiques",
+                "cout": 80,
+                "effet": "+50% de DÉGÂTS CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "feu": 2,
               "eau": 2
@@ -2542,14 +3852,15 @@
         "nom": "Grufon",
         "rarete": "Krosmique",
         "image": "grufon",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "APPARITION: Piochez 2 sorts. Ils coûtent -1PA.",
             "pv": 70,
             "at": 18,
             "cc": 5,
             "pm": 2,
+            "effet": "APPARITION: Piochez 2 sorts. Ils coûtent -1PA.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -2560,10 +3871,41 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Soin des démons",
+                "cout": 120,
+                "effet": "APPARITION: Ajoute le sort SOIN DES DÉMONS à votre main.",
+                "sort": "Soin des démons"
+              },
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Soin",
+                "cout": 70,
+                "effet": "+30% à tous vos SOINS.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Dégâts aux coups critiques",
+                "cout": 80,
+                "effet": "+50% de DÉGÂTS CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
-              "eau": 3,
-              "feu": 2
+              "feu": 2,
+              "eau": 3
             }
           }
         ]
@@ -2572,14 +3914,15 @@
         "nom": "Igôle",
         "rarete": "Krosmique",
         "image": "igole",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "APPARITION: -1 Jauge au coût de NOX (162PV, 30AT, 3PM). COUP DE GRÂCE: Peut rejouer son tour. Limité à 1 fois par tour.",
             "pv": 76,
             "at": 16,
             "cc": 5,
             "pm": 3,
+            "effet": "APPARITION: -1 Jauge au coût de NOX (162PV, 30AT, 3PM). COUP DE GRÂCE: Peut rejouer son tour. Limité à 1 fois par tour.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -2590,7 +3933,38 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Maîtrise d'Igôle",
+                "cout": 120,
+                "effet": "APPARITION: -2 Jauges supplémentaires au coût de NOX (162PV, 30AT, 3PM).",
+                "sort": ""
+              },
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Puissance",
+                "cout": 90,
+                "effet": "+50% d'AT à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Magie FEU 20",
+                "cout": 80,
+                "effet": "+20% de MAGIE FEU.",
+                "sort": ""
+              },
+              {
+                "nom": "Esquive",
+                "cout": 50,
+                "effet": "+20% d'ESQUIVE à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "feu": 3,
               "air": 2
@@ -2602,14 +3976,15 @@
         "nom": "Lou",
         "rarete": "Krosmique",
         "image": "lou",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "Possède 50% de RIPOSTE. APPARITION: +1 AURA à votre héros s'il en possède déjà.",
             "pv": 74,
             "at": 14,
             "cc": 5,
             "pm": 3,
+            "effet": "Possède 50% de RIPOSTE. APPARITION: +1 AURA à votre héros s'il en possède déjà.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -2620,7 +3995,38 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Fouet de Lou",
+                "cout": 50,
+                "effet": "APPARITION: Ajoute le sort FOUET DE LOU à votre main.",
+                "sort": "Fouet de Lou"
+              },
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Puissance",
+                "cout": 90,
+                "effet": "+50% d'AT à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Explosion",
+                "cout": 50,
+                "effet": "+50% à toutes vos EXPLOSIONS.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": "",
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "feu": 3,
               "terre": 2
@@ -2636,11 +4042,11 @@
         "patchs": [
           {
             "version": "0.10",
-            "effet": "INCIBLABLE.",
             "pv": 110,
             "at": 25,
             "cc": 5,
             "pm": 3,
+            "effet": "INCIBLABLE.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -2651,7 +4057,38 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Frappe de Percimol",
+                "cout": 50,
+                "effet": "APPARITION: Ajoute le sort FRAPPE DE PERCIMOL à votre main.",
+                "sort": "Frappe de Percimol"
+              },
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Puissance",
+                "cout": 90,
+                "effet": "+50% d'AT à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Magie EAU 20",
+                "cout": 80,
+                "effet": "+20% de MAGIE EAU.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "feu": 3,
               "eau": 3
@@ -2663,14 +4100,15 @@
         "nom": "Épinette",
         "rarete": "Rare",
         "image": "epinette",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "APPARITION: GÈLE ses adversaires adjacents.",
             "pv": 98,
             "at": 17,
             "cc": 5,
             "pm": 3,
+            "effet": "ATTAQUE: -1PA au coût du premier sort de votre main.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -2681,10 +4119,98 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "???",
+                "cout": 0,
+                "effet": "???",
+                "sort": ""
+              },
+              {
+                "nom": "Puissance",
+                "cout": 90,
+                "effet": "+50% d'AT à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Rebond",
+                "cout": 50,
+                "effet": "+50% à tous vos REBONDS.",
+                "sort": ""
+              },
+              {
+                "nom": "Magie TERRE 20",
+                "cout": 80,
+                "effet": "+20% de MAGIE TERRE.",
+                "sort": ""
+              }
+            ],
             "couts": {
-              "terre": 2,
-              "air": 2
+              "air": 2,
+              "terre": 2
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Kriss la krass",
+        "rarete": "Krosmique",
+        "image": "",
+        "iles": [],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pv": 0,
+            "at": 0,
+            "cc": 5,
+            "pm": 3,
+            "effet": "APPARITION: Vole l'AR de l'adversaire qui en possède le moins.",
+            "sort": "",
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Bouftons rouges",
+                "cout": 50,
+                "effet": "APPARITION: +3 AURAS BOUFTONS ROUGES.",
+                "sort": ""
+              },
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Puissance",
+                "cout": 90,
+                "effet": "+50% d'AT à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Magie AIR 20",
+                "cout": 80,
+                "effet": "+20% de MAGIE AIR.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              }
+            ],
+            "couts": {
+              "air": 2,
+              "terre": 3
             }
           }
         ]
@@ -2693,14 +4219,15 @@
         "nom": "Shani",
         "rarete": "Rare",
         "image": "shani",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "Peut être invoquée sur une case adjacente à un adversaire. ATTAQUE: Ajoute le sort REFLET DE POUSSETTE à votre main.",
             "pv": 82,
             "at": 16,
             "cc": 5,
             "pm": 3,
+            "effet": "Peut être invoquée sur une case adjacente à un adversaire. ATTAQUE: Ajoute le sort REFLET DE POUSSETTE à votre main.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -2711,7 +4238,32 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Collision",
+                "cout": 50,
+                "effet": "+50% à toutes vos COLLISIONS.",
+                "sort": ""
+              },
+              {
+                "nom": "Esquive",
+                "cout": 50,
+                "effet": "+20% d'ESQUIVE à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "air": 2,
               "eau": 2
@@ -2723,14 +4275,15 @@
         "nom": "Championne embrocheuse",
         "rarete": "Krosmique",
         "image": "championne_embrocheuse",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "ATTAQUE: Piochez 1 sort.",
             "pv": 102,
             "at": 18,
             "cc": 5,
             "pm": 3,
+            "effet": "ATTAQUE: Piochez 1 sort.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -2741,40 +4294,41 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
-            "couts": {
-              "eau": 3,
-              "air": 2
-            }
-          }
-        ]
-      },
-      {
-        "nom": "Héros martyr",
-        "rarete": "Rare",
-        "image": "heros_martyr",
-        "patchs": [
-          {
-            "version": "0.10",
-            "effet": "MORT: Soigne vos personnages du double de son AT.",
-            "pv": 82,
-            "at": 20,
-            "cc": 5,
-            "pm": 3,
-            "caracteristiques": [
+            "dons": [
               {
-                "taux": 5,
-                "effet": "% de PV à ce personnage."
+                "nom": "Spécialité Crâ",
+                "cout": 50,
+                "effet": "APPARITION: +3 AURAS MIRE REPOUSSANTE.",
+                "sort": ""
               },
               {
-                "taux": 5,
-                "effet": "% d'AT à ce personnage."
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Collision",
+                "cout": 50,
+                "effet": "+50% à toutes vos COLLISIONS.",
+                "sort": ""
+              },
+              {
+                "nom": "Magie EAU 20",
+                "cout": 80,
+                "effet": "+20% de MAGIE EAU.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
               }
             ],
-            "dons": [],
             "couts": {
-              "eau": 2,
-              "terre": 2
+              "air": 2,
+              "eau": 3
             }
           }
         ]
@@ -2783,14 +4337,15 @@
         "nom": "Champion croulant",
         "rarete": "Krosmique",
         "image": "champion_croulant",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "APPARITION: Echange sa position avec celle de votre héros. Piochez 1 sort.",
             "pv": 95,
             "at": 20,
             "cc": 5,
             "pm": 3,
+            "effet": "APPARITION: Echange sa position avec celle de votre héros. Piochez 1 sort.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -2801,10 +4356,97 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Puissance",
+                "cout": 90,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Magie AIR 20",
+                "cout": 80,
+                "effet": "+20% de MAGIE AIR.",
+                "sort": ""
+              },
+              {
+                "nom": "Esquive",
+                "cout": 50,
+                "effet": "+20% d'ESQUIVE à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Tourbe",
+                "cout": 50,
+                "effet": "+50% à toutes vos TOURBES.",
+                "sort": ""
+              }
+            ],
             "couts": {
-              "eau": 3,
+              "air": 3,
               "terre": 2
+            }
+          }
+        ]
+      },
+      {
+        "nom": "Héros martyr",
+        "rarete": "Rare",
+        "image": "heros_martyr",
+        "iles": [],
+        "patchs": [
+          {
+            "version": "0.10",
+            "pv": 82,
+            "at": 20,
+            "cc": 5,
+            "pm": 3,
+            "effet": "MORT: Soigne vos personnages du double de son AT.",
+            "caracteristiques": [
+              {
+                "taux": 5,
+                "effet": "% de PV à ce personnage."
+              },
+              {
+                "taux": 5,
+                "effet": "% d'AT à ce personnage."
+              }
+            ],
+            "dons": [
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Puissance",
+                "cout": 90,
+                "effet": "+50% d'AT à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Dégâts aux coups critiques",
+                "cout": 80,
+                "effet": "+50% de DÉGÂTS CC à ce personnage.",
+                "sort": ""
+              }
+            ],
+            "couts": {
+              "terre": 2,
+              "eau": 2
             }
           }
         ]
@@ -2813,14 +4455,15 @@
         "nom": "Rôdeur sylvestre",
         "rarete": "Krosmique",
         "image": "rodeur_sylvestre",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "Tant qu'il est en jeu: +50% de DRAIN à votre héros.",
             "pv": 100,
             "at": 22,
             "cc": 5,
             "pm": 3,
+            "effet": "Tant qu'il est en jeu: +50% de DRAIN à votre héros.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -2831,10 +4474,41 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Puissance",
+                "cout": 90,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Magie EAU 20",
+                "cout": 80,
+                "effet": "+20% de MAGIE EAU.",
+                "sort": ""
+              },
+              {
+                "nom": "Magie TERRE 20",
+                "cout": 80,
+                "effet": "+20% de MAGIE TERRE.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
-              "eau": 3,
-              "terre": 2
+              "terre": 2,
+              "eau": 3
             }
           }
         ]
@@ -2843,14 +4517,15 @@
         "nom": "Recrue indomptée",
         "rarete": "Krosmique",
         "image": "recrue_indomptee",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "APPARITION: Piochez votre prochain sort à 6PA ou plus.",
             "pv": 100,
             "at": 24,
             "cc": 5,
             "pm": 3,
+            "effet": "APPARITION: Piochez votre prochain sort à 6PA ou plus.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -2861,7 +4536,38 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Griffe revêche",
+                "cout": 50,
+                "effet": "ATTAQUE: Gagne 50% de son AT en AR.",
+                "sort": ""
+              },
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Magie TERRE 20",
+                "cout": 80,
+                "effet": "+20% de MAGIE TERRE.",
+                "sort": ""
+              },
+              {
+                "nom": "Coup critique",
+                "cout": 80,
+                "effet": "+15% de CC à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Dégâts aux coups critiques",
+                "cout": 80,
+                "effet": "+50% de DÉGÂTS CC à ce personnage.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "terre": 3,
               "eau": 2
@@ -2873,14 +4579,15 @@
         "nom": "Khan Karkass",
         "rarete": "Infinite",
         "image": "khan_karkass",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "Tant qu'il est en jeu: +1PM à vos personnages. Peut être invoqué sur une case libre du terrain.",
             "pv": 140,
             "at": 32,
             "cc": 5,
             "pm": 4,
+            "effet": "Tant qu'il est en jeu: +1PM à vos personnages. Peut être invoqué sur une case libre du terrain.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -2891,11 +4598,48 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Essai de Khan Karkass",
+                "cout": 50,
+                "effet": "APPARITION: Ajoute le sort ESSAI DE KHAN KARKASS à votre main.",
+                "sort": "Essai de Khan Karkass"
+              },
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Puissance",
+                "cout": 90,
+                "effet": "+50% d'AT à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Esquive",
+                "cout": 50,
+                "effet": "+20% d'ESQUIVE à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Magie TERRE 20",
+                "cout": 80,
+                "effet": "+20% de MAGIE TERRE.",
+                "sort": ""
+              },
+              {
+                "nom": "Explosion",
+                "cout": 50,
+                "effet": "+50% à toutes vos EXPLOSIONS.",
+                "sort": ""
+              }
+            ],
             "couts": {
-              "terre": 3,
+              "feu": 2,
               "air": 2,
-              "feu": 2
+              "terre": 3
             }
           }
         ]
@@ -2904,14 +4648,15 @@
         "nom": "Quilby",
         "rarete": "Infinite",
         "image": "quilby",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "APPARITION: +2 Jauges ÉTHER. ATTAQUE: Se téléporte dans le dos de la cible. Peut être invoqué sur une case libre du terrain.",
             "pv": 172,
             "at": 36,
             "cc": 5,
             "pm": 4,
+            "effet": "APPARITION: +2 Jauges ÉTHER. ATTAQUE: Se téléporte dans le dos de la cible. Peut être invoqué sur une case libre du terrain.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -2922,7 +4667,44 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Folie de Qilby",
+                "cout": 50,
+                "effet": "APPARITION: Ajoute le sort FOLIE DE QILBY à votre main.",
+                "sort": "Folie de Qilby"
+              },
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Puissance",
+                "cout": 90,
+                "effet": "+50% d'AT à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Dégâts aux coups critiques",
+                "cout": 80,
+                "effet": "+50% de DÉGÂTS CC à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Magie AIR 20",
+                "cout": 80,
+                "effet": "+20% de MAGIE AIR.",
+                "sort": ""
+              },
+              {
+                "nom": "Grêle",
+                "cout": 50,
+                "effet": "+50% à toutes vos GRÊLES.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "feu": 4,
               "air": 3,
@@ -2935,14 +4717,15 @@
         "nom": "Katar",
         "rarete": "Infinite",
         "image": "katar",
+        "iles": [],
         "patchs": [
           {
             "version": "0.10",
-            "effet": "ATTAQUE: Inflige son AT aux adversaires autour.",
             "pv": 134,
             "at": 28,
             "cc": 5,
             "pm": 3,
+            "effet": "ATTAQUE: Inflige son AT aux adversaires autour.",
             "caracteristiques": [
               {
                 "taux": 5,
@@ -2953,7 +4736,44 @@
                 "effet": "% d'AT à ce personnage."
               }
             ],
-            "dons": [],
+            "dons": [
+              {
+                "nom": "Vengeance de Katar",
+                "cout": 50,
+                "effet": "APPARITION: Ajoute le sort VENGEANCE DE KATAR à votre main.",
+                "sort": "Vengeance de Katar"
+              },
+              {
+                "nom": "Vitalité",
+                "cout": 70,
+                "effet": "+50% de PV à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Puissance",
+                "cout": 90,
+                "effet": "+50% d'AT à ce personnage.",
+                "sort": ""
+              },
+              {
+                "nom": "Défense",
+                "cout": 50,
+                "effet": "+20% à toutes vos DÉFENSES.",
+                "sort": ""
+              },
+              {
+                "nom": "Magie EAU 20",
+                "cout": 80,
+                "effet": "+20% de MAGIE EAU.",
+                "sort": ""
+              },
+              {
+                "nom": "Rebond",
+                "cout": 50,
+                "effet": "+50% à tous vos REBONDS.",
+                "sort": ""
+              }
+            ],
             "couts": {
               "air": 3,
               "terre": 2,
@@ -4517,7 +6337,7 @@
                 "effet": "+3% d'ESQUIVE à votre héros."
               },
               {
-                "nom": "Magie air",
+                "nom": "Magie AIR",
                 "cout": 50,
                 "effet": "+10% de MAGIE AIR."
               }
@@ -4585,7 +6405,7 @@
                 "effet": "+10% à toutes vos DÉFENSES."
               },
               {
-                "nom": "Magie terre",
+                "nom": "Magie TERRE",
                 "cout": 50,
                 "effet": "+10% de MAGIE TERRE."
               }
@@ -4649,7 +6469,7 @@
                 "effet": "+3% de RIPOSTE à votre héros."
               },
               {
-                "nom": "Magie terre",
+                "nom": "Magie TERRE",
                 "cout": 50,
                 "effet": "+10% de MAGIE FEU."
               }
@@ -4713,7 +6533,7 @@
                 "effet": "+20% à tous vos SOINS."
               },
               {
-                "nom": "Magie eau",
+                "nom": "Magie EAU",
                 "cout": 50,
                 "effet": "+10% de MAGIE EAU."
               }
@@ -4845,7 +6665,7 @@
                 "effet": "+3% d'ESQUIVE à votre héros."
               },
               {
-                "nom": "Magie air",
+                "nom": "Magie AIR",
                 "cout": 50,
                 "effet": "+10% de MAGIE AIR."
               }
@@ -5162,7 +6982,7 @@
                 "effet": "+20% à toutes vos DÉFENSES."
               },
               {
-                "nom": "Magie terre",
+                "nom": "Magie TERRE",
                 "cout": 50,
                 "effet": "+10% de MAGIE TERRE."
               }
@@ -5487,7 +7307,7 @@
                 "effet": "+20% à tous vos SOINS."
               },
               {
-                "nom": "Magie eau",
+                "nom": "Magie EAU",
                 "cout": 50,
                 "effet": "+10% de MAGIE EAU."
               }
@@ -5551,7 +7371,7 @@
                 "effet": "+3% de RIPOSTE à votre héros."
               },
               {
-                "nom": "Magie feu",
+                "nom": "Magie FEU",
                 "cout": 50,
                 "effet": "+10% de MAGIE FEU."
               }
@@ -6046,7 +7866,7 @@
         "patchs": [
           {
             "version": "0.10",
-            "pouvoir": "FIN DE TOUR: Vos personnages avec BOUCLIER infligent 25% de leur AT aux adversaires adjacents.",
+            "pouvoir": "FIN DU TOUR: Vos personnages avec BOUCLIER infligent 25% de leur AT aux adversaires adjacents.",
             "caracteristiques": [
               {
                 "taux": 2,
@@ -7045,7 +8865,7 @@
         "patchs": [
           {
             "version": "0.10",
-            "pouvoir": "Attaque: REPOUSSE de 2 cases.",
+            "pouvoir": "ATTAQUE: REPOUSSE de 2 cases.",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -7087,7 +8907,7 @@
         "patchs": [
           {
             "version": "0.10",
-            "pouvoir": "Attaque: Inflige 50% de l'AT de votre héros derrière la cible.",
+            "pouvoir": "ATTAQUE: Inflige 50% de l'AT de votre héros derrière la cible.",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -7129,7 +8949,7 @@
         "patchs": [
           {
             "version": "0.10",
-            "pouvoir": "Attaque: -1 PA au coût du prochain sort joué ce tour.",
+            "pouvoir": "ATTAQUE: -1 PA au coût du prochain sort joué ce tour.",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -7171,7 +8991,7 @@
         "patchs": [
           {
             "version": "0.10",
-            "pouvoir": "Attaque: Votre héros recule de 2 cases.",
+            "pouvoir": "ATTAQUE: Votre héros recule de 2 cases.",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -7213,7 +9033,7 @@
         "patchs": [
           {
             "version": "0.10",
-            "pouvoir": "Attaque: Votre héros se téléporte dans le dos de la cible.",
+            "pouvoir": "ATTAQUE: Votre héros se téléporte dans le dos de la cible.",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -7254,7 +9074,7 @@
         "patchs": [
           {
             "version": "0.10",
-            "pouvoir": "Attaque: Inflige 25% de l'AT de votre héros aux adversaires adjacents.",
+            "pouvoir": "ATTAQUE: Inflige 25% de l'AT de votre héros aux adversaires adjacents.",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -7296,7 +9116,7 @@
         "patchs": [
           {
             "version": "0.10",
-            "pouvoir": "Attaque: La cible se téléporte dans le dos de votre héros.",
+            "pouvoir": "ATTAQUE: La cible se téléporte dans le dos de votre héros.",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -7337,7 +9157,7 @@
         "patchs": [
           {
             "version": "0.10",
-            "pouvoir": "Attaque: +13AR à votre héros.",
+            "pouvoir": "ATTAQUE: +13AR à votre héros.",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -7378,7 +9198,7 @@
         "patchs": [
           {
             "version": "0.10",
-            "pouvoir": "Attaque: Applique ÉVENTÉ.",
+            "pouvoir": "ATTAQUE: Applique ÉVENTÉ.",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -7396,7 +9216,7 @@
                 "effet": "CRITIQUE: Applique ÉVENTÉ aux adversaires autour de votre héros."
               },
               {
-                "nom": "Magie air",
+                "nom": "Magie AIR",
                 "cout": 50,
                 "effet": "+20% de MAGIE AIR."
               },
@@ -7425,7 +9245,7 @@
         "patchs": [
           {
             "version": "0.10",
-            "pouvoir": "Attaque: +5% d'AT à votre héros jusqu'à la fin du combat. Limité à 10 fois par tour.",
+            "pouvoir": "ATTAQUE: +5% d'AT à votre héros jusqu'à la fin du combat. Limité à 10 fois par tour.",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -7471,7 +9291,7 @@
         "patchs": [
           {
             "version": "0.10",
-            "pouvoir": "Attaque: Applique BOUEUX.",
+            "pouvoir": "ATTAQUE: Applique BOUEUX.",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -7489,7 +9309,7 @@
                 "effet": "CRITIQUE: Applique BOUEUX aux adversaires autour de votre héros."
               },
               {
-                "nom": "Magie terre",
+                "nom": "Magie TERRE",
                 "cout": 50,
                 "effet": "+20% de MAGIE TERRE."
               },
@@ -7517,7 +9337,7 @@
         "patchs": [
           {
             "version": "0.10",
-            "pouvoir": "Attaque: Applique HUILÉ.",
+            "pouvoir": "ATTAQUE: Applique HUILÉ.",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -7535,7 +9355,7 @@
                 "effet": "CRITIQUE: Applique HUILÉ aux adversaires autour de votre héros."
               },
               {
-                "nom": "Magie feu",
+                "nom": "Magie FEU",
                 "cout": 50,
                 "effet": "+20% de MAGIE FEU."
               },
@@ -7563,7 +9383,7 @@
         "patchs": [
           {
             "version": "0.10",
-            "pouvoir": "Attaque: Applique MOUILLÉ.",
+            "pouvoir": "ATTAQUE: Applique MOUILLÉ.",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -7581,7 +9401,7 @@
                 "effet": "CRITIQUE: Applique MOUILLÉ aux adversaires autour de votre héros."
               },
               {
-                "nom": "Magie eau",
+                "nom": "Magie EAU",
                 "cout": 50,
                 "effet": "+20% de MAGIE EAU."
               },
@@ -7609,7 +9429,7 @@
         "patchs": [
           {
             "version": "0.10",
-            "pouvoir": "Attaque: Echange la position de votre héros avec celle du compagnon allié le plus proche.",
+            "pouvoir": "ATTAQUE: Echange la position de votre héros avec celle du compagnon allié le plus proche.",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -7656,7 +9476,7 @@
         "patchs": [
           {
             "version": "0.10",
-            "pouvoir": "Attaque: Déclanche GRÊLE(0).",
+            "pouvoir": "ATTAQUE: Déclanche GRÊLE(0).",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -7711,7 +9531,7 @@
         "patchs": [
           {
             "version": "0.10",
-            "pouvoir": "Attaque: Déclanche REBOND(0).",
+            "pouvoir": "ATTAQUE: Déclanche REBOND(0).",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -7767,7 +9587,7 @@
         "patchs": [
           {
             "version": "0.10",
-            "pouvoir": "Attaque: Déclanche TOURBE(0).",
+            "pouvoir": "ATTAQUE: Déclanche TOURBE(0).",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -7823,7 +9643,7 @@
         "patchs": [
           {
             "version": "0.10",
-            "pouvoir": "Attaque: Déclanche EXPLOSION(0).",
+            "pouvoir": "ATTAQUE: Déclanche EXPLOSION(0).",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -7878,7 +9698,7 @@
         "patchs": [
           {
             "version": "0.10",
-            "pouvoir": "Attaque: Applique ASTRAL.",
+            "pouvoir": "ATTAQUE: Applique ASTRAL.",
             "caracteristiques": [
               {
                 "taux": 1,
@@ -7912,7 +9732,7 @@
         "patchs": [
           {
             "version": "0.10",
-            "pouvoir": "Attaque: Confère BOUCLIER à votre héros.",
+            "pouvoir": "ATTAQUE: Confère BOUCLIER à votre héros.",
             "caracteristiques": [
               {
                 "taux": 1,

@@ -157,9 +157,9 @@ export class AppComponent {
           } else {
             for (const el of ['feu', 'air', 'terre', 'eau']) {
               if (a.patchs[0].couts[el] !== b.patchs[0].couts[el]) {
-                if (!a.patchs[0].couts[el]) return -1;
-                if (!b.patchs[0].couts[el]) return 1;
-                return a.patchs[0].couts[el] < b.patchs[0].couts[el] ? 1 : -1;
+                if (!a.patchs[0].couts[el]) return 1;
+                if (!b.patchs[0].couts[el]) return -1;
+                return a.patchs[0].couts[el] > b.patchs[0].couts[el] ? 1 : -1;
               }
             }
           }

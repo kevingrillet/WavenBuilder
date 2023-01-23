@@ -18,6 +18,7 @@ export class AceEditorComponent implements AfterViewInit {
   aceEditor!: ace.Ace.Editor;
 
   loadData(): void {
+    console.debug('aceEditor > show: ' + this.show);
     this.aceEditor.session.setValue(
       this.show ? JSON.stringify({ compagnons: this.compagnons, equipements: this.equipements, sorts: this.sorts }, null, 2) : ''
     );
@@ -30,5 +31,6 @@ export class AceEditorComponent implements AfterViewInit {
     this.aceEditor.session.setMode('ace/mode/json');
     this.aceEditor.setReadOnly(true);
     this.aceEditor.setShowPrintMargin(false);
+    this.loadData();
   }
 }

@@ -15,12 +15,16 @@ export class Highlighter {
       'BOMBE SMISSE',
       'BOOM',
       'BOUCLIER',
+      'BOUCLIER DE BUMP',
+      'BOUFTONS ROUGES',
       'BROYAGE',
       'CARACOLE',
       'CÉAN',
-      'COEUR DE GLACE',
       'COEUR DE FLAMME',
+      'COEUR DE GLACE',
+      'COEUR DE PIERRE',
       'COLLISIONS',
+      'COURSE DE JORIS',
       'CRITIQUE',
       'CTANE',
       'CYPRES',
@@ -30,35 +34,51 @@ export class Highlighter {
       'DRAIN',
       'ÉBOULEMENT',
       'ÉBOULEMENTS',
+      'ÉCAILLE DE PHAERIS',
+      'ELIACUBE DE NOX',
       'ENVOL',
+      'ÉPEE DE GLACE',
       'ESQUIVE',
+      'ESSAI DE KHAN KARKASS',
       'EXPLOSIONS',
       'FLOT',
+      'FOLIE DE QILBY',
       'FOLIE DU DARK VLAD',
       'FOUDRE',
       'FOUDRES',
+      'FOUET DE LOU',
       'GARDE DU CORPS',
+      "GEL D'HAREBOURG",
       'GÈLE',
       'GEYSER',
       'GEYSERS',
       'GRAVELEUSE',
       'GRÊLES',
       'GRIFFES JOUEUSES',
+      'HYPNOSE DE TOXINE',
       'INCIBLABLE',
+      "JALOUSIE D'ATCHAM",
       'LANCE-PIERRE',
       'MÉCANISME',
       'MÉLÉE',
       'MÉTÉORE',
       'MÉTÉORES',
       'MIRE',
+      'MORSURE DE LILOTTE',
       'NOX',
       'NOXINE',
       'NOXINES',
+      'NUÉE DE CORBACS',
       'OURAGAN',
       'OURAGANS',
+      'PELLE DE RUEL',
       'PETITE FURIE',
+      'PIÈGE OSSEUX',
+      'POING REPOUSSANT',
+      'PUPUCE',
       'RAGAN',
       "REFLET D'HEURT DE GLOIRE",
+      "REFFLET D'UPPERCUT",
       'REFLET DE MASSER',
       'REPOUSSANTE',
       'REPOUSSE',
@@ -69,9 +89,15 @@ export class Highlighter {
       'REMINGTON SMISSE',
       "RÉPIT D'ALBERT",
       'RIPOSTE',
+      "RONCES D'AMALIA",
       'SAUT DE GOULTARD',
+      'SOIN DES DÉMONS',
+      'SOUFFLE DE PHAERIS',
       'SURCHARGE DE BAKARA',
+      'TOUCHER DE COQUELINE',
       'TOURBES',
+      "TRAIT D'ÉVANGELYNE",
+      'VENGEANCE DE KATAR',
       'VOL DE VIE',
     ].sort((a, b) => b.localeCompare(a));
     const blueGreenKeywords = ['EXPLOSION', 'GRÊLE', 'REBOND', 'TOURBE'];
@@ -88,20 +114,25 @@ export class Highlighter {
       'BOULE DE FEU',
       'CC',
       'CC MAGIQUES',
+      'COMPAGNON',
       'COUP DE GRÂCE',
+      'CRÂ',
       'DÉBUT DU TOUR',
       'DÉFENSES',
       'DÉGÂTS CC',
       'EAU',
       'ECLAIR',
+      'ENIRIPSA',
+      'ÉQUIPEMENT',
       'ÉTHER',
       'ÉVENTÉ',
       'ÉVENTÉE',
       'FEU',
-      'FIN DE TOUR',
+      'FIN DU TOUR',
       'GAINS DE KAMAS',
       'HUILÉ',
       'HUILÉE',
+      'IOP',
       'MAGIE',
       'MAGIES',
       'MOUILLÉ',
@@ -115,6 +146,7 @@ export class Highlighter {
       'ROCHER',
       'SACRIEUR',
       'SOINS',
+      'SORT',
       'TERRE',
       'VAGUE',
       'VITALITÉ',
@@ -129,20 +161,20 @@ export class Highlighter {
     ];
 
     let output = input;
-    output = output.replace(new RegExp('\\b(' + blueKeywords.join('|') + ')\\b', 'g'), "<span class='style-bold style-blue'>$1</span>");
+    output = output.replace(new RegExp('\\b(' + blueKeywords.join('|') + ')', 'g'), "<span class='style-bold style-blue'>$1</span>");
     output = output.replace(
-      new RegExp('\\b(' + blueGreenKeywords.join('|') + ')\\(([0-9]+)\\)\\b', 'g'),
+      new RegExp('\\b(' + blueGreenKeywords.join('|') + ')\\(([0-9]+)\\)', 'g'),
       "<span class='style-bold style-blue'>$1(</span><span class='style-green'>$2</span><span class='style-bold style-blue'>)</span>"
     );
     output = output.replace(
-      new RegExp('\\b(' + blueWhiteKeywords.join('|') + ')\\(([0-9]+)\\)\\b', 'g'),
+      new RegExp('\\b(' + blueWhiteKeywords.join('|') + ')\\(([0-9]+)\\)', 'g'),
       "<span class='style-bold style-blue'>$1(</span>$2<span class='style-bold style-blue'>)</span>"
     );
-    output = output.replace(new RegExp('\\b(' + boldKeywords.join('|') + ')\\b', 'g'), "<span class='style-bold'>$1</span>");
-    output = output.replace(new RegExp('\\b(' + greenKeywords.join('|') + ')\\b', 'g'), "<span class='style-green'>$1</span>");
-    output = output.replace(new RegExp('\\b(' + greyKeywords.join('|') + ')\\b', 'g'), "<br /><span class='style-italic style-gray'>$1</span>");
+    output = output.replace(new RegExp('\\b(' + boldKeywords.join('|') + ')', 'g'), "<span class='style-bold'>$1</span>");
+    output = output.replace(new RegExp('\\b(' + greenKeywords.join('|') + ')', 'g'), "<span class='style-green'>$1</span>");
+    output = output.replace(new RegExp('\\b(' + greyKeywords.join('|') + ')', 'g'), "<br /><span class='style-italic style-gray'>$1</span>");
 
-    output = output.replace(new RegExp('\\b(' + imgKeywords.join('|') + ')\\b', 'g'), function (match) {
+    output = output.replace(new RegExp('\\b(' + imgKeywords.join('|') + ')', 'g'), function (match) {
       let localMatch = match;
       if (localMatch === 'BOUEUSE') localMatch = 'BOUEUX';
       if (localMatch.slice(-2) === 'ÉE') localMatch = localMatch.slice(0, -1);
