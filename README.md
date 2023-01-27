@@ -15,6 +15,13 @@
    <a href="https://discord.gg/scdUu3SUQm">
       <img align="center" alt="Discord" src="https://img.shields.io/discord/914218630214983730?label=Discord&logo=Discord" />
    </a>
+   <br />
+   <a href="https://github.com/kevingrillet/WavenBuilder/actions/workflows/lint.yml">
+      <img align="center" alt="ESLint" src="https://github.com/kevingrillet/WavenBuilder/actions/workflows/lint.yml/badge.svg" />
+   </a>
+   <a href="https://github.com/kevingrillet/WavenBuilder/actions/workflows/pages/pages-build-deployment">
+      <img align="center" alt="pages-build-deployment" src="https://github.com/kevingrillet/WavenBuilder/actions/workflows/pages/pages-build-deployment/badge.svg" />
+   </a>
    <hr>
 </div>
 
