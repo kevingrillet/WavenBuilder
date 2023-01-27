@@ -11,7 +11,7 @@
       <th mat-header-cell *matHeaderCellDef>Cout</th>
       <td mat-cell *matCellDef="let patch">
         <mat-list>
-          <mat-list-item *ngFor="let cout of patch.couts | keyvalue">
+          <mat-list-item *ngFor="let cout of patch.couts | keyvalue : ordreCouts">
             {{ cout.value }} <img src="{{ baseHref }}/assets/img/utils/{{ cout.key }}.png" style="height: 0.9em" />
           </mat-list-item>
         </mat-list>
@@ -55,7 +55,7 @@
           <mat-list-item *ngFor="let don of patch.dons">
             <span matListItemTitle
               >{{ don.nom }} [{{ don.cout }}
-              <img src="{{ baseHref }}/assets/img/monaies/rune_de_compagnon.png" alt="Rune de compagnon" style="height: 0.9em" />]</span
+              <img src="{{ baseHref }}/assets/img/utils/rune_de_compagnon.png" alt="Rune de compagnon" style="height: 0.9em" />]</span
             >
             <span matListItemLine [innerHTML]="highlight(don.effet)"></span>
           </mat-list-item>

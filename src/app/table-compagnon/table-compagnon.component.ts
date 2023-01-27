@@ -1,3 +1,4 @@
+import { KeyValue } from '@angular/common';
 import { Component, EventEmitter, Input, isDevMode, OnInit, Output, ViewChild } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { MatPaginator } from '@angular/material/paginator';
@@ -103,4 +104,15 @@ export class TableCompagnonComponent implements OnInit {
         this.callParent.emit();
       });
   }
+
+  ordreCouts = (a: KeyValue<string, number>, b: KeyValue<string, number>): number => {
+    if (a.value !== b.value) return a.value > b.value ? -1 : 1;
+    enum trie {
+      'feu',
+      'air',
+      'terre',
+      'eau',
+    }
+    return trie[(<unknown>a.key) as trie] > trie[(<unknown>b.key) as trie] ? 1 : -1;
+  };
 }

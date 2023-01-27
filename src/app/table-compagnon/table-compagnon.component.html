@@ -8,8 +8,8 @@
     <ng-container matColumnDef="Nom">
       <th mat-header-cell *matHeaderCellDef mat-sort-header>Nom</th>
       <td mat-cell *matCellDef="let compagnon">
-        <!-- <img src="{{ baseHref }}/assets/img/compagnons/{{ compagnon.image }}.jpg" alt="{{ compagnon.nom }}" style="height: 5em" />
-        <br /> -->
+        <img src="{{ baseHref }}/assets/img/compagnons/{{ compagnon.image }}.jpg" alt="{{ compagnon.nom }}" style="height: 5em" class="hexagon" />
+        <br />
         {{ compagnon.nom }}
       </td>
     </ng-container>
@@ -48,7 +48,7 @@
       <th mat-header-cell *matHeaderCellDef>Coût</th>
       <td mat-cell *matCellDef="let compagnon">
         <mat-list>
-          <mat-list-item *ngFor="let cout of compagnon.patchs[0].couts | keyvalue">
+          <mat-list-item *ngFor="let cout of compagnon.patchs[0].couts | keyvalue : ordreCouts">
             {{ cout.value }} <img src="{{ baseHref }}/assets/img/utils/{{ cout.key }}.png" style="height: 0.9em" />
           </mat-list-item>
         </mat-list>
@@ -92,7 +92,7 @@
           <mat-list-item *ngFor="let don of compagnon.patchs[0].dons">
             <span matListItemTitle
               >{{ don.nom }} [{{ don.cout }}
-              <img src="{{ baseHref }}/assets/img/monaies/rune_de_compagnon.png" alt="Rune de compagnon" style="height: 0.9em" />]</span
+              <img src="{{ baseHref }}/assets/img/utils/rune_de_compagnon.png" alt="Rune de compagnon" style="height: 0.9em" />]</span
             >
             <span matListItemLine [innerHTML]="highlight(don.effet)"></span>
           </mat-list-item>

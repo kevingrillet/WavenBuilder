@@ -68,22 +68,23 @@ Si vous cherchez à faire une PR le fichier de données se trouve ici: `src/asse
     - [x] Eau
     - [x] Hybride
   - [x] Ajouter les sorts des compagnons.
-  - [ ] Bonus: Ajouter les images des compagnons.
-  - [ ] Bonus: Ajouter les iles des compagnons.
+  - [x] Bonus: Ajouter les images des compagnons.
+    - <https://stackoverflow.com/questions/7433454/html-css-hexagon-with-image-inside>
+  - [x] Bonus: Ajouter les iles des compagnons.
 - [ ] v1.6 - Refacto
-  - [ ] Bugs
-    - [ ] Ordre des compagnons multi éléments (et de leurs éléments)
-      - Trie par nombre par élément puis par ordre des éléments feu, terre, air, eau
+  - [ ] Optimiser le DOM (de plus en plus de lags)...
+  - [ ] Factoriser
+  - [ ] Reprendre Highlighter pour récupérer la liste des compagnons / sorts
+  - [ ] Faire le hint des spells / compagnons
+  - [x] Bugs
+    - [x] Ordre des compagnons multi éléments (et de leurs éléments)
+      - Trie par nombre par élément puis par ordre des éléments feu, terre, air, eau (<https://stackoverflow.com/questions/1069666/sorting-object-property-by-values/1069840#1069840>)
     - [x] Highlights
       - [x] Les accents posent problème -> <https://stackoverflow.com/questions/49835481/javascript-regexp-b-metacharacter-with-accented-characters>
         - Utiliser `(^|\\s*)(...)($|\\s*)` à la place de `\\b` -> <https://stackoverflow.com/questions/25400876/b-alternatives-in-regular-expression>
       - [x] Voir comment faire les images pour les invocations entre parenthèse
-  - [ ] Optimiser le DOM (de plus en plus de lags)...
-  - [ ] Factoriser
   - [x] Récupérer des images de meilleur qualité
-  - [ ] Reprendre Highlighter pour récupérer la liste des compagnons / sorts
-    - [x] Retoucher les sorts pour connaitre l'origine.
-  - [ ] Faire le hint des spells / compagnons
+  - [x] Retoucher les sorts pour connaitre l'origine.
 - [ ] v2 - Toutes les données sont là
   - [ ] MAJ source des sorts
     - [ ] Ajouter les classes.

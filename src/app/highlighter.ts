@@ -188,7 +188,7 @@ export class Highlighter {
       if (localMatch.slice(-2) === 'ÉE') localMatch = localMatch.slice(0, -1);
       return (
         match +
-        " <img src='./assets/img/effets/" +
+        " <img src='./assets/img/utils/" +
         localMatch
           .toLowerCase()
           .normalize('NFD')

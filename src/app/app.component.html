@@ -28,18 +28,27 @@
 
 <mat-tab-group #tabGroup>
   <mat-tab label="Anneaux">
+    <!-- <div *ngIf="tabGroup.selectedIndex == 0"> -->
     <app-table-equipement #tableAnneaux (callParent)="refreshAceEditor()" [equipements]="equipements.anneaux" mode="anneaux"></app-table-equipement>
+    <!-- </div> -->
   </mat-tab>
   <mat-tab label="Brassards">
+    <!-- <div *ngIf="tabGroup.selectedIndex == 1"> -->
     <app-table-equipement #tableBrassards (callParent)="refreshAceEditor()" [equipements]="equipements.brassards" mode="brassards"></app-table-equipement>
+    <!-- </div> -->
   </mat-tab>
   <mat-tab label="Compagnons">
+    <!-- <div *ngIf="tabGroup.selectedIndex == 2"> -->
     <app-table-compagnon #tableCompagnons (callParent)="refreshAceEditor()" [compagnons]="compagnons.compagnons"></app-table-compagnon>
+    <!-- </div> -->
   </mat-tab>
   <mat-tab label="Sorts">
+    <!-- <div *ngIf="tabGroup.selectedIndex == 3"> -->
     <app-table-sort #tableSpells (callParent)="refreshAceEditor()" [sorts]="spells.sorts"></app-table-sort>
+    <!-- </div> -->
   </mat-tab>
   <mat-tab label="Json">
+    <!-- <div *ngIf="tabGroup.selectedIndex == 4"> -->
     <div class="container">
       <h1>Contribuer au projet</h1>
       <p>
@@ -59,5 +68,6 @@
       <br /><br />
       <app-ace-editor #aceEditor [compagnons]="compagnons" [equipements]="equipements" [sorts]="spells" [show]="!aceToogle.checked"></app-ace-editor>
     </div>
+    <!-- </div> -->
   </mat-tab>
 </mat-tab-group>

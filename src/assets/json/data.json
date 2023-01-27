@@ -5,7 +5,9 @@
         "nom": "Nugget",
         "rarete": "Commun",
         "image": "nugget",
-        "iles": [],
+        "iles": [
+          "Île des Bworks"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -46,7 +48,10 @@
         "nom": "Championne Périmée",
         "rarete": "Commun",
         "image": "championne_perimee",
-        "iles": [],
+        "iles": [
+          "Île des Bworks",
+          "Île des Craqueleurs"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -92,7 +97,10 @@
         "nom": "Dargone",
         "rarete": "Commun",
         "image": "dargone",
-        "iles": [],
+        "iles": [
+          "Île des Bouftous",
+          "Île des Taures"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -141,7 +149,10 @@
         "nom": "Hendo",
         "rarete": "Commun",
         "image": "hendo",
-        "iles": [],
+        "iles": [
+          "Île des Bouftous",
+          "Île des Taures"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -190,7 +201,9 @@
         "nom": "Maitre egreneur",
         "rarete": "Commun",
         "image": "maitre_egreneur",
-        "iles": [],
+        "iles": [
+          "Île des Cochons"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -239,7 +252,10 @@
         "nom": "Sentinelle affutée",
         "rarete": "Commun",
         "image": "sentinelle_affutee",
-        "iles": [],
+        "iles": [
+          "Bonta",
+          "Île des Chuchoteurs"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -288,7 +304,10 @@
         "nom": "Skhul",
         "rarete": "Commun",
         "image": "skhul",
-        "iles": [],
+        "iles": [
+          "Bonta",
+          "Île des Chuchoteurs"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -337,7 +356,10 @@
         "nom": "Championne Sanglante",
         "rarete": "Rare",
         "image": "championne_sanglante",
-        "iles": [],
+        "iles": [
+          "Île des Bouftous",
+          "Île des Tofus"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -392,7 +414,9 @@
         "nom": "Hilda",
         "rarete": "Rare",
         "image": "hilda",
-        "iles": [],
+        "iles": [
+          "Île des Chafers"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -447,7 +471,10 @@
         "nom": "Igror",
         "rarete": "Rare",
         "image": "igror",
-        "iles": [],
+        "iles": [
+          "Bateau Vampyre",
+          "Île des Chuchoteurs"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -502,7 +529,9 @@
         "nom": "Séraphin",
         "rarete": "Rare",
         "image": "seraphin",
-        "iles": [],
+        "iles": [
+          "Île des Cochons"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -556,8 +585,10 @@
       {
         "nom": "Shushette",
         "rarete": "Rare",
-        "image": "achmea",
-        "iles": [],
+        "image": "shushette",
+        "iles": [
+          "Bateau Vampyre"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -612,7 +643,9 @@
         "nom": "Bakara",
         "rarete": "Krosmique",
         "image": "bakara",
-        "iles": [],
+        "iles": [
+          "Île des Tofus"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -734,7 +767,9 @@
         "nom": "Elely",
         "rarete": "Krosmique",
         "image": "elely",
-        "iles": [],
+        "iles": [
+          "Île des Taures"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -917,6 +952,9 @@
         "nom": "Tika",
         "rarete": "Commun",
         "image": "tika",
+        "iles": [
+          "Île des Chafers"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -957,7 +995,10 @@
         "nom": "Abigaïl",
         "rarete": "Commun",
         "image": "abigail",
-        "iles": [],
+        "iles": [
+          "Île des Bworks",
+          "Île des Tofus"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -1006,7 +1047,10 @@
         "nom": "Angèle",
         "rarete": "Commun",
         "image": "angele",
-        "iles": [],
+        "iles": [
+          "Île des Bouftous",
+          "Île des Cochons"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -1055,7 +1099,10 @@
         "nom": "Championne du blasphème",
         "rarete": "Commun",
         "image": "championne_du_blaspheme",
-        "iles": [],
+        "iles": [
+          "Île des Chafers",
+          "Île des Chuchoteurs"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -1104,7 +1151,9 @@
         "nom": "Flécheur",
         "rarete": "Commun",
         "image": "flecheur",
-        "iles": [],
+        "iles": [
+          "Île des Cochons"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -1153,7 +1202,10 @@
         "nom": "Héros félin",
         "rarete": "Commun",
         "image": "heros_felin",
-        "iles": [],
+        "iles": [
+          "Bateau Vampyre",
+          "Île des Craqueleurs"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -1202,7 +1254,10 @@
         "nom": "Oracle offensé",
         "rarete": "Commun",
         "image": "oracle_offense",
-        "iles": [],
+        "iles": [
+          "Bateau Vampyre",
+          "Île des Taures"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -1251,7 +1306,9 @@
         "nom": "Assa",
         "rarete": "Rare",
         "image": "assa",
-        "iles": [],
+        "iles": [
+          "Bateau Vampyre"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -1306,7 +1363,9 @@
         "nom": "Duelliste spectral",
         "rarete": "Rare",
         "image": "duelist_spectral",
-        "iles": [],
+        "iles": [
+          "Bonta"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -1361,7 +1420,9 @@
         "nom": "Empaleur embusqué",
         "rarete": "Rare",
         "image": "empaleur_embusque",
-        "iles": [],
+        "iles": [
+          "Île des Bworks"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -1416,7 +1477,9 @@
         "nom": "Exécuteur endeuillé",
         "rarete": "Rare",
         "image": "executeur_endeuille",
-        "iles": [],
+        "iles": [
+          "Île des Cochons"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -1471,7 +1534,9 @@
         "nom": "Farnix",
         "rarete": "Rare",
         "image": "farnix",
-        "iles": [],
+        "iles": [
+          "Île des Bworks"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -1526,7 +1591,9 @@
         "nom": "Atcham",
         "rarete": "Krosmique",
         "image": "atcham",
-        "iles": [],
+        "iles": [
+          "Île des Tofus"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -1587,7 +1654,9 @@
         "nom": "Coqueline",
         "rarete": "Krosmique",
         "image": "coqueline",
-        "iles": [],
+        "iles": [
+          "Île des Taures"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -1648,7 +1717,9 @@
         "nom": "Corbeau noir",
         "rarete": "Krosmique",
         "image": "corbeau_noir",
-        "iles": [],
+        "iles": [
+          "Bonta"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -1709,7 +1780,9 @@
         "nom": "Évangelyne",
         "rarete": "Infinite",
         "image": "evangelyne",
-        "iles": [],
+        "iles": [
+          "Île des Taures"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -1776,7 +1849,10 @@
         "nom": "Delta",
         "rarete": "Commun",
         "image": "delta",
-        "iles": [],
+        "iles": [
+          "Bonta",
+          "Île des Chuchoteurs"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -1817,7 +1893,9 @@
         "nom": "Achméa",
         "rarete": "Commun",
         "image": "achmea",
-        "iles": [],
+        "iles": [
+          "Île des Taures"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -1866,7 +1944,9 @@
         "nom": "Argolio",
         "rarete": "Commun",
         "image": "argolio",
-        "iles": [],
+        "iles": [
+          "Île des Cochons"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -1915,7 +1995,10 @@
         "nom": "Ashmal",
         "rarete": "Commun",
         "image": "ashmal",
-        "iles": [],
+        "iles": [
+          "Île des Bouftous",
+          "Île des Cochons"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -1964,7 +2047,11 @@
         "nom": "Kaotika",
         "rarete": "Commun",
         "image": "kaotika",
-        "iles": [],
+        "iles": [
+          "Île des Bworks",
+          "Île des Chuchoteurs",
+          "Île des Craqueleurs"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -2013,7 +2100,9 @@
         "nom": "Soigneuse corrompue",
         "rarete": "Commun",
         "image": "soigneuse_corrompue",
-        "iles": [],
+        "iles": [
+          "Île des Chafers"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -2062,7 +2151,10 @@
         "nom": "Zorine",
         "rarete": "Commun",
         "image": "zorine",
-        "iles": [],
+        "iles": [
+          "Bonta",
+          "Île des Tofus"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -2111,7 +2203,9 @@
         "nom": "Eclaireur d'élite",
         "rarete": "Rare",
         "image": "eclaireur_d_elite",
-        "iles": [],
+        "iles": [
+          "Île des Taures"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -2166,7 +2260,10 @@
         "nom": "Griffeur tonkino",
         "rarete": "Rare",
         "image": "griffeur_tonkino",
-        "iles": [],
+        "iles": [
+          "Île des Bouftous",
+          "Île des Chuchoteurs"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -2221,7 +2318,9 @@
         "nom": "Héros châtaigner",
         "rarete": "Rare",
         "image": "heros_chataigner",
-        "iles": [],
+        "iles": [
+          "Île des Cochons"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -2276,7 +2375,9 @@
         "nom": "Héros endurci",
         "rarete": "Rare",
         "image": "heros_endurci",
-        "iles": [],
+        "iles": [
+          "Île des Bworks"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -2331,7 +2432,9 @@
         "nom": "Marcus",
         "rarete": "Rare",
         "image": "marcus",
-        "iles": [],
+        "iles": [
+          "Bonta"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -2386,7 +2489,9 @@
         "nom": "Amalia",
         "rarete": "Krosmique",
         "image": "amalia",
-        "iles": [],
+        "iles": [
+          "Île des Craqueleurs"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -2508,7 +2613,9 @@
         "nom": "Lilotte",
         "rarete": "Krosmique",
         "image": "lilotte",
-        "iles": [],
+        "iles": [
+          "Île des Cochons"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -2569,7 +2676,9 @@
         "nom": "Toxine",
         "rarete": "Krosmique",
         "image": "toxine",
-        "iles": [],
+        "iles": [
+          "Bonta"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -2697,7 +2806,10 @@
         "nom": "Yaki",
         "rarete": "Commun",
         "image": "yaki",
-        "iles": [],
+        "iles": [
+          "Île des Bworks",
+          "Île des Tofus"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -2738,7 +2850,10 @@
         "nom": "Initiée funèbre",
         "rarete": "Commun",
         "image": "initiee_funebre",
-        "iles": [],
+        "iles": [
+          "Bateau Vampyre",
+          "Île des Craqueleurs"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -2787,7 +2902,10 @@
         "nom": "M. Looter King",
         "rarete": "Commun",
         "image": "m_looter_king",
-        "iles": [],
+        "iles": [
+          "Île des Bworks",
+          "Île des Tofus"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -2836,7 +2954,10 @@
         "nom": "Pacificatrice enjouée",
         "rarete": "Commun",
         "image": "pacificatrice_enjouee",
-        "iles": [],
+        "iles": [
+          "Île des Bouftous",
+          "Île des Taures"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -2885,7 +3006,10 @@
         "nom": "Saly",
         "rarete": "Commun",
         "image": "saly",
-        "iles": [],
+        "iles": [
+          "Bonta",
+          "Île des Taures"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -2934,7 +3058,9 @@
         "nom": "Shura",
         "rarete": "Commun",
         "image": "shura",
-        "iles": [],
+        "iles": [
+          "Île des Chafers"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -2983,7 +3109,10 @@
         "nom": "Synchroniseur minutieux",
         "rarete": "Commun",
         "image": "synchroniseur_minutieux",
-        "iles": [],
+        "iles": [
+          "Bateau Vampyre",
+          "Île des Craqueleurs"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -3032,7 +3161,9 @@
         "nom": "Baron sramedi",
         "rarete": "Rare",
         "image": "baron_sramedi",
-        "iles": [],
+        "iles": [
+          "Île des Craqueleurs"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -3087,7 +3218,9 @@
         "nom": "Gardienne inflexible",
         "rarete": "Rare",
         "image": "gardienne_inflexible",
-        "iles": [],
+        "iles": [
+          "Île des Chafers"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -3142,7 +3275,9 @@
         "nom": "Héroïne perfide",
         "rarete": "Rare",
         "image": "heroine_perfide",
-        "iles": [],
+        "iles": [
+          "Île des Craqueleurs"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -3197,7 +3332,9 @@
         "nom": "Héros impartial",
         "rarete": "Rare",
         "image": "heros_impartial",
-        "iles": [],
+        "iles": [
+          "Île des Taures"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -3252,7 +3389,10 @@
         "nom": "Rémus",
         "rarete": "Rare",
         "image": "remus",
-        "iles": [],
+        "iles": [
+          "Île des Bouftous",
+          "Île des Chuchoteurs"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -3307,7 +3447,9 @@
         "nom": "Albert",
         "rarete": "Krosmique",
         "image": "albert",
-        "iles": [],
+        "iles": [
+          "Île des Cochons"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -3369,7 +3511,9 @@
         "nom": "Bump",
         "rarete": "Krosmique",
         "image": "bump",
-        "iles": [],
+        "iles": [
+          "Île des Chuchoteurs"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -3430,7 +3574,9 @@
         "nom": "Comte Harebourg",
         "rarete": "Krosmique",
         "image": "comte_harebourg",
-        "iles": [],
+        "iles": [
+          "Bateau Vampyre"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -3491,7 +3637,9 @@
         "nom": "Nox",
         "rarete": "Infinite",
         "image": "nox",
-        "iles": [],
+        "iles": [
+          "Île des Bouftous"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -3558,7 +3706,9 @@
         "nom": "Phaeris",
         "rarete": "Infinite",
         "image": "phaeris",
-        "iles": [],
+        "iles": [
+          "Île des Cochons"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -3625,7 +3775,9 @@
         "nom": "Alchimiste armurée",
         "rarete": "Rare",
         "image": "alchimiste_armuree",
-        "iles": [],
+        "iles": [
+          "Bonta"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -3681,7 +3833,9 @@
         "nom": "Brute Impie",
         "rarete": "Rare",
         "image": "brute_impie",
-        "iles": [],
+        "iles": [
+          "Île des Tofus"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -3734,7 +3888,9 @@
         "nom": "Grany smisse",
         "rarete": "Krosmique",
         "image": "grany_smisse",
-        "iles": [],
+        "iles": [
+          "Île des Bworks"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -3796,7 +3952,9 @@
         "nom": "Disciple de l'agonie",
         "rarete": "Rare",
         "image": "disciple_de_l_agonie",
-        "iles": [],
+        "iles": [
+          "Île des Chafers"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -3852,7 +4010,9 @@
         "nom": "Grufon",
         "rarete": "Krosmique",
         "image": "grufon",
-        "iles": [],
+        "iles": [
+          "Île des Bworks"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -4038,7 +4198,9 @@
         "nom": "Percimol",
         "rarete": "Krosmique",
         "image": "percimol",
-        "iles": [],
+        "iles": [
+          "Île des Chuchoteurs"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -4100,7 +4262,9 @@
         "nom": "Épinette",
         "rarete": "Rare",
         "image": "epinette",
-        "iles": [],
+        "iles": [
+          "Île des Tofus"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -4155,7 +4319,7 @@
       {
         "nom": "Kriss la krass",
         "rarete": "Krosmique",
-        "image": "",
+        "image": "kriss_la_krass",
         "iles": [],
         "patchs": [
           {
@@ -4219,7 +4383,9 @@
         "nom": "Shani",
         "rarete": "Rare",
         "image": "shani",
-        "iles": [],
+        "iles": [
+          "Île des Craqueleurs"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -4275,7 +4441,9 @@
         "nom": "Championne embrocheuse",
         "rarete": "Krosmique",
         "image": "championne_embrocheuse",
-        "iles": [],
+        "iles": [
+          "Île des Craqueleurs"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -4337,7 +4505,9 @@
         "nom": "Champion croulant",
         "rarete": "Krosmique",
         "image": "champion_croulant",
-        "iles": [],
+        "iles": [
+          "Île des Chafers"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -4399,7 +4569,9 @@
         "nom": "Héros martyr",
         "rarete": "Rare",
         "image": "heros_martyr",
-        "iles": [],
+        "iles": [
+          "Île des Taures"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -4517,7 +4689,9 @@
         "nom": "Recrue indomptée",
         "rarete": "Krosmique",
         "image": "recrue_indomptee",
-        "iles": [],
+        "iles": [
+          "Île des Chafers"
+        ],
         "patchs": [
           {
             "version": "0.10",
@@ -4645,9 +4819,9 @@
         ]
       },
       {
-        "nom": "Quilby",
+        "nom": "Qilby",
         "rarete": "Infinite",
-        "image": "quilby",
+        "image": "qilby",
         "iles": [],
         "patchs": [
           {

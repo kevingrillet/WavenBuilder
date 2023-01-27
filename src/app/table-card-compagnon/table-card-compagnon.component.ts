@@ -1,3 +1,4 @@
+import { KeyValue } from '@angular/common';
 import { Component, Input, isDevMode, OnInit, ViewChild } from '@angular/core';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatTableDataSource } from '@angular/material/table';
@@ -37,4 +38,15 @@ export class TableCardCompagnonComponent implements OnInit {
     this.dataLength = this.patchs.length;
     this.baseHref = isDevMode() ? '../..' : '.';
   }
+
+  ordreCouts = (a: KeyValue<string, number>, b: KeyValue<string, number>): number => {
+    if (a.value !== b.value) return a.value > b.value ? -1 : 1;
+    enum trie {
+      'feu',
+      'air',
+      'terre',
+      'eau',
+    }
+    return trie[(<unknown>a.key) as trie] > trie[(<unknown>b.key) as trie] ? 1 : -1;
+  };
 }
