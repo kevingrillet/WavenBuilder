@@ -119,6 +119,7 @@ export class Highlighter {
       'DÉBUT DU TOUR',
       'DÉFENSES',
       'DÉGÂTS CC',
+      'DÉGÂTS MAGIQUES',
       'EAU',
       'ECLAIR',
       'ENIRIPSA',

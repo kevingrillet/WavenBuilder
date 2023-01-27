@@ -8696,7 +8696,7 @@
               {
                 "nom": "Boom",
                 "cout": 80,
-                "effet": "DÉBUT DU COMBAT: Ajoute le sort BOOM à votre main.",
+                "effet": "DÉBUT DE COMBAT: Ajoute le sort BOOM à votre main.",
                 "sort": "Boom"
               },
               {
@@ -8788,7 +8788,7 @@
               {
                 "nom": "Boom",
                 "cout": 80,
-                "effet": "DÉBUT DU COMBAT: Ajoute le sort CARACOLE à votre main.",
+                "effet": "DÉBUT DE COMBAT: Ajoute le sort CARACOLE à votre main.",
                 "sort": "Caracole"
               },
               {
@@ -8880,7 +8880,7 @@
               {
                 "nom": "Flot",
                 "cout": 80,
-                "effet": "DÉBUT DU COMBAT: Ajoute le sort FLOT à votre main.",
+                "effet": "DÉBUT DE COMBAT: Ajoute le sort FLOT à votre main.",
                 "sort": "Flot"
               },
               {
@@ -8972,7 +8972,7 @@
               {
                 "nom": "Broyage",
                 "cout": 80,
-                "effet": "DÉBUT DU COMBAT: Ajoute le sort BROYAGE à votre main.",
+                "effet": "DÉBUT DE COMBAT: Ajoute le sort BROYAGE à votre main.",
                 "sort": "Broyage"
               },
               {

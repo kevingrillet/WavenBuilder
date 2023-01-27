@@ -12,7 +12,7 @@ import { DialogSortComponent } from './dialog-sort/dialog-sort.component';
 import { TableSortComponent } from './table-sort/table-sort.component';
 import { DialogCompagnonComponent } from './dialog-compagnon/dialog-compagnon.component';
 import { TableCompagnonComponent } from './table-compagnon/table-compagnon.component';
-import { MatSlideToggle } from '@angular/material/slide-toggle';
+import { MatSlideToggle, MatSlideToggleChange } from '@angular/material/slide-toggle';
 
 @Component({
   selector: 'app-root',
@@ -26,12 +26,14 @@ export class AppComponent {
   @ViewChild('tableCompagnons') tableCompagnons!: TableCompagnonComponent;
   @ViewChild('tableSpells') tableSorts!: TableSortComponent;
   @ViewChild('aceEditor') aceEditor!: AceEditorComponent;
-  @ViewChild('aceToogle') aceToogle!: MatSlideToggle;
+  @ViewChild('aceToggle') aceToggle!: MatSlideToggle;
   title = 'WavenBuilder';
 
   equipements: Equipements = Object.assign(new Equipements(), data.default.equipements);
   compagnons: Compagnons = Object.assign(new Compagnons(), data.default.compagnons);
   spells: Sorts = Object.assign(new Sorts(), data.default.sorts);
+  currentTab = 0;
+  aceToggleChecked = false;
 
   constructor(private dialog: MatDialog) {}
 
@@ -54,7 +56,7 @@ export class AppComponent {
   }
 
   refreshAceEditor(): void {
-    this.aceEditor.loadData();
+    if (this.aceEditor) this.aceEditor.loadData();
   }
 
   ouvrirJson() {
@@ -93,6 +95,15 @@ export class AppComponent {
     document.body.appendChild(element);
     element.click();
     document.body.removeChild(element);
+  }
+
+  tabChange(index: number) {
+    this.currentTab = index;
+  }
+
+  toggleChange(event: MatSlideToggleChange) {
+    this.aceToggleChecked = !event.checked;
+    this.refreshAceEditor();
   }
 
   private openDialogEquipement() {
